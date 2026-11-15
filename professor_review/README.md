@@ -4,7 +4,7 @@ Prepared 15 November 2026 from completed research frozen through 6 November 2026
 
 ## Start here
 
-1. Extract the ZIP completely.
+1. Download/extract this repository or open its notebook on GitHub.
 2. Open **THESIS_RESEARCH_OVERVIEW.html** in a browser for immediate offline reading. No installation, account, GPU or model download is needed. Expand the generated-output examples and source-ID records as desired.
 3. Alternatively, open **THESIS_RESEARCH_OVERVIEW.ipynb** in Jupyter or VS Code. All 25 code cells have saved outputs, including 11 embedded figures. Trust the notebook only if you trust this package's source; HTML is the simplest reading copy.
 
@@ -54,9 +54,10 @@ The replay recomputes arithmetic, agreement, existing paired point estimates and
 
 Historical evidence documents refer to source paths/evidence IDs within their original full research archives. They are preserved provenance snapshots, not commands to execute or a claim that all those large assets are included here. Executable notebook paths are local and bundled. The original Qwen planning specification retains stale pending/fallback fields; the notebook distinguishes them from completed output/runtime evidence. No fallback model was used.
 
-## Full implementation and archived assets
+## Selected implementation and archived assets
 
-- Full source/configurations: https://github.com/vltruong01/restaurant-summarization-thesis
+- Selected thesis implementation: https://github.com/vltruong01/restaurant-summarization-thesis
+- Method-to-code guide: ../docs/CODE_GUIDE.md
 - Archived research assets: https://huggingface.co/datasets/vltruong01/multimodal_summarization_thesis
 
 The code repository is public. Original source data and archived assets remain restricted. This package contains no credentials. Full training/inference reproduction requires separately restored data, weights and pinned runtimes. Viewing and summary analyses do not. Original research records and the earlier notebook edition are preserved unchanged.

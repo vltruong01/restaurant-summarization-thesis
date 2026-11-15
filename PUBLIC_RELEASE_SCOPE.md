@@ -1,21 +1,11 @@
-# Public release scope — 15 November 2026
+# Public release scope
 
-This fresh repository is a reviewed source-code snapshot, not a public mirror of the private archive's history.
+This repository is the focused supervisor-review edition of the completed thesis. It contains the executed overview, frozen numerical evidence, selected final scientific implementation and required helper modules, original supporting contracts, final reports and thesis figures.
 
-## Included
+The current tree omits SDD/specifications, internal progress/decision diaries, abandoned standalone experiments, old development notebooks, cloud lifecycle scripts, backup/recovery utilities and application-handoff/revision tooling. Dependencies needed by retained scientific code remain even when their names are historical. The full original code/history and assets remain in separate private archives. A normal curation commit removes files from the current public tree; it does not rewrite earlier public Git history.
 
-- All936 original experimental scripts,111 configurations and57 test files, byte-preserved.
-- Other supporting implementation files, prompts, schemas, methodological documents and final research reports/figures.
-- The main executed professor notebook, complete generated output examples, small numerical exports and offline verification/replay tools.
-- Unchanged original numerical results, pseudonymous rating records, scientific limitations and assistance/provenance disclosures. Participant flags remain attributed reports, not independently adjudicated errors.
+Original Yelp/TripAdvisor reviews and photographs, private recovery catalogs, credentials and weights are not distributed. Original source IDs and hashes remain where needed. Generated outputs, numerical results, pseudonymous ratings, assistance disclosures and scientific limitations are preserved. Public availability of code does not grant permission to redistribute restricted source data; see the preserved dataset agreement.
 
-## Withheld or adapted for public distribution
+The notebook and its saved outputs are unchanged by source-tree curation. Its earlier public preparation withheld 88 original Yelp review texts and the TripAdvisor source export; generated examples and numerical analyses were preserved. Recorded human approvals/accounts do not independently authenticate participant identity, unaided authorship or actual source inspection. Flags remain attributed reports rather than automatically confirmed errors.
 
--88 original Yelp reviews were removed from the example JSON and notebook/HTML source displays. Their IDs/counts remain. Original TripAdvisor source export/photo metadata and photo pixels are not included.
-- Private recovery catalogs, embedded recovery ZIPs, local-machine offload reports and unpublished thesis drafts are omitted. They are not needed to inspect or replay the public summary analysis.
-- The ten earlier development notebooks retain their source cells but have saved outputs cleared. The main public overview is re-executed and retains all25 code-cell outputs and11 figures.
-- The main overview's two source-viewing cells and descriptions are adapted to show only generated outputs/source IDs. Frozen private scientific records are untouched. Updated public manifests describe this edition; they do not replace the original research freeze.
-
-The original code repository/history and complete evidence remain private. Dataset rights are governed by their providers; public availability of this code does not grant rights to redistribute their original reviews/photos. The repository-preserved Dataset User Agreement informed this omission policy; no independent legal clearance or participant authentication is claimed.
-
-Historical reports may cite private source packages or original commit IDs. The supported public replay entry point is `professor_review/README.md`, using its bundled numerical exports. Full training, captioning, source-grounded re-review or inference reproduction requires separately authorized data, model assets and pinned runtimes. No new experiments were performed for this release.
+See `docs/CODE_GUIDE.md` for executable public replay versus original archived reproduction requirements. Historical reports and provenance snapshots may reference private original paths. No new experiments or changes to original research records were made.

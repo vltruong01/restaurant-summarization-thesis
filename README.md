@@ -1,50 +1,42 @@
-# Restaurant Summarization — Thesis Code and Results
+# Restaurant Summarization — Master's Thesis
 
-**Master's thesis · public supervisor-review edition · 15 November 2026**
+Implementation, frozen results and an executed research overview for supervisor review.
 
-## Start here
+## Start with the notebook
 
-### [Open the research overview notebook](professor_review/THESIS_RESEARCH_OVERVIEW.ipynb)
+**[THESIS_RESEARCH_OVERVIEW.ipynb](professor_review/THESIS_RESEARCH_OVERVIEW.ipynb)** contains the research design, actual code excerpts, result tables and 11 saved figures. All 25 code cells already have outputs; no GPU or dataset download is needed to read it.
 
-The notebook displays actual implementation excerpts, completed results,25 executed code cells and11 embedded figures. It covers Yelp preparation, review budgets, BLIP-2/CLIP/SBERT caption filtering (K≤5), Teacher supervision, LED-large LoRA, RO/U/F/Shuffled, TEST100 automatic evaluation, TEST30 ratings, TripAdvisor generalization, Qwen baselines and fair efficiency accounting.
+- [Offline HTML version](professor_review/THESIS_RESEARCH_OVERVIEW.html) — download and open in a browser.
+- [Notebook verification and optional CPU replay](professor_review/README.md).
+- [Code guide: method → implementation](docs/CODE_GUIDE.md).
 
-- [Notebook reading and execution guide](professor_review/README.md)
-- [HTML reading copy](professor_review/THESIS_RESEARCH_OVERVIEW.html): download the raw HTML for offline viewing; GitHub displays its source.
-- [Public-edition validation](professor_review/VALIDATION_REPORT.json)
-- [Public release scope and source-data boundaries](PUBLIC_RELEASE_SCOPE.md)
+## Thesis materials
 
-## Complete implementation
-
-| Directory | Contents |
+| Location | Purpose |
 |---|---|
-| [scripts/](scripts/) | All936 original experimental scripts |
-| [configs/](configs/) |111 experimental configurations |
-| [tests/](tests/) |57 implementation test files |
-| [notebooks/](notebooks/) | Development notebooks, source cells retained; historical saved outputs withheld |
-| [prompts/](prompts/), [schemas/](schemas/) | Prompt and data-format specifications |
-| [specs/](specs/), [thesis_sdd_docs/](thesis_sdd_docs/) | Methodology and research records |
-| [research_reports/](research_reports/) | Completed findings, discussion and thesis figures |
-| [professor_review/](professor_review/) | Executed overview and lightweight reproducible numerical analyses |
+| [professor_review/](professor_review/) | Executed overview, lightweight frozen metrics/ratings, model settings, examples and reproducible numerical analysis |
+| [scripts/](scripts/) | Selected implementation of dataset preparation, review selection, captioning/filtering, supervision, inference and analysis, with required local helper modules |
+| [configs/](configs/), [prompts/](prompts/), [schemas/](schemas/) | Supporting original method contracts, Teacher prompts and data schemas |
+| [requirements/](requirements/) | Original stage-specific dependency specifications; the notebook has its own small CPU lockfile |
+| [Final results and discussion](research_reports/final_research_analysis_20261106_v1/PACKAGE/FINAL_RESULTS_ANALYSIS.md) | Cross-stage findings, statistical interpretation and limitations |
+| [Thesis figures](research_reports/chapter4_figures_20261112_v2/) | Final PNG/PDF figures and matplotlib source |
 
-## Findings and interpretation
+SDD, internal decision diaries, abandoned experiment entrypoints, cloud-management, backup/recovery and handoff tooling are omitted from the current tree. Some historically named helpers remain because the final implementation imports them. This is a focused review edition, not the complete private execution archive.
 
-F substantially exceeds Shuffled on Visual grounding and reduces some repetition, but does not consistently outperform U. In Stage P, Qwen-Caption receives higher human ratings than LED on five criteria. LED has lower measured prepared-input generation latency and PyTorch allocator-memory peaks. Complete end-to-end efficiency was not measured; BLIP-2 preparation, missing selection timing, different photo workloads, reused components and output-length differences limit that comparison.
+## Findings and boundaries
 
-VALIDATION200 Teacher-target similarity, TEST100 human-reference similarity and source-grounded ratings are separate evidence tracks. Stage N contains240 recorded ratings on Yelp TEST30; Stage O90 on TripAdvisor15; Stage P90 official original V1 records on the same TripAdvisor cohort. Do not pool these dependent cohorts. Paired units, confidence intervals, exploratory tests and multiplicity policies are reported explicitly.
+F substantially exceeds Shuffled on Visual grounding and reduces some repetition, but does not consistently outperform U. Qwen-Caption receives higher Stage P ratings than LED on five criteria. LED's measured latency and allocator-memory advantage uses **prepared inputs only**; it does not establish end-to-end efficiency superiority.
 
-Recorded approvals/evaluator accounts do not independently authenticate identity, unaided authorship or source inspection. AI feedback/editorial assistance and known audit concerns remain disclosed. No scores, generated outputs or research conclusions were changed for publication.
+VALIDATION200 Teacher-target agreement, TEST100 human-reference similarity and source-grounded human ratings are separate evidence tracks. Yelp TEST30 has 240 records, TripAdvisor Stage O has 90, and Stage P uses the 90 official original V1 records. These dependent cohorts are not pooled. AI assistance, recorded-approval limitations and attributed rater flags remain disclosed in the notebook and final reports.
 
-## Lightweight verification
+## Verify without installing ML libraries
 
 ```text
-cd professor_review
-python -B verify_package.py
+python -B professor_review/verify_package.py
 ```
 
-Python3.11+ is sufficient for this integrity/arithmetic check. Optional isolated CPU replay instructions are in the [guide](professor_review/README.md#optional-local-verification-and-replay). Viewing or replaying summary analyses needs no GPU, paid API, large model download or full Yelp dataset.
+Python 3.11+ suffices. Optional CPU notebook replay uses the separate environment described in its guide. Historical model scripts require separately authorized source data, weights and archived runtime inputs; do not run them just to view results.
 
-## Data and access
+## Data access
 
-Original Yelp/TripAdvisor review text, photo files and private recovery catalogs are intentionally excluded. This fresh public snapshot does not expose the private repository's earlier commits. Generated outputs, figures, numerical results and pseudonymous research ratings are included. Dataset permissions remain separate from code access; see [release scope](PUBLIC_RELEASE_SCOPE.md) and the preserved [Dataset User Agreement](docs/Dataset_User_Agreement.pdf).
-
-Large restricted research assets remain in the owner's [private Hugging Face archive](https://huggingface.co/datasets/vltruong01/multimodal_summarization_thesis). They require separate permission and are unnecessary for reading this overview. Historical research reports may reference their private full packages; the public numerical replay uses `professor_review/`.
+Original Yelp/TripAdvisor reviews, photos, model weights and private restoration records are not distributed here. Public source IDs/hashes bind the evidence without redistributing it. The complete original code/history and research archives remain private; the owner's [Hugging Face archive](https://huggingface.co/datasets/vltruong01/multimodal_summarization_thesis) requires separate access. See [public release scope](PUBLIC_RELEASE_SCOPE.md) and [dataset agreement](docs/Dataset_User_Agreement.pdf).

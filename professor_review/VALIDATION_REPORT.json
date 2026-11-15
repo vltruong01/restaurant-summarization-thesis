@@ -7,7 +7,6 @@
   "all_11_plots_byte_identical_to_private_edition": true,
   "fresh_extracted_portable_replay": "PASS",
   "portable_replay_seconds": 14.341,
-  "936_scripts_111_configs_57_tests_byte_preserved": true,
   "original_Yelp_reviews_withheld": 88,
   "original_TripAdvisor_source_export_withheld": true,
   "raw_source_prefix_rechecks": 117,
@@ -22,5 +21,6 @@
     "Source text/photos are not distributed; this is not a new source-grounding review.",
     "Participant identity, unaided authorship and actual source inspection are not independently authenticated.",
     "Token/prefix checks do not provide an absolute security or legal guarantee. Existing provenance limitations remain."
-  ]
+  ],
+  "source_tree_scope": "Selected thesis implementation and dependency closure; see ../docs/CODE_GUIDE.md. Notebook execution results below are retained from the validated public notebook release, not a new run."
 }
