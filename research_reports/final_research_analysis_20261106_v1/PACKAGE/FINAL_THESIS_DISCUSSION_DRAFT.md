@@ -1,6 +1,6 @@
 # 22. Integrated Results and Discussion
 
-*Proposed continuation of the numbered stage-based organization in Thesis_Research_Progress_v3.docx. This is an academic English researcher-review draft, not a replacement of the Word report. Evidence codes refer to the accompanying register.*
+*Discussion of completed experiments. Evidence codes refer to the accompanying register; this document does not replace the thesis manuscript.*
 
 ## 22.1 Evidence base and principal findings
 

@@ -1,6 +1,6 @@
 # Final Research Results Analysis
 
-Researcher-review draft, 6 November 2026. This analysis uses the original, recovered Stage P V1 collection, never the later revised collections. It preserves the frozen models and all recorded ratings. Evidence codes below resolve in [EVIDENCE_TRACEABILITY.md](EVIDENCE_TRACEABILITY.md).
+Completed-research analysis, 6 November 2026. This analysis uses the original, recovered Stage P V1 collection, never the later revised collections. It preserves the frozen models and all recorded ratings. Evidence codes below resolve in [EVIDENCE_TRACEABILITY.md](EVIDENCE_TRACEABILITY.md).
 
 ## 1. Evidence scope and verification
 
@@ -13,7 +13,7 @@ Researcher-review draft, 6 November 2026. This analysis uses the original, recov
 
 Stages are analyzed separately. Ratings, criterion scores and restaurants are different units: the paired unit is the business/restaurant, with both raters retained together. Ninety Stage P records do not constitute 90 independent restaurants or 540 independent experiments. O and P share restaurants and returning evaluator accounts; N is a subset of M. No cross-stage pooled effect or composite winner is calculated. [E01–E05]
 
-The official P archive SHA-256 is `e2f3715d522f1d9505075f2f79c0d394880cc9dbb8462579b99c41ca82f28fc5`; its combined rating export is `e47b88f1b4d6ccf0bf1649b5b06ead3f538f97af30324993f5e45cf79a58472f`. The externally created ChatGPT statistical ZIP was not provided locally. Under the researcher's clarification, verification therefore consists of a new independent arithmetic reconstruction from original V1, cross-checked against execution of the unchanged frozen analysis script. It is not a claim to have inspected that external ZIP. [E01]
+The official P archive SHA-256 is `e2f3715d522f1d9505075f2f79c0d394880cc9dbb8462579b99c41ca82f28fc5`; its combined rating export is `e47b88f1b4d6ccf0bf1649b5b06ead3f538f97af30324993f5e45cf79a58472f`. Verification independently reconstructs the statistics from original V1 and cross-checks them against execution of the unchanged frozen analysis script. [E01]
 
 All M/N/O/P original archive member manifests and CRC checks passed. Independent calculations matched 42 M metric means, 24 M paired CIs and four primary adjusted tests; N descriptives/agreement and 17 paired tests; O descriptives/agreement and 11 paired tests; and all P descriptives, agreement and 18 contrasts. The included verification receipt identifies exact seeds, source hashes and software. This verifies numerical consistency, not participant identity, every semantic judgment, or fresh execution of ROUGE/BERTScore models. [E02]
 

@@ -4,7 +4,7 @@
   "original_tracked_files": 1340,
   "selected_scripts": 71,
   "retained_original_configs": 24,
-  "removed_tracked_files": 1133,
+  "removed_tracked_files": 1134,
   "python_ast_and_local_import_closure": "PASS",
   "protected_research_file_count": 69,
   "protected_research_files_byte_identical": true,
@@ -13,5 +13,6 @@
   "private_original_repository_modified": false,
   "earlier_notebook_execution": "25 executed code cells, 11 embedded figures; unchanged saved artifacts, not reexecuted during curation",
   "current_file_count": 208,
-  "dynamic_teacher_integrity_binding_files_preserved": true
+  "dynamic_teacher_integrity_binding_files_preserved": true,
+  "editorial_history_cleanup": "Removed application/coordination prose and external-analysis handoff narrative; preserved frozen scientific evidence and AI-assistance limitations."
 }

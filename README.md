@@ -9,6 +9,7 @@ Implementation, frozen results and an executed research overview for supervisor 
 - [Offline HTML version](professor_review/THESIS_RESEARCH_OVERVIEW.html) — download and open in a browser.
 - [Notebook verification and optional CPU replay](professor_review/README.md).
 - [Code guide: method → implementation](docs/CODE_GUIDE.md).
+- [Research provenance and assistance disclosures](docs/RESEARCH_PROVENANCE.md).
 
 ## Thesis materials
 
