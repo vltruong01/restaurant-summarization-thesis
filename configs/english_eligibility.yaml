@@ -1,0 +1,24 @@
+schema_version: 1
+stage: pre_sampling_english_eligibility
+baseline_businesses: 10197
+minimum_english_reviews: 10
+minimum_local_photos: 5
+language_detector:
+  name: langdetect
+  version: 1.0.9
+  seed: 42
+  minimum_stripped_characters: 20
+  maximum_probe_characters: 2000
+  accepted_language: en
+  rule: top_predicted_label
+  probability_threshold: null
+execution:
+  mode: threshold_certification
+  workers: 8
+  batch_size: 1000
+  cache_directory: outputs/english_eligibility
+sampling_preview:
+  seed: 42
+  businesses: 2300
+  split_counts: {train: 2000, validation: 200, test: 100}
+  creates_physical_dataset: false

@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Thesis · So sánh teacher pilot D-039</title><style>__STYLES__</style></head>
+<body>
+<aside><div class="brand">T <span>Thesis review<small>Stage G · D-039</small></span></div><p>9 businesses · cùng dữ liệu đầu vào</p>
+<label for="search">Tìm business</label><input id="search" type="search" placeholder="Tên, thành phố hoặc ID…"><label for="filter">Hiển thị</label><select id="filter"><option value="all">Tất cả 9 businesses</option><option value="findings">Có điểm AI đề nghị kiểm tra</option><option value="blocked">Từng bị chặn trong D038</option><option value="train">Train</option><option value="validation">Validation</option></select><nav id="list" aria-label="Danh sách businesses"></nav><button id="download">↓ Tải ghi chú của tôi</button><small>Ghi chú chỉ lưu trong trình duyệt; chưa phải nhãn cuối.</small></aside>
+<main><header><span>TEACHER PILOT / V3 · D038 · D039</span><span class="badge">Chưa freeze production</span></header>
+<div class="heading"><div><div id="meta"></div><h1 id="name"></h1><code id="bid"></code></div><div><button id="prev" aria-label="Business trước">←</button><span id="position"></span><button id="next" aria-label="Business tiếp">→</button></div></div>
+<div class="stats"><div><b>9 / 9</b><span>businesses đã thử</span></div><div><b>9 / 9</b><span>bộ target mới hoàn tất</span></div><div><b>27</b><span>target mới hợp lệ về cấu trúc</span></div><div><b>50</b><span>ảnh gốc để đối chiếu</span></div></div>
+<div class="notice">Verdict <b>verified / rejected / uncertain</b> là phán đoán của teacher. Nhận xét AI chỉ là ý kiến thứ hai; bạn là người xác nhận quyết định cuối. Cấu trúc hợp lệ chưa chứng minh nội dung đúng.</div><div id="blocked"></div>
+<nav class="tabs" aria-label="Nội dung"><button data-tab="targets" class="active">1. Targets cũ / mới</button><button data-tab="reviews">2. Reviews và nguồn</button><button data-tab="photos">3. Ảnh và verdicts</button><button data-tab="findings">4. Điểm cần kiểm tra</button><button data-tab="notes">5. Ghi chú của tôi</button></nav>
+<section id="content"></section><footer>Trang cục bộ, không gọi API và không sửa target, nhãn hoặc phương pháp. Cùng nhóm giới hạn 5 train + 4 validation; không có held-out test.</footer></main>
+<dialog id="zoom"><button id="close-zoom" aria-label="Đóng ảnh">Đóng ✕</button><img id="zoom-image" alt="Ảnh gốc phóng to"></dialog><div id="toast" role="status"></div>
+<script id="review-data" type="application/json">__DATA__</script><script>__APP__</script></body></html>

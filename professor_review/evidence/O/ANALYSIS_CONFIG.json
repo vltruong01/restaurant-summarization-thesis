@@ -1,0 +1,48 @@
+{
+  "format": "stage_o_final_statistics_v1",
+  "business_order": [
+    "TA14622324_1001674",
+    "TA14622324_1119478",
+    "TA14622324_2298952",
+    "TA14622324_2312071",
+    "TA14622324_23652638",
+    "TA14622324_2687285",
+    "TA14622324_3410297",
+    "TA14622324_3512687",
+    "TA14622324_3961117",
+    "TA14622324_4004593",
+    "TA14622324_4735772",
+    "TA14622324_6600483",
+    "TA14622324_7345192",
+    "TA14622324_8556009",
+    "TA14622324_9802783"
+  ],
+  "conditions": [
+    "RO",
+    "U",
+    "F"
+  ],
+  "raters": [
+    "A01",
+    "A02"
+  ],
+  "criteria": [
+    "review_faithfulness",
+    "aspect_coverage",
+    "coherence",
+    "non_redundancy",
+    "usefulness",
+    "visual_grounding_and_contribution"
+  ],
+  "seed": 20261028,
+  "bootstrap_draws": 20000,
+  "signflip_draws": 50000,
+  "n_businesses": 15,
+  "inference": "EXPLORATORY; pointwise percentile intervals; raw two-sided Monte Carlo sign-flip p with +1 correction; no multiplicity adjustment",
+  "primary_plan": "F-U all six criteria and F-RO Review-only criteria; frozen two-rater amendment",
+  "supplementary": "F-RO coherence/non-redundancy requested as applicable comparisons; component-budget confounded, not explicitly prespecified",
+  "aggregation": "Both raters averaged within restaurant; restaurant resampling retains both raters/all conditions",
+  "no_composite": true,
+  "no_exclusions": true,
+  "created_at_utc": "2026-11-05T19:07:36.427805+00:00"
+}

@@ -1,0 +1,598 @@
+[
+  {
+    "repository_file": "configs/led_source_template_d032.json",
+    "sha256": "be5809d511f2b7776c520c1086061b99f7316a7f63d114a639f2cb00285eb69b"
+  },
+  {
+    "repository_file": "configs/stage_f_validation_protocol.yaml",
+    "sha256": "4d27d4a1354afd657265da4de1773fec1b7b9e1be6eb138e6230e4fde6448e62"
+  },
+  {
+    "repository_file": "data/processed/splits/business_split.csv",
+    "sha256": "f3331ce71da531099349ef680e18ab38255f38db8752dcf61e8998c7a191d93b"
+  },
+  {
+    "repository_file": "outputs/final_evaluation/s1000_preparation_v1/MODEL_AND_DECODER_LOCK.json",
+    "sha256": "342979621ad532c6029bc331cf596f8706ef21f2e7f6a33d718395f66edd1cee"
+  },
+  {
+    "repository_file": "outputs/stage_f/methodology_amendment_d033/frozen_production_method.json",
+    "sha256": "a4cb27a1339e453ee9d036b70e560e9df2f43871897883c66bb503831bdf46bd"
+  },
+  {
+    "repository_file": "outputs/stage_f/production_caption_construction_d033_colab_v1/completion_report.json",
+    "sha256": "71e3e5fe01f6061f54fed1b302d7fe069cdc2c175c02add121a99c1f2e0984e8"
+  },
+  {
+    "repository_file": "outputs/stage_f/production_caption_construction_d033_colab_v1/manifests/test/filtered_captions.jsonl",
+    "sha256": "a37ff37c0062fb7248a1b191986434253a5bb60b0dd192383f56d15ca25e622a"
+  },
+  {
+    "repository_file": "outputs/stage_f/production_caption_construction_d033_colab_v1/manifests/test/unfiltered_captions.jsonl",
+    "sha256": "47c605dd424ddf9bc30bc5af1d50229f406fe1b645a16adaa4ed10caecf87f25"
+  },
+  {
+    "repository_file": "outputs/stage_f/production_caption_construction_d033_colab_v1/manifests/token_ledger.jsonl",
+    "sha256": "ba5decb5bef8a9afb56c30400e32ce5d2268a540616df1cb5efc9caa5da8c2e7"
+  },
+  {
+    "repository_file": "outputs/stage_g/teacher_production_d042_v1/guarded_production6_retry_v1/dataset/train_filtered.jsonl",
+    "sha256": "e45bfff8125f52ab1905ccdc7fb71847b68d477ef172099f8e917509614931f4"
+  },
+  {
+    "repository_file": "outputs/stage_g/teacher_production_d042_v1/guarded_production6_retry_v1/dataset/train_reviews_only.jsonl",
+    "sha256": "524b3851f4d5453fccc122cf825c22b79dc75e3c2580d7cff0746811fd3e76be"
+  },
+  {
+    "repository_file": "outputs/stage_g/teacher_production_d042_v1/guarded_production6_retry_v1/dataset/train_unfiltered.jsonl",
+    "sha256": "4c63fa228160dbe2a0b9340a37605279d2c379a4d8be36325c82d7866b104f04"
+  },
+  {
+    "repository_file": "outputs/stage_g/teacher_production_d042_v1/guarded_production6_retry_v1/dataset/validation_filtered.jsonl",
+    "sha256": "216c585ac304472787aa8f3e0a7b48a170222fb88aaaeb07bcc825f7ef74a4b2"
+  },
+  {
+    "repository_file": "outputs/stage_g/teacher_production_d042_v1/guarded_production6_retry_v1/dataset/validation_reviews_only.jsonl",
+    "sha256": "503f0b7a6d19fdaec9b58b3a7a563dd6395282a3cb7c012c5cba22085e09229b"
+  },
+  {
+    "repository_file": "outputs/stage_g/teacher_production_d042_v1/guarded_production6_retry_v1/dataset/validation_unfiltered.jsonl",
+    "sha256": "44fcff54977948d1a453fbc3d9d1885e395541ed33985a9d531aaddc098971cf"
+  },
+  {
+    "repository_file": "outputs/stage_i/led_large_filtered_validation200_selection_v1/RO_U_F_FAIRNESS_AUDIT.md",
+    "sha256": "6b09649d865ed77eedf8674f12557e1fdbe514a152ce9475c11ebe4f3410f1ab"
+  },
+  {
+    "repository_file": "outputs/stage_i/led_large_filtered_validation200_selection_v1/SELECTION_DECISION.json",
+    "sha256": "06022b58d255135f80d86ad8cd3aab1938cb396951c384ea78b46501d8cca190"
+  },
+  {
+    "repository_file": "outputs/stage_i/led_large_source_separated_v1_two_epoch_preparation_v1/TRAINING_CONFIG_1000_V1.json",
+    "sha256": "40e2498263633ed5dd0d8869328b072de6c67d19d0d9166e6243bef5c4d26c55"
+  },
+  {
+    "repository_file": "outputs/stage_i/led_large_source_separated_v1_two_epoch_preparation_v1/downloaded/RUN_TRAIN.py",
+    "sha256": "a0904c70675d01ffc9cf2dc8a5011f9d054b79aff04f5bcd9cfcb8e6edd252f4"
+  },
+  {
+    "repository_file": "outputs/stage_k/s1000_test100_phase1_v1/TEST100_FINAL_INFERENCE_REPORT.md",
+    "sha256": "24698217f2bd0a52b9cf2b50b8bd55e464702598af9008ebca88eb8cb3ea900d"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/BUSINESS_CASES/-78Va3llKcPbL6SW4is8lw.json",
+    "sha256": "22afb16f7ae16878d4253785c714d2699e4ebd46cde76ba22232cb3f8f12d498"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/BUSINESS_CASES/ymE6ka6y6J-z2y2rX8QH3Q.json",
+    "sha256": "3e138df6ad23b79d1768e01504f9162dde687042472f9cc335591aaf310c3336"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/BUSINESS_CASES/zGmK4tkN9X_wBi_9i1jIuw.json",
+    "sha256": "5ba4f426ad781d9d15599247a7ab1bc18439a05245ce86a67d291f30c770350f"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/-78Va3llKcPbL6SW4is8lw.json",
+    "sha256": "7f4da75e3a9c7a1036fdb031561b50f45a484990de90000c757bb0e7b076c47d"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/0-M3vGd6IveJh77-Bwc8EQ.json",
+    "sha256": "eed54ff4ac73f47a56a4c2fbae4034b648b64ef17403a3069ce13f26a12626d2"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/0ZcYZNGb85gscHglo04qSA.json",
+    "sha256": "828568e83fdce186a5bfd8f3fd79d28808e04449c230559be7414b28be9acbf0"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/1FURjeGJi_LBXcJQg8eskw.json",
+    "sha256": "ff5d3d5c023c8fe5fc5f559a9d3af712bb18048c123b2915fba00cf05cb2cfce"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/1ipr4W2ApXdAyOmRE4AIkQ.json",
+    "sha256": "79bfd21e08ec2de69a7dcd854796a6bdfdc1f250de8036dd75271a6acfe49cae"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/22_KB3FITRnuTXCEHsXpIg.json",
+    "sha256": "87dce6a534895b9ac494a57f1fa9ab99889aac0a4cb27fc706ee373b0f16b653"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/26nB0rypwfXXa-dnRREu0g.json",
+    "sha256": "12da2e4e9fd82ae534af56e4918fb4a36d04eac0f2e1d4caf972c5f4e2d5f439"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/2CqQ3Tnvj7h0rw84WEEjMw.json",
+    "sha256": "a7812dad96598f557ff42c8a43aaa650fd72396a4f8ac2ec5bb8f0c1d0a47628"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/2QGyW4T6E_4iSltdx9i2RQ.json",
+    "sha256": "79385d106c7ba4d8471e8960ba76d99a7beae8fe2dd6a13b431242bf6679f45d"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/2e7nTXMc-l0cM_YpV5g5Ow.json",
+    "sha256": "69f3f123c307dfc2719ba2e467b8d0ac3fd787ec1facfb516d3dd6c3a7dee0ce"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/2sGHOKjHl5S0iqRDTmNgMQ.json",
+    "sha256": "6912630dfde34d13ddbba619541a332a8a1bdddf7ab80dd0badb94cbfef324a2"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/30cpm1uq6xcQCmN6JTrB8w.json",
+    "sha256": "b7a07eac7a1ce7aae2c2907ff025331f4e4003eeac5cd327afb787faea77c869"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/34UYYxLV_lAxHYNnV3GXAg.json",
+    "sha256": "6a6535af8227adc2e0dc0b228c8c3da8e29ffaddc7d05d267b18369552a84297"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/4iuNK5svIKV_GrbSwAXM6Q.json",
+    "sha256": "f751169c39aedb7a66981f61b87aaaca4e0db73adfeaa76d9aaabed22bf609ba"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/5XsC0tB8chKjTIW7mU6TnQ.json",
+    "sha256": "9029470bb9a10c276aa9a54541a10a7d03576fbc72c76d1ac4410feba086ba48"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/5iuo1kvv0XZMS0bUOoLz2Q.json",
+    "sha256": "d0aea03f3fa1c0f59ae811be4850e671346b06998b63f477897d392eb713568e"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/6OBV0LXFHVQoUWuQxJxtwA.json",
+    "sha256": "8a0dec94bce8c28b2c06797cf75c8754d00e341fe375aba4744797ccf8fc526a"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/7D5-a53BLau19RpMu-L3zg.json",
+    "sha256": "da591cef869acdf83a574d2414f1df2609fbb84579e5374b35ce97322a381e5d"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/8AED7kiOq0cXctguW2eukg.json",
+    "sha256": "40603e197cce4326a64b92f7afa76933727b8d9a556bdcaaafd93df9c742356c"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/9MpC2yF56SMFFFOKobR2JQ.json",
+    "sha256": "ec2dceed8e1b24ae7709e8a01d5ac49159d3a5c27701aee52cdb749b9d2e491f"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/9WGrXMnoOJD8VPpKUr3Q7w.json",
+    "sha256": "fc0b0ee2e66a8cf3cee2f3c6d3c9c9be83f929886c7cc8c27477eb0a6d90f6de"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/A2WOHcAk-BkMyf9Qgv8A8A.json",
+    "sha256": "c6ad6818126e7b037bd5e8b91102dc0891a129041d0268e79fd17e0f9548c9f3"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/BvgxS6Nr5i7th5p1rFo2_w.json",
+    "sha256": "3cb2aca72cf66eb496966eade72738aa49f4ebff65a75f051b37bf7b6bfbcea3"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/D_CMgRM8nnE94i_newJi9g.json",
+    "sha256": "748691344c750b471082bd9d5239ede5eb57c6230d3ffd2d228694d2e41b7c6a"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/EYs_T4NU2BbaUF7vUDI55Q.json",
+    "sha256": "906da59695a418bf4930df85d9d5934a2bd9d4be3bc592f2a151e144730fccf6"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/FUk85WE-5oLXfqgyYZKWfQ.json",
+    "sha256": "9be436fe05968a8c13a72fe6e0b7b56b2d943237dea368b600308beaa9bbd38f"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/GTXSk8QyD7N1Un-tzgPw4g.json",
+    "sha256": "ae0ee8d86e3b7f978e0aef1a7bca21bcb66a5953aeb61850d82f1c3f56bcd35b"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/HKPoU2uUrHqo3_9pgEb4XQ.json",
+    "sha256": "01b1c08f4a0af0f917e3a3e60262fbbab5f537c81af59b09b172251d5279c445"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/I42Ebt8haptL_Wew3r9wLA.json",
+    "sha256": "c17fec559cd5e4065138b8f9796fb884a80ddd123efb9c100576fd1fb87b2a10"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/I81Ua5IltIBphFKnHmKwlg.json",
+    "sha256": "f5d9f26cbb63280bcd9a92bd648cac6a1d828555c56a2a4fa9b1d55657d13eb5"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/IDjYyBrPW5C2CT9mXsyuBA.json",
+    "sha256": "fa967f9a637f1d5de2224c82e1969d43df8bd01568998326ae51e477b2c745c2"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/IRyKDIF51M0GcqS8yfPcYA.json",
+    "sha256": "4f79d3008ed521012ec8b60878cebf3b93fe1f6b26daf1ecf058d9581239d829"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/J5SlGtKZglJk3VB6C3lrNg.json",
+    "sha256": "dd49f35e5b3d716f9266f3b8eb9085ffea2b7dcb48d3b5271abcb2ad10c82a98"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/KBPKl-40hmRZ6vQeWl7pvw.json",
+    "sha256": "7f406a7c274b7fbc1895d4fef53de174cd3d14021102d11f8b1057829e6426ab"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/LejMqzvUAz_pnf90OOBLkw.json",
+    "sha256": "6bf447d261a16360260709deb99d4ce62ddcd282956d5ba48d1bc190f751504a"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/LqNeLawIfB1w0zPXKK8nHg.json",
+    "sha256": "1e1d079e9bd8a24c09ef5a5e40f20e1295ed5ea70bcf0dbf4240e4c5108a8444"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/MJ9FaB4y2jCyn1CU7Fnj2Q.json",
+    "sha256": "a4bf9cdddb9ca6d4e94aa91fd96f02d158955e27263dd582f92be0065fea0e21"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/MTB9CelShC-x4jj31BJYAg.json",
+    "sha256": "7b5051344d2a60f6d4d1571bbbb048f88c6ad63e75001956b4ff20ec73a26c3f"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/MiBsTEUaR6svmvGJnieVCg.json",
+    "sha256": "88c744512672ff9f4991fc8d64a288cfa2a8f887c9ec6d53b68afe740b5c5e2a"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/NGbyNFSypcmnGt-ofPwESQ.json",
+    "sha256": "c3e899bcf5c5c4ee536345c60b768666a46d9847a9f7807400246aa45bfd38e9"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/O6hY9yenifuRXrpc4TfgsQ.json",
+    "sha256": "22ed3ed8c5af57ddfba8323e61bfb9186fec003b421415f65a4e77106a73fe05"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/Ou-_OQUNvBcaAoRU0XPtaQ.json",
+    "sha256": "e398c823e2e4bbedb4ec8f75d9d64a3b87cb0af07336ff02000654d6dc5fb415"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/P8tNjsI6jE--HsvfeW-Mcw.json",
+    "sha256": "8deba9194c235e8a929d6b1fa4ab0ccf42fd0a3379fd0f1fb4c21f3f8fe0622f"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/PLebbMEYWV-5ggzx0c4lBQ.json",
+    "sha256": "4ab9ed78676e4767a2b1ed38cd1aa8427b01fe95ae0933311823021c40b3136f"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/Q83JhbXmv7rtAtZs2QZ0sw.json",
+    "sha256": "19150e21054442e0a3cb895f240b30cc0d3d9f30510d1521c8d4f6244463bc41"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/QaLr_-5abntoxH7Isbs0iA.json",
+    "sha256": "b3c69f13983d9bf957bc5dac3e2a9d86f04c987c1ecac1d83add2455cdd0a00c"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/QsXLuvWL_zUDFNCHSzE1XA.json",
+    "sha256": "3a0eb2d6335a00e1ab3a886e11544ba6a05dc21812916fe6547f6fae0b90caf2"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/RF2SocELaoYkXnZhxRcX0g.json",
+    "sha256": "93e89217a3d9aed53fb152050e3be759c1860605389015e4c962894540d5e4fb"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/Rn3DtOiuJtc3whFySWXs5Q.json",
+    "sha256": "d6f4221e6ce25ed1eaf5306af5fc96b0460c33c55e44d89c085845766e2d985a"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/S21Myaj831l5rG4AKEyekA.json",
+    "sha256": "1d541b4dedf2088f90c5c75cc9b6f9de9fd1cc9fa3a1fc313197cc6ea9f675be"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/S2Ho8yLxhKAa26pBAm6rxA.json",
+    "sha256": "1543feb8ffaef71d823ed3a1c79e5b1816fb21421ce5903faebd78fc5db3972d"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/SVAsvMbctwumzI4qRmZoGA.json",
+    "sha256": "44a6da371435965fdd9352eed4b5ae7875a623e4d28f7279f8a62790c9abba51"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/SlrFIxnxlMbzoTE9QUB49Q.json",
+    "sha256": "c49c9bf5399a884435d947a367e66fda47ec6f8ac6a0f36f1be007baa366dcd7"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/T-wSzKIQaWySTLJfPmmdiA.json",
+    "sha256": "8185c0f35638a8c90b0a8cdb46e23f72b46e4d43167dfbf7d5809da5c9117ce9"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/TZpGfN1prJBu7ldErjL50A.json",
+    "sha256": "f3db8eeacb56f41f18afd51e72482d092bd68c72e7658617304d4e3127efa39b"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/Vf8ZDtjOLN6lkRFatBmezw.json",
+    "sha256": "b56b2448335d19119d89a6f2c8e3e0a2505b37b99f18d05bd3597b2508f4c378"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/XgnArX8m2BaGtpJp5Mx2qg.json",
+    "sha256": "e7d74efcc1c108c50749908506f899bb34ead451cfa0589acce5f6936b423868"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/XnQ84ylyAZwh-XfHGGNBbQ.json",
+    "sha256": "d4e513f8fdb3d8230d698b3839c6747f25bbd8488978cc33f6636591a78120d8"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/Yk2CpniZgS88PqMIwsq8jw.json",
+    "sha256": "97b6a72457ee02eb70c96533e13bba4bbc7844e3c90f3548c55fdbceb764f3fb"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/YuatbQ1sfTFnmfgjzVDv-g.json",
+    "sha256": "75f1bba694325096f20ea6b699fc8a3ccc466257a8c407d61320efa9b868e024"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/Zbe1ilVV76abUsWGTJNeQA.json",
+    "sha256": "1977e302d1fb3e4e76244ab490c0448be6335413dddae82101755e4fe1f0a5f1"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/aAXCHFWlmppo9HAxcK2NYQ.json",
+    "sha256": "23124018723024930f6ec36e0b6fadcdc64d8190e6c355433a8674d48e8886c8"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/aaBlYQpHUuSYEv1EtWgxuQ.json",
+    "sha256": "bd6eddf8ce82ebfc7b1a6d28de465bfb2804467f18db04a9a656b9bd48a0e362"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/bKaBjDbtwQh_T-3ZpKJxRQ.json",
+    "sha256": "bc0253fbb2f4c5cc26db62c8dc766d1f29b71065af4200041aa0a27a95e5fcf1"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/cNua7EAP7aoHTEp734VqWA.json",
+    "sha256": "affae0a0505aaff0d626988d3ae17b2c00f43f11b207f4f93c45be941c2c7e10"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/dIpTuL2T1L98GQGU17IeSw.json",
+    "sha256": "f1bd9bda51feb609aa232787de4f4532acb9eb91a7965781d97bfd6182f4a2c7"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/djeYYE2MIT36obh5mcZn8A.json",
+    "sha256": "55c8ad7513e6c01444e45d4f7a22c63994772016c1ee95e444694638f1fbc892"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/eSHOzoSapng1c7BN3CBn9A.json",
+    "sha256": "f0d00ed108b0ff68a5ff0b184e4a2ba5c5567a3596472fdcff5824aef3fb1555"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/fgTOJRkc703E4XRdcr5zRA.json",
+    "sha256": "f4c94ec80c87e420a758e2a52c10fa9a19b3f98f7e986c9cede2cc9ad0b93aad"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/geuZssQDB8yblCpFYwoqAw.json",
+    "sha256": "0bf967c8cb17bc61e44513ffc1af5ba0a2e328ef92dd741fd27e0ff9d530dfb2"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/hPfiInYuyX9icAz3LEivnA.json",
+    "sha256": "cc2d1f2bd38c14b6e186dccfde5ccfc992e864eb26cb4a320ebc6b482878c021"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/hp9h_Cq-W0ki7JMArSvYSQ.json",
+    "sha256": "def61efc78094a6a6d94faf890604557e4dc556ded2c2de9536a5e6e08e7c2e5"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/i03Bu6rZ1nqJ_5WTFBUGjA.json",
+    "sha256": "ad539a3cc09c7e544adb719ec8a00135d63e7788eaa73ed6e5d3ec840b20a2d2"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/ipRXCy-0ChYK_569rPqzJQ.json",
+    "sha256": "0dc0cd99c0b0a15ead31e501834f472c3ec621538a3af7f0d0d602f5a940ee79"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/ipZ7neK1bjBAUrCqyCvB_Q.json",
+    "sha256": "681848d3e0f3a7c88df845f7ae4f48c972e4d34c68461826b4df716dc4dccfc8"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/jgHrwlWf6IzmtHcsuQOq9w.json",
+    "sha256": "d2fcd7074478b6f096f5662586fd09c7b8c77068ec675059157045605aa8a019"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/jjFUWQdn6HANmgVy3Qy0RA.json",
+    "sha256": "d1f8997571cae63b5134ce94ffda3ea486a02eab15433f9318b0b0ea21893ba8"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/lMmbhZAENUeuB93psLWnBw.json",
+    "sha256": "a11f35073e2459b70d9beb8dedf261e26e905e8098febb78932d3362bba8794a"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/lNWGx7QGejxGle0oIgojNw.json",
+    "sha256": "973cf0572c74322d3657ceb8601720942b3cd74cf0d042fbbea60b1aba75b85f"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/mSM8xX5Ui9g_d2EWIU9yJQ.json",
+    "sha256": "929b40fcf8a35bb3032510f681406cc98fef482684e41d477df0cbf67f0a0e73"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/n6GeIePXC0G3eS8UPGvloQ.json",
+    "sha256": "18b6e511e3c79aa7653dd6748bb64610657117e4cbb04eaee00713e21c0a6138"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/nsxdsXlt_BmxfMB3dI6OVQ.json",
+    "sha256": "ad1604414ece91bb0772315ea3fc27c2e95d35e7aa703a947d24897d1e441b4a"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/oP7An13EMBE_IZSqLzQ_bQ.json",
+    "sha256": "cf75041c70f1ed5fe111c46617fb15d772e3e6124b7a9024f2c2b8db60491e69"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/oY5EIvb0WZ_4qwioC1eXsw.json",
+    "sha256": "9426c7fe6b2528bd568ba16fc9d700c755aab6a7f6d67738361d87adc2c59ec5"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/pO3BhDCAQKOAfEpd598ejw.json",
+    "sha256": "db5c69cee65af08ccce7eeabc5ffb9fd37155adf0847883305d81fbff2273734"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/qnOffBt8iV6umLvDZ5PNDw.json",
+    "sha256": "337baa3d62ec05a209a0b7789862226fe43ec62eddb109c95fd30ab8df1f290c"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/rQKL-bO8Xup4gCPcj_oz6w.json",
+    "sha256": "6abf4289fc3ce06e666e2cf00afd7511a8c3a82da37a343285d5b9793f01f44d"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/rueQ9RiqrN8E5Lb3EyFuTg.json",
+    "sha256": "eb9b09bb26908c9bfc585bc2d733c65db78ec64e900f218bea33e1d02ae44df5"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/tW85sx5fr8-gCTCOi0c9Pg.json",
+    "sha256": "72f6b90c0ff7d60fc48837fb870fbeffa6b3d3660960b40317841e83509a4017"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/u5ut1O3T5m22ly6EATA6mQ.json",
+    "sha256": "a27b683615498b4ada39bddeae02f54e63f886db34d1de1f9e3e9a04cec1f614"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/w5bWPohacDr3Wzqu17M1cQ.json",
+    "sha256": "f587bf5fd28c4a5c81564c5e1d4e62389a39189c4563d1b04dc327414fbe7b58"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/wCS06xu2g1FFi1kr0WT-nQ.json",
+    "sha256": "7348bb8e276e75bb98e211f352ca77e17ed4e34dd06b419f319b05418b069df2"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/wMGjF3eTtmkOPudjV_z--Q.json",
+    "sha256": "07ab5921dc1d9d3133b4116f48eb91ccdc4baee8f02c99c47760dbf9119c993c"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/ws7z5fLdaVgwxZ9ex3cKxw.json",
+    "sha256": "3ab9de405f6a5309266502fbcc1d0443cd0d619b9dd07f8ce34c563326678b6a"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/xW6nJmGqY-lq4i0xKtBMCg.json",
+    "sha256": "6a9ea753165b8dc0831026b1197cc22a0e0d5f1430d0b8306e3d589682aaaa66"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/ymE6ka6y6J-z2y2rX8QH3Q.json",
+    "sha256": "c339f135490dfbdee2ab4a9a667fe868083d16dbf833ea80d350e457782a90c2"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/z3TB52s5p5PcRsw2T3J6MQ.json",
+    "sha256": "df01a5dbc00e33ffc6f58fad70f3183bda55e769baa74ffd2b5d05a6c0357790"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/zGmK4tkN9X_wBi_9i1jIuw.json",
+    "sha256": "1e5d8af191d6d9aee12dadfa43cf94234183fbf992a5585e4ad23435318fcc5d"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/zXsv-tOEvtSMY755jt-uDw.json",
+    "sha256": "e89ea7c19cfec0bc1809417f2b3f470d18c6a6a07897522a93d8743530c01fd4"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/ANNOTATIONS/zcPCPkaTp46iJxwMv0LjVw.json",
+    "sha256": "af3004ce2d8c53c88ed00bda0f73cc2e330bdb75b402d22c23b2f77fe44025c3"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/EXPORT_MANIFEST.json",
+    "sha256": "bc015ec1aaa92db22c9f54c2a50075c900cb25431537139ac015a00bb982de51"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/FINAL_REFERENCES/REFERENCE_FREEZE.json",
+    "sha256": "2c44bc4a7c533d932a777180085b9b6ee105ccff689642513c31e12fb6a4d715"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/RESULTS_ORIGINAL/AGGREGATE_METRICS.csv",
+    "sha256": "efb57588b90fbc6eecf71dadb0632ec24bd52508317b12046cc34d4aea681a64"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/RESULTS_ORIGINAL/COMPLETION.json",
+    "sha256": "a582e4c5a947074ea493653bac853f998907c6a7d8b92cce9fbcf0dd4b5698da"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/RESULTS_ORIGINAL/PAIRED_COMPARISONS.json",
+    "sha256": "3e76e666c181c1b2a240b8ad6592dab41bf2997b12611af8c24c05faf9fe8072"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/RESULTS_ORIGINAL/PER_BUSINESS_COMPONENT_METRICS.csv",
+    "sha256": "5474fb94dc0b146742a8d61efb8c971c78020178b585d62ba088c053fe29d374"
+  },
+  {
+    "repository_file": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/PACKAGE/RESULTS_ORIGINAL/SENSITIVITY_ANALYSIS.json",
+    "sha256": "6934aa76ff4ac6db9f35777efea5fa4b1fc94fbf70ba385dfc148ca59831335e"
+  },
+  {
+    "repository_file": "outputs/stage_m1/existing_teacher_validation200_v1/AGGREGATE_VALIDATION200_METRICS.csv",
+    "sha256": "aa6359cb28dd542bf72d12ba517485127b4925be682fabfad852730d21d0339f"
+  },
+  {
+    "repository_file": "outputs/stage_m1/existing_teacher_validation200_v1/ALL_VALIDATION200_PER_BUSINESS_METRICS.csv",
+    "sha256": "fbee0c90a707ea13d50db11d28b4e1bfcf7eac939f630a6aa4d5d59bfb15051f"
+  },
+  {
+    "repository_file": "outputs/stage_m1/existing_teacher_validation200_v1/TARGET_AND_SPLIT_AUDIT.json",
+    "sha256": "d0bd2b77551eb98a58b35765dc6593dd85ca35d79087d469812d0c1342fee2f8"
+  },
+  {
+    "repository_file": "outputs/stage_n/final_human_statistical_analysis_20261102_v1/PACKAGE/ANALYSIS_CONFIG.json",
+    "sha256": "bd4e379be52cc79327e3fe2e44c9d1f00a6c2a4afa3b6e3ebd11d4863df2b090"
+  },
+  {
+    "repository_file": "outputs/stage_n/final_human_statistical_analysis_20261102_v1/PACKAGE/DATA/SOURCES_30.json",
+    "sha256": "1c6449aa4702ad504b266bb5867a92bcc0007beee979e79e0d573accbc8cc259"
+  },
+  {
+    "repository_file": "outputs/stage_n/final_human_statistical_analysis_20261102_v1/PACKAGE/DATA/VERIFIED_ANALYSIS_INPUT.json",
+    "sha256": "2c53ac20495866af739efcc0fa70fbc31718e7565f18421940b6489620d18e67"
+  },
+  {
+    "repository_file": "outputs/stage_n/final_human_statistical_analysis_20261102_v1/PACKAGE/PROVENANCE/RUBRIC.json",
+    "sha256": "1a34dc0bd3f03c88621b27b34821c695598830e6c4a3eb9c8f23896813c3dbdc"
+  },
+  {
+    "repository_file": "outputs/stage_n/final_human_statistical_analysis_20261102_v1/PACKAGE/TABLES/AGREEMENT.csv",
+    "sha256": "cd55f75dc3a7b9c03edbad205088d6ed1ce32d9d7df0ef8fdd2be7a47dbd6fd7"
+  },
+  {
+    "repository_file": "outputs/stage_n/final_human_statistical_analysis_20261102_v1/PACKAGE/TABLES/DESCRIPTIVE_STATISTICS.csv",
+    "sha256": "3ac4e88a56e46cc4536cea9153ebca10086713c41eb951a0c029495f4181fde3"
+  },
+  {
+    "repository_file": "outputs/stage_n/final_human_statistical_analysis_20261102_v1/PACKAGE/TABLES/PAIRED_COMPARISONS.json",
+    "sha256": "6bce58099d46bb421028982adfe96ce48325562749921d69d7bef786e8bb9025"
+  },
+  {
+    "repository_file": "outputs/stage_n/final_human_statistical_analysis_20261102_v1/PACKAGE/TABLES/PER_BUSINESS_CRITERION.csv",
+    "sha256": "60a7157377a7cb2252ed37497f71f86b15eb28c3918d4b9cb13f6e8918089219"
+  },
+  {
+    "repository_file": "scripts/analyze_stage_n_two_raters_v1.py",
+    "sha256": "18bda30753c0ab863daf6c2caa1f239af160a6a4b31aea373706168ed88241d6"
+  },
+  {
+    "repository_file": "scripts/budget_aware_review_selection_v4_2.py",
+    "sha256": "04a9535cd24a3443d82b6106c1c29189ebd324639c242c043c84120b5cfb1ceb"
+  },
+  {
+    "repository_file": "scripts/s1000_final_eval_core_v1.py",
+    "sha256": "8dedc10b09d35efb50fb96409926566cbb7327952ade67eed48825272e2582b5"
+  },
+  {
+    "repository_file": "scripts/stage_f_d030_protocol.py",
+    "sha256": "4b5be2fe74f5ca434bf609484771f353618fa86712ecc5f27d401ceeb0a69093"
+  },
+  {
+    "repository_file": "scripts/stage_f_d031_protocol.py",
+    "sha256": "2b2111301a588f1e05b39fda504683de9529185bc09462e587727f4c6cb25ab5"
+  },
+  {
+    "repository_file": "scripts/stage_f_math.py",
+    "sha256": "f061d77b0a2fc870823e80683cc7eb02afefa5e70ac31c00c8202ae6560e65f3"
+  },
+  {
+    "repository_file": "scripts/stage_hi_led_data.py",
+    "sha256": "7ce7b0a87935cca43ca4b2c354bd0e3eecadfa05c033692a9b5e96133764b467"
+  },
+  {
+    "repository_file": "scripts/stage_m_evaluation_v1.py",
+    "sha256": "43eb40a626e24cff4ba1cd71940f98064ec39deeeb6412688f26769efb605766"
+  }
+]

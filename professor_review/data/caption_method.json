@@ -1,0 +1,30 @@
+{
+  "K": 5,
+  "common_budget": {
+    "full_source_tokens": 5000,
+    "review_tokens": 4000,
+    "caption_tokens": 750
+  },
+  "image_duplicate_policy": "exact_normalized_pixel_hard_Filtered_only",
+  "pHash": "diagnostic_only",
+  "CLIP": "soft_quality_order_only",
+  "caption_thresholds": {
+    "relevance": 0.08,
+    "redundancy": 0.59,
+    "grouping": 0.46
+  },
+  "diversity": "unchanged_farthest_first_nested_prefix",
+  "unfiltered": "Basic_only_existing_fixed_seed_prefix_without_image_dedup_or_substantive_filters",
+  "model_id": "Salesforce/blip2-opt-2.7b-coco",
+  "model_revision": "cda95b9319b722f79c9451a3d8ff92eea02048dc",
+  "generation": {
+    "batch_size": 1,
+    "num_beams": 3,
+    "do_sample": false,
+    "max_new_tokens": 64,
+    "initial_prompt": null,
+    "retry_prompt": "Describe this image in one complete sentence:",
+    "retry_once_if_basic_failure": true
+  },
+  "all_eligible_photos_before_K_selection": true
+}

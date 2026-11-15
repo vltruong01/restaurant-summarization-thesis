@@ -1,0 +1,59 @@
+{
+  "experiment": "LED_LARGE_NBEST_RERANKING_V2",
+  "preparation": "outputs/stage_i/led_large_nbest_reranking_v2",
+  "parent_bindings": {
+    "configs/stage_i_led_large_decoder_policy_v2.json": "d079f41aa5ae5b1a680da5174eb3ef83235cb9b82e54c96b3d5d487215a168f4",
+    "scripts/run_stage_i_led_large_decoder_policy_v2.py": "bea436309fadb632a04db82549ad63139f31bd77365e95271b77c1ff68470a61",
+    "scripts/stage_i_led_large_decoder_policy_v2.py": "a37f7ee37047df01051d9e13cd45ab4ee0d189f3167f2b4167d384ae581a4777",
+    "scripts/led_large_decoder_early_sanity_v2.py": "10975bf25d559c248320e7070ea45387bce6cf2f8dde48dc02f7974e64b39306",
+    "scripts/led_large_decoder_label_view_v1.py": "413a408ed384bdd5d40ef21ea7c99891a2ee42e88554a1f6e543d1ad6f535b96",
+    "outputs/stage_i/led_large_decoder_policy_v2/PREFLIGHT_MANIFEST.json": "782de3373434ff01b934818cd143e0d6c0be32fc0658e924c19ba2711401a3d3"
+  },
+  "runtime_pins": {
+    "torch": "2.1.0+cu118",
+    "transformers": "4.51.3",
+    "peft": "0.15.2",
+    "accelerate": "1.6.0",
+    "numpy": "1.26.4",
+    "tokenizers": "0.21.1",
+    "safetensors": "0.8.0"
+  },
+  "backbone_id": "allenai/led-large-16384",
+  "backbone_revision": "cd59d11c3528415b7dda4dfc95cc8f138aceda2e",
+  "backbone_sha256": "b31752450099a5eb3fcd5199001c5a6831e4a32e13f17a287a5aa6e10801d081",
+  "adapter_sha256": "507dcdd92333dc0625559570f06140b84a14eb202191779ebd03393224090a60",
+  "original_checkpoint": "Original CE DecoderPolicyV2 epoch3 step750; never WCE or base",
+  "generation_override": {
+    "num_return_sequences": 4
+  },
+  "unchanged_num_beams": 4,
+  "output_names": {
+    "training_pilot": "F_CE3_nbest_training_v2"
+  },
+  "budgets": {
+    "training_pilot": {
+      "businesses": 12,
+      "generate_calls": 24,
+      "returned_sequences": 60
+    }
+  },
+  "GPU_inference_approved": false,
+  "training_authorized": false,
+  "held_out_access": false,
+  "contrastive_authorized": false,
+  "v1_execution_bindings": {
+    "configs/stage_i_led_large_nbest_v1.json": "c23200b803481b7eee8ed0e595c7f0a337b1b1381236e77600cd772bc2471197",
+    "scripts/run_stage_i_led_large_nbest_v1.py": "5c23a900c2efaacf88ad366ece12f28643beb91692a3246b028adff73ad07ed3",
+    "outputs/stage_i/led_large_nbest_reranking_v1/PREFLIGHT_MANIFEST.json": "a7d5309d3482ac5e27f17be75ba898cb0b1ca54d2b67a525c2d0966e8a6a1f47"
+  },
+  "v1_preflight_manifest": "outputs/stage_i/led_large_nbest_reranking_v1/PREFLIGHT_MANIFEST.json",
+  "rng_guard": {
+    "policy": "PINNED_LED_EVAL_CPU12_RESTORE_V2",
+    "encoder_source_sha256": "dceefdc0ef6012aab03b4e97dfdd7c17cdf2831359335551b82a57803efa833a",
+    "expected_encoder_scalar_draws": 12,
+    "require_python_numpy_cuda_unchanged": true,
+    "restore_complete_snapshot": true,
+    "flush_evidence_before_guard_failure": true
+  },
+  "scope": "TRAIN_PHASE_A_ONLY"
+}

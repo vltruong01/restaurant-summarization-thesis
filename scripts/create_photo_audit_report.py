@@ -1,0 +1,70 @@
+"""Image findings, non-applied cross-split policy impact and pair-review scope."""
+from pathlib import Path
+import argparse,json
+import pandas as pd,yaml
+from photo_integrity_audit import ROOT,CONFIG
+from create_source_length_tie_report import markdown_table
+
+
+def main():
+    parser=argparse.ArgumentParser();parser.add_argument('--prepare',action='store_true');args=parser.parse_args()
+    cfg=yaml.safe_load(CONFIG.read_text(encoding='utf-8'));out=ROOT/cfg['output_directory']
+    photos=pd.read_csv(out/'image_manifest.csv',keep_default_na=False);business=pd.read_csv(out/'business_photo_counts.csv');groups=pd.read_csv(out/'global_duplicate_collision_groups.csv');local=pd.read_csv(out/'within_business_duplicate_groups.csv');pairs=pd.read_csv(out/'near_pair_candidates.csv');members=pd.read_csv(out/'global_group_memberships.csv')
+    lookup=photos.set_index('photo_index').to_dict('index');bids=business.set_index('business_id')
+    names={r['business_id']:r['name'] for r in map(json.loads,(ROOT/cfg['cohort_directory']/'businesses.jsonl').open(encoding='utf-8'))}
+    eligible=photos[photos.readable].copy();test=set(eligible.loc[eligible.split.eq('test'),'pixel_sha256']);validation=set(eligible.loc[eligible.split.eq('validation'),'pixel_sha256'])
+    eligible['would_exclude_for_hypothetical_overlap']=((eligible.split.eq('train')&eligible.pixel_sha256.isin(test|validation))|(eligible.split.eq('validation')&eligible.pixel_sha256.isin(test)))
+    eligible[['photo_index','photo_id','business_id','split','pixel_sha256','would_exclude_for_hypothetical_overlap']].to_csv(out/'hypothetical_overlap_flags.csv',index=False)
+    impacts=[]
+    for bid,g in eligible.groupby('business_id'):
+        kept=g[~g.would_exclude_for_hypothetical_overlap];impacts.append({'business_id':bid,'name':names[bid],'split':g.iloc[0]['split'],'current_readable':len(g),'hypothetical_removed':int(g.would_exclude_for_hypothetical_overlap.sum()),'hypothetical_remaining':len(kept),'hypothetical_remaining_unique_pixels':kept.pixel_sha256.nunique(),'hypothetical_below5':len(kept)<5,'hypothetical_zero':len(kept)==0,'policy_applied':False})
+    impact=pd.DataFrame(impacts);impact.to_csv(out/'hypothetical_overlap_business_impact.csv',index=False)
+    overlap=[]
+    for kind,g in groups.groupby('metric'):
+        for split_pattern,part in g[g.cross_split].groupby('splits'):
+            overlap.append({'metric':kind,'split_pattern':split_pattern,'groups':len(part),'photo_members':int(part.photos.sum()),'perceptual_collision_only':kind=='phash_collision'})
+    pd.DataFrame(overlap).to_csv(out/'cross_split_group_summary.csv',index=False)
+    # Train/validation-only visual scope, no held-out content for threshold review.
+    choices=[];used=set()
+    def add(a,b,reason,distance):
+        if (a,b) in used or lookup[a]['split']=='test' or lookup[b]['split']=='test':return
+        used.add((a,b));choices.append({'example_id':f'pair{len(choices)+1}','photo_index_a':int(a),'photo_index_b':int(b),'photo_id_a':lookup[a]['photo_id'],'photo_id_b':lookup[b]['photo_id'],'business_id_a':lookup[a]['business_id'],'business_id_b':lookup[b]['business_id'],'name_a':names[lookup[a]['business_id']],'name_b':names[lookup[b]['business_id']],'split_a':lookup[a]['split'],'split_b':lookup[b]['split'],'path_a':lookup[a]['relative_path'],'path_b':lookup[b]['relative_path'],'hamming_distance':int(distance),'raw_equal':lookup[a]['raw_sha256']==lookup[b]['raw_sha256'],'pixel_equal':lookup[a]['pixel_sha256']==lookup[b]['pixel_sha256'],'reason':reason})
+    for edge in pairs.itertuples():
+        a,b=int(edge.photo_index_a),int(edge.photo_index_b)
+        if lookup[a]['raw_sha256']==lookup[b]['raw_sha256'] and lookup[a]['split']!='test':add(a,b,'within_business_raw_exact',edge.hamming_distance);break
+    for reason,minimum,maximum in [('same_phash_nonidentical_pixels',0,0),('small_distance_nonidentical_pixels',1,4),('threshold8_boundary',5,8),('threshold12_boundary',9,12)]:
+        for edge in pairs[pairs.hamming_distance.between(minimum,maximum)].itertuples():
+            a,b=int(edge.photo_index_a),int(edge.photo_index_b)
+            if lookup[a]['pixel_sha256']!=lookup[b]['pixel_sha256'] and lookup[a]['split']!='test':add(a,b,reason,edge.hamming_distance);break
+    for row in groups[(groups.metric=='raw')&groups.cross_split&groups.splits.eq('train|validation')].itertuples():
+        indices=members.loc[members.group_id.eq(row.group_id),'photo_index'].astype(int).tolist()
+        a=next(i for i in indices if lookup[i]['split']=='train');b=next(i for i in indices if lookup[i]['split']=='validation');add(a,b,'raw_exact_train_validation_repeated_visual_evidence',0);break
+    # One chained diagnostic component: endpoints beyond threshold.
+    local_members=pd.read_csv(out/'within_business_group_memberships.csv')
+    for row in local[local.chained_beyond_threshold&local.split.isin(['train','validation'])].sort_values(['hamming_threshold','group_id']).itertuples():
+        indices=local_members.loc[local_members.group_id.eq(row.group_id),'photo_index'].astype(int).tolist();found=False
+        for j,a in enumerate(indices):
+            for b in indices[j+1:]:
+                distance=(int(lookup[a]['phash64_hex'],16)^int(lookup[b]['phash64_hex'],16)).bit_count()
+                if distance>row.hamming_threshold:add(a,b,f'chained_endpoints_beyond_t{row.hamming_threshold}',distance);found=True;break
+            if found:break
+        if found:break
+    if args.prepare:
+        pd.DataFrame(choices).to_csv(out/'visual_pair_examples.csv',index=False)
+        print(json.dumps({'pairs_prepared':len(choices),'hypothetical_removed':int(eligible.would_exclude_for_hypothetical_overlap.sum()),'hypothetical_below5':int(impact.hypothetical_below5.sum()),'hypothetical_zero':int(impact.hypothetical_zero.sum())},indent=2));return
+    verification=json.loads((out/'validation_report.json').read_text());assert verification['validation_passed']
+    notes=json.loads((out/'visual_pair_review_notes.json').read_text());assert notes['pairs_inspected']==len(choices) and {r['example_id'] for r in notes['pairs']}=={r['example_id'] for r in choices}
+    assert all(r['status']=='assistant_visual_inspected' for r in notes['pairs'])
+    findings={'businesses':2300,'photos':30027,'readable':int(photos.readable.sum()),'unreadable':int((~photos.readable).sum()),'minimum_readable_per_business':int(business.readable_photos.min()),'raw_global_groups':int(groups.metric.eq('raw').sum()),'raw_cross_business_groups':int((groups.metric.eq('raw')&groups.cross_business).sum()),'raw_cross_split_groups':int((groups.metric.eq('raw')&groups.cross_split).sum()),'pixel_global_groups':int(groups.metric.eq('pixel').sum()),'pixel_cross_split_groups':int((groups.metric.eq('pixel')&groups.cross_split).sum()),'within_raw_groups':int(local.metric.eq('raw').sum()),'within_pixel_groups':int(local.metric.eq('pixel').sum()),'businesses_below5_after_diagnostic_exact_collapse':int(business.below5_pixel_unique.sum()),'near_pairs_by_threshold':{str(t):int(pairs.hamming_distance.le(t).sum()) for t in [0,4,8,12]},'businesses_below5_after_diagnostic_near_collapse':{str(t):int(business[f'below5_near_t{t}'].sum()) for t in [0,4,8,12]},'chained_components_by_threshold':{str(t):int((local.metric.eq('near')&local.hamming_threshold.eq(t)&local.chained_beyond_threshold).sum()) for t in [0,4,8,12]},'hypothetical_overlap_policy_NOT_APPLIED':{'description':'Protect test; protect validation from train: remove from train any exact normalized pixels present in val/test, and from validation any exact pixels present in test. Same common upstream view for both conditions; no within-business deduplication of unfiltered.','removed_photos':int(eligible.would_exclude_for_hypothetical_overlap.sum()),'remaining_photos':int((~eligible.would_exclude_for_hypothetical_overlap).sum()),'affected_businesses':int(impact.hypothetical_removed.gt(0).sum()),'businesses_below5':int(impact.hypothetical_below5.sum()),'businesses_zero':int(impact.hypothetical_zero.sum()),'by_split':impact.groupby('split').agg(current=('current_readable','sum'),removed=('hypothetical_removed','sum'),remaining=('hypothetical_remaining','sum'),below5=('hypothetical_below5','sum'),zero=('hypothetical_zero','sum')).reset_index().to_dict('records'),'applied':False,'business_membership_or_split_changed':False},'visual_pairs_inspected':len(choices),'final_near_threshold':None,'final_duplicate_policy':None,'caption_generation_started':False,'photos_physically_deleted':False,'businesses_replaced_or_excluded':False,'research_design_decision_required':'Resolve exact visual evidence overlap across splits before final caption/training/evaluation protocol. No automatic pool change; proposal quantified for user review.'}
+    sensitivity=json.loads((out/'test_image_disjoint_diagnostic_summary.json').read_text())
+    findings['alternative_evaluation_diagnostic_NOT_ADOPTED']=sensitivity
+    (out/'photo_audit_findings.json').write_text(json.dumps(findings,indent=2)+'\n',encoding='utf-8')
+    stats=business.groupby('split').agg(businesses=('business_id','size'),photos=('source_photos','sum'),readable=('readable_photos','sum'),unreadable=('unreadable_photos','sum'),readable_min=('readable_photos','min'),raw_unique_min=('raw_exact_unique','min'),below5_exact=('below5_pixel_unique','sum')).reset_index()
+    stats.to_csv(out/'split_photo_summary.csv',index=False)
+    report=['# Photo integrity/duplicate indexing - 2026-10-06','All2300 fixed businesses/30027 images. Shared file validity only; unfiltered keeps all readable originals. Exact/near duplicate handling belongs to filtered pipeline, final policy not adopted.','## Readability and per-business counts',markdown_table(stats),'All source bytes compare to accepted photo manifest and independent raw-source originals. Full decode/normalization/structural verification; no physical photo edits/deletion/business resampling. Normalized hash/display EXIF/RGB is diagnostic; caption preprocessing remains to be declared.','## Actual findings',json.dumps(findings,indent=2),'## Cross-split overlap',markdown_table(pd.DataFrame(overlap)),'Raw/pixel groups indicate identical stored/normalized visual evidence. Perceptual-equality collisions alone do not confirm duplicates or leakage. Test images receive the same fixed integrity/hash process; no test threshold tuning/manual policy gallery/teacher targets. No global approximate-distance sweep was performed.','## Hypothetical response, not applied',json.dumps(findings['hypothetical_overlap_policy_NOT_APPLIED'],indent=2),'This counterfactual quantifies one option, not a changed training/photo pool. Keeping business splits is possible while altering eligible caption-image evidence, which is a research-design decision requiring explicit review. Below5/zero outcomes require an agreed handling rule, not automatic business replacement. Source eligibility originally counted distinct local photo IDs, not proven distinct visual contents.','## Near duplicates / chaining',markdown_table(local.groupby(['metric','hamming_threshold']).agg(groups=('group_id','size'),photos=('photos','sum'),chained=('chained_beyond_threshold','sum')).reset_index()),'pHash64 cosine32-round6 is a declared diagnostic implementation. Median includesDC; low-detail/color-distinct inputs can collide. Components can chain; representative is only a diagnostic reference, not proof all members are duplicates.0/4/8/12 thresholds exploratory.','## Train/validation visual review',markdown_table(pd.DataFrame(choices)[['example_id','name_a','name_b','hamming_distance','raw_equal','pixel_equal','reason']]),json.dumps(notes,indent=2),'Gallery intentionally includes near-collision/boundary/chained examples; limited assistant visual notes are not formal human evaluation, semantic duplicate ground truth or threshold calibration. No held-out test content inspected for policy choices.','## Independent verification',json.dumps(verification,indent=2),'Four synthetic checks PASS after pre-production PNG.verify ordering correction (getexif moved after fresh verify/open/load). No accepted failed data run. Full raw/cohort hashes and decode/pHash replay30027; alternative direct-coefficient DCT256 prespecified train/validation cases; all432699 within-business distances/components/counts/global groups recomputed independently. Protected source/prior science unchanged.','## Next decision','Resolve cross-split exact visual evidence overlap and post-policy minimum/zero-photo cases before final caption-source protocol. Do not silently deduplicate unfiltered as substantive filtering or alter frozen business splits/cohort. Only then run approved BLIP-2 checkpoint feasibility/raw-caption pilot with declared settings/generic rules, retaining photo/condition IDs.4000+750 source option remains provisional; real captions required before final source/2300 input freeze. No caption/model/GPU/API/rental started here. Notebook00 is the maintained view.']
+    (out/'photo_integrity_duplicate_report.md').write_text('\n\n'.join(report)+'\n',encoding='utf-8');print(json.dumps(findings,indent=2))
+    with (out/'photo_integrity_duplicate_report.md').open('a',encoding='utf-8') as stream:
+        stream.write('\n## Alternative for review: retain pools and report an additional image-disjoint evaluation\n\n'+json.dumps(sensitivity,indent=2)+'\n\nThere are83 test businesses with no exact normalized pixels seen in train/validation,17 with some overlap,8 with allphotos overlapping (123/1136 test photo IDs overlap). A secondary83-business result could quantify performance without exact visual reuse while preserving the original100-business main benchmark, cohort/splits and unfiltered pool. This is not an adopted or executed evaluation and the subset may differ in composition. It does not eliminate overlap from the main benchmark or replace the planned external/generalization/human evaluations. A decision is required before declaring the final evaluation protocol; no ground-truth references/model outputs were used to choose this diagnostic set.\n')
+
+
+if __name__=='__main__':main()

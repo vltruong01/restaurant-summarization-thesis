@@ -1,0 +1,25 @@
+schema_version: 1
+dataset_version: yelp_2300_v1
+stage: B_source_pool
+expected_eligible_businesses: 10197
+cohort_businesses: 2300
+seed: 42
+sampling_algorithm: sorted_ids_then_python_random_sample_then_contiguous_split
+split_counts:
+  train: 2000
+  validation: 200
+  test: 100
+eligibility:
+  exact_category: Restaurants
+  excluded_categories: [Hotels, Resorts, Bed & Breakfast, Hostels, Vacation Rentals, Guest Houses]
+  minimum_raw_review_records: 10
+  minimum_locally_available_photos: 5
+  english_filter_applied: false
+exports:
+  photo_copy_workers: 8
+  include_all_original_reviews: true
+  include_all_associated_local_photos: true
+  preserve_original_records_and_image_bytes: true
+  final_led_inputs_ready: false
+output_directory: data/processed/yelp_2300_v1
+canonical_split_directory: data/processed/splits

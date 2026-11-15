@@ -1,0 +1,18 @@
+{
+  "stage": "H",
+  "seed": 42,
+  "stage_g_pointer": "outputs/stage_g/production_manifest_pointer.json",
+  "stage_f_pointer": "outputs/stage_f/production_manifest_pointer.json",
+  "split_csv": "data/processed/yelp_2300_v1/business_split.csv",
+  "tokenizer_manifest": "assets/tokenizers/led-base-16384.manifest.json",
+  "model_config_manifest": "assets/models/led-base-16384.config_manifest.json",
+  "source_template": "configs/led_source_template_d032.json",
+  "output_directory": "outputs/stage_h/led_dataset_v1",
+  "conditions": ["reviews_only", "unfiltered", "filtered"],
+  "counts": {"train": 2000, "validation": 200},
+  "budgets": {"source": 5000, "review": 4000, "caption_increment": 750, "K": 5},
+  "candidate_label_limits": [512, 640, 768, 1024],
+  "recommended_limit_candidate": 768,
+  "approved_target_limit": null,
+  "overflow_policy": "stop_without_truncation_or_content_edit"
+}

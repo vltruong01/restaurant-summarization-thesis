@@ -1,0 +1,15 @@
+{
+  "kind": "execution_policy_overlay_only",
+  "decision": "D-042",
+  "frozen_request_config": "configs/stage_g_production6_retry_v1.json",
+  "provider": "coletoken",
+  "maximum_concurrency": 6,
+  "automatic_retries": 0,
+  "individual_failure_policy": "record_preserve_defer_continue_untouched_jobs",
+  "unknown_request_outcome": "defer_no_resend",
+  "successful_components": "reuse_never_regenerate",
+  "global_failure_policy": "preserve_original_auth_billing_model_alias_integrity_and_three_all_failed_batch_stops",
+  "scientific_payload_or_validation_changed": false,
+  "Codex_configuration_or_auth_access": false,
+  "authorization": "researcher requests recording failures and skipping them until later recovery"
+}

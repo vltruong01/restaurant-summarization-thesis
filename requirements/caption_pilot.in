@@ -1,0 +1,13 @@
+# E0 isolated environment only; preserve preprocessing.lock/current notebook kernel.
+# GPU Torch/torchvision installed separately from the official CUDA12.8 wheel index.
+numpy==1.26.4
+pandas==2.2.3
+orjson==3.10.16
+Pillow==12.2.0
+PyYAML==6.0.2
+transformers==4.51.3
+tokenizers==0.21.1
+huggingface-hub==0.36.2
+accelerate==1.6.0
+psutil==7.0.0
+safetensors==0.8.0

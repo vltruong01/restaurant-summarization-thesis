@@ -1,0 +1,192 @@
+{
+  "status": "PASS",
+  "businesses": 15,
+  "calls": 30,
+  "selected_review_presentations": 247,
+  "filtered_caption_presentations": 73,
+  "checks": [
+    {
+      "call_id": "TA14622324_9802783__review",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "966f53ad79149953457cc1f40359b1b1f80b8e8eb86a2cb7ee76f76662f939a7"
+    },
+    {
+      "call_id": "TA14622324_9802783__visual",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "cb68a752b4cd398e18e4e8cc46a88d569e68ae1567f0957ac2e886a4a6c60a95"
+    },
+    {
+      "call_id": "TA14622324_2687285__review",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "24497c5d1abdc8ee361b41bbdcd3d5b46ca28f8604677b38526b9ac707a3c6d5"
+    },
+    {
+      "call_id": "TA14622324_2687285__visual",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "451512f11bc8e41c82ea5f8c8ad529982bbcdccd4865f93792fe88a7be5d7224"
+    },
+    {
+      "call_id": "TA14622324_7345192__review",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "9db497204c3b862e72094985fff68d8115c572ad9c3317320a06df3e35a6034b"
+    },
+    {
+      "call_id": "TA14622324_7345192__visual",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "c848154c7168121aca061f3e763d3fded6f768d20c9bd44fb21e19cdbb0bd382"
+    },
+    {
+      "call_id": "TA14622324_1119478__review",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "385e3b0984c4be6b345216bb0118e89895830cb8390fbd8d96d5f80a42148c4f"
+    },
+    {
+      "call_id": "TA14622324_1119478__visual",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "9105defdd4496c350eee566a852fe9ba1381ca9bdb34e5d1d091cfef386a80ad"
+    },
+    {
+      "call_id": "TA14622324_3512687__review",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "76cdf8f72e9f8247888e8eaa2a1332ec62d2197d255437a8b2defb1736f6b290"
+    },
+    {
+      "call_id": "TA14622324_3512687__visual",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "f6585705cd98ae61856d259de38d90a9164cf896ff7dc4c5640a77e5fc10e39d"
+    },
+    {
+      "call_id": "TA14622324_3961117__review",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "8cafd4ee1922949d62cec9e1091e1cd5e799bc9179b93e1e267a49263181eeca"
+    },
+    {
+      "call_id": "TA14622324_3961117__visual",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "298e6bd11f775e68c02923b51cf2e67222d9999e65c8a35f04f26c4d2fe38368"
+    },
+    {
+      "call_id": "TA14622324_3410297__review",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "00a0796139c3d27045e426976347f94861e0d01602f6a021dd1f23df0cb4da90"
+    },
+    {
+      "call_id": "TA14622324_3410297__visual",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "319727493c7457ae9eeb3bcb61c6fbce507d18472b92e03117f2ad3efe423e06"
+    },
+    {
+      "call_id": "TA14622324_8556009__review",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "c6b0da8a1ce15e22a40ec49c26ff6cde2e94f45dbbcec0035cb2356d8f43b7c6"
+    },
+    {
+      "call_id": "TA14622324_8556009__visual",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "88a0bd55b052fe7e782325351a5324cfecc0f76c94ad20f405c8f6a8d8785573"
+    },
+    {
+      "call_id": "TA14622324_2298952__review",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "854821afc30d078fdfbce08e8a5e5937fec9ffe859b61d85948c2d2ee39a406d"
+    },
+    {
+      "call_id": "TA14622324_2298952__visual",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "fe18a64b9f504520644f2fe461e5e5c2a4ec5e0f40fd1754857148eefcc081ce"
+    },
+    {
+      "call_id": "TA14622324_2312071__review",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "487f36bb89cdbb0c3dd954e4a578e5b6736a26212c3d8927fb2d7e1690dfd2b8"
+    },
+    {
+      "call_id": "TA14622324_2312071__visual",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "95a0234c4ea990193ffbdb3c6edddebd796dfa9c0fa61f9ea7be204a8c2cdc1c"
+    },
+    {
+      "call_id": "TA14622324_1001674__review",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "bb8f4907e04f15817fdd8ad800adf81587e5654440005063645de3fd10b90edc"
+    },
+    {
+      "call_id": "TA14622324_1001674__visual",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "0353afbe8cd7a5b3219ebda8fc1012eda10d6fbc1b5ee26f6915b9232c613149"
+    },
+    {
+      "call_id": "TA14622324_4735772__review",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "5cb211a9db72c46becb9399a39cf563c0c45249e333deb47aea297e12634f68a"
+    },
+    {
+      "call_id": "TA14622324_4735772__visual",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "41b5b29187e2dea4609746a605b7d00259f31b881a8b20f2af2c42e027782c01"
+    },
+    {
+      "call_id": "TA14622324_6600483__review",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "bdade372357c4394d5b256955ee43534ef80b6b038458d11cd2fa7e8d14ad1d1"
+    },
+    {
+      "call_id": "TA14622324_6600483__visual",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "2eb57dcd488dc43e1efa694b23b43363c66dcaebecb0e9100c542dee5cf5a8a0"
+    },
+    {
+      "call_id": "TA14622324_23652638__review",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "55350209359f16195b2dac9cbec7a76da85a53ed9a840c47b46b30897d7d044c"
+    },
+    {
+      "call_id": "TA14622324_23652638__visual",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "8dfe901e96c7512148f865b2d417dbfe532f5f5d2251d50e8ec6e56554fa83e5"
+    },
+    {
+      "call_id": "TA14622324_4004593__review",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "ae2bb6fd48097315ee286b8c8c5b9a0dde8d506993685a99a51687326630b80b"
+    },
+    {
+      "call_id": "TA14622324_4004593__visual",
+      "exact_source_equal": true,
+      "evidence_IDs_equal": true,
+      "source_sha256": "6d05970fec8d47c0ab3eea426f1d60d8b6af856a20339b4834673d0a741c69df"
+    }
+  ],
+  "source_LED_call_plan_sha256": "ec3859dc3dbcd607398e8f9d4d6fe8f3cd4aff07bb9ca432272158f955d082e0",
+  "no_pixels": true,
+  "no_LED_outputs_or_Teacher_or_ratings_in_requests": true
+}

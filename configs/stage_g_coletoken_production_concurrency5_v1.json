@@ -1,0 +1,92 @@
+{
+  "status": "D042_USER_APPROVED_COLETOKEN_CONTINUATION_CONCURRENCY5",
+  "protocol_version": "stage_g_d040_visible_identity_count_and_category_scope_prompt",
+  "requested_model": "gpt-6.1-sol",
+  "snapshot": null,
+  "generation_proposal": {
+    "reasoning_effort": "medium",
+    "max_output_tokens": 8192,
+    "store": false,
+    "stream": true,
+    "temperature": null,
+    "automatic_retries": 0,
+    "concurrency": 1
+  },
+  "tasks": {
+    "review_consensus": "once_per_business_reviews_only",
+    "visual_evidence": "separate_unfiltered_and_filtered_caption_photo_pairs_only",
+    "empty_caption_condition": "empty_visual_evidence_no_visual_model_call"
+  },
+  "prompts": {
+    "review_consensus": "prompts/stage_g_review_consensus_v7.txt",
+    "visual_evidence": "prompts/stage_g_visual_evidence_v4.txt"
+  },
+  "schema": "schemas/stage_g_teacher_pilot_v3.json",
+  "source_pointer": "outputs/stage_f/production_manifest_pointer.json",
+  "output_directory": "outputs/stage_g/teacher_production_d042_v1/coletoken_production_concurrency5_v1",
+  "execution_enabled": true,
+  "full_generation_enabled": true,
+  "target_length_policy": "preserve_complete_targets_no_truncation_512_diagnostic_only_decoder_limit_not_yet_approved",
+  "production_retry_policy": "zero_automatic_retries_stop_drain_preserve_failed_attempt_operator_review_before_resend",
+  "production_model_version_policy": "fixed_requested_alias_gpt-6.1-sol_record_provider_model_and_stop_on_alias_mismatch_no_immutable_snapshot_attestation",
+  "revision_reason": "Researcher accepts READY WITH DOCUMENTED LIMITATIONS and freezes existing D040 protocol; no teacher prompt or scientific input change",
+  "evidence_representation": "model_selects_source_span_IDs_code_resolves_exact_original_quotes",
+  "target_serialization": {
+    "visual_repeated_statement_key": "lowercase_whitespace_normalized_text",
+    "preserve_first_model_sentence": true,
+    "keep_all_caption_photo_evidence": true,
+    "within_caption_repetition": "reject",
+    "semantic_similarity_filter": "none"
+  },
+  "citation_metadata_policy": {
+    "evidence_selection": "strict_business_review_marker_and_span_IDs",
+    "original_review_id": "derive_from_immutable_source_mapping",
+    "redundant_teacher_reported_review_id": "preserve_raw_and_diagnose_disagreement",
+    "unknown_or_wrong_review_span": "reject",
+    "minimum_distinct_supporting_reviews": "unchanged_source_canonical_IDs"
+  },
+  "parent_pilot_config": "configs/stage_g_teacher_pilot_v6_focused_d040.json",
+  "decision": "D-042",
+  "production_scope": {
+    "train": 2000,
+    "validation": 200,
+    "held_out_test": 0,
+    "reuse_D041_businesses": 100,
+    "generate_remaining_businesses": 2100
+  },
+  "production_scheduling": {
+    "maximum_concurrency": 4,
+    "scheduler": "four_request_batches",
+    "small_batch_businesses": 4,
+    "scale_only_after_independent_offline_small_batch_PASS": true
+  },
+  "known_limitations": [
+    "caption/visual target informativeness can be low",
+    "fine-grained factual errors may remain despite teacher verification",
+    "cross-condition verdict variability is preserved and reported",
+    "provider exposes model alias without attested immutable backend snapshot",
+    "existing random25 material remains separate from completed human annotation"
+  ],
+  "decoder_limit": null,
+  "execution": {
+    "provider": "coletoken",
+    "base_url": "https://www.coletoken.de/v1",
+    "maximum_concurrency": 5,
+    "maximum_active_businesses": 2,
+    "scheduler": "rolling_business_window_two_slots_shared_five_request_pool",
+    "automatic_retries": 0,
+    "maximum_new_API_calls": 6196,
+    "teacher_credentials": "isolated_private_store_only",
+    "Codex_config_or_auth_access": false,
+    "parent_config": "configs/stage_g_teacher_production_d042.json",
+    "reuse_validated_components": 402,
+    "initial_completed_businesses": 134,
+    "parent_original_pause_flag": "historical_preserved_user_explicitly_resumed_new_namespace",
+    "pause_file": "outputs/stage_g/teacher_production_d042_v1/coletoken_production_concurrency5_v1/STOP_REQUESTED.json",
+    "source_review_caption_model_prompt_schema_unchanged": true,
+    "Mirai_outputs_imported": false,
+    "stop_after": "all2200_train_validation_businesses_generation_and_full_source_schema_token_audit_no_LED_training",
+    "socket_idle_seconds": 120,
+    "overall_request_deadline_seconds": 600
+  }
+}

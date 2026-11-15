@@ -1,0 +1,104 @@
+{
+  "model_id": "allenai/led-base-16384",
+  "revision": "38335783885b338d93791936c54bb4be46bebed9",
+  "seed": 42,
+  "lora": {
+    "r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.0,
+    "bias": "none",
+    "task_type": "SEQ_2_SEQ_LM"
+  },
+  "generation": {
+    "max_length": 768,
+    "num_beams": 4,
+    "do_sample": false,
+    "length_penalty": 1.0,
+    "no_repeat_ngram_size": 0,
+    "early_stopping": true,
+    "forced_eos_token_id": 2
+  },
+  "budgets": {
+    "source": 5000,
+    "reviews": 4000,
+    "captions": 750,
+    "target": 768,
+    "K": 5
+  },
+  "runtime_pins": {
+    "torch": "2.1.0+cu118",
+    "transformers": "4.51.3",
+    "peft": "0.15.2",
+    "accelerate": "1.6.0",
+    "numpy": "1.26.4",
+    "tokenizers": "0.21.1",
+    "safetensors": "0.8.0"
+  },
+  "stage_h_manifest": "outputs/stage_h/led_dataset_v1/manifest.json",
+  "final_references": "outputs/stage_i/d053_final_references_v1/FINAL_RESEARCHER_APPROVED_REFERENCES.json",
+  "experiment": "post_D060_unlikelihood_paired_v1",
+  "status": "OFFLINE_PREPARED_NOT_GPU_AUTHORIZED",
+  "GPU_execution_approved": false,
+  "training_authorized": false,
+  "condition": "filtered",
+  "initial_adapter": "outputs/stage_i/cloud_return_20261015_v1/stage_hi_v2/outputs/stage_i/runs_v3/filtered/best_adapter",
+  "initial_adapter_sha256": "6c365d267ba30478db40891ab9927dae55cd15c5a099f2a774df0add92bad588",
+  "initial_adapter_config_sha256": "c4ecf152dfdbb2bbff7f6b39c58ccff8397fb71aff09959fdf891a3c6474c359",
+  "expected_modules": 24,
+  "expected_trainable_parameters": 294912,
+  "arms": {
+    "control_ce": 0.0,
+    "treatment_ul": 0.1
+  },
+  "negative_design": "one_teacher_derived_prefix_per_business; alternating_sentence_and_word; no_model_generation",
+  "optimization": {
+    "optimizer": "adamw_torch",
+    "learning_rate": 0.0002,
+    "weight_decay": 0.01,
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "adam_epsilon": 1e-08,
+    "physical_batch_size": 1,
+    "validation_batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "num_train_epochs": 2,
+    "lr_scheduler_type": "linear",
+    "warmup_ratio": 0.05,
+    "max_grad_norm": 1.0,
+    "fp16": true,
+    "bf16": false,
+    "gradient_checkpointing": true,
+    "gradient_checkpointing_kwargs": {
+      "use_reentrant": false
+    },
+    "eval_strategy": "epoch",
+    "save_strategy": "epoch",
+    "save_total_limit": 2,
+    "early_stopping_patience": null,
+    "metric_for_best_model": "eval_loss",
+    "greater_is_better": false,
+    "full_determinism": false
+  },
+  "training_businesses": 512,
+  "validation_businesses": 200,
+  "training_steps_per_arm": 128,
+  "warmup_steps": 7,
+  "evaluation_epochs": [
+    2
+  ],
+  "generation_outputs_total": 48,
+  "gate_updates_per_arm": 3,
+  "gate_microbatches_per_arm": 24,
+  "headroom_minimum": 0.15,
+  "run_root": "outputs/stage_i/unlikelihood_paired_run_v1",
+  "new_execution_deadline_utc": null,
+  "prior_deadline_override_approved": false,
+  "old_deadlines_preserved": {
+    "D060": "2026-10-22T07:11:22.846767+00:00",
+    "D059": "2026-10-25T15:10:48.941817+00:00"
+  },
+  "D051_strict_replay": "FAIL_UNCHANGED",
+  "held_out_access": false,
+  "Teacher_calls": false,
+  "primary_validation_interpretation": "fixed24 repeatedly inspected DEVELOPMENT cases; not independent confirmation"
+}

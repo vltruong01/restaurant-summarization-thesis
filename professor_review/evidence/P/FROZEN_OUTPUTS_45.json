@@ -1,0 +1,980 @@
+[
+  {
+    "business_id": "TA14622324_9802783",
+    "system": "LED F original",
+    "review_text": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers describe the food as good, tasty, or fantastic, while others find it merely passable or not worth the price. Service is described by several reviewers as friendly, helpful, or excellent, while others report long waits, inattentive staff, or poor service. Reviewers commonly describe the atmosphere as family-oriented, spacious, relaxed, relaxed, or social, with a patio or children's area for children to play. Value opinions are mixed: some reviewers consider the prices reasonable or worth a visit, while others consider the prices too high for the type of place.",
+    "visual_text": "[VISUAL_EVIDENCE]\nThere is a piece of cheesecake. The cheesecake is on a white plate. The cheesecake is served with a spoon. There is a shelf full of green bottles. The bottles are in a store. A group of people is sitting at picnic tables. The picnic tables are under red umbrellas. The photo shows a close-up of a sign. The sign is in Spanish. The photo shows a restaurant. People are in the restaurant.",
+    "selected_photo_ids": [
+      "TA_PHOTO_198023a3",
+      "TA_PHOTO_11ad2c6c",
+      "TA_PHOTO_08a9cbc8",
+      "TA_PHOTO_0b94055d",
+      "TA_PHOTO_0b94055f"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_198023a3.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_11ad2c6c.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_08a9cbc8.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0b94055d.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0b94055f.jpg"
+    ],
+    "review_text_sha256": "d5a8e2b233ed28b898689cb6a70f3f3133a14ebb8bb7c4af9746ca1cb737507f",
+    "visual_text_sha256": "0c57d3dad5b7445770e8e56d20ebbb757325fe5690222b83e11eb85656886556"
+  },
+  {
+    "business_id": "TA14622324_9802783",
+    "system": "Qwen-Caption",
+    "review_text": "[REVIEW_CONSENSUS] El Cruce Restaurant in Gijon is a traditional, family-oriented Mediterranean and European establishment frequently praised for its relaxed atmosphere, spacious dining areas, and friendly staff. Guests consistently highlight the excellent service, the social experience of drinking cider, and the availability of a dedicated children's play area. Specific dishes receiving high acclaim include the scorpion fish pie, fried whole baby squid, garlic king prawns, and lomo chips, while the menu is noted for its seasonal variety and large tapas portions. Conversely, some visitors found the food merely passable or not impressive, with one reviewer noting the tortilla was unremarkable. While prices are described as reasonable by some, others felt the value was tied more to the venue's character than the food quality itself. A car is often needed to reach the location, which sits just outside the city center.",
+    "visual_text": "[VISUAL_EVIDENCE] A piece of cheesecake rests on a white plate with a spoon. A shelf displays numerous green bottles within a store setting. People sit at picnic tables shaded by red umbrellas. A sign for \"El Cruce\" appears in Spanish script. A blurry image shows a restaurant interior with people present.",
+    "selected_photo_ids": [
+      "TA_PHOTO_198023a3",
+      "TA_PHOTO_11ad2c6c",
+      "TA_PHOTO_08a9cbc8",
+      "TA_PHOTO_0b94055d",
+      "TA_PHOTO_0b94055f"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_198023a3.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_11ad2c6c.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_08a9cbc8.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0b94055d.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0b94055f.jpg"
+    ],
+    "review_text_sha256": "f488e637da10cde2a45406201ddf2d5de41d305dd3ef054a0e29ce96cd3a5564",
+    "visual_text_sha256": "d669cffa4ae21c820c43f44beff6e64217d3a3ffed9f818cb49c5328129167f1"
+  },
+  {
+    "business_id": "TA14622324_9802783",
+    "system": "Qwen-Image",
+    "review_text": "[REVIEW_CONSENSUS] El Cruce Restaurant in Gijon is a traditional, family-oriented Mediterranean and European establishment frequently praised for its relaxed atmosphere, spacious dining areas, and friendly staff. Guests consistently highlight the excellent service, the social experience of drinking cider, and the availability of a dedicated children's play area. Specific dishes receiving high acclaim include the scorpion fish pie, fried whole baby squid, garlic king prawns, and lomo chips, while the menu is noted for its seasonal variety and large tapas portions. Conversely, some visitors found the food merely passable or not impressive, with one reviewer noting the tortilla was unremarkable. While prices are described as reasonable by some, others felt the value was tied more to the venue's character than the food quality itself. A car is often needed to reach the location, which sits just outside the city center.",
+    "visual_text": "[VISUAL_EVIDENCE] The restaurant El Cruce features an outdoor patio with red umbrellas and wooden picnic tables on a grassy area. Inside, the entrance shows a counter with staff and wooden chairs. A wine display case holds numerous green bottles on shelves. A dessert plate presents a slice of cheesecake with a dark sauce and a spoon. The establishment is located at Ctra. Deva, 8 - 33394 Gijón.",
+    "selected_photo_ids": [
+      "TA_PHOTO_198023a3",
+      "TA_PHOTO_11ad2c6c",
+      "TA_PHOTO_08a9cbc8",
+      "TA_PHOTO_0b94055d",
+      "TA_PHOTO_0b94055f"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_198023a3.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_11ad2c6c.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_08a9cbc8.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0b94055d.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0b94055f.jpg"
+    ],
+    "review_text_sha256": "f488e637da10cde2a45406201ddf2d5de41d305dd3ef054a0e29ce96cd3a5564",
+    "visual_text_sha256": "2d0275f75ea0216ccbf5d497db99ac8eb0129b177693b52194103afd7da7f1ac"
+  },
+  {
+    "business_id": "TA14622324_2687285",
+    "system": "LED F original",
+    "review_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the seafood and seafood meals as fresh, excellent, or top quality. Service experiences vary: some reviewers describe the staff as friendly, individualized, or individualized, while others report rude, inattentive, or inattentive service. Several reviewers consider the prices reasonable or good value for money, while others describe the restaurant as overpriced, expensive, or not worth the money. The atmosphere is often described as pleasant, distinctive, or suitable for the surroundings, including the Casco Antiguo of Gijon.",
+    "visual_text": "[VISUAL_EVIDENCE]\nA plate of dried fish is sitting on a table. The plate is next to a fork. A person is holding a glass of beer. The glass is on a cobblestone street. A group of people is sitting on a bench. The bench is near a body of water. A woman is standing in a restaurant. The restaurant has a table and chairs. The dining room has a table and chairs. The table and chairs are in front of a wall.",
+    "selected_photo_ids": [
+      "TA_PHOTO_139ad51f",
+      "TA_PHOTO_19f894d4",
+      "TA_PHOTO_0dce1807",
+      "TA_PHOTO_181bdd39",
+      "TA_PHOTO_1bdf065a"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_139ad51f.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_19f894d4.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0dce1807.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_181bdd39.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1bdf065a.jpg"
+    ],
+    "review_text_sha256": "12dfa23d4dbe51f807a168870be606e6719135e2bb56b4522ac49b8438dd5d7b",
+    "visual_text_sha256": "ec9bad0c5751023c6b658b8e56e8fee7b70b53f94867cc0299137e5299fb0a6c"
+  },
+  {
+    "business_id": "TA14622324_2687285",
+    "system": "Qwen-Caption",
+    "review_text": "[REVIEW_CONSENSUS] El Planeta in Gijon is a Mediterranean seafood restaurant located in the Casco Antiguo or marina area, frequently praised for its fresh, high-quality fish dishes such as anchoas, rape, sardines, and calamari. Many guests highlight the friendly service, great harbor views, and reasonable prices relative to the food quality, recommending it as an honest local spot. However, experiences vary significantly; some diners report rude or impatient staff, noisy environments, and substandard food like stale fish soup or poorly prepared meat. Specific complaints include unexpected charges for bread, dirty glassware, and substitutions made without prior consent, leading to feelings of being overcharged. While the food is often described as excellent, negative reviews cite mediocre results, overpricing, and a lack of warmth, suggesting that the experience heavily depends on the specific visit and staff interaction.",
+    "visual_text": "[VISUAL_EVIDENCE] A plate of dried fish rests on a table beside a fork. A person holds a glass of beer on a cobblestone street. A group sits on a bench near water. A woman stands in a restaurant with tables and chairs. A dining room features a table and chairs positioned in front of a wall.",
+    "selected_photo_ids": [
+      "TA_PHOTO_139ad51f",
+      "TA_PHOTO_19f894d4",
+      "TA_PHOTO_0dce1807",
+      "TA_PHOTO_181bdd39",
+      "TA_PHOTO_1bdf065a"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_139ad51f.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_19f894d4.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0dce1807.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_181bdd39.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1bdf065a.jpg"
+    ],
+    "review_text_sha256": "81250e8716d0ed78a9daa9ffc212be21339735a87a0f3663cf6bea88c3a48b51",
+    "visual_text_sha256": "f8848cd35905b7b9d319b79f8fccb28ccf614935bade26147d086db25ee0b463"
+  },
+  {
+    "business_id": "TA14622324_2687285",
+    "system": "Qwen-Image",
+    "review_text": "[REVIEW_CONSENSUS] El Planeta in Gijon is a Mediterranean seafood restaurant located in the Casco Antiguo or marina area, frequently praised for its fresh, high-quality fish dishes such as anchoas, rape, sardines, and calamari. Many guests highlight the friendly service, great harbor views, and reasonable prices relative to the food quality, recommending it as an honest local spot. However, experiences vary significantly; some diners report rude or impatient staff, noisy environments, and substandard food like stale fish soup or poorly prepared meat. Specific complaints include unexpected charges for bread, dirty glassware, and substitutions made without prior consent, leading to feelings of being overcharged. While the food is often described as excellent, negative reviews cite mediocre results, overpricing, and a lack of warmth, suggesting that the experience heavily depends on the specific visit and staff interaction.",
+    "visual_text": "[VISUAL_EVIDENCE] A white plate holds several small, cooked fish with a fork beside it. A hand holds a glass containing a yellow liquid, with a harbor scene visible in the background. The restaurant interior features wooden tables and chairs, a dark ceiling with hanging lights, and a view of a waterfront area with buildings and parked cars.",
+    "selected_photo_ids": [
+      "TA_PHOTO_139ad51f",
+      "TA_PHOTO_19f894d4",
+      "TA_PHOTO_0dce1807",
+      "TA_PHOTO_181bdd39",
+      "TA_PHOTO_1bdf065a"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_139ad51f.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_19f894d4.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0dce1807.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_181bdd39.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1bdf065a.jpg"
+    ],
+    "review_text_sha256": "81250e8716d0ed78a9daa9ffc212be21339735a87a0f3663cf6bea88c3a48b51",
+    "visual_text_sha256": "8c6112296f77095b560df8e938e4ea6e19384c2663260fa43fd89210ab08bf85"
+  },
+  {
+    "business_id": "TA14622324_7345192",
+    "system": "LED F original",
+    "review_text": "[REVIEW_CONSENSUS]\nMany selected reviewers praise the cakes and desserts, describing them as delicious, fresh, handmade, or very good. Coffee is repeatedly described as good or very good, though one reviewer found the coffee unremarkable. Service is often described as friendly, attentive, welcoming, and attentive. Reviewers commonly describe the atmosphere as cozy, cozy, beautiful, or relaxing, though some reviewers found the seats uncomfortable.",
+    "visual_text": "[VISUAL_EVIDENCE]\nThere is a store front. The sign says “punto caramelo.” A man is sitting at a table. The man is in a restaurant. Several sandwiches are stacked on a plate. The plate is on a counter. A table is topped with magazines. A cup of coffee is on the table. A display case is filled with pastries and desserts.",
+    "selected_photo_ids": [
+      "TA_PHOTO_1be95e8a",
+      "TA_PHOTO_09e38677",
+      "TA_PHOTO_25ce95cd",
+      "TA_PHOTO_08dd9f7a",
+      "TA_PHOTO_1682ef77"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_1be95e8a.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_09e38677.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_25ce95cd.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_08dd9f7a.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1682ef77.jpg"
+    ],
+    "review_text_sha256": "6e462f53b26d4122569f6428de7c1924d5d5399d35e4ea975e60f2f9b54ecab4",
+    "visual_text_sha256": "35dca29202d46b531c12d524e17afbb3e5a3cb40570db30d03b75c74d5ade823"
+  },
+  {
+    "business_id": "TA14622324_7345192",
+    "system": "Qwen-Caption",
+    "review_text": "[REVIEW_CONSENSUS] Punto Caramelo in Gijon is widely praised as a cozy European coffee shop and bakery offering exceptional pastries, including highly recommended lemon pie, brownies with dulce de leche, alfajores, and an apple-pie cheesecake. Guests consistently highlight the friendly, attentive staff, relaxing atmosphere, and convenient location near the beach and town center, making it ideal for breakfast, brunch, or afternoon tea. While most reviews laud the fresh, handmade quality of sweets and good coffee, a few note that the coffee is merely \"ok\" or lacks lactose-free alternatives, and one visitor found some seating uncomfortable. The venue operates with different hours on weekends versus weekdays and occasionally closes for siesta, though it remains a favorite for both dine-in and takeaway orders.",
+    "visual_text": "[VISUAL_EVIDENCE] The location features a storefront sign reading \"punto caramelo.\" Inside, a man sits at a table eating a meal. Several sandwiches are stacked on a plate atop a counter. Another table holds magazines and a cup of coffee. A display case contains a variety of pastries and desserts.",
+    "selected_photo_ids": [
+      "TA_PHOTO_1be95e8a",
+      "TA_PHOTO_09e38677",
+      "TA_PHOTO_25ce95cd",
+      "TA_PHOTO_08dd9f7a",
+      "TA_PHOTO_1682ef77"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_1be95e8a.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_09e38677.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_25ce95cd.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_08dd9f7a.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1682ef77.jpg"
+    ],
+    "review_text_sha256": "fb43ee3a9f953b9c3892f26b0e55f4838e4defd17dc878f5056b5d6101d68a26",
+    "visual_text_sha256": "5355d649597dd0554538c642a342a64595dc8bd917bece07690da4938238f924"
+  },
+  {
+    "business_id": "TA14622324_7345192",
+    "system": "Qwen-Image",
+    "review_text": "[REVIEW_CONSENSUS] Punto Caramelo in Gijon is widely praised as a cozy European coffee shop and bakery offering exceptional pastries, including highly recommended lemon pie, brownies with dulce de leche, alfajores, and an apple-pie cheesecake. Guests consistently highlight the friendly, attentive staff, relaxing atmosphere, and convenient location near the beach and town center, making it ideal for breakfast, brunch, or afternoon tea. While most reviews laud the fresh, handmade quality of sweets and good coffee, a few note that the coffee is merely \"ok\" or lacks lactose-free alternatives, and one visitor found some seating uncomfortable. The venue operates with different hours on weekends versus weekdays and occasionally closes for siesta, though it remains a favorite for both dine-in and takeaway orders.",
+    "visual_text": "[VISUAL_EVIDENCE] Punto Caramelo is a warmly lit establishment with a glass-fronted display case showcasing multiple tiers of assorted pastries and desserts. The interior features a person seated at a table, while a separate scene shows a stack of layered cakes on a platter. A table setting includes a cup of coffee, a cookie, a chocolate dessert, and a magazine.",
+    "selected_photo_ids": [
+      "TA_PHOTO_1be95e8a",
+      "TA_PHOTO_09e38677",
+      "TA_PHOTO_25ce95cd",
+      "TA_PHOTO_08dd9f7a",
+      "TA_PHOTO_1682ef77"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_1be95e8a.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_09e38677.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_25ce95cd.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_08dd9f7a.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1682ef77.jpg"
+    ],
+    "review_text_sha256": "fb43ee3a9f953b9c3892f26b0e55f4838e4defd17dc878f5056b5d6101d68a26",
+    "visual_text_sha256": "a4318b06fc221cec8ef92c508f4f0d9060bece8f5a1b58c60c3783e40304d1f4"
+  },
+  {
+    "business_id": "TA14622324_1119478",
+    "system": "LED F original",
+    "review_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food and drinks, including Sardinnes, cheese, charcuteries, cider, and local beers. Service is often described as friendly, attentive, informative, and knowledgeable, with helpful recommendations for food and drink. The atmosphere is often described as relaxed, cozy, comfortable, and suitable for relaxing with a drink or music. Several reviewers describe the prices as reasonable, affordable, or worth a visit.",
+    "visual_text": "[VISUAL_EVIDENCE]\nThe food is served on a blue plate. The plate contains tomatoes. The plate contains onions. The plate contains tuna. A woman is holding a glass. The glass is outside in the sun. The photo shows an open door. The open door leads to a bar. A ceiling fan is in the background. A group of people is sitting at a table. The table is in a restaurant. A person is eating a plate of food. The plate is at a bar.",
+    "selected_photo_ids": [
+      "TA_PHOTO_28afab72",
+      "TA_PHOTO_26d84b0d",
+      "TA_PHOTO_23a8341d",
+      "TA_PHOTO_26a87081",
+      "TA_PHOTO_25897a75"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_28afab72.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_26d84b0d.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_23a8341d.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_26a87081.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_25897a75.jpg"
+    ],
+    "review_text_sha256": "10e607a3444da57d788453ed3c59258234cf1b158518375d88c614d0f50e2107",
+    "visual_text_sha256": "b3ac5932f6d859c815a0fce0df6135e100e7761537f338e1990d623ef468b8d7"
+  },
+  {
+    "business_id": "TA14622324_1119478",
+    "system": "Qwen-Caption",
+    "review_text": "[REVIEW_CONSENSUS] El Arca de Noe in Gijon is widely praised as a cozy, classic Mediterranean spot offering excellent service, friendly staff like Laura, Claudia, Maria, and Desirée, and a relaxed atmosphere with good music. Guests consistently highlight the quality of specific dishes, including delicious Sardinnes, a five-cheese tasting board, local Asturian food, and a variety of cheeses and charcuteries paired with local cider, vermouth, and an impressive selection of craft beers. While the venue gets very busy on weekends starting Thursday evenings, reviewers appreciate its reasonable prices, central location near Cimadevilla, and the staff's ability to explain menus in both Spanish and English. Overall, the consensus describes it as a well-worth visit for a leisure break, traditional lunch, or a revelation for beer enthusiasts seeking high-quality local brews.",
+    "visual_text": "[VISUAL_EVIDENCE] A blue plate holds tomatoes, onions, and tuna. A woman holds a glass of yellow liquid outside in the sun. An open door reveals a bar with a ceiling fan. A group of people sits at a restaurant table. One person eats a plate of food at the bar.",
+    "selected_photo_ids": [
+      "TA_PHOTO_28afab72",
+      "TA_PHOTO_26d84b0d",
+      "TA_PHOTO_23a8341d",
+      "TA_PHOTO_26a87081",
+      "TA_PHOTO_25897a75"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_28afab72.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_26d84b0d.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_23a8341d.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_26a87081.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_25897a75.jpg"
+    ],
+    "review_text_sha256": "580a42795682ff4ca9f3401175533c6563f060c58903d1ab675820c056c41482",
+    "visual_text_sha256": "82c06e9dcd62d78ee8375467e6d18af25d93127ad2d65833b51ab15419fd2053"
+  },
+  {
+    "business_id": "TA14622324_1119478",
+    "system": "Qwen-Image",
+    "review_text": "[REVIEW_CONSENSUS] El Arca de Noe in Gijon is widely praised as a cozy, classic Mediterranean spot offering excellent service, friendly staff like Laura, Claudia, Maria, and Desirée, and a relaxed atmosphere with good music. Guests consistently highlight the quality of specific dishes, including delicious Sardinnes, a five-cheese tasting board, local Asturian food, and a variety of cheeses and charcuteries paired with local cider, vermouth, and an impressive selection of craft beers. While the venue gets very busy on weekends starting Thursday evenings, reviewers appreciate its reasonable prices, central location near Cimadevilla, and the staff's ability to explain menus in both Spanish and English. Overall, the consensus describes it as a well-worth visit for a leisure break, traditional lunch, or a revelation for beer enthusiasts seeking high-quality local brews.",
+    "visual_text": "[VISUAL_EVIDENCE] A blue plate holds a tuna salad with sliced tomatoes and onions. A hand holds a glass of yellow liquid, possibly beer, with red nail polish visible. The interior shows green doors, a bar with stools, and framed pictures on the walls. Patrons are seated at tables, and another dish with beans is served on a blue plate.",
+    "selected_photo_ids": [
+      "TA_PHOTO_28afab72",
+      "TA_PHOTO_26d84b0d",
+      "TA_PHOTO_23a8341d",
+      "TA_PHOTO_26a87081",
+      "TA_PHOTO_25897a75"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_28afab72.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_26d84b0d.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_23a8341d.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_26a87081.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_25897a75.jpg"
+    ],
+    "review_text_sha256": "580a42795682ff4ca9f3401175533c6563f060c58903d1ab675820c056c41482",
+    "visual_text_sha256": "a17110fd1bb0cf7c9913bcb3a422e9075bdbb70956d4daac9b3c74550e9098e7"
+  },
+  {
+    "business_id": "TA14622324_3512687",
+    "system": "LED F original",
+    "review_text": "[REVIEW_CONSENSUS]\nCachopo is repeatedly praised for its flavor and tenderness, with reviewers describing it as a main attraction. Several reviewers describe the cachopo as large or filling enough for two or three people. Several reviewers describe the service as friendly, welcoming, helpful, or excellent. Several reviewers consider the food and drinks good value, citing generous portions, fair prices, or a good value for money. Several reviewers describe the setting as relaxing, relaxing, or suitable for checking out local gastronomy.",
+    "visual_text": "[VISUAL_EVIDENCE]\nThe food is on a white plate. The plate contains bread. The plate contains lettuce. The plate contains crackers. A woman is standing at a bar. A drink is in her hand. A sign is on a stone wall. A cross is on the wall. A table has chairs. A bottle of beer is in front of a green wall. A man is wearing a pink shirt. The man is serving food. The man is in a restaurant.",
+    "selected_photo_ids": [
+      "TA_PHOTO_1c27575c",
+      "TA_PHOTO_0a8962d9",
+      "TA_PHOTO_15005176",
+      "TA_PHOTO_268989e6",
+      "TA_PHOTO_13d2b8ed"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_1c27575c.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0a8962d9.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_15005176.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_268989e6.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_13d2b8ed.jpg"
+    ],
+    "review_text_sha256": "9ad9751d68afdac7102dede2e74e553ec874cbc61ed0c1c9343d35bdb59c0808",
+    "visual_text_sha256": "343364121fb0ae8cc741bc9ad0299904c6ae17cb2c7a9e5752547627279adf4b"
+  },
+  {
+    "business_id": "TA14622324_3512687",
+    "system": "Qwen-Caption",
+    "review_text": "[REVIEW_CONSENSUS] Sidreria Casa Carmen Manso in Gijon is widely praised for its authentic Spanish atmosphere, exceptional service, and delicious traditional food, particularly the massive cachopo which many reviewers describe as tender, flavorful, and a must-try main event. Guests frequently highlight the friendly and welcoming staff, including specific mentions of waitresses like Paola and Maria, who provide excellent recommendations and skilled cider pouring that adds to the unique dining experience. The restaurant is noted for enormous portions of food, including salads and starters, often requiring diners to share dishes or leave leftovers. While the lively, crowded environment is seen as a sign of popularity, one reviewer noted a negative experience regarding seating availability despite empty tables, though this was an isolated incident. Overall, the consensus strongly recommends booking in advance due to high demand, especially for dinner, to ensure a spot at this beloved local institution.",
+    "visual_text": "[VISUAL_EVIDENCE] A white plate holds bread, lettuce, and crackers. A woman stands at a bar holding a drink. A sign with a cross is mounted on a stone wall. A table with chairs sits before a green wall, featuring a bottle of beer. A man in a pink shirt serves food within the restaurant setting.",
+    "selected_photo_ids": [
+      "TA_PHOTO_1c27575c",
+      "TA_PHOTO_0a8962d9",
+      "TA_PHOTO_15005176",
+      "TA_PHOTO_268989e6",
+      "TA_PHOTO_13d2b8ed"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_1c27575c.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0a8962d9.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_15005176.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_268989e6.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_13d2b8ed.jpg"
+    ],
+    "review_text_sha256": "6542bf8a4c2c9f3cb76008bf83784a33aa9410e3d9a2866f206de196b088a204",
+    "visual_text_sha256": "c4cae9432a775f13540ed3082575c567c66ffc43557caa9dec82b6dcff05c799"
+  },
+  {
+    "business_id": "TA14622324_3512687",
+    "system": "Qwen-Image",
+    "review_text": "[REVIEW_CONSENSUS] Sidreria Casa Carmen Manso in Gijon is widely praised for its authentic Spanish atmosphere, exceptional service, and delicious traditional food, particularly the massive cachopo which many reviewers describe as tender, flavorful, and a must-try main event. Guests frequently highlight the friendly and welcoming staff, including specific mentions of waitresses like Paola and Maria, who provide excellent recommendations and skilled cider pouring that adds to the unique dining experience. The restaurant is noted for enormous portions of food, including salads and starters, often requiring diners to share dishes or leave leftovers. While the lively, crowded environment is seen as a sign of popularity, one reviewer noted a negative experience regarding seating availability despite empty tables, though this was an isolated incident. Overall, the consensus strongly recommends booking in advance due to high demand, especially for dinner, to ensure a spot at this beloved local institution.",
+    "visual_text": "[VISUAL_EVIDENCE] A white plate holds a sandwich on brown bread with lettuce, alongside numerous square toast pieces. A woman stands behind a bar counter with bottles on shelves and a refrigerator. A framed blue sign with a gold cross displays Spanish text. A dining table with a white cloth and a green bottle sits before a bright green wall with a painting. A man in a pink shirt is seen from behind in a room with stone walls and other patrons.",
+    "selected_photo_ids": [
+      "TA_PHOTO_1c27575c",
+      "TA_PHOTO_0a8962d9",
+      "TA_PHOTO_15005176",
+      "TA_PHOTO_268989e6",
+      "TA_PHOTO_13d2b8ed"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_1c27575c.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0a8962d9.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_15005176.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_268989e6.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_13d2b8ed.jpg"
+    ],
+    "review_text_sha256": "6542bf8a4c2c9f3cb76008bf83784a33aa9410e3d9a2866f206de196b088a204",
+    "visual_text_sha256": "2788a3e305ebba04abf5d74deb874ea874ab670f9bc5750363fbf2dc4c1e89a9"
+  },
+  {
+    "business_id": "TA14622324_3961117",
+    "system": "LED F original",
+    "review_text": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers describe the food as good, authentic, or very good, while others describe it as ordinary, bland, or poorly prepared. Service is often described as friendly, attentive, prompt, and helpful, though some reviewers report poor service, greasy food, or an unpleasant meal. Reviewers commonly describe the restaurant as clean, inviting, or well located near the beach. Value opinions are mixed: some reviewers find the prices reasonable or fair, while others consider the food expensive or not worth the price.",
+    "visual_text": "[VISUAL_EVIDENCE]\nA table is topped with a variety of dishes of food. A dessert is on a plate. The dessert has whipped cream on top. There is a menu. A cup of coffee is on a table.",
+    "selected_photo_ids": [
+      "TA_PHOTO_1b68e401",
+      "TA_PHOTO_1376549c",
+      "TA_PHOTO_269263df"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_1b68e401.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1376549c.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_269263df.jpg"
+    ],
+    "review_text_sha256": "ea795b8e3481a780e3e7e30f83019fdf9e71abc7b4aa2a8469ff0dd43a2e5661",
+    "visual_text_sha256": "c1bd8bbfe976bdad8a688b5a1f42bd3bc4e81507bcf7a18e8ea0f0895b59fdd2"
+  },
+  {
+    "business_id": "TA14622324_3961117",
+    "system": "Qwen-Caption",
+    "review_text": "[REVIEW_CONSENSUS] Located on the promenade near Playa San Lorenzo, Restaurante Taj Mahal is a small, family-run Indian business in Gijón praised for its reasonable prices, friendly service, and convenient beachfront location. Many guests highlight specific dishes such as prawn puri, saag paneer, lamb saag, and vegetable samosas as delicious, while others note that the decor is often described as spartan or minimal. However, opinions on food quality are sharply divided; some reviewers describe meals as authentic and tender, whereas others report terrible experiences with tinned vegetables, greasy naan, and curries that lacked proper flavor or cooking methods. While the restaurant is considered a unique option for those seeking variety in Gijón, the inconsistency in dish preparation and the occasional use of frozen or canned ingredients have led to significant criticism from diners expecting traditional Indian cuisine.",
+    "visual_text": "[VISUAL_EVIDENCE] A table displays a variety of dishes, including a dessert topped with whipped cream. Another view shows a menu and a cup of coffee resting on the same table surface. The scene depicts food items and dining accessories arranged for service.",
+    "selected_photo_ids": [
+      "TA_PHOTO_1b68e401",
+      "TA_PHOTO_1376549c",
+      "TA_PHOTO_269263df"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_1b68e401.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1376549c.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_269263df.jpg"
+    ],
+    "review_text_sha256": "2003fc835abf73c16a8c7703dd2b953f23173d8233b61dd3ee2adee6c0d983e9",
+    "visual_text_sha256": "3fabaef4a34d5f6191db1e240457b2b46fa329da46aa01a9b22405c0ce3cb0c7"
+  },
+  {
+    "business_id": "TA14622324_3961117",
+    "system": "Qwen-Image",
+    "review_text": "[REVIEW_CONSENSUS] Located on the promenade near Playa San Lorenzo, Restaurante Taj Mahal is a small, family-run Indian business in Gijón praised for its reasonable prices, friendly service, and convenient beachfront location. Many guests highlight specific dishes such as prawn puri, saag paneer, lamb saag, and vegetable samosas as delicious, while others note that the decor is often described as spartan or minimal. However, opinions on food quality are sharply divided; some reviewers describe meals as authentic and tender, whereas others report terrible experiences with tinned vegetables, greasy naan, and curries that lacked proper flavor or cooking methods. While the restaurant is considered a unique option for those seeking variety in Gijón, the inconsistency in dish preparation and the occasional use of frozen or canned ingredients have led to significant criticism from diners expecting traditional Indian cuisine.",
+    "visual_text": "[VISUAL_EVIDENCE] A dining table displays multiple dishes including a foil-wrapped item, a yellow bowl with dark contents, and a plate with a red flower design. A separate close-up shows a round dessert topped with whipped cream and sprinkles on a speckled plate. A third image features a receipt or menu card placed on a wooden surface. The setting includes potted plants and various containers in the background.",
+    "selected_photo_ids": [
+      "TA_PHOTO_1b68e401",
+      "TA_PHOTO_1376549c",
+      "TA_PHOTO_269263df"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_1b68e401.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1376549c.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_269263df.jpg"
+    ],
+    "review_text_sha256": "2003fc835abf73c16a8c7703dd2b953f23173d8233b61dd3ee2adee6c0d983e9",
+    "visual_text_sha256": "0f133b56e771ae834eca894e76edc18e6ff46b84835fae1d9a9fcc5f2a89ad1c"
+  },
+  {
+    "business_id": "TA14622324_3410297",
+    "system": "LED F original",
+    "review_text": "[REVIEW_CONSENSUS]\nPizza receives repeated praise for its taste and quality, though one reviewer found the pizza unappealing. Gnocchi and gnocchi receive repeated praise, including the 4-cheese gnocchi. Eggplant lasagna and tuna salad each receive repeated praise. Several reviewers describe the portions as large, tasteful, or inexpensive. Service is often described as friendly, efficient, and attentive, though some reviewers report long waits, wrong orders, or incorrect orders. Value opinions are mixed: some reviewers consider the prices reasonable or good value, while others find the food or wine prices OK. The atmosphere is often described as pleasant, well presented, and suitable for visiting the aquarium, beach, or marina.",
+    "visual_text": "[VISUAL_EVIDENCE]\nA white plate holds spaghetti. Mussels are on the plate. The plate is on a table. A man is holding a little girl. The scene is inside a restaurant. A receipt hangs on the wall of a restaurant. A group of people is sitting at a table. People are eating pizza. People are drinking wine. A red pitcher is sitting on a white table.",
+    "selected_photo_ids": [
+      "TA_PHOTO_1d43b1f2",
+      "TA_PHOTO_181c9ee0",
+      "TA_PHOTO_29ed8385",
+      "TA_PHOTO_151a1ed7",
+      "TA_PHOTO_2229160c"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_1d43b1f2.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_181c9ee0.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_29ed8385.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_151a1ed7.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_2229160c.jpg"
+    ],
+    "review_text_sha256": "296200f76345f89b8b9c6ba83cca1e1c97c49f0be85c5ae8ac31c0d6a586ec49",
+    "visual_text_sha256": "523a2eb05bd97e2411bfea439a5d9f15a56843ed23aa9ce3e7c8caa684fee348"
+  },
+  {
+    "business_id": "TA14622324_3410297",
+    "system": "Qwen-Caption",
+    "review_text": "[REVIEW_CONSENSUS] Al Boccalino in Gijon is widely praised for its excellent Italian food, particularly the 4-cheese gnocchi, pizzas like Trevi, carpaccio, and pasta dishes such as ravioli primavera and eggplant lasagna. Diners frequently highlight the friendly, professional staff who often speak English and the restaurant's great value, noting that portions are large and prices are reasonable. The location near the marina and aquarium is appreciated, with many visitors enjoying the atmosphere despite a dull exterior. However, some experiences have been mixed; one reviewer received a wrong pizza order via delivery after a long wait, while another found their pasta dishes served cold and required reheating. Despite these isolated incidents, the consensus remains that the food quality and service are consistently high, making it a favorite for locals and tourists alike.",
+    "visual_text": "[VISUAL_EVIDENCE] A white plate topped with spaghetti and mussels rests on a table. A man holds a little girl while a group of people sit at another table eating pizza and drinking wine. A receipt hangs on the wall, and a red pitcher sits on a white table. These scenes depict various dining activities within the restaurant setting.",
+    "selected_photo_ids": [
+      "TA_PHOTO_1d43b1f2",
+      "TA_PHOTO_181c9ee0",
+      "TA_PHOTO_29ed8385",
+      "TA_PHOTO_151a1ed7",
+      "TA_PHOTO_2229160c"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_1d43b1f2.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_181c9ee0.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_29ed8385.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_151a1ed7.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_2229160c.jpg"
+    ],
+    "review_text_sha256": "91dc7219ce513663b7a939c63e7a9c9cece05a707d4329128bff94288ed3d9b7",
+    "visual_text_sha256": "1e9265225b51f06c1f40b0a796d40e39f67ac4c5cc2feb939a01615fc8fa7e2b"
+  },
+  {
+    "business_id": "TA14622324_3410297",
+    "system": "Qwen-Image",
+    "review_text": "[REVIEW_CONSENSUS] Al Boccalino in Gijon is widely praised for its excellent Italian food, particularly the 4-cheese gnocchi, pizzas like Trevi, carpaccio, and pasta dishes such as ravioli primavera and eggplant lasagna. Diners frequently highlight the friendly, professional staff who often speak English and the restaurant's great value, noting that portions are large and prices are reasonable. The location near the marina and aquarium is appreciated, with many visitors enjoying the atmosphere despite a dull exterior. However, some experiences have been mixed; one reviewer received a wrong pizza order via delivery after a long wait, while another found their pasta dishes served cold and required reheating. Despite these isolated incidents, the consensus remains that the food quality and service are consistently high, making it a favorite for locals and tourists alike.",
+    "visual_text": "[VISUAL_EVIDENCE] A white plate holds spaghetti with mussels and red sauce, garnished with herbs. A man in a black shirt holds a child near a counter with kitchen equipment. A receipt lists items including \"Torta\" and \"Linguine al Frutti di Mare.\" A table displays multiple pizzas, wine glasses, and pitchers. An orange ceramic pitcher is inscribed with \"AL BOCCALINO.\"",
+    "selected_photo_ids": [
+      "TA_PHOTO_1d43b1f2",
+      "TA_PHOTO_181c9ee0",
+      "TA_PHOTO_29ed8385",
+      "TA_PHOTO_151a1ed7",
+      "TA_PHOTO_2229160c"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_1d43b1f2.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_181c9ee0.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_29ed8385.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_151a1ed7.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_2229160c.jpg"
+    ],
+    "review_text_sha256": "91dc7219ce513663b7a939c63e7a9c9cece05a707d4329128bff94288ed3d9b7",
+    "visual_text_sha256": "887605c18469c1be89b8042014c8e755a09dc6b4cd93b6fea83bf13328128124"
+  },
+  {
+    "business_id": "TA14622324_8556009",
+    "system": "LED F original",
+    "review_text": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers describe the food as excellent or great quality, while others report poor quality, undercooked or poorly prepared food. Service experiences vary: some reviewers describe the staff as quick, attentive, or excellent, while others report slow, disorganised, or inattentive service. Value opinions are mixed: some reviewers consider the restaurant reasonably priced or good value, while others describe the food as overpriced or underpriced. Several reviewers describe the setting as cool, cool, child-friendly, or child-friendly, with a nice view of the beach.",
+    "visual_text": "[VISUAL_EVIDENCE]\nThere is a plate of nachos. The plate is sitting on a table. The photo shows a close-up of a receipt. The receipt is in spanish. The hamburger is served with cheese. The hamburger is served with avocado. The hamburger is served with a side of cole slaw. A child is sitting at a table. The child has a cup of coffee. The child has a dessert. A table has a bottle of liquor. A glass is on the table.",
+    "selected_photo_ids": [
+      "TA_PHOTO_0c41b577",
+      "TA_PHOTO_1c7f8e51",
+      "TA_PHOTO_0e5a9326",
+      "TA_PHOTO_29e34764",
+      "TA_PHOTO_15359b2d"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_0c41b577.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1c7f8e51.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0e5a9326.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_29e34764.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_15359b2d.jpg"
+    ],
+    "review_text_sha256": "60023f3e3b019c1c16a1666f29da06852747dbac83928c2140d1aea088937e9b",
+    "visual_text_sha256": "3caec00037d3095d0192fa137dd9d6b3661a3a198b0d45f0947ebfe02a3034c5"
+  },
+  {
+    "business_id": "TA14622324_8556009",
+    "system": "Qwen-Caption",
+    "review_text": "[REVIEW_CONSENSUS] Opinions on Foster's Hollywood in Gijon are sharply divided, with severe criticism regarding food preparation, service reliability, and hygiene. Multiple reviewers describe chaotic service, noting staff who appear busy yet fail to take orders, clear tables, or address mistakes, leading to long waits and cold or incorrectly cooked dishes. Specific complaints include burgers arriving without requested ingredients or with wrong cheese types, and vegetarian options being missing or substandard. Conversely, some guests praise the spectacular sea views, quick service for children, and the quality of specific items like the Directors Cut Chicken burger. While a few find the atmosphere child-friendly and the food excellent, others condemn the experience as a disorganized shambles with overpriced meals and unsanitary conditions, including toilets lacking paper.",
+    "visual_text": "[VISUAL_EVIDENCE] A plate of nachos rests on a table, while another table holds a hamburger topped with cheese and avocado alongside a side of cole slaw. A child sits at a separate table with a cup of coffee and a dessert. Nearby, a table displays a bottle of liquor and a glass. A close-up view shows a receipt for a restaurant written in Spanish.",
+    "selected_photo_ids": [
+      "TA_PHOTO_0c41b577",
+      "TA_PHOTO_1c7f8e51",
+      "TA_PHOTO_0e5a9326",
+      "TA_PHOTO_29e34764",
+      "TA_PHOTO_15359b2d"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_0c41b577.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1c7f8e51.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0e5a9326.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_29e34764.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_15359b2d.jpg"
+    ],
+    "review_text_sha256": "3fe376f0396f5e986666362230096f18cfc6aa31c9d825ab6e1f607f2755345c",
+    "visual_text_sha256": "a226f84da29e82a793ef2dd4e1ebdaa761664a79482ef429001d9c922c502cd6"
+  },
+  {
+    "business_id": "TA14622324_8556009",
+    "system": "Qwen-Image",
+    "review_text": "[REVIEW_CONSENSUS] Opinions on Foster's Hollywood in Gijon are sharply divided, with severe criticism regarding food preparation, service reliability, and hygiene. Multiple reviewers describe chaotic service, noting staff who appear busy yet fail to take orders, clear tables, or address mistakes, leading to long waits and cold or incorrectly cooked dishes. Specific complaints include burgers arriving without requested ingredients or with wrong cheese types, and vegetarian options being missing or substandard. Conversely, some guests praise the spectacular sea views, quick service for children, and the quality of specific items like the Directors Cut Chicken burger. While a few find the atmosphere child-friendly and the food excellent, others condemn the experience as a disorganized shambles with overpriced meals and unsanitary conditions, including toilets lacking paper.",
+    "visual_text": "[VISUAL_EVIDENCE] The restaurant features red leather booth seating and tables with condiment holders. A meal includes a burger with avocado and cheese on a brown bun, served with coleslaw and a dipping sauce. Another dish is nachos topped with cheese, jalapeños, and sour cream. A receipt from \"PHI RESTAURACION GUON SL\" lists items like \"Salsicha Shrimp BBQ\" and \"Burger.\" A glass of water and a coffee cup are also visible on the table.",
+    "selected_photo_ids": [
+      "TA_PHOTO_0c41b577",
+      "TA_PHOTO_1c7f8e51",
+      "TA_PHOTO_0e5a9326",
+      "TA_PHOTO_29e34764",
+      "TA_PHOTO_15359b2d"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_0c41b577.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1c7f8e51.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0e5a9326.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_29e34764.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_15359b2d.jpg"
+    ],
+    "review_text_sha256": "3fe376f0396f5e986666362230096f18cfc6aa31c9d825ab6e1f607f2755345c",
+    "visual_text_sha256": "cae5b2f3674bd0c710457ea798897e96edbfd254df3b642d81b76143a6fdcfe2"
+  },
+  {
+    "business_id": "TA14622324_2298952",
+    "system": "LED F original",
+    "review_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as high quality and well cooked, with particular praise for sirloin steak, veal, garlic shrimp and local dishes. Several selected reviewers describe the staff as friendly, helpful and welcoming, while others report that the owner or staff were not always welcoming. Several selected reviewers describe the portions as large, generous or worth the price, while one reviewer found the desserts not too special. Several selected reviewers describe the restaurant as inexpensive or good value.",
+    "visual_text": "[VISUAL_EVIDENCE]\nThe food is served on a white plate. The plate contains cooked squid. The plate contains a lemon wedge. A group of people is sitting at tables in a restaurant. A man is holding up a glass of beer. The man is at a bar. A person is spooning food into a bowl. The bowl is on a table. A restaurant has a sign in the window.",
+    "selected_photo_ids": [
+      "TA_PHOTO_10caf5dc",
+      "TA_PHOTO_17b49fef",
+      "TA_PHOTO_0890b237",
+      "TA_PHOTO_1b3a98db",
+      "TA_PHOTO_172b3304"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_10caf5dc.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_17b49fef.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0890b237.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1b3a98db.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_172b3304.jpg"
+    ],
+    "review_text_sha256": "89a7569e21724d05af4a145159fe80ae7c660b519883f31bdb18fa0f9c393288",
+    "visual_text_sha256": "963b96103f8602521170a9a992647f8c86b539bb93633e49aa3db7a4c3d5bebf"
+  },
+  {
+    "business_id": "TA14622324_2298952",
+    "system": "Qwen-Caption",
+    "review_text": "[REVIEW_CONSENSUS] Guests consistently praise Restaurante La Farola in Gijon for its exceptional Asturian cooking, friendly service, and accommodating staff who cater to diverse dietary needs, including vegetarians and elderly diners. Specific dishes frequently highlighted include the delicious Favada, bean stew with sausage, cod in tomato sauce, garlic shrimp, and sirloin steak with pepper sauce, often noted for their high-quality ingredients and large portions. The daily menu is repeatedly described as excellent value, typically costing around 15 to 30 euros for two people and including drinks or tapas. While most reviews are highly positive, one visitor noted the desserts were not too special, and another characterized the establishment as a traditional tourist restaurant with prices that are not cheap but not excessive. Despite these minor mixed opinions, the consensus remains that the restaurant offers a memorable, relaxed atmosphere in the old town, making it a true gem for both locals and tourists.",
+    "visual_text": "[VISUAL_EVIDENCE] A restaurant scene features a white plate with cooked squid and a lemon wedge. Groups of people sit at tables while one person spoons food into a bowl. A man holds a glass of beer at a bar, and a picture of the establishment with a window sign is visible.",
+    "selected_photo_ids": [
+      "TA_PHOTO_10caf5dc",
+      "TA_PHOTO_17b49fef",
+      "TA_PHOTO_0890b237",
+      "TA_PHOTO_1b3a98db",
+      "TA_PHOTO_172b3304"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_10caf5dc.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_17b49fef.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0890b237.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1b3a98db.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_172b3304.jpg"
+    ],
+    "review_text_sha256": "9efeec1fd605ec2d027a2b482c8e15cad25345c20e7073d7131b00a0552f6568",
+    "visual_text_sha256": "d6b6bdd12cadf8687cedaf5004fe809f173f941b4712d423fd9fcf0755d75493"
+  },
+  {
+    "business_id": "TA14622324_2298952",
+    "system": "Qwen-Image",
+    "review_text": "[REVIEW_CONSENSUS] Guests consistently praise Restaurante La Farola in Gijon for its exceptional Asturian cooking, friendly service, and accommodating staff who cater to diverse dietary needs, including vegetarians and elderly diners. Specific dishes frequently highlighted include the delicious Favada, bean stew with sausage, cod in tomato sauce, garlic shrimp, and sirloin steak with pepper sauce, often noted for their high-quality ingredients and large portions. The daily menu is repeatedly described as excellent value, typically costing around 15 to 30 euros for two people and including drinks or tapas. While most reviews are highly positive, one visitor noted the desserts were not too special, and another characterized the establishment as a traditional tourist restaurant with prices that are not cheap but not excessive. Despite these minor mixed opinions, the consensus remains that the restaurant offers a memorable, relaxed atmosphere in the old town, making it a true gem for both locals and tourists.",
+    "visual_text": "[VISUAL_EVIDENCE] The restaurant interior features wooden tables with red tablecloths, wooden chairs, and brick walls. A man holds a glass of beer at the bar, which has shelves of bottles behind it. A plate of grilled squid with lemon is shown, along with a bowl of beans and clams being served with a spoon. A sign displays \"La Sarola\" and \"Menú\" in white lettering on a black background.",
+    "selected_photo_ids": [
+      "TA_PHOTO_10caf5dc",
+      "TA_PHOTO_17b49fef",
+      "TA_PHOTO_0890b237",
+      "TA_PHOTO_1b3a98db",
+      "TA_PHOTO_172b3304"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_10caf5dc.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_17b49fef.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0890b237.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1b3a98db.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_172b3304.jpg"
+    ],
+    "review_text_sha256": "9efeec1fd605ec2d027a2b482c8e15cad25345c20e7073d7131b00a0552f6568",
+    "visual_text_sha256": "4ac22a6c2bd8b8152d394ffa7fbe8cb20136f26e7e8423014293308e1304aaa9"
+  },
+  {
+    "business_id": "TA14622324_2312071",
+    "system": "LED F original",
+    "review_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food, describing it as delicious, well presented, and plentiful. Service is often described as friendly, welcoming, prompt, and helpful, though some reviewers report being ignored or being left without being served. Reviewers commonly describe the atmosphere as attractive, distinctive, and welcoming, with distinctive decor and distinctive decor. Reviewers commonly describe the restaurant as reasonably priced or good value for money. Several reviewers describe the portions as large enough to share, though one reviewer found the food too large.",
+    "visual_text": "[VISUAL_EVIDENCE]\nA wooden cutting board is topped with french fries. A dog is standing in front of a sign. The sign says Terra Stor. A group of people is sitting at tables under large umbrellas. A man is pouring wine into a green bottle. A man is standing in front of a group of people at a restaurant.",
+    "selected_photo_ids": [
+      "TA_PHOTO_14015712",
+      "TA_PHOTO_0e92fe01",
+      "TA_PHOTO_1c03ca90",
+      "TA_PHOTO_23485c3e",
+      "TA_PHOTO_29cfc3d0"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_14015712.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0e92fe01.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1c03ca90.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_23485c3e.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_29cfc3d0.jpg"
+    ],
+    "review_text_sha256": "68427f548ef0fd40e1dde876dae654d7ae7f011539d6248fe580535e217fd5c8",
+    "visual_text_sha256": "7feefa7756890d646b4ddaa578a7c560e621c0b0df0d8df303c2dfb0f6395b38"
+  },
+  {
+    "business_id": "TA14622324_2312071",
+    "system": "Qwen-Caption",
+    "review_text": "[REVIEW_CONSENSUS] Tierra Astur Poniente in Gijon is widely praised for its unique, rustic decor featuring hanging sidra bottles, barrel seating, and a lively atmosphere that appeals to both locals and tourists. Guests consistently highlight the enormous portions of authentic Asturian dishes, particularly flame-grilled steaks, meat plates, and seafood, noting that sharing is often necessary due to the generous sizes. The experience is frequently enhanced by friendly, helpful staff who perform traditional cider pouring rituals, while prices are generally considered reasonable for the value provided. However, opinions on food quality vary; while many find the flavors exceptional, some reviewers describe the taste as merely normal or the steak as overcooked, suggesting inconsistent culinary standards. Additionally, service reliability is mixed, with some visitors reporting prompt attention while others experienced long waits or being ignored despite the restaurant not being busy.",
+    "visual_text": "[VISUAL_EVIDENCE] A wooden cutting board holds french fries and salad. A dog stands before a sign reading \"terra stor.\" People sit at tables under large umbrellas. One man pours wine into a green bottle, while another stands before a group of people at the restaurant.",
+    "selected_photo_ids": [
+      "TA_PHOTO_14015712",
+      "TA_PHOTO_0e92fe01",
+      "TA_PHOTO_1c03ca90",
+      "TA_PHOTO_23485c3e",
+      "TA_PHOTO_29cfc3d0"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_14015712.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0e92fe01.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1c03ca90.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_23485c3e.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_29cfc3d0.jpg"
+    ],
+    "review_text_sha256": "69c1290086b422677c107e9d0fd3cf769651ebd3a68016ce3d6345ee0f47d985",
+    "visual_text_sha256": "97f89ba36b1b6b459354ef9246a01f48c2a7a5d49b52a2beb6408308c6140686"
+  },
+  {
+    "business_id": "TA14622324_2312071",
+    "system": "Qwen-Image",
+    "review_text": "[REVIEW_CONSENSUS] Tierra Astur Poniente in Gijon is widely praised for its unique, rustic decor featuring hanging sidra bottles, barrel seating, and a lively atmosphere that appeals to both locals and tourists. Guests consistently highlight the enormous portions of authentic Asturian dishes, particularly flame-grilled steaks, meat plates, and seafood, noting that sharing is often necessary due to the generous sizes. The experience is frequently enhanced by friendly, helpful staff who perform traditional cider pouring rituals, while prices are generally considered reasonable for the value provided. However, opinions on food quality vary; while many find the flavors exceptional, some reviewers describe the taste as merely normal or the steak as overcooked, suggesting inconsistent culinary standards. Additionally, service reliability is mixed, with some visitors reporting prompt attention while others experienced long waits or being ignored despite the restaurant not being busy.",
+    "visual_text": "[VISUAL_EVIDENCE] The restaurant features an outdoor patio with yellow umbrellas and tables where patrons are seated. A wooden sign displays the name \"TERRA NATUR\". Inside, a staff member in a black shirt and apron stands near a wall decorated with green bottles. Another interior shot shows a person in a dark jacket standing in a dining area with other guests seated at tables. A wooden board holds a serving of french fries and a side salad.",
+    "selected_photo_ids": [
+      "TA_PHOTO_14015712",
+      "TA_PHOTO_0e92fe01",
+      "TA_PHOTO_1c03ca90",
+      "TA_PHOTO_23485c3e",
+      "TA_PHOTO_29cfc3d0"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_14015712.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0e92fe01.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1c03ca90.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_23485c3e.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_29cfc3d0.jpg"
+    ],
+    "review_text_sha256": "69c1290086b422677c107e9d0fd3cf769651ebd3a68016ce3d6345ee0f47d985",
+    "visual_text_sha256": "2474ff412e98c05311bff5345b1b074e5f8be71cdcefd19af5c784c715c5855d"
+  },
+  {
+    "business_id": "TA14622324_1001674",
+    "system": "LED F original",
+    "review_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as well prepared, flavorful, and well executed, while some describe it as merely okay or not the best. Service is often described as friendly, attentive, helpful, and efficient, though some reviewers report slow or inattentive service. The atmosphere is often described as cozy, elegant, comfortable, or relaxed, though some reviewers found the decor or decor lacking. Value opinions are mixed: some reviewers consider the prices reasonable or worthwhile, while others describe the restaurant as expensive or not an option for those on a budget.",
+    "visual_text": "[VISUAL_EVIDENCE]\nThe food is served on a white plate. The plate contains slices of sardines. The plate is on a table. A man and a woman are toasting with wine glasses at a table. The photo shows a dining room. The dining room has blue walls. The dining room has blue chairs. The photo shows a chocolate cake. The cake has powdered sugar on top. The cake has a pink ball of ice cream. The photo shows a close-up of a restaurant sign. The sign is on a wall.",
+    "selected_photo_ids": [
+      "TA_PHOTO_12ebff24",
+      "TA_PHOTO_1440a938",
+      "TA_PHOTO_078d758a",
+      "TA_PHOTO_1df5078b",
+      "TA_PHOTO_1149d8e6"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_12ebff24.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1440a938.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_078d758a.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1df5078b.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1149d8e6.jpg"
+    ],
+    "review_text_sha256": "b539f4cb4b272ff62c7952a57d42152d4c6155bf2026e49aea9acce7325fffd7",
+    "visual_text_sha256": "e3594316fdd29aa6c868c7881fb093a9821221ea761c1df695e71fd3849e4888"
+  },
+  {
+    "business_id": "TA14622324_1001674",
+    "system": "Qwen-Caption",
+    "review_text": "[REVIEW_CONSENSUS] V. Crespo in Gijon is widely praised for its exceptional food quality, professional service, and generous portions, often described as world-class or rivaling top European establishments. Diners frequently highlight specific dishes such as the turbot, butterfish, beef cheeks, and various tasting menus featuring local Asturian ingredients like langoustine, truffle, and venison. The atmosphere is noted as cozy and elegant, though some guests find the decor kitsch or the location difficult to navigate. While most reviews commend the friendly, attentive staff and excellent wine pairings, a few note that the interior could be more modern or that English menus are not always available. Opinions on pricing vary, with some viewing it as a splurge for special occasions while others consider the value reasonable given the portion sizes and cuisine grade.",
+    "visual_text": "[VISUAL_EVIDENCE] A white plate holds slices of sardines on a table. A man and woman toast with wine glasses at a table. The dining room features blue walls and blue chairs. A chocolate cake with powdered sugar and a pink ice cream ball is visible. A close-up shows a sign for a restaurant on a wall.",
+    "selected_photo_ids": [
+      "TA_PHOTO_12ebff24",
+      "TA_PHOTO_1440a938",
+      "TA_PHOTO_078d758a",
+      "TA_PHOTO_1df5078b",
+      "TA_PHOTO_1149d8e6"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_12ebff24.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1440a938.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_078d758a.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1df5078b.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1149d8e6.jpg"
+    ],
+    "review_text_sha256": "26036ffbed0f4fe2f675b76c3cec60863b61fc4bee56bad00424f18dcecb0acb",
+    "visual_text_sha256": "e04d4748460ee08d70a29d7a6914d8c6e2b273c30775fe60190d75d756fb538d"
+  },
+  {
+    "business_id": "TA14622324_1001674",
+    "system": "Qwen-Image",
+    "review_text": "[REVIEW_CONSENSUS] V. Crespo in Gijon is widely praised for its exceptional food quality, professional service, and generous portions, often described as world-class or rivaling top European establishments. Diners frequently highlight specific dishes such as the turbot, butterfish, beef cheeks, and various tasting menus featuring local Asturian ingredients like langoustine, truffle, and venison. The atmosphere is noted as cozy and elegant, though some guests find the decor kitsch or the location difficult to navigate. While most reviews commend the friendly, attentive staff and excellent wine pairings, a few note that the interior could be more modern or that English menus are not always available. Opinions on pricing vary, with some viewing it as a splurge for special occasions while others consider the value reasonable given the portion sizes and cuisine grade.",
+    "visual_text": "[VISUAL_EVIDENCE] The restaurant, identified by a logo as \"U. Crenco Restaurante,\" features a dining room with blue walls, framed pictures, and a large wooden ship's wheel. A meal includes a white plate with sliced fish garnished with herbs and a dessert of a chocolate cake dusted with powdered sugar, served with a scoop of pink ice cream. A bottle of red wine and two filled wine glasses are present on the table.",
+    "selected_photo_ids": [
+      "TA_PHOTO_12ebff24",
+      "TA_PHOTO_1440a938",
+      "TA_PHOTO_078d758a",
+      "TA_PHOTO_1df5078b",
+      "TA_PHOTO_1149d8e6"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_12ebff24.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1440a938.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_078d758a.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1df5078b.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1149d8e6.jpg"
+    ],
+    "review_text_sha256": "26036ffbed0f4fe2f675b76c3cec60863b61fc4bee56bad00424f18dcecb0acb",
+    "visual_text_sha256": "711eec095d21f80c82bafaf120499e089d5b7422bb36192402929c7b62c46b80"
+  },
+  {
+    "business_id": "TA14622324_4735772",
+    "system": "LED F original",
+    "review_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as fresh, tasty, home-style, and well prepared, while some describe it as ordinary or nothing special. Service is often described as friendly, helpful, and welcoming, though some reviewers report slow or inattentive service. Reviewers commonly describe the prices as reasonable, good, or a good value. The atmosphere is often described as lively, welcoming, and pleasant, with the terrace and bar receiving repeated praise.",
+    "visual_text": "[VISUAL_EVIDENCE]\nA white plate is topped with potatoes and meatballs. The plate is on a table. A woman is holding up a picture. The photo shows a city. The photo is in front of a bar. A group of people is sitting at a bar in a restaurant. There is a drink in a cup. The drink is sitting on a table. The photo shows a bar. Bottles of wine are on a shelf.",
+    "selected_photo_ids": [
+      "TA_PHOTO_1bdf4572",
+      "TA_PHOTO_158e90a0",
+      "TA_PHOTO_28fc2b56",
+      "TA_PHOTO_285c2f1e",
+      "TA_PHOTO_1c33ead5"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_1bdf4572.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_158e90a0.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_28fc2b56.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_285c2f1e.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1c33ead5.jpg"
+    ],
+    "review_text_sha256": "2fbe5ffa012d608ad022a25b98ece03ce22527ee80f9c3f28c80ebc7f6001584",
+    "visual_text_sha256": "ede96b836e55d89008f22fae46e57f8f90a77b5b5ce1972fbb59d444c5f8ebd4"
+  },
+  {
+    "business_id": "TA14622324_4735772",
+    "system": "Qwen-Caption",
+    "review_text": "[REVIEW_CONSENSUS] Casa Baizan in Gijon is a Spanish restaurant run by an elderly couple who prepare fresh, home-style food cooked to order, often featuring grilled meat, game, and deer. Patrons frequently praise the generous portions of local dishes like cachopo, oyster mushrooms with jamon, and authentic desserts such as crème caramel and lemon crepes, noting the warm, knowledgeable service and reasonable prices. The venue has expanded from a small space to a larger location with a terrace, though reservations are still recommended due to high demand. While most reviews highlight the delicious taste and friendly atmosphere, some guests found the service slow or the food under-seasoned, and one visitor expressed strong disappointment regarding the lack of tapas and tough calamari.",
+    "visual_text": "[VISUAL_EVIDENCE] A white plate containing potatoes and meatballs rests on a table. A group of people sits at a bar within the restaurant setting. A drink in a cup is placed on the table nearby. Behind the patrons, a bar shelf displays bottles of wine. A woman holds up a picture of a city in front of the bar area.",
+    "selected_photo_ids": [
+      "TA_PHOTO_1bdf4572",
+      "TA_PHOTO_158e90a0",
+      "TA_PHOTO_28fc2b56",
+      "TA_PHOTO_285c2f1e",
+      "TA_PHOTO_1c33ead5"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_1bdf4572.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_158e90a0.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_28fc2b56.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_285c2f1e.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1c33ead5.jpg"
+    ],
+    "review_text_sha256": "df3a213d8930ba2accb086c8d79e38a39423f52675bebd63a8bc489da171f552",
+    "visual_text_sha256": "b8e08d1cb0e6f575f04d380ec1fa81837f9bc602f120812c875b436b251662eb"
+  },
+  {
+    "business_id": "TA14622324_4735772",
+    "system": "Qwen-Image",
+    "review_text": "[REVIEW_CONSENSUS] Casa Baizan in Gijon is a Spanish restaurant run by an elderly couple who prepare fresh, home-style food cooked to order, often featuring grilled meat, game, and deer. Patrons frequently praise the generous portions of local dishes like cachopo, oyster mushrooms with jamon, and authentic desserts such as crème caramel and lemon crepes, noting the warm, knowledgeable service and reasonable prices. The venue has expanded from a small space to a larger location with a terrace, though reservations are still recommended due to high demand. While most reviews highlight the delicious taste and friendly atmosphere, some guests found the service slow or the food under-seasoned, and one visitor expressed strong disappointment regarding the lack of tapas and tough calamari.",
+    "visual_text": "[VISUAL_EVIDENCE] The restaurant features a bar with red paneling and wooden stools, where patrons are seated. A woman holds a framed map of Asturias. A plate contains meatballs in sauce and diced potatoes. A glass jar holds a layered dessert with a spoon. Wine bottles are displayed on a brick column.",
+    "selected_photo_ids": [
+      "TA_PHOTO_1bdf4572",
+      "TA_PHOTO_158e90a0",
+      "TA_PHOTO_28fc2b56",
+      "TA_PHOTO_285c2f1e",
+      "TA_PHOTO_1c33ead5"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_1bdf4572.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_158e90a0.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_28fc2b56.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_285c2f1e.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1c33ead5.jpg"
+    ],
+    "review_text_sha256": "df3a213d8930ba2accb086c8d79e38a39423f52675bebd63a8bc489da171f552",
+    "visual_text_sha256": "56f092a5e8c1fcd744a8d167f1fca4d5ea3cddc1ba762ae1f953b2140e550c78"
+  },
+  {
+    "business_id": "TA14622324_6600483",
+    "system": "LED F original",
+    "review_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the octopus tapas, describing them as excellent, fresh and freshly made. Service is often described as quick, helpful and attentive, though some selected reviewers report long queues or uncomfortable crowds. Several selected reviewers describe the prices as good, good or a good value. The atmosphere is often described as large, crowded and comfortable, though some selected reviewers find the space uncomfortable.",
+    "visual_text": "[VISUAL_EVIDENCE]\nThere are two trays of fries and onion rings. The trays sit on a table. The photo shows a menu. Spanish words are on the menu. A spoon is scooping a piece of chocolate cake onto a plate. A group of people is preparing food in a commercial kitchen. There is a plate of food on a table. A lemon is on the plate.",
+    "selected_photo_ids": [
+      "TA_PHOTO_194d59d5",
+      "TA_PHOTO_089e1531",
+      "TA_PHOTO_0869592d",
+      "TA_PHOTO_0e4a08eb",
+      "TA_PHOTO_0ef157ac"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_194d59d5.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_089e1531.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0869592d.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0e4a08eb.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0ef157ac.jpg"
+    ],
+    "review_text_sha256": "0f3aad56be8796421f3e715927da17881681040a65891bf94f766cd67c3aaf45",
+    "visual_text_sha256": "5ec47e72259d0c656ab09d6e5f4c439803b9728657c4422be0f4fe29fe7ea343"
+  },
+  {
+    "business_id": "TA14622324_6600483",
+    "system": "Qwen-Caption",
+    "review_text": "[REVIEW_CONSENSUS] Meson Pulperia Tierras Gallegas is a large, popular Spanish restaurant located in the basement of El Molinón Stadium in Gijon, known for its incredibly fast service and efficient digital ordering system. Guests consistently praise the high-quality Galician seafood, particularly octopus tapas, Padrón peppers, and grilled squid, often noting excellent value for money. However, the lack of a reservation system means the venue is frequently crowded, leading to long queues where customers receive pagers to wait nearby. While most diners find the atmosphere lively and the food delicious, some visitors report discomfort due to the constant crowds and have expressed disappointment with the texture of the octopus on specific occasions. Despite these mixed experiences regarding capacity and consistency, the restaurant remains a recommended spot for those seeking quick, traditional meals near the stadium.",
+    "visual_text": "[VISUAL_EVIDENCE] Two trays of fries and onion rings rest on a table alongside a plate of food with a lemon. A picture of a menu displaying Spanish words is visible. In another scene, a spoon scoops chocolate cake onto a plate. Additionally, a group of people is seen preparing food within a commercial kitchen setting.",
+    "selected_photo_ids": [
+      "TA_PHOTO_194d59d5",
+      "TA_PHOTO_089e1531",
+      "TA_PHOTO_0869592d",
+      "TA_PHOTO_0e4a08eb",
+      "TA_PHOTO_0ef157ac"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_194d59d5.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_089e1531.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0869592d.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0e4a08eb.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0ef157ac.jpg"
+    ],
+    "review_text_sha256": "eb7fe9d1c9b65c2e9d27096185a776a655f9639258e78ea23e1020f9bdc3df8c",
+    "visual_text_sha256": "6b36421a20809768bf2338b35b4aeb42bef0689d796cdb3df708fee225d3d865"
+  },
+  {
+    "business_id": "TA14622324_6600483",
+    "system": "Qwen-Image",
+    "review_text": "[REVIEW_CONSENSUS] Meson Pulperia Tierras Gallegas is a large, popular Spanish restaurant located in the basement of El Molinón Stadium in Gijon, known for its incredibly fast service and efficient digital ordering system. Guests consistently praise the high-quality Galician seafood, particularly octopus tapas, Padrón peppers, and grilled squid, often noting excellent value for money. However, the lack of a reservation system means the venue is frequently crowded, leading to long queues where customers receive pagers to wait nearby. While most diners find the atmosphere lively and the food delicious, some visitors report discomfort due to the constant crowds and have expressed disappointment with the texture of the octopus on specific occasions. Despite these mixed experiences regarding capacity and consistency, the restaurant remains a recommended spot for those seeking quick, traditional meals near the stadium.",
+    "visual_text": "[VISUAL_EVIDENCE] The restaurant features a menu listing Spanish dishes like \"Anchoas del Cantábrico\" and \"Pincho Moruno.\" A kitchen scene shows a cook working near large pots on a stove. Food items include a plate of french fries, a dish of squid rings, and a dessert with chocolate topping being served with a spoon. Another plate displays cooked octopus tentacles garnished with a lemon wedge.",
+    "selected_photo_ids": [
+      "TA_PHOTO_194d59d5",
+      "TA_PHOTO_089e1531",
+      "TA_PHOTO_0869592d",
+      "TA_PHOTO_0e4a08eb",
+      "TA_PHOTO_0ef157ac"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_194d59d5.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_089e1531.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0869592d.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0e4a08eb.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0ef157ac.jpg"
+    ],
+    "review_text_sha256": "eb7fe9d1c9b65c2e9d27096185a776a655f9639258e78ea23e1020f9bdc3df8c",
+    "visual_text_sha256": "580d31a2362b62b54ee698f180ed88eb1d57814eb1caac202ee8df387ab54c11"
+  },
+  {
+    "business_id": "TA14622324_23652638",
+    "system": "LED F original",
+    "review_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as delicious, authentic, and well prepared, with chicken bhuna and chicken tikka masala singled out as favorites. Service is often described as friendly, professional, attentive, and accommodating, though some selected reviewers report small portions, stodgy samosas, or poor service. Value opinions are mixed: some selected reviewers describe the prices as reasonable or good, while others consider the restaurant expensive or overpriced. The atmosphere is often described as lovely, peaceful, quiet, and suitable for family and friends gatherings, but some selected reviewers find the lighting harsh, bright, or in your face.",
+    "visual_text": "[VISUAL_EVIDENCE]\nThere are two pictures of food. The pictures are on the wall of a restaurant. A group of people is sitting at a table. The table has a checkered tablecloth. A table is topped with bowls of different types of Indian food. A cup of coffee is on a saucer. The cup is on a black and white checkered tablecloth. A group of people is toasting. Wine glasses are on a table.",
+    "selected_photo_ids": [
+      "TA_PHOTO_29f275d7",
+      "TA_PHOTO_29f147b5",
+      "TA_PHOTO_29b29f51",
+      "TA_PHOTO_210832f0",
+      "TA_PHOTO_25411900"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_29f275d7.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_29f147b5.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_29b29f51.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_210832f0.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_25411900.jpg"
+    ],
+    "review_text_sha256": "f7b4512c4638f4b114b7acd9dde78fc4270717f66b33b1b3df122adb2a7d694d",
+    "visual_text_sha256": "5bea146aea63e1b5d366993cceecf1ad75fe35ab77eb4c36ba5c36b36c64d558"
+  },
+  {
+    "business_id": "TA14622324_23652638",
+    "system": "Qwen-Caption",
+    "review_text": "[REVIEW_CONSENSUS] Diners consistently praise Restaurante Tandoori Cocina India en Gijón for its authentic, delicious Indian cuisine, with specific highlights including chicken tikka masala, chicken bhuna, sizzler grills, and fresh pakoras. Many guests commend the friendly, professional service and the restaurant's clean, peaceful atmosphere, noting it as a top choice in the area. However, significant criticisms persist regarding the lack of alcohol, which multiple reviewers describe as a major negative that may limit the restaurant's longevity in Spanish culture. Additional complaints involve small portions, high prices for certain dishes like lamb curries and naan, and occasional issues with spice levels or ingredient quality, such as tinned mushrooms. While some find the lighting harsh and tables too small for the individual serving style, the overall consensus remains positive, with many recommending the venue despite these operational flaws.",
+    "visual_text": "[VISUAL_EVIDENCE] The restaurant features food pictures on the wall and tables covered with black and white checkered tablecloths. Patrons are seated at these tables, where bowls of Indian food and a cup of coffee on a saucer are placed. A group of people is also seen toasting with wine glasses at a table.",
+    "selected_photo_ids": [
+      "TA_PHOTO_29f275d7",
+      "TA_PHOTO_29f147b5",
+      "TA_PHOTO_29b29f51",
+      "TA_PHOTO_210832f0",
+      "TA_PHOTO_25411900"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_29f275d7.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_29f147b5.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_29b29f51.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_210832f0.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_25411900.jpg"
+    ],
+    "review_text_sha256": "fb26c565c7a4efad3289156a70f44cd1cf421ec20fa64ce4dfa7a29b832a1792",
+    "visual_text_sha256": "dcbe34761dd15dbe4725db31c2b7f823b68a9abee620a495fed44811ed0c2d9b"
+  },
+  {
+    "business_id": "TA14622324_23652638",
+    "system": "Qwen-Image",
+    "review_text": "[REVIEW_CONSENSUS] Diners consistently praise Restaurante Tandoori Cocina India en Gijón for its authentic, delicious Indian cuisine, with specific highlights including chicken tikka masala, chicken bhuna, sizzler grills, and fresh pakoras. Many guests commend the friendly, professional service and the restaurant's clean, peaceful atmosphere, noting it as a top choice in the area. However, significant criticisms persist regarding the lack of alcohol, which multiple reviewers describe as a major negative that may limit the restaurant's longevity in Spanish culture. Additional complaints involve small portions, high prices for certain dishes like lamb curries and naan, and occasional issues with spice levels or ingredient quality, such as tinned mushrooms. While some find the lighting harsh and tables too small for the individual serving style, the overall consensus remains positive, with many recommending the venue despite these operational flaws.",
+    "visual_text": "[VISUAL_EVIDENCE] Wall-mounted photographs depict a spread of dishes and a cooking scene. A table with a black-and-white checkered tablecloth holds plates of food, including bread, rice, and sauces, alongside glasses and cutlery. Another table setting features bowls of curry, rice, and bread on a patterned cloth. A white cup of coffee with a frothy top sits on a saucer with a spoon. Three hands hold clear glasses in a toast over the checkered tablecloth.",
+    "selected_photo_ids": [
+      "TA_PHOTO_29f275d7",
+      "TA_PHOTO_29f147b5",
+      "TA_PHOTO_29b29f51",
+      "TA_PHOTO_210832f0",
+      "TA_PHOTO_25411900"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_29f275d7.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_29f147b5.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_29b29f51.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_210832f0.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_25411900.jpg"
+    ],
+    "review_text_sha256": "fb26c565c7a4efad3289156a70f44cd1cf421ec20fa64ce4dfa7a29b832a1792",
+    "visual_text_sha256": "8ff80c849b65827edc825084b379833d2bd6f69f05e6aca1846fbbe890c2f21c"
+  },
+  {
+    "business_id": "TA14622324_4004593",
+    "system": "LED F original",
+    "review_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as fresh, tasty, and well cooked, with some describing the dishes as interesting, unusual, or very succesfully mixed. Service is often described as friendly, helpful, and attentive, though some reviewers report inattentive or inattentive staff. The atmosphere is often described as pleasant, relaxed, or very cool. Several reviewers describe the portions as generous or very large, with some reporting that they could not eat after dinner. Several reviewers describe the wine as good or very good quality.",
+    "visual_text": "[VISUAL_EVIDENCE]\nThere is a blackboard. The blackboard has a menu written in spanish on it. A group of people is sitting around a table. A steak is on a plate. The steak is served with a knife and fork. A white bowl is filled with ice cream. The bowl is on a table. The photo shows a restaurant through a glass door.",
+    "selected_photo_ids": [
+      "TA_PHOTO_1651281c",
+      "TA_PHOTO_0a614a5b",
+      "TA_PHOTO_1bc58452",
+      "TA_PHOTO_1bc58454",
+      "TA_PHOTO_0967691c"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_1651281c.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0a614a5b.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1bc58452.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1bc58454.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0967691c.jpg"
+    ],
+    "review_text_sha256": "0f017689f890d802880532db0c95e5e4bcb6a3cc3a83c2bef8a01b2b0d009e50",
+    "visual_text_sha256": "c67f0955e55c8501cb1fcf3224ccbd9988ec336f15d003873bd51cd8a6872c3f"
+  },
+  {
+    "business_id": "TA14622324_4004593",
+    "system": "Qwen-Caption",
+    "review_text": "[REVIEW_CONSENSUS] La Gitana in Gijon is widely praised for its fresh, high-quality Mediterranean and Spanish cuisine, with guests frequently highlighting specific dishes such as wonderful fish, braised oxtail, ventresca, Lubina (bass), Solemillo (veal), and artichokes fried with jamón. Many reviewers commend the generous portions and excellent value, noting that the menu of the day is particularly tasty and well-cooked. Service is consistently described as friendly and helpful, with staff making significant efforts to assist non-Spanish speakers by explaining menu items and translating dishes. The atmosphere is often characterized as cool, relaxed, and popular with locals, though one visitor noted a disappointing lack of complimentary tapas compared to other Northern Spanish bars. While most experiences are overwhelmingly positive, a few guests mentioned minor frustrations regarding table availability or the absence of a cheese schematic, yet these did not significantly detract from their overall satisfaction with the meal.",
+    "visual_text": "[VISUAL_EVIDENCE] A blackboard displays a menu written in Spanish. A group of people sit around a table drinking wine. A plate holds a steak with a knife and fork. A white bowl contains ice cream and cake on a table. The scene includes a view of the restaurant through a glass door.",
+    "selected_photo_ids": [
+      "TA_PHOTO_1651281c",
+      "TA_PHOTO_0a614a5b",
+      "TA_PHOTO_1bc58452",
+      "TA_PHOTO_1bc58454",
+      "TA_PHOTO_0967691c"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_1651281c.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0a614a5b.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1bc58452.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1bc58454.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0967691c.jpg"
+    ],
+    "review_text_sha256": "182644729cf24c8bb88785383680d1797ec316e4b3b0b30f571f49e0af1b3857",
+    "visual_text_sha256": "fa93afc771f802f7dce91c614540324c56424d311c4fff1ed56287c9e87d7b4b"
+  },
+  {
+    "business_id": "TA14622324_4004593",
+    "system": "Qwen-Image",
+    "review_text": "[REVIEW_CONSENSUS] La Gitana in Gijon is widely praised for its fresh, high-quality Mediterranean and Spanish cuisine, with guests frequently highlighting specific dishes such as wonderful fish, braised oxtail, ventresca, Lubina (bass), Solemillo (veal), and artichokes fried with jamón. Many reviewers commend the generous portions and excellent value, noting that the menu of the day is particularly tasty and well-cooked. Service is consistently described as friendly and helpful, with staff making significant efforts to assist non-Spanish speakers by explaining menu items and translating dishes. The atmosphere is often characterized as cool, relaxed, and popular with locals, though one visitor noted a disappointing lack of complimentary tapas compared to other Northern Spanish bars. While most experiences are overwhelmingly positive, a few guests mentioned minor frustrations regarding table availability or the absence of a cheese schematic, yet these did not significantly detract from their overall satisfaction with the meal.",
+    "visual_text": "[VISUAL_EVIDENCE] A chalkboard menu lists Spanish dishes like \"Sopa Marisco\" and \"Pescado Frito\" for 12€. A group of men socialize indoors, one drinking from a glass. A black tray holds thinly sliced cured meat topped with a round cheese. A white plate contains a dark brownie, pink ice cream, and yellow ice cream with chocolate sauce. The restaurant interior features a bar counter, stools, and a television mounted on the wall.",
+    "selected_photo_ids": [
+      "TA_PHOTO_1651281c",
+      "TA_PHOTO_0a614a5b",
+      "TA_PHOTO_1bc58452",
+      "TA_PHOTO_1bc58454",
+      "TA_PHOTO_0967691c"
+    ],
+    "photos": [
+      "NATIVE/PHOTOS/TA_PHOTO_1651281c.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0a614a5b.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1bc58452.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_1bc58454.jpg",
+      "NATIVE/PHOTOS/TA_PHOTO_0967691c.jpg"
+    ],
+    "review_text_sha256": "182644729cf24c8bb88785383680d1797ec316e4b3b0b30f571f49e0af1b3857",
+    "visual_text_sha256": "b9dea258a0b36072903a09c93345616797538e122726af9217e0624f68532c01"
+  }
+]

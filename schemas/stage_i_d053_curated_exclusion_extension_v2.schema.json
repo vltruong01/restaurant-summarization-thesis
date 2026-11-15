@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:thesis:stage-i:d053:approved-admissibility:2",
+  "title": "D053 explicit approved non-scoring admissibility policy",
+  "description": "Supplement only: unchanged v1 annotation JSON Schema and strict semantic checks still apply. Support and scoring admissibility are separate axes; the paired validator requires every excluded child to match the explicit approval and exact original proposal.",
+  "type": "object",
+  "required": ["extension_version", "proposal_id", "approval_record_canonical_sha256", "all_children_excluded_parent_ids", "approved_unit_exclusion_ids", "core_units_are_not_mandatory_verbatim", "supporting_omission_is_not_automatically_error", "review_units_are_attributed_customer_opinions", "excluded_units_enter_scoring_denominators", "all_664_are_not_an_automatic_informativeness_denominator"],
+  "properties": {
+    "extension_version": {"const": "D053_APPROVED_ADMISSIBILITY_V2"},
+    "proposal_id": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "approval_record_canonical_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "all_children_excluded_parent_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "approved_unit_exclusion_ids": {"type": "array", "minItems": 88, "maxItems": 88, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "core_units_are_not_mandatory_verbatim": {"const": true},
+    "supporting_omission_is_not_automatically_error": {"const": true},
+    "review_units_are_attributed_customer_opinions": {"const": true},
+    "excluded_units_enter_scoring_denominators": {"const": false},
+    "all_664_are_not_an_automatic_informativeness_denominator": {"const": true}
+  },
+  "additionalProperties": false
+}

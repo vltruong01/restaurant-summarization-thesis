@@ -1,0 +1,12 @@
+{
+  "status": "PUBLIC_DERIVATIVE",
+  "original_Yelp_review_records_withheld": 88,
+  "original_TripAdvisor_review_block_withheld": true,
+  "original_images_withheld": true,
+  "original_private_case_export_sha256": "4b6db25132adc49431b4778382092a8b83b472b250f301b0a4cfdfab083bc242",
+  "public_case_export_sha256": "df6d42ebc1a6df1d43128a96f710ce2d8f362260193360ad383e47567a79abf0",
+  "generated_model_outputs_unchanged": true,
+  "numerical_exports_and_ratings_unchanged": true,
+  "all_11_plot_PNGs_byte_identical_to_private_edition": true,
+  "original_scientific_record_changes": 0
+}

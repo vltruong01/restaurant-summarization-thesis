@@ -1,0 +1,702 @@
+[
+  {
+    "business_id": "-78Va3llKcPbL6SW4is8lw",
+    "content_sha256": "6e6ca3f945b011fd63895df3535b725275d8339a37745d337922300704c6a3b5",
+    "annotation_file_sha256": "7f4da75e3a9c7a1036fdb031561b50f45a484990de90000c757bb0e7b076c47d",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "0-M3vGd6IveJh77-Bwc8EQ",
+    "content_sha256": "900a82a0ee23741ed0b489303658d428b4f245fd2af9700dfd9fd2351b4f53a2",
+    "annotation_file_sha256": "eed54ff4ac73f47a56a4c2fbae4034b648b64ef17403a3069ce13f26a12626d2",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "0ZcYZNGb85gscHglo04qSA",
+    "content_sha256": "9d422a3ee9e689eaec7ed083ffd213eaff81b63285f41209cfe806a4e3932f9d",
+    "annotation_file_sha256": "828568e83fdce186a5bfd8f3fd79d28808e04449c230559be7414b28be9acbf0",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "1FURjeGJi_LBXcJQg8eskw",
+    "content_sha256": "e6acac8a764616990e2462f55f8a64906544db8ac6ba10a48dc017f1aaf515b1",
+    "annotation_file_sha256": "ff5d3d5c023c8fe5fc5f559a9d3af712bb18048c123b2915fba00cf05cb2cfce",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "1ipr4W2ApXdAyOmRE4AIkQ",
+    "content_sha256": "e78103a594dc2e0a4e5343e477001b8a70f444d2bf3a92ae74ba157af3655d14",
+    "annotation_file_sha256": "79bfd21e08ec2de69a7dcd854796a6bdfdc1f250de8036dd75271a6acfe49cae",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "22_KB3FITRnuTXCEHsXpIg",
+    "content_sha256": "cee0c496dfe0321b1e4483f7b2ae79e4337de9ce19861429c88717c8fb6cf571",
+    "annotation_file_sha256": "87dce6a534895b9ac494a57f1fa9ab99889aac0a4cb27fc706ee373b0f16b653",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "26nB0rypwfXXa-dnRREu0g",
+    "content_sha256": "e3cd10d3b12bfd52cdb950d0db012fe7582b5a8a86880eff94af04817a06f9b4",
+    "annotation_file_sha256": "12da2e4e9fd82ae534af56e4918fb4a36d04eac0f2e1d4caf972c5f4e2d5f439",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "2CqQ3Tnvj7h0rw84WEEjMw",
+    "content_sha256": "37077162ea431236cacc5509ca3bbb5415314d773ef62e0895fb18120bdb1d8e",
+    "annotation_file_sha256": "a7812dad96598f557ff42c8a43aaa650fd72396a4f8ac2ec5bb8f0c1d0a47628",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "2e7nTXMc-l0cM_YpV5g5Ow",
+    "content_sha256": "0995121df81af2aad73ea871c6c109c4a7c9cba36f7eaabc53b489f4a5ba2b6b",
+    "annotation_file_sha256": "69f3f123c307dfc2719ba2e467b8d0ac3fd787ec1facfb516d3dd6c3a7dee0ce",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "2QGyW4T6E_4iSltdx9i2RQ",
+    "content_sha256": "dc7ca69631e47ce97e0990ce34af321b051eb09078e6d6eaa6dc718adfa1f73e",
+    "annotation_file_sha256": "79385d106c7ba4d8471e8960ba76d99a7beae8fe2dd6a13b431242bf6679f45d",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "2sGHOKjHl5S0iqRDTmNgMQ",
+    "content_sha256": "69306ddd7bd619db24e601243b64decb06a076a4f555634d4fe26fa528a32647",
+    "annotation_file_sha256": "6912630dfde34d13ddbba619541a332a8a1bdddf7ab80dd0badb94cbfef324a2",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "30cpm1uq6xcQCmN6JTrB8w",
+    "content_sha256": "737badfc21ca889be1e45edf2f5a1857a89876f2ef8dcfcc309cfede24640671",
+    "annotation_file_sha256": "b7a07eac7a1ce7aae2c2907ff025331f4e4003eeac5cd327afb787faea77c869",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "34UYYxLV_lAxHYNnV3GXAg",
+    "content_sha256": "aa41c1e68c06196a3ca1222f05b4b55b5790d1052099225a446f4396a055450b",
+    "annotation_file_sha256": "6a6535af8227adc2e0dc0b228c8c3da8e29ffaddc7d05d267b18369552a84297",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "4iuNK5svIKV_GrbSwAXM6Q",
+    "content_sha256": "aad3b9f3acfe3dcf2688bdae295e53a29dc81314e3a48b46501d8ed87a8c2e58",
+    "annotation_file_sha256": "f751169c39aedb7a66981f61b87aaaca4e0db73adfeaa76d9aaabed22bf609ba",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "5iuo1kvv0XZMS0bUOoLz2Q",
+    "content_sha256": "8bab9f8b3ee46031afabd1979d7a31c4ede8f72834adc0c873ac1f62ac5b807f",
+    "annotation_file_sha256": "d0aea03f3fa1c0f59ae811be4850e671346b06998b63f477897d392eb713568e",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "5XsC0tB8chKjTIW7mU6TnQ",
+    "content_sha256": "fe73e23413e9b4f55fb33562534ed7290b3038b3effd567429374db8447ec4a6",
+    "annotation_file_sha256": "9029470bb9a10c276aa9a54541a10a7d03576fbc72c76d1ac4410feba086ba48",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "6OBV0LXFHVQoUWuQxJxtwA",
+    "content_sha256": "37132fcd8d48ccd715093ac7d3a118d877f72704d1d13b6e37c89c42e5d0246c",
+    "annotation_file_sha256": "8a0dec94bce8c28b2c06797cf75c8754d00e341fe375aba4744797ccf8fc526a",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "7D5-a53BLau19RpMu-L3zg",
+    "content_sha256": "58a250650630acbff0f7c88a88e087b2a0a578af5d58c7c57634ebe7e5744f8a",
+    "annotation_file_sha256": "da591cef869acdf83a574d2414f1df2609fbb84579e5374b35ce97322a381e5d",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "8AED7kiOq0cXctguW2eukg",
+    "content_sha256": "f27d0855859aa79416b7bc1e03b3b6afdb7bf59051baa0de856f06922caa82c9",
+    "annotation_file_sha256": "40603e197cce4326a64b92f7afa76933727b8d9a556bdcaaafd93df9c742356c",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "9MpC2yF56SMFFFOKobR2JQ",
+    "content_sha256": "d363070a005ee4fcfd62dc0a36486e4ee6780244fc908749d974f9feba6708dd",
+    "annotation_file_sha256": "ec2dceed8e1b24ae7709e8a01d5ac49159d3a5c27701aee52cdb749b9d2e491f",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "9WGrXMnoOJD8VPpKUr3Q7w",
+    "content_sha256": "cf2cac5328ceb9fd401a9d0220de67aaa4213e96bca759fd9890742291e273d9",
+    "annotation_file_sha256": "fc0b0ee2e66a8cf3cee2f3c6d3c9c9be83f929886c7cc8c27477eb0a6d90f6de",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "A2WOHcAk-BkMyf9Qgv8A8A",
+    "content_sha256": "6627f3b493e2b0f23a86126f3ac1c857fca000a807b9c26619b6ab52ea02b3a5",
+    "annotation_file_sha256": "c6ad6818126e7b037bd5e8b91102dc0891a129041d0268e79fd17e0f9548c9f3",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "aaBlYQpHUuSYEv1EtWgxuQ",
+    "content_sha256": "b25e8aee51246cb41ee8f36d8900610eb12cc1027553f1eb616ace1bb89b3e4d",
+    "annotation_file_sha256": "bd6eddf8ce82ebfc7b1a6d28de465bfb2804467f18db04a9a656b9bd48a0e362",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "aAXCHFWlmppo9HAxcK2NYQ",
+    "content_sha256": "a1e8cf40ff66b613d77e83055cb056da02d422185a0eacf067cd876ecd0d6425",
+    "annotation_file_sha256": "23124018723024930f6ec36e0b6fadcdc64d8190e6c355433a8674d48e8886c8",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "bKaBjDbtwQh_T-3ZpKJxRQ",
+    "content_sha256": "9a95f23b42c29d945f971861ea50d0085878406f3a09b1ecfaa14c0dd73be42f",
+    "annotation_file_sha256": "bc0253fbb2f4c5cc26db62c8dc766d1f29b71065af4200041aa0a27a95e5fcf1",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "BvgxS6Nr5i7th5p1rFo2_w",
+    "content_sha256": "d1e4c0ac328c55abbcec39a637ddd11191868363bb61f50b6dfbe33e3cdb897a",
+    "annotation_file_sha256": "3cb2aca72cf66eb496966eade72738aa49f4ebff65a75f051b37bf7b6bfbcea3",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "cNua7EAP7aoHTEp734VqWA",
+    "content_sha256": "709cdf4259175b8efce1cdd90aaff5a048fd84ed1e7d351daccd8c969326c25b",
+    "annotation_file_sha256": "affae0a0505aaff0d626988d3ae17b2c00f43f11b207f4f93c45be941c2c7e10",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "D_CMgRM8nnE94i_newJi9g",
+    "content_sha256": "ab336131fa342c467547eb0e8a5eb4835eb6b4f2f0699258fb5f2d9c92980005",
+    "annotation_file_sha256": "748691344c750b471082bd9d5239ede5eb57c6230d3ffd2d228694d2e41b7c6a",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "dIpTuL2T1L98GQGU17IeSw",
+    "content_sha256": "aa06c8bfd07552c15518bc748be40d5ef7dcdad966b28f8187498aac3b5dbd91",
+    "annotation_file_sha256": "f1bd9bda51feb609aa232787de4f4532acb9eb91a7965781d97bfd6182f4a2c7",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "djeYYE2MIT36obh5mcZn8A",
+    "content_sha256": "9e9323632ab6c68463de3b9422c3d0b05226c351aa334545da2c4b5c04a7d54b",
+    "annotation_file_sha256": "55c8ad7513e6c01444e45d4f7a22c63994772016c1ee95e444694638f1fbc892",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "eSHOzoSapng1c7BN3CBn9A",
+    "content_sha256": "ccf363fb2be29f6322ca164a51cbe818ab08050c31392bcbbe51d5afe6409d48",
+    "annotation_file_sha256": "f0d00ed108b0ff68a5ff0b184e4a2ba5c5567a3596472fdcff5824aef3fb1555",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "EYs_T4NU2BbaUF7vUDI55Q",
+    "content_sha256": "d2559145f5b26812743fd3446ce4893b7016c4dc3490b037c106cee7409d83b8",
+    "annotation_file_sha256": "906da59695a418bf4930df85d9d5934a2bd9d4be3bc592f2a151e144730fccf6",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "fgTOJRkc703E4XRdcr5zRA",
+    "content_sha256": "0ac1bf2259a5d9979d102d01d92846bb87830cccf44471579a5ce5f692a9b26f",
+    "annotation_file_sha256": "f4c94ec80c87e420a758e2a52c10fa9a19b3f98f7e986c9cede2cc9ad0b93aad",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "FUk85WE-5oLXfqgyYZKWfQ",
+    "content_sha256": "8f283181c794b9befb44f725e590e208b8123df30c1145258fb75093ee7b5759",
+    "annotation_file_sha256": "9be436fe05968a8c13a72fe6e0b7b56b2d943237dea368b600308beaa9bbd38f",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "geuZssQDB8yblCpFYwoqAw",
+    "content_sha256": "10feaabb888dd28aa557a937d0b90bcf9ee9129a2890376a2549ac8822bbca44",
+    "annotation_file_sha256": "0bf967c8cb17bc61e44513ffc1af5ba0a2e328ef92dd741fd27e0ff9d530dfb2",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "GTXSk8QyD7N1Un-tzgPw4g",
+    "content_sha256": "b72248ce80180c5f14c1b63f363c5108d93c05ca04f9278933cdaeaeea0f5afa",
+    "annotation_file_sha256": "ae0ee8d86e3b7f978e0aef1a7bca21bcb66a5953aeb61850d82f1c3f56bcd35b",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "HKPoU2uUrHqo3_9pgEb4XQ",
+    "content_sha256": "134593d5a701642694844c9503f5da7c81363c3446dd059176cf1c6cd02fb056",
+    "annotation_file_sha256": "01b1c08f4a0af0f917e3a3e60262fbbab5f537c81af59b09b172251d5279c445",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "hp9h_Cq-W0ki7JMArSvYSQ",
+    "content_sha256": "aa1221fc555a198c5cd16e1f8a9df27cae49f712c232ec60f1cddeb6e4e2df5d",
+    "annotation_file_sha256": "def61efc78094a6a6d94faf890604557e4dc556ded2c2de9536a5e6e08e7c2e5",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "hPfiInYuyX9icAz3LEivnA",
+    "content_sha256": "9242e2c23bf2a7d5a43aed6d831a83c3d42aa1a50905e54c02a17ba72fc3a586",
+    "annotation_file_sha256": "cc2d1f2bd38c14b6e186dccfde5ccfc992e864eb26cb4a320ebc6b482878c021",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "i03Bu6rZ1nqJ_5WTFBUGjA",
+    "content_sha256": "b45de29d7fd26ab5175021cd5bf3d4499b4b66b20718c88c9fa579e3534aa125",
+    "annotation_file_sha256": "ad539a3cc09c7e544adb719ec8a00135d63e7788eaa73ed6e5d3ec840b20a2d2",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "I42Ebt8haptL_Wew3r9wLA",
+    "content_sha256": "8231ea9696bc2d78cfb899cc52c338e5814bc16f09765f70f78827cb4ff96bcb",
+    "annotation_file_sha256": "c17fec559cd5e4065138b8f9796fb884a80ddd123efb9c100576fd1fb87b2a10",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "I81Ua5IltIBphFKnHmKwlg",
+    "content_sha256": "f6eb5da622f0e7414d37620a60000ccc7b6ea9c1a67c7a478a545a02159e2f6f",
+    "annotation_file_sha256": "f5d9f26cbb63280bcd9a92bd648cac6a1d828555c56a2a4fa9b1d55657d13eb5",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "IDjYyBrPW5C2CT9mXsyuBA",
+    "content_sha256": "849bdac1b058bf2e87637bb4a8fd25f8a2175240e099a3c39b1e406828f6af66",
+    "annotation_file_sha256": "fa967f9a637f1d5de2224c82e1969d43df8bd01568998326ae51e477b2c745c2",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "ipRXCy-0ChYK_569rPqzJQ",
+    "content_sha256": "f46934dffbacc2b42d5cd3a18ed16f9a7307b3240e4f8077d2e62b2b8af2a6aa",
+    "annotation_file_sha256": "0dc0cd99c0b0a15ead31e501834f472c3ec621538a3af7f0d0d602f5a940ee79",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "ipZ7neK1bjBAUrCqyCvB_Q",
+    "content_sha256": "de9870f3ceb621f3c5d8e1a3b34334229be21c49d07b49c2fed9998c48ba39ed",
+    "annotation_file_sha256": "681848d3e0f3a7c88df845f7ae4f48c972e4d34c68461826b4df716dc4dccfc8",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "IRyKDIF51M0GcqS8yfPcYA",
+    "content_sha256": "ef00df1fda02e69af71fb8c0e727b0d96222a64084fd944bd6a79d556e289391",
+    "annotation_file_sha256": "4f79d3008ed521012ec8b60878cebf3b93fe1f6b26daf1ecf058d9581239d829",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "J5SlGtKZglJk3VB6C3lrNg",
+    "content_sha256": "70ebc9e3847d40e72ac78ff77a5f38a876082ee4a2dee7b03f52e7110da61251",
+    "annotation_file_sha256": "dd49f35e5b3d716f9266f3b8eb9085ffea2b7dcb48d3b5271abcb2ad10c82a98",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "jgHrwlWf6IzmtHcsuQOq9w",
+    "content_sha256": "31e222b5d6b71cb0c66602608f09dde6ee6da3bed0a5254c9f3faa8ce6421547",
+    "annotation_file_sha256": "d2fcd7074478b6f096f5662586fd09c7b8c77068ec675059157045605aa8a019",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "jjFUWQdn6HANmgVy3Qy0RA",
+    "content_sha256": "3fab5f5843920732cfbc99adc3ccb3fc9e40c8431afdd79aa526e3c267b19666",
+    "annotation_file_sha256": "d1f8997571cae63b5134ce94ffda3ea486a02eab15433f9318b0b0ea21893ba8",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "KBPKl-40hmRZ6vQeWl7pvw",
+    "content_sha256": "a0565ee4f87ac217c8be14f8835738518020a5359130055025ef5f7fa9fcbef1",
+    "annotation_file_sha256": "7f406a7c274b7fbc1895d4fef53de174cd3d14021102d11f8b1057829e6426ab",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "LejMqzvUAz_pnf90OOBLkw",
+    "content_sha256": "55ef3d558d9328d34a2e12aa0e0cb9343db8b0447fa42122f497b7a7ac1a345a",
+    "annotation_file_sha256": "6bf447d261a16360260709deb99d4ce62ddcd282956d5ba48d1bc190f751504a",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "lMmbhZAENUeuB93psLWnBw",
+    "content_sha256": "347cf3d7ac6ce3f495d69665dd332603f98429f036803e1c151e3216cc6b4a4b",
+    "annotation_file_sha256": "a11f35073e2459b70d9beb8dedf261e26e905e8098febb78932d3362bba8794a",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "lNWGx7QGejxGle0oIgojNw",
+    "content_sha256": "22d63700fafec60f20615be62c276549e37db827ae5b553c962fd78119d53269",
+    "annotation_file_sha256": "973cf0572c74322d3657ceb8601720942b3cd74cf0d042fbbea60b1aba75b85f",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "LqNeLawIfB1w0zPXKK8nHg",
+    "content_sha256": "fc0bef9cec0e18ad76c0e48fa18c08ed410a31b49f1b269c392d26fc00d3f0ee",
+    "annotation_file_sha256": "1e1d079e9bd8a24c09ef5a5e40f20e1295ed5ea70bcf0dbf4240e4c5108a8444",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "MiBsTEUaR6svmvGJnieVCg",
+    "content_sha256": "ccfa503eaa11f96891fcfe396c6f2afc0c045046a8a2b5c07c8fb3b72702321a",
+    "annotation_file_sha256": "88c744512672ff9f4991fc8d64a288cfa2a8f887c9ec6d53b68afe740b5c5e2a",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "MJ9FaB4y2jCyn1CU7Fnj2Q",
+    "content_sha256": "517b80936cdde661c41021b2c6ba7f0d843a71be473a4f53c9f8c20ea1476caf",
+    "annotation_file_sha256": "a4bf9cdddb9ca6d4e94aa91fd96f02d158955e27263dd582f92be0065fea0e21",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "mSM8xX5Ui9g_d2EWIU9yJQ",
+    "content_sha256": "9fb7ce286e46ad512a5e15847a5b422d575e58404ffa0e73824566e04fafd3db",
+    "annotation_file_sha256": "929b40fcf8a35bb3032510f681406cc98fef482684e41d477df0cbf67f0a0e73",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "MTB9CelShC-x4jj31BJYAg",
+    "content_sha256": "34f21c65450535283c3cff0ab6d1bea8f2d7d63ac60e5905547d85f1967fbbc6",
+    "annotation_file_sha256": "7b5051344d2a60f6d4d1571bbbb048f88c6ad63e75001956b4ff20ec73a26c3f",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "n6GeIePXC0G3eS8UPGvloQ",
+    "content_sha256": "fc8f427b01745642a7a453892a85c457abca13ab3fd87b89410cdd6c93220b3e",
+    "annotation_file_sha256": "18b6e511e3c79aa7653dd6748bb64610657117e4cbb04eaee00713e21c0a6138",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "NGbyNFSypcmnGt-ofPwESQ",
+    "content_sha256": "d169c26752e476fd2bc3dbe0ab430c409a2b868499a8ca0404b1784d179dc3ff",
+    "annotation_file_sha256": "c3e899bcf5c5c4ee536345c60b768666a46d9847a9f7807400246aa45bfd38e9",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "nsxdsXlt_BmxfMB3dI6OVQ",
+    "content_sha256": "39b01e30461e5612c72b8b47e740178a762982cf5c79edc9394306d2947a95cc",
+    "annotation_file_sha256": "ad1604414ece91bb0772315ea3fc27c2e95d35e7aa703a947d24897d1e441b4a",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "O6hY9yenifuRXrpc4TfgsQ",
+    "content_sha256": "eaa317cc5933eeb3c8d5963f46e84ac109b899dc390c16252b4524b1caf8c269",
+    "annotation_file_sha256": "22ed3ed8c5af57ddfba8323e61bfb9186fec003b421415f65a4e77106a73fe05",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "oP7An13EMBE_IZSqLzQ_bQ",
+    "content_sha256": "dc4f5ab823981bb9c151984a18c9063c1509497ec0b00e0570a7683fd28033a2",
+    "annotation_file_sha256": "cf75041c70f1ed5fe111c46617fb15d772e3e6124b7a9024f2c2b8db60491e69",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "Ou-_OQUNvBcaAoRU0XPtaQ",
+    "content_sha256": "7c75bf2435b96d7224f31f62181598f3a7ba44e7f92f80b64876d8cb07dbd1b5",
+    "annotation_file_sha256": "e398c823e2e4bbedb4ec8f75d9d64a3b87cb0af07336ff02000654d6dc5fb415",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "oY5EIvb0WZ_4qwioC1eXsw",
+    "content_sha256": "9b527fab22c22314a9582843d4229407d5a333a28724c47a162c8fee902344c3",
+    "annotation_file_sha256": "9426c7fe6b2528bd568ba16fc9d700c755aab6a7f6d67738361d87adc2c59ec5",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "P8tNjsI6jE--HsvfeW-Mcw",
+    "content_sha256": "e3064f3650217bbcd244dabd312c09f8f100a7384dc2f2aaf50f470ee83f53cf",
+    "annotation_file_sha256": "8deba9194c235e8a929d6b1fa4ab0ccf42fd0a3379fd0f1fb4c21f3f8fe0622f",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "PLebbMEYWV-5ggzx0c4lBQ",
+    "content_sha256": "41482577ff0001f42d4f3b3aa859972eddedd10d91c345a5a5ce9947a1a68bef",
+    "annotation_file_sha256": "4ab9ed78676e4767a2b1ed38cd1aa8427b01fe95ae0933311823021c40b3136f",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "pO3BhDCAQKOAfEpd598ejw",
+    "content_sha256": "6f367941e931661a8a3a8ea693e91d7f9419c97f5878dd0670eee371e696f26c",
+    "annotation_file_sha256": "db5c69cee65af08ccce7eeabc5ffb9fd37155adf0847883305d81fbff2273734",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "Q83JhbXmv7rtAtZs2QZ0sw",
+    "content_sha256": "1ecd118dd3d6e9df4ed41c79d5363e3512e599e8442664bdee3d92d5e384ce4c",
+    "annotation_file_sha256": "19150e21054442e0a3cb895f240b30cc0d3d9f30510d1521c8d4f6244463bc41",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "QaLr_-5abntoxH7Isbs0iA",
+    "content_sha256": "3ca4011c1c54ab53df4780a9aae35b1db6e576d86157bef03bdf4dab8bb17439",
+    "annotation_file_sha256": "b3c69f13983d9bf957bc5dac3e2a9d86f04c987c1ecac1d83add2455cdd0a00c",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "qnOffBt8iV6umLvDZ5PNDw",
+    "content_sha256": "a0cec108d9d1abc130b09b82b262d0f8996c9359c57317141b0033730175dba0",
+    "annotation_file_sha256": "337baa3d62ec05a209a0b7789862226fe43ec62eddb109c95fd30ab8df1f290c",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "QsXLuvWL_zUDFNCHSzE1XA",
+    "content_sha256": "f74e36e2613605c5b78c56d37830fc023d8bb3caa53856d9bde2c744d35b54a6",
+    "annotation_file_sha256": "3a0eb2d6335a00e1ab3a886e11544ba6a05dc21812916fe6547f6fae0b90caf2",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "RF2SocELaoYkXnZhxRcX0g",
+    "content_sha256": "f2148017f156af9c86ace784089ff78253cd731c41fbef30525e725e2c072f49",
+    "annotation_file_sha256": "93e89217a3d9aed53fb152050e3be759c1860605389015e4c962894540d5e4fb",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "Rn3DtOiuJtc3whFySWXs5Q",
+    "content_sha256": "510c082f605f01c88bc1ad173cee804b7852e5d76fd31e6d58d6f315efcfe331",
+    "annotation_file_sha256": "d6f4221e6ce25ed1eaf5306af5fc96b0460c33c55e44d89c085845766e2d985a",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "rQKL-bO8Xup4gCPcj_oz6w",
+    "content_sha256": "92aa795375f0c4623ea0deea8f9bce29846d384dd27670dedd57e183493c9df3",
+    "annotation_file_sha256": "6abf4289fc3ce06e666e2cf00afd7511a8c3a82da37a343285d5b9793f01f44d",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "rueQ9RiqrN8E5Lb3EyFuTg",
+    "content_sha256": "d33297897e4e5a6824b8ba81cd6ef1fbbd31fd6b35d571bec9b0f8eb8b92b508",
+    "annotation_file_sha256": "eb9b09bb26908c9bfc585bc2d733c65db78ec64e900f218bea33e1d02ae44df5",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "S21Myaj831l5rG4AKEyekA",
+    "content_sha256": "c6e9eb5bb4fe2dcf82f6b2c24459839326d34baa76d8cbd1e5c18cc5e6fa75b5",
+    "annotation_file_sha256": "1d541b4dedf2088f90c5c75cc9b6f9de9fd1cc9fa3a1fc313197cc6ea9f675be",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "S2Ho8yLxhKAa26pBAm6rxA",
+    "content_sha256": "892415b95b19c4a5abef309e5a2f4d0d1af84e9f2a6bb6a27824c8a48d5e3f20",
+    "annotation_file_sha256": "1543feb8ffaef71d823ed3a1c79e5b1816fb21421ce5903faebd78fc5db3972d",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "SlrFIxnxlMbzoTE9QUB49Q",
+    "content_sha256": "c10b5cb2eb4b7c217b95322408f0ef8cf9feaac8bf4d26376284054d53dd9766",
+    "annotation_file_sha256": "c49c9bf5399a884435d947a367e66fda47ec6f8ac6a0f36f1be007baa366dcd7",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "SVAsvMbctwumzI4qRmZoGA",
+    "content_sha256": "e30beb5fe78f0a35d55a0adec3217305ee665a4d0b2dab979b14c1259654f3c8",
+    "annotation_file_sha256": "44a6da371435965fdd9352eed4b5ae7875a623e4d28f7279f8a62790c9abba51",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "T-wSzKIQaWySTLJfPmmdiA",
+    "content_sha256": "614557e44ef82f51c3e29f427b63dfb4488254829fe24c60b17b7957b33f6c6f",
+    "annotation_file_sha256": "8185c0f35638a8c90b0a8cdb46e23f72b46e4d43167dfbf7d5809da5c9117ce9",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "tW85sx5fr8-gCTCOi0c9Pg",
+    "content_sha256": "b020959c195b8587cedc2fd8503c8d009f68c18914bb1531ac752b8850490ed1",
+    "annotation_file_sha256": "72f6b90c0ff7d60fc48837fb870fbeffa6b3d3660960b40317841e83509a4017",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "TZpGfN1prJBu7ldErjL50A",
+    "content_sha256": "cfaf229eec60a24dc65b7fc43fdb7153217a1abe68b21bc08757d219a657f9d8",
+    "annotation_file_sha256": "f3db8eeacb56f41f18afd51e72482d092bd68c72e7658617304d4e3127efa39b",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "u5ut1O3T5m22ly6EATA6mQ",
+    "content_sha256": "ab44cea8cfa95189fef5d7584ad041ddead273976824315375b66a645ab4a9f6",
+    "annotation_file_sha256": "a27b683615498b4ada39bddeae02f54e63f886db34d1de1f9e3e9a04cec1f614",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "Vf8ZDtjOLN6lkRFatBmezw",
+    "content_sha256": "e5d361748ebdf9008690a9b2b75ea4ab025455f8f2c8245aea864b91415c4cf3",
+    "annotation_file_sha256": "b56b2448335d19119d89a6f2c8e3e0a2505b37b99f18d05bd3597b2508f4c378",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "w5bWPohacDr3Wzqu17M1cQ",
+    "content_sha256": "5fc17fbe2f5ebc3244f40855a33aaadf64f5220c891af612a811072581569358",
+    "annotation_file_sha256": "f587bf5fd28c4a5c81564c5e1d4e62389a39189c4563d1b04dc327414fbe7b58",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "wCS06xu2g1FFi1kr0WT-nQ",
+    "content_sha256": "9a44fb1fbc8d31f8b2dc178fc1beb0e99f1f045528d0fa721da7e5bab9c8447d",
+    "annotation_file_sha256": "7348bb8e276e75bb98e211f352ca77e17ed4e34dd06b419f319b05418b069df2",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "wMGjF3eTtmkOPudjV_z--Q",
+    "content_sha256": "138413800b5a7adda99ebd3b56797a32ebcb6a05811587e7d9e6dc476d36f73d",
+    "annotation_file_sha256": "07ab5921dc1d9d3133b4116f48eb91ccdc4baee8f02c99c47760dbf9119c993c",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "ws7z5fLdaVgwxZ9ex3cKxw",
+    "content_sha256": "9718696f1ec23196974e9b08c97f444e9edcfc19af4c5f81d156aaa99215c972",
+    "annotation_file_sha256": "3ab9de405f6a5309266502fbcc1d0443cd0d619b9dd07f8ce34c563326678b6a",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "XgnArX8m2BaGtpJp5Mx2qg",
+    "content_sha256": "ecb1cdb138dc11c3377ae015d60db3ae14d252706966d1d7f97a26d6e8b19515",
+    "annotation_file_sha256": "e7d74efcc1c108c50749908506f899bb34ead451cfa0589acce5f6936b423868",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "XnQ84ylyAZwh-XfHGGNBbQ",
+    "content_sha256": "1464724a6e5ef528a44abefb941e641796bd4d5c39988300f30adc8fe5d2055d",
+    "annotation_file_sha256": "d4e513f8fdb3d8230d698b3839c6747f25bbd8488978cc33f6636591a78120d8",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "xW6nJmGqY-lq4i0xKtBMCg",
+    "content_sha256": "d0431d4a23c317ce01cd837e8bb6968cf4092875262a0d3317bae3ebdcbdb828",
+    "annotation_file_sha256": "6a9ea753165b8dc0831026b1197cc22a0e0d5f1430d0b8306e3d589682aaaa66",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "Yk2CpniZgS88PqMIwsq8jw",
+    "content_sha256": "0954a8576cdd9c041845716d6749c4534bf232dafc7890db4e5d2adc4feee6ea",
+    "annotation_file_sha256": "97b6a72457ee02eb70c96533e13bba4bbc7844e3c90f3548c55fdbceb764f3fb",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "ymE6ka6y6J-z2y2rX8QH3Q",
+    "content_sha256": "21fb3ef0ab7a4f1868b5cbdf5f11c275d35f65af7ded57dfc0ccbc81cf2a76a8",
+    "annotation_file_sha256": "c339f135490dfbdee2ab4a9a667fe868083d16dbf833ea80d350e457782a90c2",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "YuatbQ1sfTFnmfgjzVDv-g",
+    "content_sha256": "65a600a501cdf07af89be241b366d6ee9661c30e490dc950d220e3b06b3dcdfe",
+    "annotation_file_sha256": "75f1bba694325096f20ea6b699fc8a3ccc466257a8c407d61320efa9b868e024",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "z3TB52s5p5PcRsw2T3J6MQ",
+    "content_sha256": "0f93ce348506c1286ef62f385df6343b3c4dfdddee46dcd35e8a3a2c12b33970",
+    "annotation_file_sha256": "df01a5dbc00e33ffc6f58fad70f3183bda55e769baa74ffd2b5d05a6c0357790",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "Zbe1ilVV76abUsWGTJNeQA",
+    "content_sha256": "76ffc524a77972103c90094d57f16552a841202a97ac83ffbe53e38c3b092a32",
+    "annotation_file_sha256": "1977e302d1fb3e4e76244ab490c0448be6335413dddae82101755e4fe1f0a5f1",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "zcPCPkaTp46iJxwMv0LjVw",
+    "content_sha256": "d55f2ae80b5505f71db7b527a11bfeda5ce985441b5242468a8167d9d0b6d3f0",
+    "annotation_file_sha256": "af3004ce2d8c53c88ed00bda0f73cc2e330bdb75b402d22c23b2f77fe44025c3",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "zGmK4tkN9X_wBi_9i1jIuw",
+    "content_sha256": "d68b8520f17efb36f3b25c73dd77510af09a9f4918586c383a3ddbc31b11c0a9",
+    "annotation_file_sha256": "1e5d8af191d6d9aee12dadfa43cf94234183fbf992a5585e4ad23435318fcc5d",
+    "status": "APPROVED",
+    "both_components_present": true
+  },
+  {
+    "business_id": "zXsv-tOEvtSMY755jt-uDw",
+    "content_sha256": "951f933f569daf11acdd4342a8a59b6838e728d2e4cb22972cae3064bc9a3c57",
+    "annotation_file_sha256": "e89ea7c19cfec0bc1809417f2b3f470d18c6a6a07897522a93d8743530c01fd4",
+    "status": "APPROVED",
+    "both_components_present": true
+  }
+]

@@ -1,0 +1,130 @@
+@3v0tSwHXR9LhpsoGXLgsTA
+1|positive|core|food.seafood_boil_flavor|1|Selected reviewers praise the flavor of the seafood boils.|boil~flavor
+1|positive|core|food.juicy_sauce|1|Selected reviewers praise the Juicy-style sauces.|juicy~sauce
+1|positive|core|food.serving_temperature|1|Selected reviewers appreciate seafood served hot.|hot
+2|positive|core|food.seafood_preparation|1|Some selected reviewers describe well-prepared seafood.|cooked~prepared~seafood
+2|negative|core|food.sauce_oiliness|1|Other selected reviewers describe oily sauce.|oil~oily
+2|negative|core|food.sauce_saltiness|1|Other selected reviewers find the sauce too salty.|salt
+2|negative|core|food.crab_cooking|1|Other selected reviewers report overcooked crab.|crab~overcook
+2|negative|core|food.shrimp_quality|1|Other selected reviewers criticize shrimp quality.|shrimp
+2|negative|core|food.greasiness|1|Other selected reviewers describe greasy food.|greasy~grease
+3|positive|core|service.friendliness|0|Some selected reviewers describe friendly staff.|friendly~kind
+3|positive|core|service.attention|0|Some selected reviewers describe attentive service.|attentive~attention
+3|negative|core|service.waits|0|Other selected reviewers report long waits.|wait
+3|negative|core|service.attention|0|Other selected reviewers report delayed staff attention.|attention~wait~server
+3|negative|core|service.staffing|1|Other selected reviewers report staffing problems.|staff~employee
+4|positive|core|value.meal|0|Some selected reviewers find the meal worthwhile for its price.|worth~price
+4|negative|core|value.portions|1|Other selected reviewers find the portions small for the cost.|portion~small
+4|negative|core|value.pricing|0|Other selected reviewers describe the restaurant as expensive.|expensive~price
+5|positive|supporting|atmosphere.cleanliness|1|Selected reviews describe a clean setting.|clean
+5|positive|supporting|atmosphere.space|1|Selected reviews describe a spacious setting.|spacious~space~large~open
+5|positive|supporting|atmosphere.energy|0|Selected reviews describe an upbeat atmosphere.|upbeat~atmosphere
+5|positive|supporting|atmosphere.bar|1|Selected reviews praise the bar area.|bar
+V1|neutral|supporting|visual.benches|1|The restaurant has benches.|benches
+V1|neutral|supporting|visual.life_preservers|1|Life preservers hang from the restaurant ceiling.|life preservers
+V2|neutral|supporting|visual.seafood_corn|1|Seafood and corn are shown together.|seafood
+V3|neutral|supporting|visual.bar|0|The restaurant has a bar.|bar
+V3|neutral|supporting|visual.televisions|1|The restaurant has many televisions.|televisions
+@2-BObvYhRA5y96FACESHVA
+1|positive|core|food.authenticity|1|Selected reviewers describe the food as authentic.|authentic
+1|positive|core|food.freshness|0|Selected reviewers describe the food as fresh.|fresh
+1|positive|core|food.flavor|0|Selected reviewers praise the food's flavor.|flavor~delicious~tasty
+2|positive|core|value.portions|1|Selected reviewers praise large portions.|portion~large
+2|positive|core|value.pricing|0|Selected reviewers praise reasonable prices.|reasonable~price
+2|negative|core|value.restaurant_comparison|1|One selected reviewer finds the prices high compared with another Thai restaurant.|price~thai
+3|positive|core|service.friendliness|0|Selected reviewers describe friendly service.|friendly
+3|positive|core|service.attention|0|Selected reviewers describe attentive service.|attentive~excellent
+3|negative|core|service.wait_time|1|Some selected reviewers report waits exceeding an hour.|hour
+4|neutral|core|food.thai_hot_intensity|1|Selected reviewers describe the Thai-hot spice level as exceptionally intense.|thai hot~spic~heat
+4|positive|core|food.flavor_despite_heat|1|Some selected reviewers still praise the flavor despite the intense heat.|flavor~spic
+4|negative|core|food.heat_tolerance|1|One selected reviewer finds the heat difficult to tolerate.|hot~spic~heat
+5|positive|core|food.pad_thai_flavor|1|Selected reviewers praise the Pad Thai flavor.|pad thai
+5|positive|core|value.pad_thai_portions|1|Selected reviewers praise generous Pad Thai portions.|pad thai~portion
+5|negative|core|food.pad_thai_flavor|1|One selected reviewer finds a Pad Thai meal lacking flavor.|pad thai
+5|negative|core|food.chicken_dryness|1|That selected reviewer criticizes dry chicken.|chicken~dry
+6|positive|supporting|atmosphere.cleanliness|0|Selected reviews describe a clean setting.|clean
+6|positive|supporting|atmosphere.quietness|0|Selected reviews describe a quiet setting.|quiet
+6|positive|supporting|atmosphere.casualness|0|Selected reviews describe a casual setting.|casual
+6|positive|supporting|atmosphere.family_friendly|1|Selected reviews describe a family-friendly setting.|family~kid
+V1|neutral|supporting|visual.beer_can_glass|1|A beer can is beside a glass of beer on a table.|can of beer
+V2|neutral|supporting|visual.long_table|0|White plates are on a long table.|white plates
+V2|neutral|supporting|visual.napkins|0|Napkins are on the long table.|napkins
+@noUma64stIOSYAQ1GIIFjw
+1|positive|core|food.spanakopita_pizza|1|Selected reviews praise the Spanakopita pizza.|spanakopita
+1|positive|supporting|food.calamari|1|Selected reviews praise the calamari.|calamari
+1|positive|supporting|food.lettuce_wraps|1|Selected reviews praise the lettuce wraps.|lettuce
+1|positive|supporting|food.gyoza|1|Selected reviews praise the gyoza.|gyoza
+1|positive|supporting|food.sweet_potato_fries|1|Selected reviews praise the sweet potato fries.|sweet potato
+1|negative|core|food.flavor|0|Other selected reviewers find meals bland.|bland
+1|negative|core|food.preparation|0|Other selected reviewers describe poorly prepared meals.|poor~cook~food
+1|negative|core|food.temperature|1|Other selected reviewers report cold meals.|cold
+2|positive|core|service.speed|0|Some selected reviewers describe prompt service.|prompt~quick
+2|positive|core|service.friendliness|0|Some selected reviewers describe friendly service.|friendly
+2|positive|core|service.attention|0|Some selected reviewers describe attentive service.|attentive~attention
+2|negative|core|service.waits|0|Other selected reviewers report long waits.|wait
+2|negative|core|service.attention|0|Other selected reviewers describe neglected service.|neglect~ignore~attention
+2|negative|core|service.friendliness|0|Other selected reviewers report rude interactions.|rude
+3|positive|supporting|atmosphere.space|1|Selected reviewers describe a spacious atmosphere.|spacious~space
+3|positive|supporting|atmosphere.comfort|0|Selected reviewers find the atmosphere welcoming and comfortable.|welcom~comfort
+3|positive|supporting|atmosphere.decor|1|Selected reviewers praise the decor.|decor
+3|positive|supporting|atmosphere.patio|1|Selected reviewers praise the patio.|patio
+3|positive|supporting|atmosphere.music|1|Selected reviewers praise the music.|music
+3|positive|supporting|atmosphere.televisions|1|Selected reviewers appreciate the televisions.|tv~television
+4|positive|core|value.portions|1|Some selected reviewers appreciate large portions.|portion
+4|positive|supporting|food.side_selection|1|Some selected reviewers appreciate the number of side dishes.|side
+4|positive|core|value.pricing|0|Some selected reviewers consider prices reasonable or comparable.|reasonable~price~comparable
+4|negative|core|value.pricing|0|Other selected reviewers consider the food overpriced.|overpriced~over priced~expensive~high priced
+V1|neutral|supporting|visual.sandwich|1|A sandwich is on a plate.|sandwich
+V1|neutral|supporting|visual.beer_beside_sandwich|1|A glass of beer is beside the sandwich plate.|beer
+V2|neutral|supporting|visual.bar_furniture|0|Tables and chairs furnish the bar.|tables
+V2|neutral|supporting|visual.dim_room|1|The bar is in a dimly lit room.|dimly
+V3|neutral|supporting|visual.generic_drink|L|A glass contains a drink.|drink
+V4|neutral|supporting|visual.person_holds_plate|0|A person holds a plate of food at a table.|person
+V5|neutral|supporting|visual.table_drinks|0|Several drinks are on a table.|drinks
+V5|neutral|supporting|visual.food_bucket|1|A bucket of food is on the table.|bucket
+@HF4Oh0KDTYo6xvf_JCoybQ
+1|positive|core|atmosphere.aquarium|1|Selected reviewers praise the aquarium-centered atmosphere.|aquarium~fish~tank
+2|positive|core|food.freshness|0|Some selected reviewers describe fresh food.|fresh
+2|positive|core|food.flavor|0|Some selected reviewers praise the food's flavor.|flavor~excellent~delicious
+2|positive|core|food.cooking|0|Some selected reviewers describe well-cooked meals.|cooked~cook
+2|negative|core|food.quality|0|Other selected reviewers find the food mediocre.|mediocre
+2|negative|core|food.flavor|0|Other selected reviewers find the food bland.|bland
+2|negative|core|food.preparation|0|Other selected reviewers describe poorly prepared meals.|food~cook
+3|positive|core|service.friendliness|0|Some selected reviewers describe friendly staff.|friendly
+3|positive|core|service.knowledge|0|Some selected reviewers describe knowledgeable staff.|knowledg
+3|positive|core|service.attention|0|Some selected reviewers describe attentive service.|attentive
+3|negative|core|service.attention|0|Other selected reviewers describe inattentive service.|inattentive~attention~ignore
+3|negative|core|service.friendliness|0|Other selected reviewers describe rude or unpleasant service.|rude~unpleasant
+4|negative|core|value.pricing|0|Selected reviewers describe high prices.|price~steep~expensive
+4|positive|core|value.aquarium_experience|1|Other selected reviewers consider the price fair because it includes the aquarium experience.|aquarium~fish~tank
+V1|neutral|core|visual.fish_tank|1|The restaurant has a fish tank.|fish tank
+V2|neutral|supporting|visual.food_plate|0|Food is on a white plate.|white plate
+V2|neutral|supporting|visual.plate_table|0|The plate is on a wooden table.|wooden table
+V3|neutral|supporting|visual.diners|0|People sit at tables in a restaurant.|people
+@j9fzpALNCgvDwCXmA5Vcjw
+1|positive|core|food.waverly_biscuit|1|Selected reviews praise the Waverly biscuit.|waverly
+1|positive|core|food.avocado_toast|1|Selected reviews praise the avocado toast.|avocado
+1|positive|core|food.pancakes|1|Selected reviews praise the pancakes.|pancake
+1|positive|supporting|food.vegan_sausage|1|Selected reviews praise the vegan sausage.|vegan~sausage
+1|negative|core|food.pancake_sweetness|1|Other selected reviewers find the pancakes overly sweet.|sweet~pancake
+1|negative|core|food.biscuit_texture|1|A selected reviewer criticizes a dense biscuit.|dense~biscuit
+1|negative|core|food.overall_quality|0|Other selected reviewers describe disappointing food.|disappoint~food
+2|positive|core|drinks.coffee_flavor|1|Selected reviewers praise the coffee flavor.|coffee
+2|positive|core|drinks.latte_flavor|1|Selected reviewers praise the latte flavor.|latte
+2|positive|supporting|drinks.freshness|0|Some selected reviewers describe fresh drinks.|fresh
+3|positive|core|service.friendliness|0|Selected reviewers describe friendly and kind staff.|friendly~kind
+3|positive|core|service.consideration|0|Selected reviewers praise considerate staff.|considerate~consider
+3|positive|core|service.helpfulness|0|Selected reviewers describe helpful staff.|helpful~help
+4|negative|core|service.waits|1|Selected reviewers report food waits exceeding 20 minutes.|20~50~hour~wait
+5|positive|supporting|atmosphere.work_suitability|1|Some selected reviewers find the space suitable for working.|work
+5|positive|supporting|atmosphere.family_visits|1|Some selected reviewers find the space suitable for family visits.|family~kid
+5|positive|supporting|atmosphere.relaxation|0|Some selected reviewers enjoy a relaxed morning atmosphere.|relax~morning
+5|negative|core|atmosphere.comfort|0|Other selected reviewers describe an uncomfortable atmosphere.|stiff~uncomfortable
+5|negative|core|atmosphere.temperature|1|Other selected reviewers find the room very cold.|cold~sweater
+6|negative|core|value.portions|1|Some selected reviewers find the food pricey for the portion sizes.|portion~price~overpriced
+V1|neutral|supporting|visual.breakfast_diner|0|A man eats breakfast from a plate at a restaurant.|breakfast
+V2|neutral|supporting|visual.diners|0|People sit at tables in a restaurant.|people
+V3|neutral|supporting|visual.coffee_machine|1|The restaurant has a coffee machine.|coffee machine
+V4|neutral|supporting|visual.person_bar|1|A person is at a long bar in a large room.|bar
+V5|neutral|supporting|visual.food_bowls|0|Bowls of food are on a table.|bowls
+V5|neutral|supporting|visual.coffee_cup|1|A cup of coffee is on the table.|coffee

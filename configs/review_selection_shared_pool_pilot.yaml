@@ -1,0 +1,74 @@
+schema_version: 1
+stage: C2_shared_candidate_exploratory_pilot
+algorithm_version: complete_review_search_v4_1_shared_pool
+seed: 42
+english_pool_directory: data/processed/yelp_2300_english_v1
+c1_directory: outputs/stage_c/review_diagnostics_v1
+accepted_pilot_directory: outputs/stage_c/review_selection_budget_pilot_v3
+accepted_expanded_directory: outputs/stage_c/review_selection_train_validation_v3
+length_audit_directory: outputs/stage_c/review_selection_length_audit_v1
+output_directory: outputs/stage_c/review_selection_shared_pool_pilot_v1
+allowed_splits:
+- train
+- validation
+pilot:
+  include_accepted_56: true
+  include_length_audit_10: true
+  additional_seeded_per_source_count_band: 4
+selection:
+  maximum_reviews: 30
+  rating_population: all_C1_english_reviews_for_business
+  quota_rule: hamilton_integer_remainders_ties_ascending_stars
+  temporal_rule: one_review_per_rating_equal_frequency_rank_segment
+  ordering: date_then_review_id
+diagnostics:
+  temporal_rank_bins: 5
+  jsd_log_base: 2
+  quality_thresholds: null
+format:
+  review_template: '[REV_{index}] stars={stars} date={date}
+
+    {text}'
+  separator: '
+
+
+    '
+  special_tokens: once_per_complete_review_block
+budget:
+  planned_total_source_target_approximate: 5000
+  final_review_tokens: null
+  exploratory_review_token_scenarios:
+  - 3500
+  - 4000
+  - 4500
+  minimum_selected_reviews: 1
+search:
+  rating_weight: 0.5
+  temporal_weight: 0.5
+  comparable_rating_jsd_tolerance: 0.001
+  comparable_temporal_jsd_tolerance: 0.001
+  tolerance_sensitivity:
+  - 0.0
+  - 0.001
+  - 0.005
+  local_iterations: 6
+  local_starts: 3
+  exact_proposals_per_ranking: 4
+  uniform_rating_time_seed_draws: 3
+  joint_uniform_seed_draws: 2
+  length_stratum_seed_draws: 1
+  length_rank_strata: 4
+  uniform_incoming_per_cell: 1
+  incoming_per_length_stratum: 1
+  tie_rule: seed_derived_sha256_independent_of_tokens
+  minimum_cost_singleton: feasibility_rescue_only
+  status: v4_1_coverage_correction_not_final_methodology
+semantic:
+  model_id: null
+  model_revision: null
+  status: not_computed_model_TBD
+  selection_criterion: false
+final_methodology_locked: false
+final_selections_ready: false
+sampling_and_tie_algorithm_version: complete_review_search_v4_length_balanced
+accepted_v4_directory: outputs/stage_c/review_selection_length_balanced_pilot_v1

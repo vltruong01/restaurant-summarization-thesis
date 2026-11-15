@@ -1,0 +1,39 @@
+{
+  "experiment": "TEACHER_TARGET_REDESIGN_PILOT_V1_DATA_PREPARATION",
+  "seed": 20261022,
+  "sampling_algorithm": "ascending SHA256 of UTF8(seed|stratum|business_id), tie by business_id",
+  "sampling_order": ["random", "zero_filtered", "review_disagreement", "varied_visual", "information_dense"],
+  "sample_sizes": {"random": 24, "zero_filtered": 2, "review_disagreement": 2, "varied_visual": 2, "information_dense": 2},
+  "random_frame": "all 2000 frozen train business IDs, independent of all targets/checkpoint outputs",
+  "targeted_exclusion": "exclude random24 and all previously selected targeted businesses",
+  "insufficient_pool": "stop and explicitly report; no threshold changes or fabricated replacements",
+  "eligibility": {
+    "zero_filtered": "exactly zero retained frozen Filtered captions",
+    "review_disagreement": "at least 5 selected reviews with stars>=4 AND at least 5 with stars<=2",
+    "varied_visual": "at least 4 retained U captions, at least 4 distinct source photos, and at least 3 lexical scene families across those captions",
+    "information_dense": "at least 24 selected reviews, at least 3500 frozen RO source tokens, and at least 6 review aspect families occurring in at least 2 selected reviews each"
+  },
+  "visual_scene_families": {
+    "food": ["food", "plate", "bowl", "sandwich", "burger", "pizza", "chicken", "fries", "meal", "sushi", "dessert"],
+    "drinks": ["drink", "beer", "wine", "coffee", "cocktail", "bottle", "cup"],
+    "people": ["person", "people", "man", "woman", "men", "women", "group", "chef"],
+    "interior": ["room", "interior", "bar", "counter", "tables", "chairs", "ceiling", "wall"],
+    "exterior": ["building", "outside", "outdoor", "patio", "street", "sign", "parking"]
+  },
+  "review_aspect_families": {
+    "food": ["food", "dish", "meal", "pizza", "chicken", "burger", "pasta", "sushi", "steak", "taco"],
+    "service": ["service", "server", "waiter", "waitress", "staff", "manager"],
+    "value": ["price", "prices", "expensive", "cheap", "overpriced", "value", "cost", "portion", "portions"],
+    "waiting": ["wait", "waiting", "waited", "slow", "minutes", "hour", "hours", "line"],
+    "atmosphere": ["atmosphere", "decor", "ambiance", "ambience", "music", "loud", "quiet", "cozy", "patio"],
+    "access": ["parking", "reservation", "reservations", "seating", "location", "takeout", "delivery", "pickup"],
+    "diet": ["vegetarian", "vegan", "gluten", "allergy", "allergies", "dietary"],
+    "beverages": ["drink", "drinks", "beer", "wine", "coffee", "cocktail", "cocktails", "tea"]
+  },
+  "interpretation": "source-only lexical eligibility proxies; varied scenes do not prove contradictory captions, star disagreement does not prove same-aspect disagreement; do not prioritize opinions or score summaries from these proxies",
+  "teacher_calls_authorized": false,
+  "gpu_authorized": false,
+  "training_authorized": false,
+  "held_out_content_access": false,
+  "output_root": "outputs/stage_i/teacher_target_redesign_pilot_v1"
+}

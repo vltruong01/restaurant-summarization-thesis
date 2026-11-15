@@ -1,0 +1,332 @@
+[
+  {
+    "file": "data/automatic_metric_receipt.json",
+    "bytes": 1529,
+    "sha256": "fc8098d3fad668cd4b14a9db23b3a81d6a07afcc8cc97278ff2b36128834f5a2"
+  },
+  {
+    "file": "data/business_split.csv",
+    "bytes": 94409,
+    "sha256": "f3331ce71da531099349ef680e18ab38255f38db8752dcf61e8998c7a191d93b"
+  },
+  {
+    "file": "data/caption_completion.json",
+    "bytes": 11520,
+    "sha256": "71e3e5fe01f6061f54fed1b302d7fe069cdc2c175c02add121a99c1f2e0984e8"
+  },
+  {
+    "file": "data/caption_method.json",
+    "bytes": 963,
+    "sha256": "c01b7c5fb3e8557db44a97f4a6397317ff089cc5388e0c08250744b1b1f2f7af"
+  },
+  {
+    "file": "data/caption_scoring_protocol.yaml",
+    "bytes": 6325,
+    "sha256": "4d27d4a1354afd657265da4de1773fec1b7b9e1be6eb138e6230e4fde6448e62"
+  },
+  {
+    "file": "data/code_provenance.json",
+    "bytes": 3169,
+    "sha256": "a6f3a6f34a91c2afdbf82861db77e0172769151e26563dd2cb1644ded61934cd"
+  },
+  {
+    "file": "data/final/O_AGREEMENT.json",
+    "bytes": 9781,
+    "sha256": "51360f29834c58318e6fefa01d9541cc87066f63fef2a89994e921a296ddad9f"
+  },
+  {
+    "file": "data/final/O_DESCRIPTIVES.json",
+    "bytes": 15230,
+    "sha256": "3d374bcd9cc0bb800d0c5fe79db6fee40746ed627aa3bb7259516787477b1db2"
+  },
+  {
+    "file": "data/final/O_PAIRED_COMPARISONS.json",
+    "bytes": 5838,
+    "sha256": "129e5256ecf5025fbbd63992170f07f18ee9421eae855f8c96cb6cdcd48b5e86"
+  },
+  {
+    "file": "data/final/P_AGREEMENT.json",
+    "bytes": 10451,
+    "sha256": "1a75f23438b06660338ec4f52d61a4ff350df718d862257e96fb3c37a9d2bde1"
+  },
+  {
+    "file": "data/final/P_DESCRIPTIVES.json",
+    "bytes": 15689,
+    "sha256": "0fcf148c9bd11b4c95576dba7cbe912a786af12392222799ab71ce057d38bb3f"
+  },
+  {
+    "file": "data/final/P_OUTPUT_LENGTH_CONTEXT.json",
+    "bytes": 1665,
+    "sha256": "96366cb1d718ae073901fb2943bfa5af6d616e4c75d462023cb53308c29d60ba"
+  },
+  {
+    "file": "data/final/P_PAIRED_COMPARISONS.json",
+    "bytes": 10537,
+    "sha256": "d1c18e75f7b63eda6b985de19455ecc82381a34fc26c174a523e9989999f7d25"
+  },
+  {
+    "file": "data/human_rubric.json",
+    "bytes": 2436,
+    "sha256": "1a34dc0bd3f03c88621b27b34821c695598830e6c4a3eb9c8f23896813c3dbdc"
+  },
+  {
+    "file": "data/illustrative_cases.json",
+    "bytes": 95031,
+    "sha256": "df6d42ebc1a6df1d43128a96f710ce2d8f362260193360ad383e47567a79abf0"
+  },
+  {
+    "file": "data/model_and_method.json",
+    "bytes": 6032,
+    "sha256": "242f2a1ee2a71d8c33fb37db6247e7f07cda6616a259ad8a6e97733c557ba9a8"
+  },
+  {
+    "file": "data/original_artifact_bindings.json",
+    "bytes": 34507,
+    "sha256": "94e8074b643ad82708071d6cff45115fa40f17dc92fd64dc7e8f8e27b7bfcc54"
+  },
+  {
+    "file": "data/public_edition_transformations.json",
+    "bytes": 582,
+    "sha256": "772ca6245bc5bae977bc36c535a7340054e9842b03abd5ff455b10c5b5141983"
+  },
+  {
+    "file": "data/selection_decision.json",
+    "bytes": 647,
+    "sha256": "06022b58d255135f80d86ad8cd3aab1938cb396951c384ea78b46501d8cca190"
+  },
+  {
+    "file": "data/source_budget_ledger.csv",
+    "bytes": 983811,
+    "sha256": "580604d6249eb94269081a0045ea35e0559381503cb80850a0401da37d333bc0"
+  },
+  {
+    "file": "data/source_template.json",
+    "bytes": 1606,
+    "sha256": "be5809d511f2b7776c520c1086061b99f7316a7f63d114a639f2cb00285eb69b"
+  },
+  {
+    "file": "data/teacher_provenance.json",
+    "bytes": 2570,
+    "sha256": "b168414bfc715d276786ac5048a2c7d0fc14c7b5dcc2390ec1d08feae2b91d65"
+  },
+  {
+    "file": "data/test100_aggregate.csv",
+    "bytes": 1357,
+    "sha256": "efb57588b90fbc6eecf71dadb0632ec24bd52508317b12046cc34d4aea681a64"
+  },
+  {
+    "file": "data/test100_paired.json",
+    "bytes": 12058,
+    "sha256": "3e76e666c181c1b2a240b8ad6592dab41bf2997b12611af8c24c05faf9fe8072"
+  },
+  {
+    "file": "data/test100_per_business.csv",
+    "bytes": 510664,
+    "sha256": "5474fb94dc0b146742a8d61efb8c971c78020178b585d62ba088c053fe29d374"
+  },
+  {
+    "file": "data/test100_reference_binding_check.json",
+    "bytes": 31105,
+    "sha256": "57674859c5e73e03d49475cdea7cdeafc78835d840788c9e62f201de0b2aafb3"
+  },
+  {
+    "file": "data/test100_reference_export_manifest.json",
+    "bytes": 12244,
+    "sha256": "bc015ec1aaa92db22c9f54c2a50075c900cb25431537139ac015a00bb982de51"
+  },
+  {
+    "file": "data/test100_sensitivity_original.json",
+    "bytes": 12266,
+    "sha256": "6934aa76ff4ac6db9f35777efea5fa4b1fc94fbf70ba385dfc148ca59831335e"
+  },
+  {
+    "file": "data/test30_agreement.csv",
+    "bytes": 4018,
+    "sha256": "cd55f75dc3a7b9c03edbad205088d6ed1ce32d9d7df0ef8fdd2be7a47dbd6fd7"
+  },
+  {
+    "file": "data/test30_descriptive.csv",
+    "bytes": 7901,
+    "sha256": "3ac4e88a56e46cc4536cea9153ebca10086713c41eb951a0c029495f4181fde3"
+  },
+  {
+    "file": "data/test30_paired.json",
+    "bytes": 13733,
+    "sha256": "6bce58099d46bb421028982adfe96ce48325562749921d69d7bef786e8bb9025"
+  },
+  {
+    "file": "data/test30_per_business_criterion.csv",
+    "bytes": 35369,
+    "sha256": "60a7157377a7cb2252ed37497f71f86b15eb28c3918d4b9cb13f6e8918089219"
+  },
+  {
+    "file": "data/test30_ratings_240.json",
+    "bytes": 66545,
+    "sha256": "28c58cd97471d7bf3c21c80e1bbb2cb79f1b834c581f6b2137561b4789ddded5"
+  },
+  {
+    "file": "data/validation200_teacher_aggregate.csv",
+    "bytes": 1228,
+    "sha256": "70847865207e0f995c29ece86819f20425f6bd81dee5aae40474102be1ad865a"
+  },
+  {
+    "file": "data/validation200_teacher_per_business.csv",
+    "bytes": 1108529,
+    "sha256": "1ae6e991d660ba558389047da780fc8fa8e3010fd644fbd84a27993e9f59a997"
+  },
+  {
+    "file": "code/filter_exact_duplicates.txt",
+    "bytes": 407,
+    "sha256": "2b5f01ba4fb8b7311335dd53d1932a2f2bea1d26e624a28c5e3db2d56706d3d3"
+  },
+  {
+    "file": "code/filter_ranking.txt",
+    "bytes": 1058,
+    "sha256": "09ffeb116e768c1ee1f773cf3e4fa57be3c4541579a50b4d121a99ddfec416d7"
+  },
+  {
+    "file": "code/filter_relevance.txt",
+    "bytes": 460,
+    "sha256": "293f7ac42d0c6e088402a618a8cb492c6aab4684f997cea9b3312ab5c234a81d"
+  },
+  {
+    "file": "code/label_collation.txt",
+    "bytes": 2403,
+    "sha256": "f9e58748f05e794627f62533a62dc4b7d586465a4ddd4c3fe7dce67fab0cf510"
+  },
+  {
+    "file": "code/metric_scoring.txt",
+    "bytes": 3205,
+    "sha256": "b5f9f2b1f6c66c22623bb6abb9006f05b686c118dbebf1a008b80d0e4c871aa8"
+  },
+  {
+    "file": "code/native_training_step.txt",
+    "bytes": 2322,
+    "sha256": "828021e854324dc74627ccfd99578b9af167281dc377d50b583b5d3ef6226d78"
+  },
+  {
+    "file": "code/paired_bootstrap.txt",
+    "bytes": 978,
+    "sha256": "66d928ba2f814d809fbd451db24d7ff915f11be5b973c1c0bf2c7e8827c185ea"
+  },
+  {
+    "file": "code/quadratic_kappa.txt",
+    "bytes": 861,
+    "sha256": "a2b0fc251edee4aef8ed5dd856bf90fc328409bb6c7bad6b888665a3fe35169f"
+  },
+  {
+    "file": "code/qwen_frozen_inference.txt",
+    "bytes": 4516,
+    "sha256": "e04c6ec46f15cb0b6bd96ea93a8d78897ab0851d94a953be8ffe05d0fd4edd4e"
+  },
+  {
+    "file": "code/review_selection.txt",
+    "bytes": 2679,
+    "sha256": "5a6c469324a0e4b92641ea16bf260a4746f54578f9e8e81d67f3588d0d275e11"
+  },
+  {
+    "file": "evidence/EFFICIENCY/EFFICIENCY_COMPARISON.md",
+    "bytes": 5748,
+    "sha256": "949b446d4ec2c831d9c501c0938de85141f88a6c8aec3e550df4a6bb324ef91a"
+  },
+  {
+    "file": "evidence/EFFICIENCY/EFFICIENCY_MEASUREMENTS.csv",
+    "bytes": 28085,
+    "sha256": "c662dfdd2f124382e69eaa54beb0853b009f62f3e78bbdba0b072cc199047c77"
+  },
+  {
+    "file": "evidence/EFFICIENCY/MISSING_MEASUREMENTS.md",
+    "bytes": 3717,
+    "sha256": "f6c7f9a215728e950f50a1e91e515d9abc07386d6f1158e7bbf1b36edfcdcdcf"
+  },
+  {
+    "file": "evidence/EFFICIENCY/SOURCE_PRESERVATION.json",
+    "bytes": 1059,
+    "sha256": "6dbec3837856a7ab5b7fc128cb98c551a6a029d037701feae64f5edcceac421f"
+  },
+  {
+    "file": "evidence/EFFICIENCY/STAGE_P_EFFICIENCY_AUDIT.md",
+    "bytes": 10332,
+    "sha256": "77db97df2d90fe17f4a2db328cc53024f355a5287c7e854077cd1ae2ef9e5d8f"
+  },
+  {
+    "file": "evidence/EFFICIENCY/VERIFIED_FACTS.json",
+    "bytes": 4189,
+    "sha256": "3a85cd5c188ef4463e6b878ae3a0b4d9f8acd389cc1f664e43c9c898caac4e7c"
+  },
+  {
+    "file": "evidence/FINAL_LIMITATIONS_SOURCE.md",
+    "bytes": 8198,
+    "sha256": "26a354d742e916f2a24c9f1cd8bca83322cd26dfaafe49754943fff372895d90"
+  },
+  {
+    "file": "evidence/HISTORICAL_EVIDENCE_TRACEABILITY.md",
+    "bytes": 10767,
+    "sha256": "1b7d2c55bd1fd9f529a8fb270a1a46a674810125ebb7703771753692291e8068"
+  },
+  {
+    "file": "evidence/HISTORICAL_INTEGRATED_VERIFICATION.json",
+    "bytes": 2152,
+    "sha256": "f31e7517739d3a730ebdd2168a1dac2952b4bf5d660c0da199b10744ca4426a5"
+  },
+  {
+    "file": "evidence/O/ANALYSIS_CONFIG.json",
+    "bytes": 1482,
+    "sha256": "b1b4141e573b62e60b41000782215fea552974872f68fb6bd0b4ab8fc6c7773d"
+  },
+  {
+    "file": "evidence/O/FROZEN_OUTPUTS_45.json",
+    "bytes": 89804,
+    "sha256": "342e07f0fec81314b2cd2ce7bc8591b69888f1ce9822d619451d66106c9ba735"
+  },
+  {
+    "file": "evidence/O/METHODOLOGY_AND_LIMITATIONS.md",
+    "bytes": 4809,
+    "sha256": "8e11841cbbd6f4c86ed904b13395203b3701ee7bed0393e9fc17efe4dd6aa919"
+  },
+  {
+    "file": "evidence/O/RATINGS_90.json",
+    "bytes": 102568,
+    "sha256": "d89c2fc9ed7c228139a1594c9ff7b1f7b2ffda2dfbe18bff435a7ccb6a13df7f"
+  },
+  {
+    "file": "evidence/O/RUBRIC.json",
+    "bytes": 2436,
+    "sha256": "1a34dc0bd3f03c88621b27b34821c695598830e6c4a3eb9c8f23896813c3dbdc"
+  },
+  {
+    "file": "evidence/P/ANALYSIS_PLAN.json",
+    "bytes": 2049,
+    "sha256": "44175144ac66c94b4ab29279699475f9c5e06aa341dee8db91e4e3cf0ee5181a"
+  },
+  {
+    "file": "evidence/P/ASSIGNMENT_KEY_90.json",
+    "bytes": 38333,
+    "sha256": "0f414713c3cd9fa0ab9d9df37c645707247665c82e5f31921065f8790d8dc42f"
+  },
+  {
+    "file": "evidence/P/FROZEN_OUTPUTS_45.json",
+    "bytes": 85510,
+    "sha256": "46d4402b0b9df3c837920a3130af2298fe066013ebda155a3b28b3a6e637c86c"
+  },
+  {
+    "file": "evidence/P/QWEN_CAPTION_FROZEN_SPEC.json",
+    "bytes": 4970,
+    "sha256": "6c8f46b31468668d23c1b21b493bc021504bc059b8c7ab35a3aa4134193cd683"
+  },
+  {
+    "file": "evidence/P/QWEN_INPUT_ALIGNMENT.json",
+    "bytes": 7072,
+    "sha256": "cc2a32cba0cb7937eeeb6c5ef8c4f6994c988d0adc1523bb197cb77be7e31cbf"
+  },
+  {
+    "file": "evidence/P/RATINGS_90.json",
+    "bytes": 92111,
+    "sha256": "e47b88f1b4d6ccf0bf1649b5b06ead3f538f97af30324993f5e45cf79a58472f"
+  },
+  {
+    "file": "evidence/P/RESOURCE_SUMMARY.json",
+    "bytes": 4477,
+    "sha256": "0f2d02485a253babea3ff21c67ab283fc665343eae15162a47dfb728568ba20d"
+  }
+]

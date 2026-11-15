@@ -1,0 +1,70 @@
+{
+  "P": {
+    "status": "PASS",
+    "official_records": 90,
+    "numeric_scores": 540,
+    "descriptive_cells": 54,
+    "agreement_cells": 18,
+    "paired_tests": 18,
+    "primary_family_tests": 12,
+    "additional_family_tests": 6,
+    "undefined_QWK_cells": [
+      {
+        "system": "Qwen-Caption",
+        "criterion": "coherence",
+        "exact_agreement_fraction": 1.0
+      },
+      {
+        "system": "Qwen-Image",
+        "criterion": "coherence",
+        "exact_agreement_fraction": 1.0
+      }
+    ],
+    "bootstrap_seed": 20261106,
+    "bootstrap_replicates": 20000,
+    "bootstrap_indices_sha256": "9a6778bf015ecc2b3180470cb331667800a62205b4cde06405a8b02ff77da393",
+    "exact_sign_assignments": 32768,
+    "independent_vs_frozen_script": "ALL_DESCRIPTIVES_AGREEMENT_CI_SIGNFLIP_HOLM_MATCH",
+    "original_data_hash": "e47b88f1b4d6ccf0bf1649b5b06ead3f538f97af30324993f5e45cf79a58472f",
+    "external_ChatGPT_statistical_ZIP_verified": false,
+    "external_ZIP_not_required_by_researcher_clarification": true,
+    "unchanged_Qwen_Review_pairs": 15
+  },
+  "M": {
+    "status": "PASS",
+    "businesses": 100,
+    "component_rows": 700,
+    "aggregate_rows_checked": 7,
+    "metric_means_checked": 42,
+    "paired_CIs_checked": 24,
+    "primary_pvalues_and_Holm_checked": 4,
+    "new_model_or_metric_computation": false
+  },
+  "N": {
+    "status": "PASS",
+    "records": 240,
+    "businesses": 30,
+    "descriptive_rows": 72,
+    "agreement_cells": 23,
+    "paired_CI_and_pvalues_checked": 17,
+    "no_changed_scores": true,
+    "no_new_multiplicity_policy": true
+  },
+  "O": {
+    "status": "PASS",
+    "records": 90,
+    "businesses": 15,
+    "descriptive_rows": 54,
+    "agreement_cells": 17,
+    "paired_CI_and_pvalues_checked": 11,
+    "no_changed_scores": true,
+    "no_new_multiplicity_policy": true
+  },
+  "status": "PASS",
+  "source_copies_unchanged": true,
+  "python": "3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]",
+  "numpy": "1.26.4",
+  "no_rerating": true,
+  "no_model_calls": true,
+  "no_cross_stage_pooling": true
+}

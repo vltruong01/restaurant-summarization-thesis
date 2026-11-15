@@ -1,0 +1,12 @@
+def kappa_quadratic(x,y):
+    """Fixed categories 1..5, weights (i-j)^2/16; Cohen 1-Do/De.
+
+    Primary reference: https://scikit-learn.org/stable/modules/generated/sklearn.metrics.cohen_kappa_score.html
+    Missing pairs are not imputed. Caller uses complete records only.
+    """
+    if not x or len(x)!=len(y):return {'value':None,'reason':'No complete paired ratings','n':0}
+    if any(type(v) is not int or not 1<=v<=5 for v in x+y):raise ValueError('Scores must be integers 1-5')
+    n=len(x);a=Counter(x);b=Counter(y)
+    observed=sum((u-v)**2 for u,v in zip(x,y))/n
+    expected=sum(a[i]*b[j]*(i-j)**2 for i in range(1,6) for j in range(1,6))/(n*n)
+    return {'value':1-observed/expected if expected else None,'reason':None if expected else 'Undefined: zero expected disagreement (constant category)', 'n':n,'fixed_categories':[1,2,3,4,5]}

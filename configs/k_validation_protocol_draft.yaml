@@ -1,0 +1,51 @@
+schema_version: 1
+status: proposed_not_adopted
+output_directory: outputs/stage_f/k_validation_protocol_draft_v1
+candidate_K: [3, 5, 8, 10]
+relative_best_validation_coverage: 0.95
+selection_split: validation
+test_for_tuning: false
+Basic_Quality_policy: configs/basic_caption_quality.yaml
+freeze_before_K_sweep:
+  CLIP_model_revision_preprocessing_and_threshold: null
+  business_relevance_model_definition_and_threshold: null
+  near_duplicate_image_policy: null
+  redundancy_model_threshold_algorithm_and_representatives: null
+  semantic_group_model_algorithm_threshold: null
+  diversity_ranking_algorithm_and_ties: null
+  validation_review_selection_and_source_serializer: null
+  common_caption_token_budget: null
+  final_complete_source_budget: null
+coverage:
+  reference_pool: complete_eligible_filtered_pool_before_K_or_budget_pruning
+  group_assignments: once_per_business_frozen_across_all_K
+  numerator: distinct_reference_groups_in_selected_caption_IDs
+  denominator: distinct_reference_groups_available
+  aggregation: macro_mean_across_the_same_positive_group_businesses_for_all_K
+  zero_group_case: NA_report_empty_rate_keep_original_business
+  relative_reference: best_mean_among_all_four_candidates_not_only_budget_feasible_ones
+  not_absolute_95_percent_of_all_available_information: true
+selection:
+  primary: smallest_budget_feasible_K_meeting_relative_coverage_rule
+  same_K_subset_ties: [lower_redundancy, lower_token_cost, stable_photo_IDs]
+  no_feasible_K: stop_record_TBD_no_automatic_source_increase_or_rule_change
+  change_candidate_values_after_test_results: false
+caption_sets:
+  shared_maximum_K: true
+  shared_caption_token_budget: true
+  unfiltered: Basic_Quality_only_fixed_seed_nested_prefix
+  filtered: frozen_filters_redundancy_and_diversity_nested_prefix
+  fewer_than_K: use_all_available_no_duplicates_no_threshold_relaxation
+budget_screen:
+  evaluate_both_caption_conditions: true
+  source_target_diagnostic_only: 5000
+  permitted_overflow_rate_proposed: 0
+  tokenization: exact_complete_LED_source_without_truncation
+  no_automatic_caption_or_review_removal_to_make_K_pass: true
+minimum_pool_for_sweep:
+  full_validation_photo_IDs: 2504
+  validation_businesses: 200
+  current_three_photo_pilot_sufficient: false
+frozen_K: null
+full_validation_caption_generation_started: false
+final_manifest: false

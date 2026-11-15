@@ -1,0 +1,41 @@
+schema_version: 1
+stage: C2_experimental_pilot
+algorithm_version: rating_time_quantile_draft_v1
+seed: 42
+english_pool_directory: data/processed/yelp_2300_english_v1
+c1_directory: outputs/stage_c/review_diagnostics_v1
+output_directory: outputs/stage_c/review_selection_pilot_v1
+allowed_splits: [train, validation]
+pilot:
+  businesses_per_volume_band: 12
+  minimum_validation_per_band: 2
+  detail_examples_per_band: 2
+selection:
+  maximum_reviews: 30
+  rating_population: all_C1_english_reviews_for_business
+  quota_rule: hamilton_integer_remainders_ties_ascending_stars
+  temporal_rule: one_random_review_per_rating_equal_frequency_rank_segment
+  ordering: date_then_review_id
+diagnostics:
+  temporal_rank_bins: 5
+  jsd_log_base: 2
+  quality_thresholds: null
+format:
+  review_template: "[REV_{index}] stars={stars} date={date}\n{text}"
+  separator: "\n\n"
+  special_tokens: once_per_complete_review_block
+budget:
+  final_review_tokens: null
+  exploratory_review_token_scenarios: []
+  scenario_status: awaiting_optional_user_preference
+  removal_rating_weight: 0.5
+  removal_temporal_weight: 0.5
+  numerical_tie_tolerance: 1.0e-12
+  minimum_selected_reviews: 1
+semantic:
+  model_id: null
+  model_revision: null
+  status: awaiting_optional_user_preference
+  selection_criterion: false
+final_methodology_locked: false
+final_selections_ready: false

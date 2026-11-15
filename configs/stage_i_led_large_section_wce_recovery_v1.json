@@ -1,0 +1,33 @@
+{
+  "version": "SECTION_WCE_EXPLICIT_CHECKPOINT750_RECOVERY_V1",
+  "parent_config_sha256": "fbc0617d6832ca82b43646b677cbf6d21275ff9b29b4cbd4eae7954c45f5a2e4",
+  "source_run": "runs/F_large_section_wce_v1",
+  "output_run": "runs/F_large_section_wce_v1_recovery_v1",
+  "restore_step": 750,
+  "source_last_successful_step": 906,
+  "recomputed_updates": 156,
+  "remaining_logical_updates": 500,
+  "cumulative_observed_successful_update_max": 1406,
+  "recovery_policy": {
+    "max_overflow_skips": 16,
+    "minimum_scale": 1.0,
+    "train_microbatches_max": 10128,
+    "accumulation": 8,
+    "retry_same_window": true,
+    "restore_window_RNG": true,
+    "no_precision_change": true,
+    "stop_at_minimum_scale_if_nonfinite": true
+  },
+  "first_three_resumed_updates": [
+    751,
+    752,
+    753
+  ],
+  "additional_operational_checkpoint": 906,
+  "scientific_settings_unchanged": true,
+  "new_generation_calls": 48,
+  "original_sanity_generations_reused": 4,
+  "historical_deadlines_unchanged": true,
+  "precision": "FP16_AMP_UNCHANGED",
+  "root_cause_unconfirmed": true
+}

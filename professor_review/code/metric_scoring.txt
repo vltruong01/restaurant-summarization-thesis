@@ -1,0 +1,35 @@
+def score_components(raw,calls,references,scorer,track):
+    require(track in TRACK_NAMES,'Reference track')
+    rows=[];pairs={}
+    for r in raw:
+        key=r['condition'],r['business_id'],r['task'];c=calls[key];ref=references[r['business_id']]
+        candidate=strip_header(r['text'],r['task']);target=ref['review_consensus' if r['task']=='review' else 'visual_evidence']
+        require(isinstance(target,str),'Reference component must be text, not a missing field')
+        encode=lambda text:scorer._tokenizer.encode(text.strip(),add_special_tokens=True,add_prefix_space=True,truncation=False)
+        cl,rl=len(encode(candidate)),len(encode(target));pair=(candidate,target)
+        if pair not in pairs:pairs[pair]=len(pairs)
+        expected='[REVIEW_CONSENSUS]\n' if r['task']=='review' else '[VISUAL_EVIDENCE]\n'
+        foreign='[VISUAL_EVIDENCE]' if r['task']=='review' else '[REVIEW_CONSENSUS]'
+        rows.append({'condition':r['condition'],'business_id':r['business_id'],'reference_business_id':r['business_id'],'task':r['task'],'reference_type':TRACK_NAMES[track],
+            'output_sha256':r['text_sha256'],'reference_sha256':ref['reference_sha256'],'source_sha256':r['source_sha256'],'checkpoint_sha256':r['checkpoint_sha256'],
+            'empty_candidate':not bool(candidate.strip()),'empty_reference':not bool(target.strip()),'malformed_header':not r['text'].startswith(expected),
+            'foreign_component_marker':foreign in r['text'],'at_generation_cap':len(r['token_ids'])>=768,
+            'bert_candidate_tokens_untruncated':cl,'bert_reference_tokens_untruncated':rl,'bert_candidate_prefix_truncated':cl>512,'bert_reference_prefix_truncated':rl>512,
+            **descriptive_score(candidate,target,c['source']),'_pair':pair})
+    # Cache by BOTH candidate and recipient reference, never by donor output alone.
+    # This preserves exact F/S Review equality instead of separate padded batches.
+    nonempty=[pair for pair in pairs if pair[0].strip() and pair[1].strip()];scores={pair:(0.,0.,0.) for pair in pairs}
+    if nonempty:
+        import torch
+        with torch.no_grad():p,r,f=scorer.score([x[0] for x in nonempty],[x[1] for x in nonempty],batch_size=8,verbose=False)
+        for i,pair in enumerate(nonempty):scores[pair]=(float(p[i]),float(r[i]),float(f[i]))
+    for row in rows:
+        pair=row.pop('_pair');p,r,f=scores[pair];require(all(math.isfinite(x) for x in [p,r,f]),'Nonfinite BERTScore')
+        row.update(bertscore_precision=p,bertscore_recall=r,bertscore_f1=f)
+    by={(r['condition'],r['business_id'],r['task']):r for r in rows}
+    for b in references:
+        if ('F',b,'review') in by and ('S',b,'review') in by:
+            require(all(by['F',b,'review'][m]==by['S',b,'review'][m] for m in METRICS),'F/S Review scores differ')
+    return rows,{'unique_candidate_reference_pairs':len(pairs),'nonempty_pairs_forwarded':len(nonempty),
+        'empty_policy':'If either component is empty, ROUGE and BERTScore P/R/F are zero, including both-empty; retain every business.',
+        'pair_cache':'Exact candidate text + recipient reference text; no donor-reference lookup','F_S_review_scores_identical':True}

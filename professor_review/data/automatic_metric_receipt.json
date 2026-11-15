@@ -1,0 +1,42 @@
+{
+  "status": "COMPLETED_MEASURED_TEST100",
+  "businesses": 100,
+  "condition_records": 400,
+  "components": 700,
+  "runtime": {
+    "packages": {
+      "rouge-score": "0.1.2",
+      "bert-score": "0.3.13",
+      "transformers": "4.51.3",
+      "torch": "2.1.0+cu118",
+      "numpy": "1.26.4",
+      "nltk": "3.9.1",
+      "tokenizers": "0.21.1"
+    },
+    "metric_lock_sha256": "b4d251e90b235b0919c5422026ebb99ffc4df5c24a5086b393594dc8406fab21",
+    "weights_sha256": "36a10a8b694fadf9bf4f9049d14e257e88be45313ae02d882af9e60f39b8b2e8",
+    "revision": "722cf37b1afa9454edce342e7895e588b6ff1d59",
+    "device": "cpu",
+    "precision": "FP32",
+    "layer": 17,
+    "idf": false,
+    "baseline_rescaling": false,
+    "batch_size": 8,
+    "prefix_max_tokens": 512
+  },
+  "score_cache": {
+    "unique_candidate_reference_pairs": 598,
+    "nonempty_pairs_forwarded": 596,
+    "empty_policy": "If either component is empty, ROUGE and BERTScore P/R/F are zero, including both-empty; retain every business.",
+    "pair_cache": "Exact candidate text + recipient reference text; no donor-reference lookup",
+    "F_S_review_scores_identical": true
+  },
+  "reference_validation": {
+    "status": "PASS_OBJECTIVE_APPROVED_REFERENCE_RULES",
+    "businesses": 100,
+    "require_approved": true,
+    "errors": {},
+    "semantic_factuality_certified": false,
+    "authenticity_note": "Identity attestations and history bindings are integrity evidence, not independent authentication of the humans"
+  }
+}

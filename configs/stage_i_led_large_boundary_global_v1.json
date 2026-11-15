@@ -1,0 +1,167 @@
+{
+  "experiment": "LED_LARGE_BOUNDARY_GLOBAL_V1",
+  "preparation_only": true,
+  "GPU_execution_approved": false,
+  "parent_config": "configs/stage_i_led_large_decoder_policy_v2.json",
+  "parent_config_sha256": "d079f41aa5ae5b1a680da5174eb3ef83235cb9b82e54c96b3d5d487215a168f4",
+  "shared": {
+    "model_id": "allenai/led-large-16384",
+    "revision": "cd59d11c3528415b7dda4dfc95cc8f138aceda2e",
+    "weights_sha256": "b31752450099a5eb3fcd5199001c5a6831e4a32e13f17a287a5aa6e10801d081",
+    "seed": 42,
+    "lora": {
+      "r": 8,
+      "lora_alpha": 16,
+      "lora_dropout": 0.0,
+      "bias": "none",
+      "task_type": "SEQ_2_SEQ_LM"
+    },
+    "target_modules": "all-linear",
+    "expected_modules": 228,
+    "expected_trainable_parameters": 4915200,
+    "optimization": {
+      "optimizer": "adamw_torch",
+      "learning_rate": 0.0002,
+      "weight_decay": 0.01,
+      "adam_beta1": 0.9,
+      "adam_beta2": 0.999,
+      "adam_epsilon": 1e-08,
+      "physical_batch_size": 1,
+      "validation_batch_size": 1,
+      "gradient_accumulation_steps": 8,
+      "num_train_epochs": 5,
+      "lr_scheduler_type": "linear",
+      "warmup_ratio": 0.05,
+      "max_grad_norm": 1.0,
+      "fp16": true,
+      "bf16": false,
+      "gradient_checkpointing": true,
+      "gradient_checkpointing_kwargs": {
+        "use_reentrant": false
+      },
+      "eval_strategy": "epoch",
+      "save_strategy": "epoch",
+      "save_total_limit": 5,
+      "early_stopping_patience": null,
+      "metric_for_best_model": "eval_loss",
+      "greater_is_better": false,
+      "full_determinism": false
+    },
+    "amp_scaler": {
+      "init_scale": 65536.0,
+      "growth_factor": 2.0,
+      "backoff_factor": 0.5,
+      "growth_interval": 2000
+    },
+    "dynamic_overflow_policy": {
+      "max_overflow_skips": 8,
+      "minimum_scale": 256.0,
+      "accumulation": 8,
+      "retry_same_window": true,
+      "restore_window_RNG": true,
+      "gate_microbatches_max": 88,
+      "train_microbatches_max": 10064
+    },
+    "budgets": {
+      "source": 5000,
+      "reviews": 4000,
+      "captions": 750,
+      "target": 768,
+      "K": 5
+    },
+    "training": {
+      "businesses": 2000,
+      "epochs": 5,
+      "steps": 1250,
+      "steps_per_epoch": 250,
+      "warmup_steps": 63
+    },
+    "runtime_pins": {
+      "torch": "2.1.0+cu118",
+      "transformers": "4.51.3",
+      "peft": "0.15.2",
+      "accelerate": "1.6.0",
+      "numpy": "1.26.4",
+      "tokenizers": "0.21.1",
+      "safetensors": "0.8.0"
+    },
+    "decoder_label_policy": "LED_LARGE_CONTENT_EOS_NO_INITIAL_BOS_V1",
+    "generation": {
+      "max_length": 768,
+      "num_beams": 4,
+      "do_sample": false,
+      "length_penalty": 1.0,
+      "no_repeat_ngram_size": 0,
+      "early_stopping": true,
+      "forced_eos_token_id": 2
+    },
+    "checkpoint_policy": "retain_all5_epochs; no_early_stop_or_best_loss_reload; quality_inspect_epochs3_and5_only",
+    "checkpoint_selection": "researcher_select_common_epoch3_or5_from_F_then_freeze_same_epoch_for_matched_RO_U_F",
+    "early_sanity": {
+      "step": 250,
+      "epoch": 1,
+      "outputs": 4,
+      "cases_file": "outputs/stage_i/paired_lora_pilot_preparation_v1/evaluation_inputs.jsonl",
+      "business_ids": [
+        "JcdOQvvx3BqZ5Ga2_9n_Bg",
+        "HhD8DLES5ZeULKDXmfkOOg",
+        "j3kGicU3mPG_ciIKG1Vuyg",
+        "7u40cyMxw4iGosMdkesoEQ"
+      ],
+      "subsets": [
+        "random",
+        "random",
+        "targeted",
+        "targeted"
+      ],
+      "technical_only": true,
+      "semantic_quality_GO": false,
+      "stop_on_failure_without_retry": true,
+      "technical_criteria": {
+        "policy": "TECHNICAL_BOS_COLLAPSE_V2",
+        "consecutive_BOS_hard_fail_at": 5,
+        "near_empty_ordinary_tokens_less_than": 16,
+        "special_dominance_fraction_at_least": 0.9,
+        "isolated_BOS": "WARNING_ONLY",
+        "generation_cap": "WARNING_ONLY_UNLESS_COLLAPSE",
+        "empty_decoded_text": "HARD_FAIL",
+        "wrong_decoder_start_or_invalid_token": "HARD_FAIL",
+        "semantic_quality_GO": false
+      }
+    },
+    "evaluation_epochs": [
+      3,
+      5
+    ],
+    "source_tokenizer": "assets/tokenizers/led-base-16384",
+    "label_views_manifest": "outputs/stage_i/led_large_decoder_policy_v1/LABEL_VIEWS.json"
+  },
+  "arms": [
+    "bos_only",
+    "boundary"
+  ],
+  "fixed_policy": "BOS_PLUS_FIRST_BPE_OF_EACH_EXISTING_REVIEW_CAPTION_MARKER_V1",
+  "maximum_global_tokens": 36,
+  "run_root": "runs/LED_LARGE_BOUNDARY_GLOBAL_V1",
+  "initialization": "Fresh official backbone plus identical named-seeded fresh Expanded LoRA per arm; no historical F weights/state",
+  "arm_execution_order": [
+    "bos_only",
+    "boundary"
+  ],
+  "full_training_updates_per_arm": 1250,
+  "feasibility_updates_per_arm": 3,
+  "early_sanity_outputs_per_arm": 4,
+  "final_outputs_per_arm": 48,
+  "gate_generation_calls_per_arm": 2,
+  "all_generation_calls_per_arm_max": 54,
+  "minimum_memory_headroom": 0.15,
+  "automatic_retry": false,
+  "automatic_mask_search": false,
+  "early_quality_selection": false,
+  "primary_comparison_epoch": 3,
+  "epoch5": "predeclared secondary; same selection rule for both arms",
+  "no_current_GPU_authorization": true,
+  "held_out_access": false,
+  "Teacher_calls": false,
+  "old_F_epoch3_adapter_sha256": "507dcdd92333dc0625559570f06140b84a14eb202191779ebd03393224090a60"
+}

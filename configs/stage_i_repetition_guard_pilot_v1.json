@@ -1,0 +1,85 @@
+{
+  "experiment": "repetition_guard_pilot_v1",
+  "status": "OFFLINE_PREPARED_AWAITING_NEW_HASH_BOUND_APPROVAL",
+  "GPU_execution_approved": false,
+  "training_authorized": false,
+  "scope": {
+    "condition": "filtered",
+    "businesses": 24,
+    "random": 20,
+    "targeted": 4,
+    "generation_calls_max": 24,
+    "training_updates": 0
+  },
+  "model_id": "allenai/led-base-16384",
+  "revision": "38335783885b338d93791936c54bb4be46bebed9",
+  "seed": 42,
+  "adapter_directory": "outputs/stage_i/cloud_return_20261015_v1/stage_hi_v2/outputs/stage_i/runs_v3/filtered/best_adapter",
+  "cases": "outputs/stage_i/paired_lora_pilot_preparation_v1/evaluation_inputs.jsonl",
+  "saved_diagnostic_B": "outputs/stage_i/decoding_beam_ngram_B_local_v1/filtered/predictions.jsonl",
+  "expected_generation_config": "outputs/stage_i/paired_lora_pilot_preparation_v1/expected_generation_config.json",
+  "backbone_fingerprints": "outputs/stage_i/d052_paired_pilot_v1/D052_TRAINING_VALIDATION.json",
+  "final_references": "outputs/stage_i/d053_final_references_v1/FINAL_RESEARCHER_APPROVED_REFERENCES.json",
+  "runtime_pins": {
+    "torch": "2.1.0+cu118",
+    "transformers": "4.51.3",
+    "peft": "0.15.2",
+    "accelerate": "1.6.0",
+    "numpy": "1.26.4",
+    "tokenizers": "0.21.1",
+    "safetensors": "0.8.0"
+  },
+  "historical_integrity_manifest": "outputs/stage_i/d060_preparation_v1/PREFLIGHT_MANIFEST.json",
+  "tokenizer_directory": "assets/tokenizers/led-base-16384",
+  "generation": {
+    "max_length": 768,
+    "num_beams": 4,
+    "do_sample": false,
+    "length_penalty": 1.0,
+    "no_repeat_ngram_size": 0,
+    "early_stopping": true,
+    "forced_eos_token_id": 2
+  },
+  "budgets": {
+    "source": 5000,
+    "reviews": 4000,
+    "captions": 750,
+    "target": 768,
+    "K": 5
+  },
+  "CPU_threads": 8,
+  "minimum_memory_headroom": 0.15,
+  "precision": "FP32 weights; FP16 autocast; TF32 disabled; no quantization",
+  "run_root": "outputs/stage_i/repetition_guard_pilot_v1",
+  "hardware": "local_RTX3050_6GB_batch1_beam4",
+  "policy": {
+    "version": "completed_surface_units_v1",
+    "hard_rules": [
+      "duplicate_sentence",
+      "adjacent_word",
+      "duplicate_list_item"
+    ],
+    "sentence_scope": "casefolded lexical words within canonical section; completed units only; conservative abbreviation/decimal exceptions",
+    "list_scope": "finished comma/semicolon/and/or items; ignore leading articles; first-clause suffix match with negation safeguard",
+    "literal_word_scope": "closed same word separated by horizontal whitespace within a sentence",
+    "source_exception": "exact LED-visible source reduplication bounded by source maximum run; not verified names",
+    "grammar_ambiguity_exceptions": [
+      "had had",
+      "that that"
+    ],
+    "markers": "canonical section histories independent; repeated markers do not reset; unknown syntax flagged; no repair/forcing",
+    "candidate_filter": "eight legal per-row frontier plus ties; lower tail untouched; no renormalization; pinned top8 selection safety assertion",
+    "semantic_and_suffix_evasion": "flag only; no semantic guarantee; reject usability conclusion without researcher review",
+    "no_postprocessing": true
+  },
+  "viability_deadline_utc": "2026-10-22T07:11:22.846767+00:00",
+  "original_D059_deadline_utc": "2026-10-25T15:10:48.941817+00:00",
+  "D051_strict_replay": "FAIL_UNCHANGED",
+  "Teacher_calls_authorized": false,
+  "held_out_access": false,
+  "automatic_retry": false,
+  "fallback_authorized": false,
+  "RO_U_Shuffled_authorized": false,
+  "sweeps_authorized": false,
+  "quality_acceptance": "researcher-confirmed usable improvement in Core/opinion/grounding/visual usefulness/completion, not repetition alone"
+}

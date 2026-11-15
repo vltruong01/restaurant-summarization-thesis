@@ -1,0 +1,356 @@
+{
+  "status": "STAGE_F_PRODUCTION_COMPLETE_VALIDATED_STOP_BEFORE_STAGE_G",
+  "decision": "D-033",
+  "K": 5,
+  "method_sha256": "a4cb27a1339e453ee9d036b70e560e9df2f43871897883c66bb503831bdf46bd",
+  "cohort_businesses": 2300,
+  "pinned_tokenizer": {
+    "model_id": "allenai/led-base-16384",
+    "revision": "38335783885b338d93791936c54bb4be46bebed9",
+    "relative_directory": "assets/tokenizers/led-base-16384",
+    "sha256": {
+      "merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+      "special_tokens_map.json": "75cbec71553267dadc77a583ef15122c2aa7422eb6635acc72a184a413f17c1c",
+      "tokenizer.json": "2bb1a22cfbe25b8e5a232b7fc4d7fc5073923b45724a5f813b00811bb6620f66",
+      "tokenizer_config.json": "ea12900270cfcc4e4c9947095513bdd271832faa3bd69efc8e78c72ab82234dc",
+      "vocab.json": "ed19656ea1707df69134c4af35c8ceda2cc9860bf2c3495026153a133670ab5e"
+    }
+  },
+  "budgets": {
+    "full_source": 5000,
+    "review": 4000,
+    "caption": 750
+  },
+  "split_reports": {
+    "train": {
+      "businesses": 2000,
+      "caption_pool_generated": 26387,
+      "basic_pass": 26331,
+      "basic_failures": 56,
+      "retried_photos": 91,
+      "exact_duplicate_collapses_Filtered": 150,
+      "relevance_removals_Filtered": 7994,
+      "redundancy_removals_Filtered": 9953,
+      "conditions": {
+        "unfiltered": {
+          "retained_captions": {
+            "n": 2000,
+            "min": 4,
+            "mean": 4.9945,
+            "median": 5.0,
+            "p90": 5.0,
+            "p95": 5.0,
+            "max": 5,
+            "total": 9989
+          },
+          "retained_count_histogram": {
+            "4": 11,
+            "5": 1989
+          },
+          "zero_caption_businesses": [],
+          "caption_block_tokens": {
+            "n": 2000,
+            "min": 98,
+            "mean": 129.0365,
+            "median": 129.0,
+            "p90": 135.0,
+            "p95": 136.04999999999995,
+            "max": 152,
+            "total": 258073
+          },
+          "full_source_tokens": {
+            "n": 2000,
+            "min": 1020,
+            "mean": 3847.059,
+            "median": 4085.0,
+            "p90": 4172.0,
+            "p95": 4181.0,
+            "max": 4211,
+            "total": 7694118
+          },
+          "caption_over750": 0,
+          "source_over5000": 0
+        },
+        "filtered": {
+          "retained_captions": {
+            "n": 2000,
+            "min": 0,
+            "mean": 3.44,
+            "median": 3.0,
+            "p90": 5.0,
+            "p95": 5.0,
+            "max": 5,
+            "total": 6880
+          },
+          "retained_count_histogram": {
+            "0": 9,
+            "1": 141,
+            "2": 407,
+            "3": 473,
+            "4": 344,
+            "5": 626
+          },
+          "zero_caption_businesses": [
+            "2swMZVA832zkmdPBrddPRQ",
+            "3_rsHAhzuqG0M3-EfMb-7A",
+            "EzJI5x25U5GgbYBWhu5ZQQ",
+            "KyDcAU41QDQpYAFyK6Q6hg",
+            "ZrxlfdFU_qpnIHI2DmoRxA",
+            "_anAV7MH8kZ-KXI6hNjtHQ",
+            "m3YaaSd7UFH7f0skHO2ISg",
+            "vyyr3G874jpRYSQo2KPZow",
+            "wIiAO9IHsLEPQ1BVI2RJug"
+          ],
+          "caption_block_tokens": {
+            "n": 2000,
+            "min": 10,
+            "mean": 91.4105,
+            "median": 86.0,
+            "p90": 130.0,
+            "p95": 133.0,
+            "max": 141,
+            "total": 182821
+          },
+          "full_source_tokens": {
+            "n": 2000,
+            "min": 971,
+            "mean": 3809.433,
+            "median": 4042.0,
+            "p90": 4153.0,
+            "p95": 4171.0,
+            "max": 4213,
+            "total": 7618866
+          },
+          "caption_over750": 0,
+          "source_over5000": 0
+        }
+      }
+    },
+    "validation": {
+      "businesses": 200,
+      "caption_pool_generated": 2504,
+      "basic_pass": 2497,
+      "basic_failures": 7,
+      "retried_photos": 9,
+      "exact_duplicate_collapses_Filtered": 22,
+      "relevance_removals_Filtered": 729,
+      "redundancy_removals_Filtered": 949,
+      "conditions": {
+        "unfiltered": {
+          "retained_captions": {
+            "n": 200,
+            "min": 4,
+            "mean": 4.99,
+            "median": 5.0,
+            "p90": 5.0,
+            "p95": 5.0,
+            "max": 5,
+            "total": 998
+          },
+          "retained_count_histogram": {
+            "4": 2,
+            "5": 198
+          },
+          "zero_caption_businesses": [],
+          "caption_block_tokens": {
+            "n": 200,
+            "min": 109,
+            "mean": 128.72,
+            "median": 128.0,
+            "p90": 134.0,
+            "p95": 135.0,
+            "max": 144,
+            "total": 25744
+          },
+          "full_source_tokens": {
+            "n": 200,
+            "min": 1159,
+            "mean": 3818.165,
+            "median": 4091.0,
+            "p90": 4168.1,
+            "p95": 4179.0,
+            "max": 4195,
+            "total": 763633
+          },
+          "caption_over750": 0,
+          "source_over5000": 0
+        },
+        "filtered": {
+          "retained_captions": {
+            "n": 200,
+            "min": 0,
+            "mean": 3.49,
+            "median": 3.5,
+            "p90": 5.0,
+            "p95": 5.0,
+            "max": 5,
+            "total": 698
+          },
+          "retained_count_histogram": {
+            "0": 1,
+            "1": 13,
+            "2": 33,
+            "3": 53,
+            "4": 40,
+            "5": 60
+          },
+          "zero_caption_businesses": [
+            "j3kGicU3mPG_ciIKG1Vuyg"
+          ],
+          "caption_block_tokens": {
+            "n": 200,
+            "min": 10,
+            "mean": 92.435,
+            "median": 95.0,
+            "p90": 130.0,
+            "p95": 131.04999999999998,
+            "max": 136,
+            "total": 18487
+          },
+          "full_source_tokens": {
+            "n": 200,
+            "min": 1114,
+            "mean": 3781.88,
+            "median": 4042.0,
+            "p90": 4156.1,
+            "p95": 4169.05,
+            "max": 4193,
+            "total": 756376
+          },
+          "caption_over750": 0,
+          "source_over5000": 0
+        }
+      }
+    },
+    "test": {
+      "businesses": 100,
+      "caption_pool_generated": 1136,
+      "basic_pass": 1134,
+      "basic_failures": 2,
+      "retried_photos": 4,
+      "exact_duplicate_collapses_Filtered": 10,
+      "relevance_removals_Filtered": 347,
+      "redundancy_removals_Filtered": 393,
+      "conditions": {
+        "unfiltered": {
+          "retained_captions": {
+            "n": 100,
+            "min": 5,
+            "mean": 5.0,
+            "median": 5.0,
+            "p90": 5.0,
+            "p95": 5.0,
+            "max": 5,
+            "total": 500
+          },
+          "retained_count_histogram": {
+            "5": 100
+          },
+          "zero_caption_businesses": [],
+          "caption_block_tokens": {
+            "n": 100,
+            "min": 120,
+            "mean": 129.43,
+            "median": 129.5,
+            "p90": 135.0,
+            "p95": 136.05,
+            "max": 142,
+            "total": 12943
+          },
+          "full_source_tokens": {
+            "n": 100,
+            "min": 1267,
+            "mean": 3765.51,
+            "median": 4074.5,
+            "p90": 4170.1,
+            "p95": 4178.1,
+            "max": 4197,
+            "total": 376551
+          },
+          "caption_over750": 0,
+          "source_over5000": 0
+        },
+        "filtered": {
+          "retained_captions": {
+            "n": 100,
+            "min": 0,
+            "mean": 3.41,
+            "median": 4.0,
+            "p90": 5.0,
+            "p95": 5.0,
+            "max": 5,
+            "total": 341
+          },
+          "retained_count_histogram": {
+            "0": 2,
+            "1": 7,
+            "2": 18,
+            "3": 21,
+            "4": 25,
+            "5": 27
+          },
+          "zero_caption_businesses": [
+            "4iuNK5svIKV_GrbSwAXM6Q",
+            "PLebbMEYWV-5ggzx0c4lBQ"
+          ],
+          "caption_block_tokens": {
+            "n": 100,
+            "min": 10,
+            "mean": 90.86,
+            "median": 100.5,
+            "p90": 129.10000000000002,
+            "p95": 131.05,
+            "max": 138,
+            "total": 9086
+          },
+          "full_source_tokens": {
+            "n": 100,
+            "min": 1218,
+            "mean": 3726.94,
+            "median": 4034.5,
+            "p90": 4157.0,
+            "p95": 4164.15,
+            "max": 4185,
+            "total": 372694
+          },
+          "caption_over750": 0,
+          "source_over5000": 0
+        }
+      }
+    }
+  },
+  "source_ID_verification_checks": 6900,
+  "budget_overflows": 0,
+  "selected_review_IDs_text_order_identical_across_conditions": true,
+  "selected_review2200accepted_IDs_unchanged": true,
+  "prior_validation160_K5_sources_and_caption_IDs_identical": true,
+  "all_businesses_row_order_reproducibility_checked": true,
+  "historical_protected_artifacts_unchanged": true,
+  "test_tuning": false,
+  "test_teacher_targets": false,
+  "human_test_references_used": false,
+  "teacher_calls": false,
+  "LED_training": false,
+  "artifact_sha256": {
+    "manifests/shared_review_inputs.jsonl": "3e748ab44e0203693a12553b009f7d4bd2db9811b8aa8954dc0c15ed48db29b3",
+    "manifests/complete_caption_pool_inventory.jsonl": "5150c648425f0a77a0162ad89b571de06b21eee17ddf21c0c52fee247557eaa7",
+    "manifests/token_ledger.jsonl": "ba5decb5bef8a9afb56c30400e32ce5d2268a540616df1cb5efc9caa5da8c2e7",
+    "manifests/frozen_filter_pools.jsonl": "58d98938bb5848e10e7d32bafa65ef25ce4cbd29b8c13aa20abc2743656168ed",
+    "manifests/test/filtered_captions.jsonl": "a37ff37c0062fb7248a1b191986434253a5bb60b0dd192383f56d15ca25e622a",
+    "manifests/test/unfiltered_captions.jsonl": "47c605dd424ddf9bc30bc5af1d50229f406fe1b645a16adaa4ed10caecf87f25",
+    "manifests/train/filtered_captions.jsonl": "d2a283e69ef3b111368965ed4beaf121f287b4a31438288f6640294255fe4716",
+    "manifests/train/unfiltered_captions.jsonl": "b9931748b32612fc0f09a8ddc098b5246b52e4c74ea531e681c799557e8778a7",
+    "manifests/validation/filtered_captions.jsonl": "709877ef929195872f893e869d4a3f7c5f3fb912d8cba6ef4c66cc2e23c38542",
+    "manifests/validation/unfiltered_captions.jsonl": "3c9ecff61ad147159d6ee95e05d647af370608336f9bd2ce324d9f30ed7a30d7",
+    "manifests/test/filtered_sources.jsonl": "4fce349102dd8e6e9cf73ce14b4a2905c942e4a88a7e495736f6bf697613abe7",
+    "manifests/test/reviews_only_sources.jsonl": "ad35e89b4aad1ca01a0de0984281719edb056a4e0529730d9ee6388217ccfe8d",
+    "manifests/test/unfiltered_sources.jsonl": "bf355f1d78d00e496b45938810aa87b3913aaafe51741e5e79d5f1140cfa9f1c",
+    "manifests/train/filtered_sources.jsonl": "b0cf75cfffde82af7f65384194dc36e6e69e6502e428d0482ea57b056b5ef2fc",
+    "manifests/train/reviews_only_sources.jsonl": "efc26ab7a30c909b00e7c7b61054ad912ec49f9183dc73554738d20b910f36b4",
+    "manifests/train/unfiltered_sources.jsonl": "75da9b84caf9c87f1607767cad1916491a4d1d48ce661cc732392a9816636a69",
+    "manifests/validation/filtered_sources.jsonl": "7274661d352e020a438e8b881bbbe322441747f0431d71d571ef7b60053247eb",
+    "manifests/validation/reviews_only_sources.jsonl": "6a527c115d4948b12a7fed8acc50750901e8c5cddb205e1242f0c183c92bd51e",
+    "manifests/validation/unfiltered_sources.jsonl": "9a64d62cd99f9850ebb4e9df1b82088acf2160a96b818778ec38a54b2706e213"
+  },
+  "shuffled_assignment_not_yet_constructed_or_empirically_audited": true
+}

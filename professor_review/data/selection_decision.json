@@ -1,0 +1,10 @@
+{
+  "decision": "RECOMMEND_V1_S1000_FOR_FILTERED_VALIDATION_SELECTED_CONFIGURATION",
+  "checkpoint_sha256": "6dcb08275e96f3972b15058f6abf370d83fa8ce05553214af94b5a0bd9c1c699",
+  "UTC": "2026-10-27T20:47:42.080258+00:00",
+  "basis": "Paired masked primary24 correctness/coverage plus full200 structure/repetition, with distinct historical24 corroboration. No loss-based selection. S1000 Review preferred over S500 in7 separating cases versus1,16 ties/no separation; no universal coverage win.",
+  "not_population_quality_proof": true,
+  "not_pure_source_separation_effect": true,
+  "no_automatic_training": true,
+  "TEST_access": false
+}

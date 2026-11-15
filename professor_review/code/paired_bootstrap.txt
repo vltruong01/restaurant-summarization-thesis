@@ -1,0 +1,15 @@
+def paired(x,y,seed=20261028,B=20000,P=50000):
+    import numpy as np
+    x=np.asarray(x,dtype=float);y=np.asarray(y,dtype=float)
+    require(x.shape==y.shape and x.ndim==1 and len(x)>1 and np.isfinite(x).all() and np.isfinite(y).all(),'Complete finite paired data required')
+    d=x-y;rng=np.random.default_rng(seed);samples=d[rng.integers(0,len(d),(B,len(d)))].mean(axis=1)
+    lo,hi=np.quantile(samples,[.025,.975]);extreme=0
+    for start in range(0,P,1000):
+        n=min(1000,P-start);v=(rng.choice([-1,1],(n,len(d)))*d).mean(axis=1)
+        extreme+=int((abs(v)>=abs(d.mean())-1e-15).sum())
+    return dict(n=len(d),mean_difference=float(d.mean()),CI95=[float(lo),float(hi)],signflip_two_sided_p=(extreme+1)/(P+1),seed=seed,bootstrap_replicates=B,signflip_replicates=P)
+
+def holm(p):
+    order=sorted(range(len(p)),key=lambda i:p[i]);out=[0.]*len(p);last=0.
+    for k,i in enumerate(order):last=max(last,min(1.,(len(p)-k)*p[i]));out[i]=last
+    return out

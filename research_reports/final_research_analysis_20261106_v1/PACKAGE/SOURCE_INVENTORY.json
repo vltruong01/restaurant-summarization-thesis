@@ -1,0 +1,697 @@
+{
+  "created_at_utc": "2026-11-06T13:50:45.129179+00:00",
+  "archives": [
+    {
+      "stage": "M",
+      "original_archive": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/STAGE_M_FINAL_TEST100_EVALUATION_REVIEW.zip",
+      "sha256": "edccd741a1b6580926b3d0dd46e42380d03670ddb2c2de11b726cfca5db765dc",
+      "archive_members": 372,
+      "manifest_members_checked": 371,
+      "crc": "PASS",
+      "member_hashes": "PASS"
+    },
+    {
+      "stage": "N",
+      "original_archive": "outputs/stage_n/final_human_statistical_analysis_20261102_v1/STAGE_N_FINAL_HUMAN_STATISTICAL_REVIEW.zip",
+      "sha256": "f6bdcdb8870a40d06af59de7a71b57f0bae7e660ccb852b68c33318217ea8b42",
+      "archive_members": 101,
+      "manifest_members_checked": 100,
+      "crc": "PASS",
+      "member_hashes": "PASS"
+    },
+    {
+      "stage": "O",
+      "original_archive": "outputs/stage_o/final_human_statistical_analysis_20261106_v1/STAGE_O_FINAL_STATISTICAL_REVIEW.zip",
+      "sha256": "2d2ee4d12f53d12c63e42166b00142a952df9055dedee6e265e379edda809b8b",
+      "archive_members": 108,
+      "manifest_members_checked": 107,
+      "crc": "PASS",
+      "member_hashes": "PASS"
+    },
+    {
+      "stage": "P",
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "sha256": "e2f3715d522f1d9505075f2f79c0d394880cc9dbb8462579b99c41ca82f28fc5",
+      "archive_members": 41,
+      "manifest_members_checked": 40,
+      "crc": "PASS",
+      "member_hashes": "PASS"
+    },
+    {
+      "stage": "Training provenance",
+      "original_archive": "outputs/cloud_handoff/LED_LARGE_RO_U_CE3_DIRECT750_TRAINING_RESULTS_REVIEW_V1.zip",
+      "sha256": "7ecedb7084ee8034e8180fd73f951c8a1ed1cdbaadcaa6ffef78b3f5c8f1afd3",
+      "verification": "Selected provenance members copied;weights not read"
+    }
+  ],
+  "member_copies": [
+    {
+      "original_archive": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/STAGE_M_FINAL_TEST100_EVALUATION_REVIEW.zip",
+      "member": "RESULTS_ORIGINAL/AGGREGATE_METRICS.csv",
+      "package_file": "SOURCES/M/RESULTS_ORIGINAL/AGGREGATE_METRICS.csv",
+      "sha256": "efb57588b90fbc6eecf71dadb0632ec24bd52508317b12046cc34d4aea681a64",
+      "bytes": 1357
+    },
+    {
+      "original_archive": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/STAGE_M_FINAL_TEST100_EVALUATION_REVIEW.zip",
+      "member": "RESULTS_ORIGINAL/PAIRED_COMPARISONS.csv",
+      "package_file": "SOURCES/M/RESULTS_ORIGINAL/PAIRED_COMPARISONS.csv",
+      "sha256": "564c1329f1e688b5dc736941476adea001acbf481b9188811914c06368cc4c93",
+      "bytes": 5508
+    },
+    {
+      "original_archive": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/STAGE_M_FINAL_TEST100_EVALUATION_REVIEW.zip",
+      "member": "RESULTS_ORIGINAL/PAIRED_COMPARISONS.json",
+      "package_file": "SOURCES/M/RESULTS_ORIGINAL/PAIRED_COMPARISONS.json",
+      "sha256": "3e76e666c181c1b2a240b8ad6592dab41bf2997b12611af8c24c05faf9fe8072",
+      "bytes": 12058
+    },
+    {
+      "original_archive": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/STAGE_M_FINAL_TEST100_EVALUATION_REVIEW.zip",
+      "member": "RESULTS_ORIGINAL/PER_BUSINESS_COMPONENT_METRICS.csv",
+      "package_file": "SOURCES/M/RESULTS_ORIGINAL/PER_BUSINESS_COMPONENT_METRICS.csv",
+      "sha256": "5474fb94dc0b146742a8d61efb8c971c78020178b585d62ba088c053fe29d374",
+      "bytes": 510664
+    },
+    {
+      "original_archive": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/STAGE_M_FINAL_TEST100_EVALUATION_REVIEW.zip",
+      "member": "RESULTS_ORIGINAL/STRUCTURE_REPETITION_LENGTH.md",
+      "package_file": "SOURCES/M/RESULTS_ORIGINAL/STRUCTURE_REPETITION_LENGTH.md",
+      "sha256": "0cd123551cad67985800548cdfd18e55fd277912df807cc275fbfecdfaab1caa",
+      "bytes": 946
+    },
+    {
+      "original_archive": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/STAGE_M_FINAL_TEST100_EVALUATION_REVIEW.zip",
+      "member": "RESULTS_ORIGINAL/STAGE_M_PRIMARY_REPORT.md",
+      "package_file": "SOURCES/M/RESULTS_ORIGINAL/STAGE_M_PRIMARY_REPORT.md",
+      "sha256": "585afe9ac27bc2a217fcb4b42fbfae953b4ce79d2d197677c2e1571aa5cadecc",
+      "bytes": 7721
+    },
+    {
+      "original_archive": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/STAGE_M_FINAL_TEST100_EVALUATION_REVIEW.zip",
+      "member": "RESULTS_ORIGINAL/COMPLETION.json",
+      "package_file": "SOURCES/M/RESULTS_ORIGINAL/COMPLETION.json",
+      "sha256": "a582e4c5a947074ea493653bac853f998907c6a7d8b92cce9fbcf0dd4b5698da",
+      "bytes": 16269
+    },
+    {
+      "original_archive": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/STAGE_M_FINAL_TEST100_EVALUATION_REVIEW.zip",
+      "member": "RESULTS_ORIGINAL/RESULT_INTEGRITY_VERIFICATION.json",
+      "package_file": "SOURCES/M/RESULTS_ORIGINAL/RESULT_INTEGRITY_VERIFICATION.json",
+      "sha256": "61f2a28561027f9446c9930626cb8d7db408ec7dbf272e61e16e57c9f6a504f2",
+      "bytes": 493
+    },
+    {
+      "original_archive": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/STAGE_M_FINAL_TEST100_EVALUATION_REVIEW.zip",
+      "member": "SUMMARY/METHODOLOGY.md",
+      "package_file": "SOURCES/M/SUMMARY/METHODOLOGY.md",
+      "sha256": "a45586c0d1727a7fcda4e09bdd87f2c050a76872a8a849f66d33681d793390b1",
+      "bytes": 4742
+    },
+    {
+      "original_archive": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/STAGE_M_FINAL_TEST100_EVALUATION_REVIEW.zip",
+      "member": "REFERENCE_PROVENANCE/AI_ASSISTANCE_AND_LIMITATIONS.md",
+      "package_file": "SOURCES/M/REFERENCE_PROVENANCE/AI_ASSISTANCE_AND_LIMITATIONS.md",
+      "sha256": "8318b53e815319802d66f14e5cac4a495317f6e424f9de6aa6f5a67bcbd82e16",
+      "bytes": 3492
+    },
+    {
+      "original_archive": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/STAGE_M_FINAL_TEST100_EVALUATION_REVIEW.zip",
+      "member": "PROTOCOL/AUTOMATIC_EVALUATION_PROTOCOL.md",
+      "package_file": "SOURCES/M/PROTOCOL/AUTOMATIC_EVALUATION_PROTOCOL.md",
+      "sha256": "e9efbbb4e1a3c380240b0c821d7fef573b68c044b9a5a97c1adfcfeac8a074d6",
+      "bytes": 6806
+    },
+    {
+      "original_archive": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/STAGE_M_FINAL_TEST100_EVALUATION_REVIEW.zip",
+      "member": "PROTOCOL/METRIC_LOCK.json",
+      "package_file": "SOURCES/M/PROTOCOL/METRIC_LOCK.json",
+      "sha256": "b4d251e90b235b0919c5422026ebb99ffc4df5c24a5086b393594dc8406fab21",
+      "bytes": 4189
+    },
+    {
+      "original_archive": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/STAGE_M_FINAL_TEST100_EVALUATION_REVIEW.zip",
+      "member": "PROTOCOL/MODEL_AND_DECODER_LOCK.json",
+      "package_file": "SOURCES/M/PROTOCOL/MODEL_AND_DECODER_LOCK.json",
+      "sha256": "342979621ad532c6029bc331cf596f8706ef21f2e7f6a33d718395f66edd1cee",
+      "bytes": 11416
+    },
+    {
+      "original_archive": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/STAGE_M_FINAL_TEST100_EVALUATION_REVIEW.zip",
+      "member": "PROTOCOL/SHUFFLED_POLICY.json",
+      "package_file": "SOURCES/M/PROTOCOL/SHUFFLED_POLICY.json",
+      "sha256": "e0524f7ff10c4dd37fd8804d275e0972244dfc6ffdda24af24007a17225aa659",
+      "bytes": 2527
+    },
+    {
+      "original_archive": "outputs/stage_m/final_test100_evaluation_review_20261101_v1/STAGE_M_FINAL_TEST100_EVALUATION_REVIEW.zip",
+      "member": "PROTOCOL/COHORT100_FREEZE.json",
+      "package_file": "SOURCES/M/PROTOCOL/COHORT100_FREEZE.json",
+      "sha256": "feee17e2be661c2c965aff6742a449da4209d819f7df28a2afa8f9b028497556",
+      "bytes": 3379
+    },
+    {
+      "original_archive": "outputs/stage_n/final_human_statistical_analysis_20261102_v1/STAGE_N_FINAL_HUMAN_STATISTICAL_REVIEW.zip",
+      "member": "ANALYSIS_CONFIG.json",
+      "package_file": "SOURCES/N/ANALYSIS_CONFIG.json",
+      "sha256": "bd4e379be52cc79327e3fe2e44c9d1f00a6c2a4afa3b6e3ebd11d4863df2b090",
+      "bytes": 3403
+    },
+    {
+      "original_archive": "outputs/stage_n/final_human_statistical_analysis_20261102_v1/STAGE_N_FINAL_HUMAN_STATISTICAL_REVIEW.zip",
+      "member": "DATA/VERIFIED_ANALYSIS_INPUT.json",
+      "package_file": "SOURCES/N/DATA/VERIFIED_ANALYSIS_INPUT.json",
+      "sha256": "2c53ac20495866af739efcc0fa70fbc31718e7565f18421940b6489620d18e67",
+      "bytes": 232731
+    },
+    {
+      "original_archive": "outputs/stage_n/final_human_statistical_analysis_20261102_v1/STAGE_N_FINAL_HUMAN_STATISTICAL_REVIEW.zip",
+      "member": "DATA/ORIGINAL_RATINGS_240.json",
+      "package_file": "SOURCES/N/DATA/ORIGINAL_RATINGS_240.json",
+      "sha256": "18ceab6cb5697f01f02e9610644af381086a562fe664d6604385fa07a3b6777b",
+      "bytes": 261212
+    },
+    {
+      "original_archive": "outputs/stage_n/final_human_statistical_analysis_20261102_v1/STAGE_N_FINAL_HUMAN_STATISTICAL_REVIEW.zip",
+      "member": "TABLES/DESCRIPTIVE_STATISTICS.json",
+      "package_file": "SOURCES/N/TABLES/DESCRIPTIVE_STATISTICS.json",
+      "sha256": "c65fd4ba35b9a216fb60830b9e944a95f0c5718e578f8d5b7fdbd5f32b028724",
+      "bytes": 33654
+    },
+    {
+      "original_archive": "outputs/stage_n/final_human_statistical_analysis_20261102_v1/STAGE_N_FINAL_HUMAN_STATISTICAL_REVIEW.zip",
+      "member": "TABLES/AGREEMENT.json",
+      "package_file": "SOURCES/N/TABLES/AGREEMENT.json",
+      "sha256": "b65291b80925ca0c7d7237f34f5ee53c71e9d3ba710a01146079c5e2b4587d74",
+      "bytes": 18312
+    },
+    {
+      "original_archive": "outputs/stage_n/final_human_statistical_analysis_20261102_v1/STAGE_N_FINAL_HUMAN_STATISTICAL_REVIEW.zip",
+      "member": "TABLES/PAIRED_COMPARISONS.json",
+      "package_file": "SOURCES/N/TABLES/PAIRED_COMPARISONS.json",
+      "sha256": "6bce58099d46bb421028982adfe96ce48325562749921d69d7bef786e8bb9025",
+      "bytes": 13733
+    },
+    {
+      "original_archive": "outputs/stage_n/final_human_statistical_analysis_20261102_v1/STAGE_N_FINAL_HUMAN_STATISTICAL_REVIEW.zip",
+      "member": "METHODOLOGY.md",
+      "package_file": "SOURCES/N/METHODOLOGY.md",
+      "sha256": "786850d347af226979e49ab749844eaa1cfd927ab5c33230fc14859fafa580f6",
+      "bytes": 4261
+    },
+    {
+      "original_archive": "outputs/stage_n/final_human_statistical_analysis_20261102_v1/STAGE_N_FINAL_HUMAN_STATISTICAL_REVIEW.zip",
+      "member": "PROVENANCE/RESEARCHER_ACCEPTANCE_AS_RECORDED.json",
+      "package_file": "SOURCES/N/PROVENANCE/RESEARCHER_ACCEPTANCE_AS_RECORDED.json",
+      "sha256": "c2618eaae8c1fb53500a7c3f429c89dd37352562e23ae93d053fcbf6b97ad5ea",
+      "bytes": 1471
+    },
+    {
+      "original_archive": "outputs/stage_n/final_human_statistical_analysis_20261102_v1/STAGE_N_FINAL_HUMAN_STATISTICAL_REVIEW.zip",
+      "member": "PROVENANCE/MODEL_ASSISTED_AUDIT_SUMMARY.json",
+      "package_file": "SOURCES/N/PROVENANCE/MODEL_ASSISTED_AUDIT_SUMMARY.json",
+      "sha256": "266af89259ae7b12e57f2154522a6a127d8d2d16dc4cfbebf1d7d0db7cc513f6",
+      "bytes": 5509
+    },
+    {
+      "original_archive": "outputs/stage_n/final_human_statistical_analysis_20261102_v1/STAGE_N_FINAL_HUMAN_STATISTICAL_REVIEW.zip",
+      "member": "PROVENANCE/TWO_RATER_PROTOCOL_AMENDMENT.md",
+      "package_file": "SOURCES/N/PROVENANCE/TWO_RATER_PROTOCOL_AMENDMENT.md",
+      "sha256": "49346affcd5a6b81c0bbe96dcd0a689bf6a83bb8107e91e6113384bf7050da1b",
+      "bytes": 3919
+    },
+    {
+      "original_archive": "outputs/stage_n/final_human_statistical_analysis_20261102_v1/STAGE_N_FINAL_HUMAN_STATISTICAL_REVIEW.zip",
+      "member": "PROVENANCE/RUBRIC.json",
+      "package_file": "SOURCES/N/PROVENANCE/RUBRIC.json",
+      "sha256": "1a34dc0bd3f03c88621b27b34821c695598830e6c4a3eb9c8f23896813c3dbdc",
+      "bytes": 2436
+    },
+    {
+      "original_archive": "outputs/stage_o/final_human_statistical_analysis_20261106_v1/STAGE_O_FINAL_STATISTICAL_REVIEW.zip",
+      "member": "ANALYSIS_CONFIG.json",
+      "package_file": "SOURCES/O/ANALYSIS_CONFIG.json",
+      "sha256": "b1b4141e573b62e60b41000782215fea552974872f68fb6bd0b4ab8fc6c7773d",
+      "bytes": 1482
+    },
+    {
+      "original_archive": "outputs/stage_o/final_human_statistical_analysis_20261106_v1/STAGE_O_FINAL_STATISTICAL_REVIEW.zip",
+      "member": "COLLECTION/STAGE_O_TRIPADVISOR15_RATINGS_FINAL_90.json",
+      "package_file": "SOURCES/O/COLLECTION/STAGE_O_TRIPADVISOR15_RATINGS_FINAL_90.json",
+      "sha256": "d89c2fc9ed7c228139a1594c9ff7b1f7b2ffda2dfbe18bff435a7ccb6a13df7f",
+      "bytes": 102568
+    },
+    {
+      "original_archive": "outputs/stage_o/final_human_statistical_analysis_20261106_v1/STAGE_O_FINAL_STATISTICAL_REVIEW.zip",
+      "member": "DATA/ORIGINAL_PRIVATE_ITEMS_90.json",
+      "package_file": "SOURCES/O/DATA/ORIGINAL_PRIVATE_ITEMS_90.json",
+      "sha256": "9d6a9702c1ceeb06806beb989faa85c376bd87e6da0903f80593c51b7d48236f",
+      "bytes": 107581
+    },
+    {
+      "original_archive": "outputs/stage_o/final_human_statistical_analysis_20261106_v1/STAGE_O_FINAL_STATISTICAL_REVIEW.zip",
+      "member": "DATA/ORIGINAL_OUTPUTS_45.json",
+      "package_file": "SOURCES/O/DATA/ORIGINAL_OUTPUTS_45.json",
+      "sha256": "342e07f0fec81314b2cd2ce7bc8591b69888f1ce9822d619451d66106c9ba735",
+      "bytes": 89804
+    },
+    {
+      "original_archive": "outputs/stage_o/final_human_statistical_analysis_20261106_v1/STAGE_O_FINAL_STATISTICAL_REVIEW.zip",
+      "member": "TABLES/DESCRIPTIVES.json",
+      "package_file": "SOURCES/O/TABLES/DESCRIPTIVES.json",
+      "sha256": "a4475af83dc60b1288753a3afe8625912b619c401aa6fdc9c3d370b70fddaf30",
+      "bytes": 20842
+    },
+    {
+      "original_archive": "outputs/stage_o/final_human_statistical_analysis_20261106_v1/STAGE_O_FINAL_STATISTICAL_REVIEW.zip",
+      "member": "TABLES/AGREEMENT.json",
+      "package_file": "SOURCES/O/TABLES/AGREEMENT.json",
+      "sha256": "7b2a5b9f72d363f335add173c5eacaa008597d32fde170637f62bf76993c499f",
+      "bytes": 8172
+    },
+    {
+      "original_archive": "outputs/stage_o/final_human_statistical_analysis_20261106_v1/STAGE_O_FINAL_STATISTICAL_REVIEW.zip",
+      "member": "TABLES/PAIRED_COMPARISONS.json",
+      "package_file": "SOURCES/O/TABLES/PAIRED_COMPARISONS.json",
+      "sha256": "129e5256ecf5025fbbd63992170f07f18ee9421eae855f8c96cb6cdcd48b5e86",
+      "bytes": 5838
+    },
+    {
+      "original_archive": "outputs/stage_o/final_human_statistical_analysis_20261106_v1/STAGE_O_FINAL_STATISTICAL_REVIEW.zip",
+      "member": "METHODOLOGY_AND_LIMITATIONS.md",
+      "package_file": "SOURCES/O/METHODOLOGY_AND_LIMITATIONS.md",
+      "sha256": "8e11841cbbd6f4c86ed904b13395203b3701ee7bed0393e9fc17efe4dd6aa919",
+      "bytes": 4809
+    },
+    {
+      "original_archive": "outputs/stage_o/final_human_statistical_analysis_20261106_v1/STAGE_O_FINAL_STATISTICAL_REVIEW.zip",
+      "member": "SUMMARY.md",
+      "package_file": "SOURCES/O/SUMMARY.md",
+      "sha256": "af95a723dec7fffafac080c877c57a42e2cbf102ee9895856f897bd6bc68dfa6",
+      "bytes": 1584
+    },
+    {
+      "original_archive": "outputs/stage_o/final_human_statistical_analysis_20261106_v1/STAGE_O_FINAL_STATISTICAL_REVIEW.zip",
+      "member": "COLLECTION/PROVENANCE/RUBRIC.json",
+      "package_file": "SOURCES/O/COLLECTION/PROVENANCE/RUBRIC.json",
+      "sha256": "1a34dc0bd3f03c88621b27b34821c695598830e6c4a3eb9c8f23896813c3dbdc",
+      "bytes": 2436
+    },
+    {
+      "original_archive": "outputs/stage_o/final_human_statistical_analysis_20261106_v1/STAGE_O_FINAL_STATISTICAL_REVIEW.zip",
+      "member": "COLLECTION/PROVENANCE/TWO_RATER_PROTOCOL_AMENDMENT.md",
+      "package_file": "SOURCES/O/COLLECTION/PROVENANCE/TWO_RATER_PROTOCOL_AMENDMENT.md",
+      "sha256": "9851a337d29ebb477f3845ff58e92b470aa96533b0dcfeb18ca5df059006ef0c",
+      "bytes": 3402
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "EVIDENCE/COLLECTION_OPEN.json",
+      "package_file": "SOURCES/P/EVIDENCE/COLLECTION_OPEN.json",
+      "sha256": "04f23f69f1bec16fcd51f7bf33db8a3389f63d7f895ff0ae05ee02d38c466eaf",
+      "bytes": 493
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "EVIDENCE/COMPLETION_VERIFICATION.json",
+      "package_file": "SOURCES/P/EVIDENCE/COMPLETION_VERIFICATION.json",
+      "sha256": "b68e94c605a76f6435cd27f97fcca27e3ae986b38d95b4feef1abdc444737707",
+      "bytes": 3650
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "EVIDENCE/COPY_PROVENANCE.json",
+      "package_file": "SOURCES/P/EVIDENCE/COPY_PROVENANCE.json",
+      "sha256": "02a54e9425592173ffbdf8eeb778ee95ce3fa70e7c191f40a107d225cc6178c1",
+      "bytes": 11707
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/COORDINATOR_ONLY/ANALYSIS_PLAN.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/COORDINATOR_ONLY/ANALYSIS_PLAN.json",
+      "sha256": "44175144ac66c94b4ab29279699475f9c5e06aa341dee8db91e4e3cf0ee5181a",
+      "bytes": 2049
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/COORDINATOR_ONLY/ASSIGNMENT_KEY_90.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/COORDINATOR_ONLY/ASSIGNMENT_KEY_90.json",
+      "sha256": "0f414713c3cd9fa0ab9d9df37c645707247665c82e5f31921065f8790d8dc42f",
+      "bytes": 38333
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/COORDINATOR_ONLY/BINDINGS.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/COORDINATOR_ONLY/BINDINGS.json",
+      "sha256": "2d23813c2da978f5980a14b1cfbe446a577af59180f51c6f2f734b33db1ca54f",
+      "bytes": 876
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/COORDINATOR_ONLY/FROZEN_OUTPUTS_45.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/COORDINATOR_ONLY/FROZEN_OUTPUTS_45.json",
+      "sha256": "46d4402b0b9df3c837920a3130af2298fe066013ebda155a3b28b3a6e637c86c",
+      "bytes": 85510
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/COORDINATOR_ONLY/POSITION_BALANCE.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/COORDINATOR_ONLY/POSITION_BALANCE.json",
+      "sha256": "bff9bf8db6b142c06cffcabb7f08b61a192e2131785441ed30c515a533c5412b",
+      "bytes": 1623
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/COORDINATOR_ONLY/RANDOMIZATION_SEEDS.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/COORDINATOR_ONLY/RANDOMIZATION_SEEDS.json",
+      "sha256": "91c8a1a142ab7c075338949cad62d109a32f9483bd281708725fefca293f2d59",
+      "bytes": 161
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/COORDINATOR_ONLY/SOURCE_POINTERS.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/COORDINATOR_ONLY/SOURCE_POINTERS.json",
+      "sha256": "3a0bfe69e00c963e7520728bbc702c0d9887dfff89e06957aa59e4a35efb1ee1",
+      "bytes": 48308
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/BLINDED_ITEMS.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/BLINDED_ITEMS.json",
+      "sha256": "03a26b697f6316fc45e15d99017af7d9b9a2db38345ec5e0f6a75cda7b0fe413",
+      "bytes": 140475
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/CONFIG.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/CONFIG.json",
+      "sha256": "58a5ca0a7acba33e85d0d62c97c21d5460effbf275cad0489dfbd701e029a349",
+      "bytes": 3459
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/RUBRIC.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/RUBRIC.json",
+      "sha256": "1a34dc0bd3f03c88621b27b34821c695598830e6c4a3eb9c8f23896813c3dbdc",
+      "bytes": 2436
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_1001674.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_1001674.json",
+      "sha256": "cf74ff3fdc8d4cede645d230e2bb0ad76501477097468646009137dfb6bb34dc",
+      "bytes": 177038
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_1119478.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_1119478.json",
+      "sha256": "25839403d7f78fb53e188201ab26adbcb4368fc81a2111a735a1b8b87f7a7532",
+      "bytes": 49937
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_2298952.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_2298952.json",
+      "sha256": "6f6fe789ae3e82f37731fccc74fef913cc71fb3bf8349050b0b48354964e72c5",
+      "bytes": 52328
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_2312071.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_2312071.json",
+      "sha256": "d4a5f77b6c81b6b8b85d4811b3afe3076dd61c6908164bb43fde01d7855e1d0a",
+      "bytes": 578307
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_23652638.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_23652638.json",
+      "sha256": "1b4fd909d8435d72fe02127d0273f3183454fdb5d0421f6557329a9b4980d6a6",
+      "bytes": 57926
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_2687285.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_2687285.json",
+      "sha256": "4d40d12311a0abd159b9363ff1f8d6493405729dd70434e00600dc5be7dc4b46",
+      "bytes": 74936
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_3410297.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_3410297.json",
+      "sha256": "3b842179a85fd2219c9ccfe52d0e4a3e5ffc969751330dc69a7694756baaeeec",
+      "bytes": 67282
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_3512687.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_3512687.json",
+      "sha256": "5af5fc643518f5131e150f495d70f5ad402e04461be26999a17b4041d8891974",
+      "bytes": 260699
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_3961117.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_3961117.json",
+      "sha256": "fa262120d5096042c148d6981b59e463c7c2588b9abce7fd83c76d318ccc479a",
+      "bytes": 43596
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_4004593.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_4004593.json",
+      "sha256": "304c58edca332bcfab3bb7572b1e96dd97b6eddf117a5c48a1d75a51c1d995ad",
+      "bytes": 50178
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_4735772.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_4735772.json",
+      "sha256": "205862e483d356416aee5fbe3d529d6a12780133f0d2d8436d1a137701ca98e4",
+      "bytes": 47538
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_6600483.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_6600483.json",
+      "sha256": "2ee4ee76fb7fd954cd8504012c84a2c7f6b5ceff0979c0874f5d25bed4940994",
+      "bytes": 109823
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_7345192.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_7345192.json",
+      "sha256": "f7a116250e901bf928920692c718bd7b6dca1b30ad7fd83ddeda25e7c1f1e6a8",
+      "bytes": 78967
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_8556009.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_8556009.json",
+      "sha256": "844a2047a2238fd979e1959a6dda0d003161b209bbe65267f6870364309ed68d",
+      "bytes": 40039
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_9802783.json",
+      "package_file": "SOURCES/P/FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/SOURCES/TA14622324_9802783.json",
+      "sha256": "79f0afa8d1cfc2e8367d07d50c0d1fa3ed3ab154eb7c2b01c6b434f7f1a6866f",
+      "bytes": 53925
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/TWO_RATER_PROTOCOL_AMENDMENT.md",
+      "package_file": "SOURCES/P/FROZEN_STUDY/EVALUATOR_APP/WORKSPACE/TWO_RATER_PROTOCOL_AMENDMENT.md",
+      "sha256": "271041bc863c294a107b5dac264e5c0d2f8b90140a692d39862042396883b30d",
+      "bytes": 1309
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "PACKAGE_MANIFEST.json",
+      "package_file": "SOURCES/P/PACKAGE_MANIFEST.json",
+      "sha256": "471fabe6f87143c16094f5a9d47649a75aecbf8d84ad11f829beadee555fa425",
+      "bytes": 7756
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "PROMPT_FOR_CHATGPT.txt",
+      "package_file": "SOURCES/P/PROMPT_FOR_CHATGPT.txt",
+      "sha256": "a7fbc873552a8d3bd70cad3fb3eaae3775847b96b8ae6c3c64688ea5b5029bb1",
+      "bytes": 1453
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "RATINGS/A01_FINAL_45.json",
+      "package_file": "SOURCES/P/RATINGS/A01_FINAL_45.json",
+      "sha256": "a873aa0c1e1914b135d331346d35ef5746e83842c531a0e1733a99dad50a4541",
+      "bytes": 51073
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "RATINGS/A02_FINAL_45.json",
+      "package_file": "SOURCES/P/RATINGS/A02_FINAL_45.json",
+      "sha256": "5414e5e729d577622886744cc25d4b67c931cc83d6b69b69087a35188dee0319",
+      "bytes": 41926
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "RATINGS/RATING_EVENT_JOURNAL.json",
+      "package_file": "SOURCES/P/RATINGS/RATING_EVENT_JOURNAL.json",
+      "sha256": "303337018a6220adba342bd0b28bf4b99ac1ec8b5a7df47aa7b06d847a2e1cf7",
+      "bytes": 172289
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "RATINGS/STAGE_P_TRIPADVISOR15_RATINGS_FINAL_90.json",
+      "package_file": "SOURCES/P/RATINGS/STAGE_P_TRIPADVISOR15_RATINGS_FINAL_90.json",
+      "sha256": "e47b88f1b4d6ccf0bf1649b5b06ead3f538f97af30324993f5e45cf79a58472f",
+      "bytes": 92111
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "README.md",
+      "package_file": "SOURCES/P/README.md",
+      "sha256": "a09575ffe1467ab0432680387517e63f32edeea3b76853502268717a63ccd9ce",
+      "bytes": 3988
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "REPRODUCIBILITY/package_stage_p_completed_human_review_v1.py",
+      "package_file": "SOURCES/P/REPRODUCIBILITY/package_stage_p_completed_human_review_v1.py",
+      "sha256": "8462dfa86119f6c628c458c1927f652d4da39148aba8faad50dddaa9855c5d76",
+      "bytes": 10604
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "STATISTICS/analyze_stage_p_human_ratings_v1.py",
+      "package_file": "SOURCES/P/STATISTICS/analyze_stage_p_human_ratings_v1.py",
+      "sha256": "27edf1068b1a7d5ae8228426b976863374acd050b019c728f175ef6a3e2f4c02",
+      "bytes": 6241
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "STATISTICS/requirements.txt",
+      "package_file": "SOURCES/P/STATISTICS/requirements.txt",
+      "sha256": "48fb15820d59a384f39c743742907be99a3968d17985428ec35cb1808edaa880",
+      "bytes": 15
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "STATISTICS/validate_stage_p_human_exports_v1.py",
+      "package_file": "SOURCES/P/STATISTICS/validate_stage_p_human_exports_v1.py",
+      "sha256": "210df68162948bc26ca8c03bf4a1ad607231560808de9d9ceeaca92e2e83e59f",
+      "bytes": 4085
+    },
+    {
+      "original_archive": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "member": "VERIFY_PACKAGE.py",
+      "package_file": "SOURCES/P/VERIFY_PACKAGE.py",
+      "sha256": "93e2f67dc4b44bf54d30a8ba3bf5c8af4a3126e1fa470a3cd2ff513414c2c13d",
+      "bytes": 6103
+    },
+    {
+      "original_file": "outputs/stage_p/fair_efficiency_audit_20261106_v1/PACKAGE/STAGE_P_EFFICIENCY_AUDIT.md",
+      "package_file": "SOURCES/EFFICIENCY/STAGE_P_EFFICIENCY_AUDIT.md",
+      "sha256": "77db97df2d90fe17f4a2db328cc53024f355a5287c7e854077cd1ae2ef9e5d8f",
+      "bytes": 10332
+    },
+    {
+      "original_file": "outputs/stage_p/fair_efficiency_audit_20261106_v1/PACKAGE/EFFICIENCY_COMPARISON.md",
+      "package_file": "SOURCES/EFFICIENCY/EFFICIENCY_COMPARISON.md",
+      "sha256": "949b446d4ec2c831d9c501c0938de85141f88a6c8aec3e550df4a6bb324ef91a",
+      "bytes": 5748
+    },
+    {
+      "original_file": "outputs/stage_p/fair_efficiency_audit_20261106_v1/PACKAGE/MISSING_MEASUREMENTS.md",
+      "package_file": "SOURCES/EFFICIENCY/MISSING_MEASUREMENTS.md",
+      "sha256": "f6c7f9a215728e950f50a1e91e515d9abc07386d6f1158e7bbf1b36edfcdcdcf",
+      "bytes": 3717
+    },
+    {
+      "original_file": "outputs/stage_p/fair_efficiency_audit_20261106_v1/PACKAGE/EFFICIENCY_MEASUREMENTS.csv",
+      "package_file": "SOURCES/EFFICIENCY/EFFICIENCY_MEASUREMENTS.csv",
+      "sha256": "c662dfdd2f124382e69eaa54beb0853b009f62f3e78bbdba0b072cc199047c77",
+      "bytes": 28085
+    },
+    {
+      "original_file": "outputs/stage_p/fair_efficiency_audit_20261106_v1/PACKAGE/VERIFIED_FACTS.json",
+      "package_file": "SOURCES/EFFICIENCY/VERIFIED_FACTS.json",
+      "sha256": "3a85cd5c188ef4463e6b878ae3a0b4d9f8acd389cc1f664e43c9c898caac4e7c",
+      "bytes": 4189
+    },
+    {
+      "original_file": "outputs/stage_p/fair_efficiency_audit_20261106_v1/PACKAGE/SOURCE_PRESERVATION.json",
+      "package_file": "SOURCES/EFFICIENCY/SOURCE_PRESERVATION.json",
+      "sha256": "6dbec3837856a7ab5b7fc128cb98c551a6a029d037701feae64f5edcceac421f",
+      "bytes": 1059
+    },
+    {
+      "original_file": "outputs/stage_i/led_large_source_separated_v1_two_epoch_preparation_v1/downloaded/RUN/LINUX_TRAINABLE_LOAD_PREFLIGHT.json",
+      "package_file": "SOURCES/TRAINING/LORA_TRAINABLE_PREFLIGHT.json",
+      "sha256": "98720174b79e67007c8b709ebc068a2fcf9ed3c84e5a17f583a0d57e711bd96b",
+      "bytes": 1331
+    },
+    {
+      "original_file": "outputs/stage_i/led_large_source_separated_v1_two_epoch_preparation_v1/MILESTONE_1000_NATIVE_STATUS.json",
+      "package_file": "SOURCES/TRAINING/F_S1000_COMPLETION_NATIVE.json",
+      "sha256": "0e10d486c070dfc036637cefede9a78dad5989a4925d075753a3c925e1abcd11",
+      "bytes": 7128
+    },
+    {
+      "original_archive": "outputs/cloud_handoff/LED_LARGE_RO_U_CE3_DIRECT750_TRAINING_RESULTS_REVIEW_V1.zip",
+      "member": "closeout/TRAINING_COMPLETION_REPORT.md",
+      "package_file": "SOURCES/TRAINING/TRAINING_COMPLETION_REPORT.md",
+      "sha256": "341a9f08be67c903f6cecdcb99f9528211210d0c400ed7b21af41a996d334a26",
+      "bytes": 6122
+    },
+    {
+      "original_archive": "outputs/cloud_handoff/LED_LARGE_RO_U_CE3_DIRECT750_TRAINING_RESULTS_REVIEW_V1.zip",
+      "member": "frozen_expected/INITIALIZATION_HASHES.json",
+      "package_file": "SOURCES/TRAINING/INITIALIZATION_HASHES.json",
+      "sha256": "f6d04cf1073f2d1f01d803df12d048416c1c4535f23478284a84244305582f17",
+      "bytes": 27443
+    },
+    {
+      "original_file": "outputs/data_integrity/cross_split_images_s1000_v1/EVIDENCE/EXPOSURE_SUMMARY.json",
+      "package_file": "SOURCES/IMAGE_OVERLAP/EXPOSURE_SUMMARY.json",
+      "sha256": "d42d04a98e01cf822661a07b22bfb6120aa3a368bb4e4c11f147ea81bc3cac4a",
+      "bytes": 1794
+    },
+    {
+      "original_file": "outputs/data_integrity/cross_split_images_s1000_v1/DUPLICATION_CAUSE_AND_IMPACT_SUMMARY.md",
+      "package_file": "SOURCES/IMAGE_OVERLAP/DUPLICATION_CAUSE_AND_IMPACT_SUMMARY.md",
+      "sha256": "7a49794ca6657f10a854883c7600c1df8633df8356dcfd42ecc64eb6975869f1",
+      "bytes": 2628
+    }
+  ],
+  "documents": [
+    {
+      "role": "APPROVED_PROPOSAL",
+      "original_file": "C:\\thesis_proposal\\yelp_dataset\\thesis_proposal_v16.docx",
+      "sha256": "7ab5afb7a43ba70f07395d60f8cf863f7b450dee5e3191d0a4cde2e22152f638"
+    },
+    {
+      "role": "STYLE_REFERENCE",
+      "original_file": "C:\\Users\\VUONGLOCTRUONG\\Downloads\\Thesis_Research_Progress_v3.docx",
+      "sha256": "f42be8bcafb5b81322176ee3b02f0231e9936ca7ade709bc68389e44cd8234bf"
+    }
+  ],
+  "protected_excluded_artifacts": [
+    {
+      "file": "outputs/stage_p/three_system_human_evaluation_live_20261106_v1/STATE/ratings.sqlite3",
+      "sha256": "6b25ea8f6cd03ab767a3caac3454a5610f52c9be1d0fde48f9fa875cae1b3167",
+      "purpose": "Preservation hash only;not an analysis input"
+    },
+    {
+      "file": "outputs/stage_p/completed_human_evaluation_handoff_20261106_v3/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "sha256": "d192544f74eeb941385e134425dca475a38324d42b8c12d22c13202422ae7c97",
+      "purpose": "Preservation hash only;not an analysis input"
+    }
+  ],
+  "official_P_source_sha256": "e2f3715d522f1d9505075f2f79c0d394880cc9dbb8462579b99c41ca82f28fc5",
+  "exploratory_revisions_included": false,
+  "external_ChatGPT_statistical_ZIP_provided": false,
+  "authorization": "Researcher clarified independent reproduction from recovered original V1,without requiring externally created statistical ZIP."
+}

@@ -1,0 +1,32 @@
+schema_version: 1
+status: draft_not_adopted
+version: basic_quality_minimal_draft_v1
+source_directory: outputs/stage_e/blip2_caption_feasibility_pilot_v1
+output_directory: outputs/stage_e/basic_caption_quality_draft_v1
+minimum_words: 5
+normalization:
+  collapse_whitespace: true
+  append_period_if_terminal_punctuation_missing: true
+  empty_or_nonlexical_output_unchanged_except_whitespace: true
+terminal_punctuation: ['.', '!', '?']
+repetition:
+  adjacent_repeated_block_min_words: 4
+  adjacent_repeated_block_max_words: 8
+  short_repeated_block_diagnostic_words: 3
+generic:
+  matching: exact_case_insensitive_whitespace_and_outer_punctuation_normalized
+  phrases: ['a plate of food', 'a plate of food on a table', 'a picture of food', 'an image of food', 'a restaurant', 'a table with food']
+truncation:
+  fail_only_with_evidence: token_cap_reached_and_no_EOS
+  missing_stop_metadata: unknown_diagnostic_not_failure
+retry:
+  on_basic_failure_only: true
+  maximum_retries: 1
+  existing_fixed_prompt_candidate: 'Describe this image in one complete sentence:'
+  protocol_status: candidate_not_frozen
+  beam_size: 3
+  initial_prompt: null
+  no_per_photo_prompt_changes: true
+forbidden_basic_filters: [CLIP, business_relevance, semantic_redundancy, semantic_diversity, per_photo_manual_exclusion]
+canonical_generation_or_quality_policy_changed: false
+final_manifest: false

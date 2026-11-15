@@ -1,0 +1,18 @@
+# Stage A1 CPU preprocessing. Versions mirror the existing local tools where compatible.
+# The resolved preprocessing.lock.txt is the reproducible installation input.
+numpy==1.26.4
+pandas==2.2.3
+orjson==3.10.16
+langdetect==1.0.9
+transformers==4.51.3
+tokenizers==0.21.1
+# Constraint comes from Transformers 4.51.3 installed package metadata.
+huggingface-hub>=0.30.0,<1.0
+PyYAML==6.0.2
+tqdm==4.67.1
+Pillow==12.2.0
+spacy==3.8.5
+# spaCy's CLI imports click directly; align Typer distributions to prevent mixed module files.
+click==8.5.0
+typer==0.15.2
+typer-slim==0.15.2

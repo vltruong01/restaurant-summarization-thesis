@@ -1,0 +1,602 @@
+[
+  {
+    "business_id": "TA14622324_1001674",
+    "condition": "RO",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as high quality and well prepared, with particular praise for dishes such as butterfish, turbot, sea bass and duck mains. Service is often described as friendly, attentive and helpful, though some reviewers report slow or inattentive service. Value opinions are mixed: some reviewers consider the prices reasonable or worthwhile, while others describe the restaurant as expensive or not an option for those on a budget. Reviewers commonly describe the atmosphere as cozy, elegant, comfortable or relaxed.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as high quality and well prepared, with particular praise for dishes such as butterfish, turbot, sea bass and duck mains. Service is often described as friendly, attentive and helpful, though some reviewers report slow or inattentive service. Value opinions are mixed: some reviewers consider the prices reasonable or worthwhile, while others describe the restaurant as expensive or not an option for those on a budget. Reviewers commonly describe the atmosphere as cozy, elegant, comfortable or relaxed."
+    },
+    "component_hashes": {
+      "review": "c57c3f5d19d5fb8d51315746d8d7ae108f80845d86320ddf4fed1f1a58274938"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_1119478",
+    "condition": "RO",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food and drink, including Sardinnes, cheese, charcuteries, cider, and local beers. Service is often described as friendly, attentive, knowledgeable, and informative, though the restaurant can be busy. Reviewers commonly describe the atmosphere as cozy, relaxed, comfortable, and suitable for relaxing with beer or coffee. Several reviewers describe the prices as reasonable, affordable, or worth a visit.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food and drink, including Sardinnes, cheese, charcuteries, cider, and local beers. Service is often described as friendly, attentive, knowledgeable, and informative, though the restaurant can be busy. Reviewers commonly describe the atmosphere as cozy, relaxed, comfortable, and suitable for relaxing with beer or coffee. Several reviewers describe the prices as reasonable, affordable, or worth a visit."
+    },
+    "component_hashes": {
+      "review": "a4ace659adf0336cdd8f96959db937e486fffe475f77a8112aa4afecf1f1f6f8"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_2298952",
+    "condition": "RO",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as tasty, high quality, well cooked, and well prepared, with specific praise for sirloin steak, veal, garlic shrimp, and local dishes. Service is often described as friendly, helpful, patient, and welcoming, though some selected reviewers report that the owner did not expect them to enjoy the meal. Value opinions are mixed: some selected reviewers consider the prices good or worthwhile, while others describe the food as not excessive or not worth the price. The atmosphere is often described as relaxing, quiet, quiet, or relaxed, with some reviewers also enjoying the patio.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as tasty, high quality, well cooked, and well prepared, with specific praise for sirloin steak, veal, garlic shrimp, and local dishes. Service is often described as friendly, helpful, patient, and welcoming, though some selected reviewers report that the owner did not expect them to enjoy the meal. Value opinions are mixed: some selected reviewers consider the prices good or worthwhile, while others describe the food as not excessive or not worth the price. The atmosphere is often described as relaxing, quiet, quiet, or relaxed, with some reviewers also enjoying the patio."
+    },
+    "component_hashes": {
+      "review": "3439df759addc1c69b87e8526d8e467135a87c854b603694bcb873940dd65fc4"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_2312071",
+    "condition": "RO",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food, describing it as excellent, delicious, or well presented, while some describe it as mediocre or mediocre. Service is often described as friendly, welcoming, prompt, or helpful, though some reviewers report being ignored or left without being served. Reviewers commonly describe the atmosphere as welcoming, distinctive, and distinctive, with distinctive decor, wooden barrels, and local food and drink. Value opinions are mixed: some reviewers consider the prices reasonable or good value for money, while others consider some dishes or drinks expensive or not worth the cost.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food, describing it as excellent, delicious, or well presented, while some describe it as mediocre or mediocre. Service is often described as friendly, welcoming, prompt, or helpful, though some reviewers report being ignored or left without being served. Reviewers commonly describe the atmosphere as welcoming, distinctive, and distinctive, with distinctive decor, wooden barrels, and local food and drink. Value opinions are mixed: some reviewers consider the prices reasonable or good value for money, while others consider some dishes or drinks expensive or not worth the cost."
+    },
+    "component_hashes": {
+      "review": "3bf655657250b8e51149d8e4f833d4696de6a49996009772fbcddf0b9ee76025"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_23652638",
+    "condition": "RO",
+    "combined_text": "[REVIEW_CONSENSUS]\nSeveral selected reviews praise the food, including chicken tikka masala, chicken bhuna, chicken achari, and pakoras, while others describe the food as merely okay, stodgy, or disappointing. Service is often described as friendly, professional, attentive, and accommodating, though some selected reviews report small portions or difficulty getting enough room to eat. Value opinions are mixed: some reviews describe reasonable prices, good portions, and vegetarian options, while others consider the restaurant expensive or overpriced. Atmosphere and seating receive repeated praise, with reviewers describing the setting as quiet, peaceful, or suitable for family gatherings and parties.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSeveral selected reviews praise the food, including chicken tikka masala, chicken bhuna, chicken achari, and pakoras, while others describe the food as merely okay, stodgy, or disappointing. Service is often described as friendly, professional, attentive, and accommodating, though some selected reviews report small portions or difficulty getting enough room to eat. Value opinions are mixed: some reviews describe reasonable prices, good portions, and vegetarian options, while others consider the restaurant expensive or overpriced. Atmosphere and seating receive repeated praise, with reviewers describing the setting as quiet, peaceful, or suitable for family gatherings and parties."
+    },
+    "component_hashes": {
+      "review": "9be169ebc10c588a6f7972ab304faaf10b84003ae38272ad9eacdff28c527334"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_2687285",
+    "condition": "RO",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the seafood and seafood meals as fresh, excellent, or outstanding. Service experiences vary: some reviewers describe the staff as friendly, individualized, or individualized, while others report rude, inattentive, or unwelcoming service. Value opinions are mixed: some reviewers consider the prices reasonable or good value for money, while others describe the restaurant as expensive or overpriced. The atmosphere is often described as attractive, distinctive, or suitable for the surroundings, including the marina and the harbour.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the seafood and seafood meals as fresh, excellent, or outstanding. Service experiences vary: some reviewers describe the staff as friendly, individualized, or individualized, while others report rude, inattentive, or unwelcoming service. Value opinions are mixed: some reviewers consider the prices reasonable or good value for money, while others describe the restaurant as expensive or overpriced. The atmosphere is often described as attractive, distinctive, or suitable for the surroundings, including the marina and the harbour."
+    },
+    "component_hashes": {
+      "review": "a93be43a05a41db19f61a54d5a5b1f5434b60712ca187778b13afddac2a4e279"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_3410297",
+    "condition": "RO",
+    "combined_text": "[REVIEW_CONSENSUS]\nReviewers frequently praise the pizza, describing it as very good or among the best in Gijon. Gnocchi, gnocchi 4 cheeses, and tuna salad receive repeated praise, though one reviewer found the gnocchi and seafood rissoto not specifically tasty. Pasta dishes receive repeated praise, including eggplant lasagna, carpaccio, gnocchi, and tiramisu. Service is often described as friendly, attentive, and efficient, but some reviewers report long waits, incorrect orders, or poor service. Value opinions are mixed: some reviewers consider the prices reasonable or good value, while others find the food or wine prices OK. The atmosphere is often described as pleasant, prim, or well presented, with some reviewers also praising the setting.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nReviewers frequently praise the pizza, describing it as very good or among the best in Gijon. Gnocchi, gnocchi 4 cheeses, and tuna salad receive repeated praise, though one reviewer found the gnocchi and seafood rissoto not specifically tasty. Pasta dishes receive repeated praise, including eggplant lasagna, carpaccio, gnocchi, and tiramisu. Service is often described as friendly, attentive, and efficient, but some reviewers report long waits, incorrect orders, or poor service. Value opinions are mixed: some reviewers consider the prices reasonable or good value, while others find the food or wine prices OK. The atmosphere is often described as pleasant, prim, or well presented, with some reviewers also praising the setting."
+    },
+    "component_hashes": {
+      "review": "c38ded4f58b7e59039ac2ce88c2114fbaab090a767cf99fb8f4a443b26aeb8ba"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_3512687",
+    "condition": "RO",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the cachopo, describing it as delicious, tender, or well prepared. Reviewers commonly describe the service as friendly, welcoming, helpful, and attentive, while some also mention that the restaurant can be busy. Reviewers commonly describe the food as tasty, delicious, or well prepared, with particular praise for the cachopo. Several reviewers describe the restaurant as a good value for money, citing large portions, fair prices, or good value for money.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the cachopo, describing it as delicious, tender, or well prepared. Reviewers commonly describe the service as friendly, welcoming, helpful, and attentive, while some also mention that the restaurant can be busy. Reviewers commonly describe the food as tasty, delicious, or well prepared, with particular praise for the cachopo. Several reviewers describe the restaurant as a good value for money, citing large portions, fair prices, or good value for money."
+    },
+    "component_hashes": {
+      "review": "b5624f353a746c3ad4742c1208209daabc6bba940858a83941ad822ca3417679"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_3961117",
+    "condition": "RO",
+    "combined_text": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers praise dishes such as chicken tikka, samosas, biryani and naan, while others describe the food as ordinary, bland or poorly prepared. Service is often described as friendly, attentive and prompt, though some reviewers report being ignored or feeling rushed. Several reviewers describe the prices as reasonable or fair, while others find the food expensive or not worth the cost. The setting is often described as clean, inviting and well located near the beach, though some reviewers find the interior spartan or lacking in decoration.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers praise dishes such as chicken tikka, samosas, biryani and naan, while others describe the food as ordinary, bland or poorly prepared. Service is often described as friendly, attentive and prompt, though some reviewers report being ignored or feeling rushed. Several reviewers describe the prices as reasonable or fair, while others find the food expensive or not worth the cost. The setting is often described as clean, inviting and well located near the beach, though some reviewers find the interior spartan or lacking in decoration."
+    },
+    "component_hashes": {
+      "review": "86455e64ea2622fca876c212473af5639979c8a7b566d8f1c5e40995f7c174a8"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_4004593",
+    "condition": "RO",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as fresh, local, tasty, and well cooked, with some describing the dishes as interesting because they mixed different flavours in unusual ways. Service is often described as friendly, helpful, and attentive, though some selected reviewers report difficulty understanding the menu or being ignored. Several selected reviewers describe the portions as generous or very large, and some describe the restaurant as a good value.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as fresh, local, tasty, and well cooked, with some describing the dishes as interesting because they mixed different flavours in unusual ways. Service is often described as friendly, helpful, and attentive, though some selected reviewers report difficulty understanding the menu or being ignored. Several selected reviewers describe the portions as generous or very large, and some describe the restaurant as a good value."
+    },
+    "component_hashes": {
+      "review": "af1676ab7bf79212d3806f1173ee32237ef6795d30ece617e5d39dac87ea53fd"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_4735772",
+    "condition": "RO",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as fresh, tasty, home-cooked, and well prepared, while some describe the food as ordinary or underseasoned. Several reviewers describe the staff as friendly, helpful, welcoming, and accommodating. Value opinions are mixed: some reviewers describe the prices as good or reasonable, while others consider the prices high or the portions too large for the quality. The atmosphere is often described as welcoming, lively, and pleasant, with some reviewers also mentioning a terrace.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as fresh, tasty, home-cooked, and well prepared, while some describe the food as ordinary or underseasoned. Several reviewers describe the staff as friendly, helpful, welcoming, and accommodating. Value opinions are mixed: some reviewers describe the prices as good or reasonable, while others consider the prices high or the portions too large for the quality. The atmosphere is often described as welcoming, lively, and pleasant, with some reviewers also mentioning a terrace."
+    },
+    "component_hashes": {
+      "review": "c31cac63cf155532084dde33585ffe726f23b1907b3cb26e381e400471ede2bf"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_6600483",
+    "condition": "RO",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as fresh and freshly made, with octopus tapas and pulpo and padron also receiving favorable mentions. Service is often described as quick, helpful, and attentive, though some reviewers report long queues or uncomfortable crowds. The atmosphere is often described as large, crowded, and uncomfortable, though some reviewers find it suitable for staying there. Value opinions are mixed: some reviewers describe the prices as good or a good value, while others consider the octopus or other Galician specialities less expensive than expected.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as fresh and freshly made, with octopus tapas and pulpo and padron also receiving favorable mentions. Service is often described as quick, helpful, and attentive, though some reviewers report long queues or uncomfortable crowds. The atmosphere is often described as large, crowded, and uncomfortable, though some reviewers find it suitable for staying there. Value opinions are mixed: some reviewers describe the prices as good or a good value, while others consider the octopus or other Galician specialities less expensive than expected."
+    },
+    "component_hashes": {
+      "review": "04f010ce8fdd031debd50257eadce9859388df66dfbb57a5e91e08f7203454be"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_7345192",
+    "condition": "RO",
+    "combined_text": "[REVIEW_CONSENSUS]\nSeveral selected reviewers praise the cakes and desserts, describing them as delicious, fresh, handmade, or very good. Coffee is often described as good or excellent, though one reviewer found it unremarkable. Service is often described as friendly, attentive, welcoming, and attentive. Reviewers commonly describe the atmosphere as cozy, cozy, beautiful, or relaxing, though some reviewers found the seats uncomfortable. Value opinions are mixed: some reviewers consider the cafe reasonably priced or worth visiting, while others describe it as expensive or not worth the visit.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSeveral selected reviewers praise the cakes and desserts, describing them as delicious, fresh, handmade, or very good. Coffee is often described as good or excellent, though one reviewer found it unremarkable. Service is often described as friendly, attentive, welcoming, and attentive. Reviewers commonly describe the atmosphere as cozy, cozy, beautiful, or relaxing, though some reviewers found the seats uncomfortable. Value opinions are mixed: some reviewers consider the cafe reasonably priced or worth visiting, while others describe it as expensive or not worth the visit."
+    },
+    "component_hashes": {
+      "review": "e684cd38b5d98c9085947a63517c09266143b0bbc39bde69153b38f8696b3867"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_8556009",
+    "condition": "RO",
+    "combined_text": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers describe the food as excellent or great quality, while others report poor quality, undercooked or poorly prepared meals. Service experiences vary substantially: some reviewers describe it as quick, attentive, or very good, while others report slow, disorganised, or inattentive service. Value opinions are mixed: some reviewers consider the restaurant reasonably priced or good value, while others describe the food as overpriced or underpriced. The setting is often described as cool, cool, or child-friendly, with views of the sea and beach.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers describe the food as excellent or great quality, while others report poor quality, undercooked or poorly prepared meals. Service experiences vary substantially: some reviewers describe it as quick, attentive, or very good, while others report slow, disorganised, or inattentive service. Value opinions are mixed: some reviewers consider the restaurant reasonably priced or good value, while others describe the food as overpriced or underpriced. The setting is often described as cool, cool, or child-friendly, with views of the sea and beach."
+    },
+    "component_hashes": {
+      "review": "bb9f40b7d7472f26e3b526d6262302cb2ed376efa7c5bf9b8aa6cabedaed80f1"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_9802783",
+    "condition": "RO",
+    "combined_text": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers describe the food as good, tasty, or fantastic, while others find it passable or not worth the price. Service is described by some reviewers as friendly, helpful, or excellent, while others report long waits, inattentive staff, or poor service. Reviewers commonly describe the atmosphere as family-oriented, spacious, relaxed, or social, with a patio or outdoor area suitable for children. Value opinions are mixed: some reviewers consider the prices reasonable or worth a visit, while others object to paying more for the type of place or cider quality.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers describe the food as good, tasty, or fantastic, while others find it passable or not worth the price. Service is described by some reviewers as friendly, helpful, or excellent, while others report long waits, inattentive staff, or poor service. Reviewers commonly describe the atmosphere as family-oriented, spacious, relaxed, or social, with a patio or outdoor area suitable for children. Value opinions are mixed: some reviewers consider the prices reasonable or worth a visit, while others object to paying more for the type of place or cider quality."
+    },
+    "component_hashes": {
+      "review": "2f526731525be01d900f279009237f349df8277495d293f30e385517bdae4daa"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_1001674",
+    "condition": "U",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food, describing it as tasty, fresh, well prepared, and well executed. Service is often described as friendly, attentive, helpful, and efficient, though some reviewers report a long wait or difficulty understanding the menu. Value opinions are mixed: some reviewers consider the prices reasonable or worthwhile, while others describe the restaurant as expensive or not an option for those on a budget. The atmosphere is often described as elegant, cozy, comfortable, and relaxed, though some reviewers found the interior lacking modern decoration.\n\n[VISUAL_EVIDENCE]\nThe photo shows a white plate. The plate contains meat and vegetables. The plate is on a table. The photo shows a close-up of a piece of food. The food is on a table. The photo shows a bowl of soup. The soup contains a piece of fish. The photo shows a white plate. The plate contains two pieces of food. The plates are on top of each other.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food, describing it as tasty, fresh, well prepared, and well executed. Service is often described as friendly, attentive, helpful, and efficient, though some reviewers report a long wait or difficulty understanding the menu. Value opinions are mixed: some reviewers consider the prices reasonable or worthwhile, while others describe the restaurant as expensive or not an option for those on a budget. The atmosphere is often described as elegant, cozy, comfortable, and relaxed, though some reviewers found the interior lacking modern decoration.",
+      "visual": "[VISUAL_EVIDENCE]\nThe photo shows a white plate. The plate contains meat and vegetables. The plate is on a table. The photo shows a close-up of a piece of food. The food is on a table. The photo shows a bowl of soup. The soup contains a piece of fish. The photo shows a white plate. The plate contains two pieces of food. The plates are on top of each other."
+    },
+    "component_hashes": {
+      "review": "557ea23c7b059d093924edf0c21f35afebd6324fa58cea9ad283d2cb6dc03f9a",
+      "visual": "977e69246835e6825a2b88877fb1d453378a2e2a351d33da08b106cca8adb35a"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_1119478",
+    "condition": "U",
+    "combined_text": "[REVIEW_CONSENSUS]\nSeveral selected reviews praise the food and drink, including Sardinnes, cheese, charcuteries, cider, and local beers. Food and drink receive repeated praise, including Sardinnes, carajillo, cheese, charcuteries, cider, and cider vermouth. Service is often described as friendly, attentive, knowledgeable, informative, and welcoming, though the restaurant can be busy. Reviewers commonly describe the atmosphere as cozy, comfortable, relaxed, and suitable for relaxing with a drink, coffee, or music. Several selected reviews describe the prices as reasonable, affordable, or worth a visit.\n\n[VISUAL_EVIDENCE]\nA tray of cheese, crackers, and apples is on a table. A person is sitting at a table with two cups of coffee. A receipt is sitting on a silver plate. A receipt is sitting on a metal plate. A window box is filled with red and pink flowers. The box is on the side of a building.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSeveral selected reviews praise the food and drink, including Sardinnes, cheese, charcuteries, cider, and local beers. Food and drink receive repeated praise, including Sardinnes, carajillo, cheese, charcuteries, cider, and cider vermouth. Service is often described as friendly, attentive, knowledgeable, informative, and welcoming, though the restaurant can be busy. Reviewers commonly describe the atmosphere as cozy, comfortable, relaxed, and suitable for relaxing with a drink, coffee, or music. Several selected reviews describe the prices as reasonable, affordable, or worth a visit.",
+      "visual": "[VISUAL_EVIDENCE]\nA tray of cheese, crackers, and apples is on a table. A person is sitting at a table with two cups of coffee. A receipt is sitting on a silver plate. A receipt is sitting on a metal plate. A window box is filled with red and pink flowers. The box is on the side of a building."
+    },
+    "component_hashes": {
+      "review": "e3ec251378dbb953473f3d2a8697debf387e37707768fc2042eaacdb06456aa3",
+      "visual": "5dcfcfbe7b7adad6311df0fe782966edff814345090a6ee3fcf38984ad6c7e09"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_2298952",
+    "condition": "U",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food, describing it as tasty, tasty, well cooked, and well prepared. Service is often described as friendly, helpful, patient, and welcoming, though some selected reviewers found it less professional than expected. The atmosphere is often described as relaxing, quiet, relaxed, or simple, with some reviewers noting that the restaurant caters to tourists without exploiting them. Value opinions are mixed: some selected reviewers describe the meals as good value or worth the price, while others find the prices excessive or the portions not as large as expected.\n\n[VISUAL_EVIDENCE]\nA bowl contains beans and bread. The bowl is sitting on a table. A white plate holds scallops. The plate is topped with a lemon wedge. A large pot contains beans and meat. The pot is sitting on a table. A bowl contains soup. The soup contains clams. The soup contains meat. The bowl is on a table.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food, describing it as tasty, tasty, well cooked, and well prepared. Service is often described as friendly, helpful, patient, and welcoming, though some selected reviewers found it less professional than expected. The atmosphere is often described as relaxing, quiet, relaxed, or simple, with some reviewers noting that the restaurant caters to tourists without exploiting them. Value opinions are mixed: some selected reviewers describe the meals as good value or worth the price, while others find the prices excessive or the portions not as large as expected.",
+      "visual": "[VISUAL_EVIDENCE]\nA bowl contains beans and bread. The bowl is sitting on a table. A white plate holds scallops. The plate is topped with a lemon wedge. A large pot contains beans and meat. The pot is sitting on a table. A bowl contains soup. The soup contains clams. The soup contains meat. The bowl is on a table."
+    },
+    "component_hashes": {
+      "review": "853c1e39a34aa7b66aadc247c871116356d525124f2e722a2e51099edb455e01",
+      "visual": "c8c1510852a7fffdc8ec9c7b22acd6c6fb4de6648e24e1b6f7a5f2a4f64d3a69"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_2312071",
+    "condition": "U",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food, describing it as excellent, delicious, well presented and plentiful. Service is often described as friendly, helpful and prompt, though some reviewers report being ignored or left without being served. Reviewers commonly describe the atmosphere as distinctive, warm, cosy and distinctive, with many bottles hanging from the ceiling. Value opinions are mixed: some reviewers consider the prices reasonable or good value for money, while others describe the food as expensive or not worth the cost.\n\n[VISUAL_EVIDENCE]\nA bowl of dessert is on a table. A spoon is in the bowl. A plate of food is on a table. A plate is topped with various types of food. The plate is on a table. A large plate of food is sitting on a table. A piece of cheesecake is on a plate. The cheesecake has whipped cream. The cheesecake has berries.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food, describing it as excellent, delicious, well presented and plentiful. Service is often described as friendly, helpful and prompt, though some reviewers report being ignored or left without being served. Reviewers commonly describe the atmosphere as distinctive, warm, cosy and distinctive, with many bottles hanging from the ceiling. Value opinions are mixed: some reviewers consider the prices reasonable or good value for money, while others describe the food as expensive or not worth the cost.",
+      "visual": "[VISUAL_EVIDENCE]\nA bowl of dessert is on a table. A spoon is in the bowl. A plate of food is on a table. A plate is topped with various types of food. The plate is on a table. A large plate of food is sitting on a table. A piece of cheesecake is on a plate. The cheesecake has whipped cream. The cheesecake has berries."
+    },
+    "component_hashes": {
+      "review": "66030c1cd2b517d4c069b9c2e156e181117e2038fb61d7f3f458d5a5cf3dca20",
+      "visual": "56fbbc65c8371f1f44487712337c2eb72500a2221985d14465c77eebb9921f4a"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_23652638",
+    "condition": "U",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as delicious, authentic, and well prepared, including chicken tikka masala, chicken bhuna, and pakoras. Service is often described as friendly, professional, attentive, and accommodating, though some selected reviewers report small portions or stodgy samosas. Several selected reviewers describe the prices as reasonable or good, while others consider the restaurant expensive or overpriced. The atmosphere is often described as lovely, peaceful, quiet, and suitable for family and friends gatherings, but some selected reviewers found the lighting harsh, bright, or in their face.\n\n[VISUAL_EVIDENCE]\nA table is topped with bowls of different types of Indian food. There is a clock in the middle of a building. A metal tray has three bowls of food on it. A group of people is toasting with wine glasses on a table. A plate of food is sitting on a table with a can of Coke next to it.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as delicious, authentic, and well prepared, including chicken tikka masala, chicken bhuna, and pakoras. Service is often described as friendly, professional, attentive, and accommodating, though some selected reviewers report small portions or stodgy samosas. Several selected reviewers describe the prices as reasonable or good, while others consider the restaurant expensive or overpriced. The atmosphere is often described as lovely, peaceful, quiet, and suitable for family and friends gatherings, but some selected reviewers found the lighting harsh, bright, or in their face.",
+      "visual": "[VISUAL_EVIDENCE]\nA table is topped with bowls of different types of Indian food. There is a clock in the middle of a building. A metal tray has three bowls of food on it. A group of people is toasting with wine glasses on a table. A plate of food is sitting on a table with a can of Coke next to it."
+    },
+    "component_hashes": {
+      "review": "f984ee178f0a96670579501c1e5d6b7adb01680abb5a710a62658516c12b1509",
+      "visual": "8183f6810a5b9ab981579a1a6fe4489646c00f6092a3c5e989d51b93e49e7d95"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_2687285",
+    "condition": "U",
+    "combined_text": "[REVIEW_CONSENSUS]\nSeafood and seafood are frequently described as excellent, fresh, or top quality, though some reviews report substandard or average dishes. Service experiences vary: some reviews describe friendly, individualized, or individualized staff, while others report rude, impatient, or inattentive service. The atmosphere is often described as pleasant, distinctive, or suitable for the marina, although one review found it very noisy and could hardly hear one another. Value opinions are mixed: some reviews describe the prices as reasonable or good value for money, while others describe the restaurant as overpriced, expensive, or not worth the money.\n\n[VISUAL_EVIDENCE]\nA white plate holds fish and potatoes. The plate is on a table. The photo shows a view of the ocean from a window in a building. The photo shows a receipt for a meal at a Mexican restaurant. A bottle of wine is sitting on a table next to a glass. The photo shows a close-up of a receipt from a restaurant in Mexico.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSeafood and seafood are frequently described as excellent, fresh, or top quality, though some reviews report substandard or average dishes. Service experiences vary: some reviews describe friendly, individualized, or individualized staff, while others report rude, impatient, or inattentive service. The atmosphere is often described as pleasant, distinctive, or suitable for the marina, although one review found it very noisy and could hardly hear one another. Value opinions are mixed: some reviews describe the prices as reasonable or good value for money, while others describe the restaurant as overpriced, expensive, or not worth the money.",
+      "visual": "[VISUAL_EVIDENCE]\nA white plate holds fish and potatoes. The plate is on a table. The photo shows a view of the ocean from a window in a building. The photo shows a receipt for a meal at a Mexican restaurant. A bottle of wine is sitting on a table next to a glass. The photo shows a close-up of a receipt from a restaurant in Mexico."
+    },
+    "component_hashes": {
+      "review": "0e37a67b32523157a561fbc17d5f49c6d7af270feb3d1027689e7016af66ad7a",
+      "visual": "5aa550962e2e494fd10a7079253e7a9511dfc35a9479bb6d9d3e6f7b063fceca"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_3410297",
+    "condition": "U",
+    "combined_text": "[REVIEW_CONSENSUS]\nSeveral selected reviews praise the pizza, describing it as very good or among the best in Gijon. Gnocchi and other pasta dishes receive repeated praise, including the 4-cheese gnocchi and the salad with tuna. Eggplant lasagna and Parmigiano are also described as excellent, with eggplant lasagna offered on demand. Service is often described as friendly, efficient and attentive, though some selected reviews report long waits, wrong orders or incorrect orders. Value opinions are mixed: some reviewers describe the food as inexpensive or good value, while others find the prices OK or the prices too high for the portions. The atmosphere is often described as prim, prim or prim-like, with some reviewers finding the facade dull or dull.\n\n[VISUAL_EVIDENCE]\nThere are two plates of food. The plates are sitting on a table. A piece of cake is on a plate. A spoon is on the plate. A metal tray holds a receipt. The tray is sitting on a table. There is a plate of spaghetti. The spaghetti has meat. The spaghetti has vegetables. The plate is on a table. The photo shows a close-up of a plate of food. The plate has flowers on it.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSeveral selected reviews praise the pizza, describing it as very good or among the best in Gijon. Gnocchi and other pasta dishes receive repeated praise, including the 4-cheese gnocchi and the salad with tuna. Eggplant lasagna and Parmigiano are also described as excellent, with eggplant lasagna offered on demand. Service is often described as friendly, efficient and attentive, though some selected reviews report long waits, wrong orders or incorrect orders. Value opinions are mixed: some reviewers describe the food as inexpensive or good value, while others find the prices OK or the prices too high for the portions. The atmosphere is often described as prim, prim or prim-like, with some reviewers finding the facade dull or dull.",
+      "visual": "[VISUAL_EVIDENCE]\nThere are two plates of food. The plates are sitting on a table. A piece of cake is on a plate. A spoon is on the plate. A metal tray holds a receipt. The tray is sitting on a table. There is a plate of spaghetti. The spaghetti has meat. The spaghetti has vegetables. The plate is on a table. The photo shows a close-up of a plate of food. The plate has flowers on it."
+    },
+    "component_hashes": {
+      "review": "c3437d16ecc71700e24c1d162a790e275e59468ee038d6f983059d123b5cd20b",
+      "visual": "e28b61d8be80bc792bc9f7f5ebd6e2b358bd24b8c678b8316dda85f39cbad594"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_3512687",
+    "condition": "U",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the cachopo, describing it as delicious, tender, or well prepared, with generous portions. Cachopo is often described as a main attraction, with generous portions that can be shared. Service is often described as friendly, welcoming, and helpful, though some reviewers report that it can be very busy. Reviewers commonly describe the restaurant as full of life and crowded, although one reviewer found the crowding not a problem. Several reviewers describe the food as good value, with some describing it as fair or good value.\n\n[VISUAL_EVIDENCE]\nA person is sitting at a table with a plate of food on it. A plate of food is on a table with a fork and knife. A plate of food is on a table with a knife and fork. A plate of food is on a table with a fork and knife. A plate is topped with french fries. A piece of meat is on the plate.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the cachopo, describing it as delicious, tender, or well prepared, with generous portions. Cachopo is often described as a main attraction, with generous portions that can be shared. Service is often described as friendly, welcoming, and helpful, though some reviewers report that it can be very busy. Reviewers commonly describe the restaurant as full of life and crowded, although one reviewer found the crowding not a problem. Several reviewers describe the food as good value, with some describing it as fair or good value.",
+      "visual": "[VISUAL_EVIDENCE]\nA person is sitting at a table with a plate of food on it. A plate of food is on a table with a fork and knife. A plate of food is on a table with a knife and fork. A plate of food is on a table with a fork and knife. A plate is topped with french fries. A piece of meat is on the plate."
+    },
+    "component_hashes": {
+      "review": "9946270b11eeeb4a2f3de4cf92dc86fa25273902886be2412bc0df82798c0baa",
+      "visual": "a766dec29dc77b0646f94e41dd5e64333b9a7086ddc6433291a9773ce44ad325"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_3961117",
+    "condition": "U",
+    "combined_text": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers praise dishes such as chicken tikka, chicken korma, chicken vindaloo and naan bread, while others describe dishes as ordinary, poorly prepared or poorly prepared. Service is often described as friendly, prompt and attentive, though some reviewers report slow or inattentive service. Value opinions are mixed: some reviewers describe the prices as reasonable or fair, while others find the food expensive or not worth the price. The setting is often described as clean, inviting and fronted by the beach.\n\n[VISUAL_EVIDENCE]\nThere are three bowls of food. The bowls are on a table. The photo shows a close-up of a cupcake. The cupcake is on a plate. The plate is on a table. A table is topped with a variety of dishes of food. A table is topped with bowls of food. A pizza is on the table. A table is topped with plates of food. Bowls of soup are on the table.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers praise dishes such as chicken tikka, chicken korma, chicken vindaloo and naan bread, while others describe dishes as ordinary, poorly prepared or poorly prepared. Service is often described as friendly, prompt and attentive, though some reviewers report slow or inattentive service. Value opinions are mixed: some reviewers describe the prices as reasonable or fair, while others find the food expensive or not worth the price. The setting is often described as clean, inviting and fronted by the beach.",
+      "visual": "[VISUAL_EVIDENCE]\nThere are three bowls of food. The bowls are on a table. The photo shows a close-up of a cupcake. The cupcake is on a plate. The plate is on a table. A table is topped with a variety of dishes of food. A table is topped with bowls of food. A pizza is on the table. A table is topped with plates of food. Bowls of soup are on the table."
+    },
+    "component_hashes": {
+      "review": "d4ad25f1c7cc5f7a107681ecceac0ff38a4be2dfeeb69cea92ff0dab40b611e6",
+      "visual": "03f6664f6c802930783e1b4f6e1a44f5e913277fe2635eae05b5097fc73f6b8d"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_4004593",
+    "condition": "U",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as fresh, local, tasty, and well cooked, with some describing dishes as unusual, unusual, or well executed. Service is often described as friendly, helpful, and attentive, though some reviewers report difficulty understanding the menu or finding the staff. Several reviewers describe the portions as generous or very large, and some describe the restaurant as a good value. The atmosphere is often described as pleasant, relaxed, or very cool.\n\n[VISUAL_EVIDENCE]\nSardines and tomatoes are on a plate on a table. A white plate holds meat and french fries. The plate is on a table. The photo shows a restaurant interior. The restaurant has tables and chairs. The restaurant has a refrigerator. There are two plates of food. The plates are on a table. There is a blackboard. The blackboard has a menu written in spanish on it.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as fresh, local, tasty, and well cooked, with some describing dishes as unusual, unusual, or well executed. Service is often described as friendly, helpful, and attentive, though some reviewers report difficulty understanding the menu or finding the staff. Several reviewers describe the portions as generous or very large, and some describe the restaurant as a good value. The atmosphere is often described as pleasant, relaxed, or very cool.",
+      "visual": "[VISUAL_EVIDENCE]\nSardines and tomatoes are on a plate on a table. A white plate holds meat and french fries. The plate is on a table. The photo shows a restaurant interior. The restaurant has tables and chairs. The restaurant has a refrigerator. There are two plates of food. The plates are on a table. There is a blackboard. The blackboard has a menu written in spanish on it."
+    },
+    "component_hashes": {
+      "review": "9b42c23c4ef70e3301b90a571ef313c8a16e0cf9d5ce0f9275fd3092c6be5115",
+      "visual": "9581b24d9d8684c7d9b2d11fdd8827cb4e26f832cdf1b83af2a0d71000a8e68f"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_4735772",
+    "condition": "U",
+    "combined_text": "[REVIEW_CONSENSUS]\nReviewers frequently praise the home food as fresh, tasty, and well prepared, though some describe it as ordinary or nothing special. Service is often described as friendly, helpful, and welcoming, though some reviewers report slow or inattentive service. Several reviewers describe the prices as reasonable or good, while others consider the prices high or the portions too large for the quality. The atmosphere is often described as lively, welcoming, and pleasant, with the terrace and bar also receiving praise.\n\n[VISUAL_EVIDENCE]\nA man is holding a plate of meat on a counter. A close-up shows a receipt for a meal at a restaurant. A bowl of food is on a table. A table is topped with bowls of food and plates of food. A white plate is topped with shrimp and vegetables on a table.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nReviewers frequently praise the home food as fresh, tasty, and well prepared, though some describe it as ordinary or nothing special. Service is often described as friendly, helpful, and welcoming, though some reviewers report slow or inattentive service. Several reviewers describe the prices as reasonable or good, while others consider the prices high or the portions too large for the quality. The atmosphere is often described as lively, welcoming, and pleasant, with the terrace and bar also receiving praise.",
+      "visual": "[VISUAL_EVIDENCE]\nA man is holding a plate of meat on a counter. A close-up shows a receipt for a meal at a restaurant. A bowl of food is on a table. A table is topped with bowls of food and plates of food. A white plate is topped with shrimp and vegetables on a table."
+    },
+    "component_hashes": {
+      "review": "2327506a220886aa13284cb98af193a4d4c3861f81a6d7a2db30f559a9fa7bb7",
+      "visual": "0361174ea438eb18891c98e3302e956540ce44c2358dbf2dd4efb123c30f0b86"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_6600483",
+    "condition": "U",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the octopus tapas, describing the food as excellent, fresh and freshly made. Service is often described as quick, helpful and attentive, though some selected reviewers report long queues or uncomfortable crowds. Several selected reviewers describe the prices as good or a good value, while others consider the prices high or the food harder to eat than expected. The stadium setting is often described as large, crowded or uncomfortable, though some selected reviewers find the atmosphere pleasant.\n\n[VISUAL_EVIDENCE]\nA plate of food is on a table. A plate of food is next to the plate. A bunch of wooden plates is on a metal grate. A person is sitting at a table. A plate of food is on the table. A white plate holds a bunch of scallops. A lemon wedge is on the plate. Three plates of food sit on a table. The table is in a restaurant.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the octopus tapas, describing the food as excellent, fresh and freshly made. Service is often described as quick, helpful and attentive, though some selected reviewers report long queues or uncomfortable crowds. Several selected reviewers describe the prices as good or a good value, while others consider the prices high or the food harder to eat than expected. The stadium setting is often described as large, crowded or uncomfortable, though some selected reviewers find the atmosphere pleasant.",
+      "visual": "[VISUAL_EVIDENCE]\nA plate of food is on a table. A plate of food is next to the plate. A bunch of wooden plates is on a metal grate. A person is sitting at a table. A plate of food is on the table. A white plate holds a bunch of scallops. A lemon wedge is on the plate. Three plates of food sit on a table. The table is in a restaurant."
+    },
+    "component_hashes": {
+      "review": "a9a11618a8da244815c8e47e731097d898fa2239245af03fae894fb85fdad11c",
+      "visual": "7380099d0d41f19c99bedee0d927a534bcf2b246196e251e0257c2d674d63d50"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_7345192",
+    "condition": "U",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the cakes and desserts, describing them as delicious, fresh, handmade, or very good. Coffee is often described as good or very good, though some reviewers found the coffee unremarkable. Service is often described as friendly, attentive, attentive, welcoming, and tourist friendly. The atmosphere is often described as cozy, cozy, beautiful, or comfortable, though some reviewers found the seats uncomfortable.\n\n[VISUAL_EVIDENCE]\nA white plate holds a dessert. The plate is on a wooden table. Pastries are displayed on a counter. A table holds a cup of coffee. A pastry is on the table. A piece of chocolate cake is sitting on a plate. The cake is next to a cup of coffee. The photo shows a close-up of a cup of coffee and cookies on a table.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the cakes and desserts, describing them as delicious, fresh, handmade, or very good. Coffee is often described as good or very good, though some reviewers found the coffee unremarkable. Service is often described as friendly, attentive, attentive, welcoming, and tourist friendly. The atmosphere is often described as cozy, cozy, beautiful, or comfortable, though some reviewers found the seats uncomfortable.",
+      "visual": "[VISUAL_EVIDENCE]\nA white plate holds a dessert. The plate is on a wooden table. Pastries are displayed on a counter. A table holds a cup of coffee. A pastry is on the table. A piece of chocolate cake is sitting on a plate. The cake is next to a cup of coffee. The photo shows a close-up of a cup of coffee and cookies on a table."
+    },
+    "component_hashes": {
+      "review": "bb5ef47a6e842ec66a88726175dcd494ead251d9a03a12682879375fa1c6ddf2",
+      "visual": "eb6ae20f498586206a3a53e44db41384c97b2bbda7119b13d23836b76d5a6e58"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_8556009",
+    "condition": "U",
+    "combined_text": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers describe the food as excellent or great quality, while others report poor quality, undercooked or poorly prepared food. Service experiences are mixed: some reviewers describe the staff as quick, attentive, or excellent, while others report slow, disorganised, or inattentive service. Value opinions are mixed: some reviewers consider the restaurant reasonably priced or good value, while others consider the food overpriced or underpriced. The setting is described as cool, cool, cool, and child-friendly by some reviewers, while others describe the restaurant as noisy, disorganised, chaotic, or unsuitable for meals.\n\n[VISUAL_EVIDENCE]\nA bowl of food is sitting on a table. The bowl is next to a menu. A tray of food is on a table. The tray is next to a glass of soda. There are two plates of food. The plates are sitting on a table. The photo shows a close-up of a pizza. The pizza is on a table. The pizza is in a restaurant. A plate holds a sandwich. The plate holds other food items.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers describe the food as excellent or great quality, while others report poor quality, undercooked or poorly prepared food. Service experiences are mixed: some reviewers describe the staff as quick, attentive, or excellent, while others report slow, disorganised, or inattentive service. Value opinions are mixed: some reviewers consider the restaurant reasonably priced or good value, while others consider the food overpriced or underpriced. The setting is described as cool, cool, cool, and child-friendly by some reviewers, while others describe the restaurant as noisy, disorganised, chaotic, or unsuitable for meals.",
+      "visual": "[VISUAL_EVIDENCE]\nA bowl of food is sitting on a table. The bowl is next to a menu. A tray of food is on a table. The tray is next to a glass of soda. There are two plates of food. The plates are sitting on a table. The photo shows a close-up of a pizza. The pizza is on a table. The pizza is in a restaurant. A plate holds a sandwich. The plate holds other food items."
+    },
+    "component_hashes": {
+      "review": "ecce91f7deae21051797783b52474190f78824329bb669603fea6526ad4d8e48",
+      "visual": "292e273af39fce89ad509119bec3c8d694d93d6957b7ead3d2f4212e9268876d"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_9802783",
+    "condition": "U",
+    "combined_text": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers praise the food, while others find it merely passable or not worth the price. Service is described by some reviewers as friendly, helpful, or excellent, while others report long waits, inattentive staff, or poor service. The atmosphere is often described as family-oriented, spacious, relaxed, relaxed, or social, with a patio or children's area suitable for playing. Value opinions are mixed: some reviewers consider the prices reasonable or worthwhile, while others report higher prices for the type of place than for the actual products.\n\n[VISUAL_EVIDENCE]\nA plate of food is on a table next to a glass of water. A piece of cake is sitting on a plate on a table. A white plate is topped with scallops on a table. A white plate is topped with meat and sauce on a table. A plate of food is on a table with a fork and spoon.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers praise the food, while others find it merely passable or not worth the price. Service is described by some reviewers as friendly, helpful, or excellent, while others report long waits, inattentive staff, or poor service. The atmosphere is often described as family-oriented, spacious, relaxed, relaxed, or social, with a patio or children's area suitable for playing. Value opinions are mixed: some reviewers consider the prices reasonable or worthwhile, while others report higher prices for the type of place than for the actual products.",
+      "visual": "[VISUAL_EVIDENCE]\nA plate of food is on a table next to a glass of water. A piece of cake is sitting on a plate on a table. A white plate is topped with scallops on a table. A white plate is topped with meat and sauce on a table. A plate of food is on a table with a fork and spoon."
+    },
+    "component_hashes": {
+      "review": "73a1fd2c4ba33a8b7bd0286066f37f6b906fb98db8a3e58d6ee253012fe70b4b",
+      "visual": "e8f456b104e79778eae7ca779b03f9594ce69cd40bc899b2cef0c89b62fe0286"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_1001674",
+    "condition": "F",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as well prepared, flavorful, and well executed, while some describe it as merely okay or not the best. Service is often described as friendly, attentive, helpful, and efficient, though some reviewers report slow or inattentive service. The atmosphere is often described as cozy, elegant, comfortable, or relaxed, though some reviewers found the decor or decor lacking. Value opinions are mixed: some reviewers consider the prices reasonable or worthwhile, while others describe the restaurant as expensive or not an option for those on a budget.\n\n[VISUAL_EVIDENCE]\nThe food is served on a white plate. The plate contains slices of sardines. The plate is on a table. A man and a woman are toasting with wine glasses at a table. The photo shows a dining room. The dining room has blue walls. The dining room has blue chairs. The photo shows a chocolate cake. The cake has powdered sugar on top. The cake has a pink ball of ice cream. The photo shows a close-up of a restaurant sign. The sign is on a wall.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as well prepared, flavorful, and well executed, while some describe it as merely okay or not the best. Service is often described as friendly, attentive, helpful, and efficient, though some reviewers report slow or inattentive service. The atmosphere is often described as cozy, elegant, comfortable, or relaxed, though some reviewers found the decor or decor lacking. Value opinions are mixed: some reviewers consider the prices reasonable or worthwhile, while others describe the restaurant as expensive or not an option for those on a budget.",
+      "visual": "[VISUAL_EVIDENCE]\nThe food is served on a white plate. The plate contains slices of sardines. The plate is on a table. A man and a woman are toasting with wine glasses at a table. The photo shows a dining room. The dining room has blue walls. The dining room has blue chairs. The photo shows a chocolate cake. The cake has powdered sugar on top. The cake has a pink ball of ice cream. The photo shows a close-up of a restaurant sign. The sign is on a wall."
+    },
+    "component_hashes": {
+      "review": "b539f4cb4b272ff62c7952a57d42152d4c6155bf2026e49aea9acce7325fffd7",
+      "visual": "e3594316fdd29aa6c868c7881fb093a9821221ea761c1df695e71fd3849e4888"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_1119478",
+    "condition": "F",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food and drinks, including Sardinnes, cheese, charcuteries, cider, and local beers. Service is often described as friendly, attentive, informative, and knowledgeable, with helpful recommendations for food and drink. The atmosphere is often described as relaxed, cozy, comfortable, and suitable for relaxing with a drink or music. Several reviewers describe the prices as reasonable, affordable, or worth a visit.\n\n[VISUAL_EVIDENCE]\nThe food is served on a blue plate. The plate contains tomatoes. The plate contains onions. The plate contains tuna. A woman is holding a glass. The glass is outside in the sun. The photo shows an open door. The open door leads to a bar. A ceiling fan is in the background. A group of people is sitting at a table. The table is in a restaurant. A person is eating a plate of food. The plate is at a bar.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food and drinks, including Sardinnes, cheese, charcuteries, cider, and local beers. Service is often described as friendly, attentive, informative, and knowledgeable, with helpful recommendations for food and drink. The atmosphere is often described as relaxed, cozy, comfortable, and suitable for relaxing with a drink or music. Several reviewers describe the prices as reasonable, affordable, or worth a visit.",
+      "visual": "[VISUAL_EVIDENCE]\nThe food is served on a blue plate. The plate contains tomatoes. The plate contains onions. The plate contains tuna. A woman is holding a glass. The glass is outside in the sun. The photo shows an open door. The open door leads to a bar. A ceiling fan is in the background. A group of people is sitting at a table. The table is in a restaurant. A person is eating a plate of food. The plate is at a bar."
+    },
+    "component_hashes": {
+      "review": "10e607a3444da57d788453ed3c59258234cf1b158518375d88c614d0f50e2107",
+      "visual": "b3ac5932f6d859c815a0fce0df6135e100e7761537f338e1990d623ef468b8d7"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_2298952",
+    "condition": "F",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as high quality and well cooked, with particular praise for sirloin steak, veal, garlic shrimp and local dishes. Several selected reviewers describe the staff as friendly, helpful and welcoming, while others report that the owner or staff were not always welcoming. Several selected reviewers describe the portions as large, generous or worth the price, while one reviewer found the desserts not too special. Several selected reviewers describe the restaurant as inexpensive or good value.\n\n[VISUAL_EVIDENCE]\nThe food is served on a white plate. The plate contains cooked squid. The plate contains a lemon wedge. A group of people is sitting at tables in a restaurant. A man is holding up a glass of beer. The man is at a bar. A person is spooning food into a bowl. The bowl is on a table. A restaurant has a sign in the window.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as high quality and well cooked, with particular praise for sirloin steak, veal, garlic shrimp and local dishes. Several selected reviewers describe the staff as friendly, helpful and welcoming, while others report that the owner or staff were not always welcoming. Several selected reviewers describe the portions as large, generous or worth the price, while one reviewer found the desserts not too special. Several selected reviewers describe the restaurant as inexpensive or good value.",
+      "visual": "[VISUAL_EVIDENCE]\nThe food is served on a white plate. The plate contains cooked squid. The plate contains a lemon wedge. A group of people is sitting at tables in a restaurant. A man is holding up a glass of beer. The man is at a bar. A person is spooning food into a bowl. The bowl is on a table. A restaurant has a sign in the window."
+    },
+    "component_hashes": {
+      "review": "89a7569e21724d05af4a145159fe80ae7c660b519883f31bdb18fa0f9c393288",
+      "visual": "963b96103f8602521170a9a992647f8c86b539bb93633e49aa3db7a4c3d5bebf"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_2312071",
+    "condition": "F",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food, describing it as delicious, well presented, and plentiful. Service is often described as friendly, welcoming, prompt, and helpful, though some reviewers report being ignored or being left without being served. Reviewers commonly describe the atmosphere as attractive, distinctive, and welcoming, with distinctive decor and distinctive decor. Reviewers commonly describe the restaurant as reasonably priced or good value for money. Several reviewers describe the portions as large enough to share, though one reviewer found the food too large.\n\n[VISUAL_EVIDENCE]\nA wooden cutting board is topped with french fries. A dog is standing in front of a sign. The sign says Terra Stor. A group of people is sitting at tables under large umbrellas. A man is pouring wine into a green bottle. A man is standing in front of a group of people at a restaurant.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food, describing it as delicious, well presented, and plentiful. Service is often described as friendly, welcoming, prompt, and helpful, though some reviewers report being ignored or being left without being served. Reviewers commonly describe the atmosphere as attractive, distinctive, and welcoming, with distinctive decor and distinctive decor. Reviewers commonly describe the restaurant as reasonably priced or good value for money. Several reviewers describe the portions as large enough to share, though one reviewer found the food too large.",
+      "visual": "[VISUAL_EVIDENCE]\nA wooden cutting board is topped with french fries. A dog is standing in front of a sign. The sign says Terra Stor. A group of people is sitting at tables under large umbrellas. A man is pouring wine into a green bottle. A man is standing in front of a group of people at a restaurant."
+    },
+    "component_hashes": {
+      "review": "68427f548ef0fd40e1dde876dae654d7ae7f011539d6248fe580535e217fd5c8",
+      "visual": "7feefa7756890d646b4ddaa578a7c560e621c0b0df0d8df303c2dfb0f6395b38"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_23652638",
+    "condition": "F",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as delicious, authentic, and well prepared, with chicken bhuna and chicken tikka masala singled out as favorites. Service is often described as friendly, professional, attentive, and accommodating, though some selected reviewers report small portions, stodgy samosas, or poor service. Value opinions are mixed: some selected reviewers describe the prices as reasonable or good, while others consider the restaurant expensive or overpriced. The atmosphere is often described as lovely, peaceful, quiet, and suitable for family and friends gatherings, but some selected reviewers find the lighting harsh, bright, or in your face.\n\n[VISUAL_EVIDENCE]\nThere are two pictures of food. The pictures are on the wall of a restaurant. A group of people is sitting at a table. The table has a checkered tablecloth. A table is topped with bowls of different types of Indian food. A cup of coffee is on a saucer. The cup is on a black and white checkered tablecloth. A group of people is toasting. Wine glasses are on a table.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as delicious, authentic, and well prepared, with chicken bhuna and chicken tikka masala singled out as favorites. Service is often described as friendly, professional, attentive, and accommodating, though some selected reviewers report small portions, stodgy samosas, or poor service. Value opinions are mixed: some selected reviewers describe the prices as reasonable or good, while others consider the restaurant expensive or overpriced. The atmosphere is often described as lovely, peaceful, quiet, and suitable for family and friends gatherings, but some selected reviewers find the lighting harsh, bright, or in your face.",
+      "visual": "[VISUAL_EVIDENCE]\nThere are two pictures of food. The pictures are on the wall of a restaurant. A group of people is sitting at a table. The table has a checkered tablecloth. A table is topped with bowls of different types of Indian food. A cup of coffee is on a saucer. The cup is on a black and white checkered tablecloth. A group of people is toasting. Wine glasses are on a table."
+    },
+    "component_hashes": {
+      "review": "f7b4512c4638f4b114b7acd9dde78fc4270717f66b33b1b3df122adb2a7d694d",
+      "visual": "5bea146aea63e1b5d366993cceecf1ad75fe35ab77eb4c36ba5c36b36c64d558"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_2687285",
+    "condition": "F",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the seafood and seafood meals as fresh, excellent, or top quality. Service experiences vary: some reviewers describe the staff as friendly, individualized, or individualized, while others report rude, inattentive, or inattentive service. Several reviewers consider the prices reasonable or good value for money, while others describe the restaurant as overpriced, expensive, or not worth the money. The atmosphere is often described as pleasant, distinctive, or suitable for the surroundings, including the Casco Antiguo of Gijon.\n\n[VISUAL_EVIDENCE]\nA plate of dried fish is sitting on a table. The plate is next to a fork. A person is holding a glass of beer. The glass is on a cobblestone street. A group of people is sitting on a bench. The bench is near a body of water. A woman is standing in a restaurant. The restaurant has a table and chairs. The dining room has a table and chairs. The table and chairs are in front of a wall.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the seafood and seafood meals as fresh, excellent, or top quality. Service experiences vary: some reviewers describe the staff as friendly, individualized, or individualized, while others report rude, inattentive, or inattentive service. Several reviewers consider the prices reasonable or good value for money, while others describe the restaurant as overpriced, expensive, or not worth the money. The atmosphere is often described as pleasant, distinctive, or suitable for the surroundings, including the Casco Antiguo of Gijon.",
+      "visual": "[VISUAL_EVIDENCE]\nA plate of dried fish is sitting on a table. The plate is next to a fork. A person is holding a glass of beer. The glass is on a cobblestone street. A group of people is sitting on a bench. The bench is near a body of water. A woman is standing in a restaurant. The restaurant has a table and chairs. The dining room has a table and chairs. The table and chairs are in front of a wall."
+    },
+    "component_hashes": {
+      "review": "12dfa23d4dbe51f807a168870be606e6719135e2bb56b4522ac49b8438dd5d7b",
+      "visual": "ec9bad0c5751023c6b658b8e56e8fee7b70b53f94867cc0299137e5299fb0a6c"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_3410297",
+    "condition": "F",
+    "combined_text": "[REVIEW_CONSENSUS]\nPizza receives repeated praise for its taste and quality, though one reviewer found the pizza unappealing. Gnocchi and gnocchi receive repeated praise, including the 4-cheese gnocchi. Eggplant lasagna and tuna salad each receive repeated praise. Several reviewers describe the portions as large, tasteful, or inexpensive. Service is often described as friendly, efficient, and attentive, though some reviewers report long waits, wrong orders, or incorrect orders. Value opinions are mixed: some reviewers consider the prices reasonable or good value, while others find the food or wine prices OK. The atmosphere is often described as pleasant, well presented, and suitable for visiting the aquarium, beach, or marina.\n\n[VISUAL_EVIDENCE]\nA white plate holds spaghetti. Mussels are on the plate. The plate is on a table. A man is holding a little girl. The scene is inside a restaurant. A receipt hangs on the wall of a restaurant. A group of people is sitting at a table. People are eating pizza. People are drinking wine. A red pitcher is sitting on a white table.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nPizza receives repeated praise for its taste and quality, though one reviewer found the pizza unappealing. Gnocchi and gnocchi receive repeated praise, including the 4-cheese gnocchi. Eggplant lasagna and tuna salad each receive repeated praise. Several reviewers describe the portions as large, tasteful, or inexpensive. Service is often described as friendly, efficient, and attentive, though some reviewers report long waits, wrong orders, or incorrect orders. Value opinions are mixed: some reviewers consider the prices reasonable or good value, while others find the food or wine prices OK. The atmosphere is often described as pleasant, well presented, and suitable for visiting the aquarium, beach, or marina.",
+      "visual": "[VISUAL_EVIDENCE]\nA white plate holds spaghetti. Mussels are on the plate. The plate is on a table. A man is holding a little girl. The scene is inside a restaurant. A receipt hangs on the wall of a restaurant. A group of people is sitting at a table. People are eating pizza. People are drinking wine. A red pitcher is sitting on a white table."
+    },
+    "component_hashes": {
+      "review": "296200f76345f89b8b9c6ba83cca1e1c97c49f0be85c5ae8ac31c0d6a586ec49",
+      "visual": "523a2eb05bd97e2411bfea439a5d9f15a56843ed23aa9ce3e7c8caa684fee348"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_3512687",
+    "condition": "F",
+    "combined_text": "[REVIEW_CONSENSUS]\nCachopo is repeatedly praised for its flavor and tenderness, with reviewers describing it as a main attraction. Several reviewers describe the cachopo as large or filling enough for two or three people. Several reviewers describe the service as friendly, welcoming, helpful, or excellent. Several reviewers consider the food and drinks good value, citing generous portions, fair prices, or a good value for money. Several reviewers describe the setting as relaxing, relaxing, or suitable for checking out local gastronomy.\n\n[VISUAL_EVIDENCE]\nThe food is on a white plate. The plate contains bread. The plate contains lettuce. The plate contains crackers. A woman is standing at a bar. A drink is in her hand. A sign is on a stone wall. A cross is on the wall. A table has chairs. A bottle of beer is in front of a green wall. A man is wearing a pink shirt. The man is serving food. The man is in a restaurant.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nCachopo is repeatedly praised for its flavor and tenderness, with reviewers describing it as a main attraction. Several reviewers describe the cachopo as large or filling enough for two or three people. Several reviewers describe the service as friendly, welcoming, helpful, or excellent. Several reviewers consider the food and drinks good value, citing generous portions, fair prices, or a good value for money. Several reviewers describe the setting as relaxing, relaxing, or suitable for checking out local gastronomy.",
+      "visual": "[VISUAL_EVIDENCE]\nThe food is on a white plate. The plate contains bread. The plate contains lettuce. The plate contains crackers. A woman is standing at a bar. A drink is in her hand. A sign is on a stone wall. A cross is on the wall. A table has chairs. A bottle of beer is in front of a green wall. A man is wearing a pink shirt. The man is serving food. The man is in a restaurant."
+    },
+    "component_hashes": {
+      "review": "9ad9751d68afdac7102dede2e74e553ec874cbc61ed0c1c9343d35bdb59c0808",
+      "visual": "343364121fb0ae8cc741bc9ad0299904c6ae17cb2c7a9e5752547627279adf4b"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_3961117",
+    "condition": "F",
+    "combined_text": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers describe the food as good, authentic, or very good, while others describe it as ordinary, bland, or poorly prepared. Service is often described as friendly, attentive, prompt, and helpful, though some reviewers report poor service, greasy food, or an unpleasant meal. Reviewers commonly describe the restaurant as clean, inviting, or well located near the beach. Value opinions are mixed: some reviewers find the prices reasonable or fair, while others consider the food expensive or not worth the price.\n\n[VISUAL_EVIDENCE]\nA table is topped with a variety of dishes of food. A dessert is on a plate. The dessert has whipped cream on top. There is a menu. A cup of coffee is on a table.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers describe the food as good, authentic, or very good, while others describe it as ordinary, bland, or poorly prepared. Service is often described as friendly, attentive, prompt, and helpful, though some reviewers report poor service, greasy food, or an unpleasant meal. Reviewers commonly describe the restaurant as clean, inviting, or well located near the beach. Value opinions are mixed: some reviewers find the prices reasonable or fair, while others consider the food expensive or not worth the price.",
+      "visual": "[VISUAL_EVIDENCE]\nA table is topped with a variety of dishes of food. A dessert is on a plate. The dessert has whipped cream on top. There is a menu. A cup of coffee is on a table."
+    },
+    "component_hashes": {
+      "review": "ea795b8e3481a780e3e7e30f83019fdf9e71abc7b4aa2a8469ff0dd43a2e5661",
+      "visual": "c1bd8bbfe976bdad8a688b5a1f42bd3bc4e81507bcf7a18e8ea0f0895b59fdd2"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_4004593",
+    "condition": "F",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as fresh, tasty, and well cooked, with some describing the dishes as interesting, unusual, or very succesfully mixed. Service is often described as friendly, helpful, and attentive, though some reviewers report inattentive or inattentive staff. The atmosphere is often described as pleasant, relaxed, or very cool. Several reviewers describe the portions as generous or very large, with some reporting that they could not eat after dinner. Several reviewers describe the wine as good or very good quality.\n\n[VISUAL_EVIDENCE]\nThere is a blackboard. The blackboard has a menu written in spanish on it. A group of people is sitting around a table. A steak is on a plate. The steak is served with a knife and fork. A white bowl is filled with ice cream. The bowl is on a table. The photo shows a restaurant through a glass door.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as fresh, tasty, and well cooked, with some describing the dishes as interesting, unusual, or very succesfully mixed. Service is often described as friendly, helpful, and attentive, though some reviewers report inattentive or inattentive staff. The atmosphere is often described as pleasant, relaxed, or very cool. Several reviewers describe the portions as generous or very large, with some reporting that they could not eat after dinner. Several reviewers describe the wine as good or very good quality.",
+      "visual": "[VISUAL_EVIDENCE]\nThere is a blackboard. The blackboard has a menu written in spanish on it. A group of people is sitting around a table. A steak is on a plate. The steak is served with a knife and fork. A white bowl is filled with ice cream. The bowl is on a table. The photo shows a restaurant through a glass door."
+    },
+    "component_hashes": {
+      "review": "0f017689f890d802880532db0c95e5e4bcb6a3cc3a83c2bef8a01b2b0d009e50",
+      "visual": "c67f0955e55c8501cb1fcf3224ccbd9988ec336f15d003873bd51cd8a6872c3f"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_4735772",
+    "condition": "F",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as fresh, tasty, home-style, and well prepared, while some describe it as ordinary or nothing special. Service is often described as friendly, helpful, and welcoming, though some reviewers report slow or inattentive service. Reviewers commonly describe the prices as reasonable, good, or a good value. The atmosphere is often described as lively, welcoming, and pleasant, with the terrace and bar receiving repeated praise.\n\n[VISUAL_EVIDENCE]\nA white plate is topped with potatoes and meatballs. The plate is on a table. A woman is holding up a picture. The photo shows a city. The photo is in front of a bar. A group of people is sitting at a bar in a restaurant. There is a drink in a cup. The drink is sitting on a table. The photo shows a bar. Bottles of wine are on a shelf.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the food as fresh, tasty, home-style, and well prepared, while some describe it as ordinary or nothing special. Service is often described as friendly, helpful, and welcoming, though some reviewers report slow or inattentive service. Reviewers commonly describe the prices as reasonable, good, or a good value. The atmosphere is often described as lively, welcoming, and pleasant, with the terrace and bar receiving repeated praise.",
+      "visual": "[VISUAL_EVIDENCE]\nA white plate is topped with potatoes and meatballs. The plate is on a table. A woman is holding up a picture. The photo shows a city. The photo is in front of a bar. A group of people is sitting at a bar in a restaurant. There is a drink in a cup. The drink is sitting on a table. The photo shows a bar. Bottles of wine are on a shelf."
+    },
+    "component_hashes": {
+      "review": "2fbe5ffa012d608ad022a25b98ece03ce22527ee80f9c3f28c80ebc7f6001584",
+      "visual": "ede96b836e55d89008f22fae46e57f8f90a77b5b5ce1972fbb59d444c5f8ebd4"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_6600483",
+    "condition": "F",
+    "combined_text": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the octopus tapas, describing them as excellent, fresh and freshly made. Service is often described as quick, helpful and attentive, though some selected reviewers report long queues or uncomfortable crowds. Several selected reviewers describe the prices as good, good or a good value. The atmosphere is often described as large, crowded and comfortable, though some selected reviewers find the space uncomfortable.\n\n[VISUAL_EVIDENCE]\nThere are two trays of fries and onion rings. The trays sit on a table. The photo shows a menu. Spanish words are on the menu. A spoon is scooping a piece of chocolate cake onto a plate. A group of people is preparing food in a commercial kitchen. There is a plate of food on a table. A lemon is on the plate.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nSelected reviewers frequently praise the octopus tapas, describing them as excellent, fresh and freshly made. Service is often described as quick, helpful and attentive, though some selected reviewers report long queues or uncomfortable crowds. Several selected reviewers describe the prices as good, good or a good value. The atmosphere is often described as large, crowded and comfortable, though some selected reviewers find the space uncomfortable.",
+      "visual": "[VISUAL_EVIDENCE]\nThere are two trays of fries and onion rings. The trays sit on a table. The photo shows a menu. Spanish words are on the menu. A spoon is scooping a piece of chocolate cake onto a plate. A group of people is preparing food in a commercial kitchen. There is a plate of food on a table. A lemon is on the plate."
+    },
+    "component_hashes": {
+      "review": "0f3aad56be8796421f3e715927da17881681040a65891bf94f766cd67c3aaf45",
+      "visual": "5ec47e72259d0c656ab09d6e5f4c439803b9728657c4422be0f4fe29fe7ea343"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_7345192",
+    "condition": "F",
+    "combined_text": "[REVIEW_CONSENSUS]\nMany selected reviewers praise the cakes and desserts, describing them as delicious, fresh, handmade, or very good. Coffee is repeatedly described as good or very good, though one reviewer found the coffee unremarkable. Service is often described as friendly, attentive, welcoming, and attentive. Reviewers commonly describe the atmosphere as cozy, cozy, beautiful, or relaxing, though some reviewers found the seats uncomfortable.\n\n[VISUAL_EVIDENCE]\nThere is a store front. The sign says “punto caramelo.” A man is sitting at a table. The man is in a restaurant. Several sandwiches are stacked on a plate. The plate is on a counter. A table is topped with magazines. A cup of coffee is on the table. A display case is filled with pastries and desserts.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nMany selected reviewers praise the cakes and desserts, describing them as delicious, fresh, handmade, or very good. Coffee is repeatedly described as good or very good, though one reviewer found the coffee unremarkable. Service is often described as friendly, attentive, welcoming, and attentive. Reviewers commonly describe the atmosphere as cozy, cozy, beautiful, or relaxing, though some reviewers found the seats uncomfortable.",
+      "visual": "[VISUAL_EVIDENCE]\nThere is a store front. The sign says “punto caramelo.” A man is sitting at a table. The man is in a restaurant. Several sandwiches are stacked on a plate. The plate is on a counter. A table is topped with magazines. A cup of coffee is on the table. A display case is filled with pastries and desserts."
+    },
+    "component_hashes": {
+      "review": "6e462f53b26d4122569f6428de7c1924d5d5399d35e4ea975e60f2f9b54ecab4",
+      "visual": "35dca29202d46b531c12d524e17afbb3e5a3cb40570db30d03b75c74d5ade823"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_8556009",
+    "condition": "F",
+    "combined_text": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers describe the food as excellent or great quality, while others report poor quality, undercooked or poorly prepared food. Service experiences vary: some reviewers describe the staff as quick, attentive, or excellent, while others report slow, disorganised, or inattentive service. Value opinions are mixed: some reviewers consider the restaurant reasonably priced or good value, while others describe the food as overpriced or underpriced. Several reviewers describe the setting as cool, cool, child-friendly, or child-friendly, with a nice view of the beach.\n\n[VISUAL_EVIDENCE]\nThere is a plate of nachos. The plate is sitting on a table. The photo shows a close-up of a receipt. The receipt is in spanish. The hamburger is served with cheese. The hamburger is served with avocado. The hamburger is served with a side of cole slaw. A child is sitting at a table. The child has a cup of coffee. The child has a dessert. A table has a bottle of liquor. A glass is on the table.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers describe the food as excellent or great quality, while others report poor quality, undercooked or poorly prepared food. Service experiences vary: some reviewers describe the staff as quick, attentive, or excellent, while others report slow, disorganised, or inattentive service. Value opinions are mixed: some reviewers consider the restaurant reasonably priced or good value, while others describe the food as overpriced or underpriced. Several reviewers describe the setting as cool, cool, child-friendly, or child-friendly, with a nice view of the beach.",
+      "visual": "[VISUAL_EVIDENCE]\nThere is a plate of nachos. The plate is sitting on a table. The photo shows a close-up of a receipt. The receipt is in spanish. The hamburger is served with cheese. The hamburger is served with avocado. The hamburger is served with a side of cole slaw. A child is sitting at a table. The child has a cup of coffee. The child has a dessert. A table has a bottle of liquor. A glass is on the table."
+    },
+    "component_hashes": {
+      "review": "60023f3e3b019c1c16a1666f29da06852747dbac83928c2140d1aea088937e9b",
+      "visual": "3caec00037d3095d0192fa137dd9d6b3661a3a198b0d45f0947ebfe02a3034c5"
+    },
+    "rewriting": false
+  },
+  {
+    "business_id": "TA14622324_9802783",
+    "condition": "F",
+    "combined_text": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers describe the food as good, tasty, or fantastic, while others find it merely passable or not worth the price. Service is described by several reviewers as friendly, helpful, or excellent, while others report long waits, inattentive staff, or poor service. Reviewers commonly describe the atmosphere as family-oriented, spacious, relaxed, relaxed, or social, with a patio or children's area for children to play. Value opinions are mixed: some reviewers consider the prices reasonable or worth a visit, while others consider the prices too high for the type of place.\n\n[VISUAL_EVIDENCE]\nThere is a piece of cheesecake. The cheesecake is on a white plate. The cheesecake is served with a spoon. There is a shelf full of green bottles. The bottles are in a store. A group of people is sitting at picnic tables. The picnic tables are under red umbrellas. The photo shows a close-up of a sign. The sign is in Spanish. The photo shows a restaurant. People are in the restaurant.",
+    "component_texts": {
+      "review": "[REVIEW_CONSENSUS]\nFood opinions are mixed: some reviewers describe the food as good, tasty, or fantastic, while others find it merely passable or not worth the price. Service is described by several reviewers as friendly, helpful, or excellent, while others report long waits, inattentive staff, or poor service. Reviewers commonly describe the atmosphere as family-oriented, spacious, relaxed, relaxed, or social, with a patio or children's area for children to play. Value opinions are mixed: some reviewers consider the prices reasonable or worth a visit, while others consider the prices too high for the type of place.",
+      "visual": "[VISUAL_EVIDENCE]\nThere is a piece of cheesecake. The cheesecake is on a white plate. The cheesecake is served with a spoon. There is a shelf full of green bottles. The bottles are in a store. A group of people is sitting at picnic tables. The picnic tables are under red umbrellas. The photo shows a close-up of a sign. The sign is in Spanish. The photo shows a restaurant. People are in the restaurant."
+    },
+    "component_hashes": {
+      "review": "d5a8e2b233ed28b898689cb6a70f3f3133a14ebb8bb7c4af9746ca1cb737507f",
+      "visual": "0c57d3dad5b7445770e8e56d20ebbb757325fe5690222b83e11eb85656886556"
+    },
+    "rewriting": false
+  }
+]

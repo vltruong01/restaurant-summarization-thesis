@@ -1,0 +1,69 @@
+{
+  "status": "USER_APPROVED_D040_BOUNDED_PILOT_ONLY_NOT_PRODUCTION",
+  "protocol_version": "stage_g_d040_visible_identity_count_and_category_scope_prompt",
+  "requested_model": "gpt-6.1-sol",
+  "snapshot": null,
+  "generation_proposal": {
+    "reasoning_effort": "medium",
+    "max_output_tokens": 8192,
+    "store": false,
+    "stream": true,
+    "temperature": null,
+    "automatic_retries": 0,
+    "concurrency": 1
+  },
+  "pilot": {
+    "business_ids": [
+      "bLJP0fVgscuUQy0hE_CRXA",
+      "UCzFaBbPDKtHTWsBE5LGtQ",
+      "FFV8_b-ec5Z0E3xgvkVxKw",
+      "PRrWtQ3rdINngwESZNefVQ",
+      "8xTHtLoNIwdpf0FEvIpQIw",
+      "nv59KN19fEQax9RL0lUdkw",
+      "jMStvE-tQzSpRCAO0nAE6g",
+      "EzJI5x25U5GgbYBWhu5ZQQ"
+    ],
+    "selection": "four_affected_businesses_plus_hotdog_pizza_hamburger_zero_filtered_regression_controls",
+    "review_rerun_business_ids": [
+      "UCzFaBbPDKtHTWsBE5LGtQ"
+    ],
+    "max_new_API_calls": 16,
+    "human_inspection": "researcher_review_before_production",
+    "not_population_error_rate": true
+  },
+  "tasks": {
+    "review_consensus": "once_per_business_reviews_only",
+    "visual_evidence": "separate_unfiltered_and_filtered_caption_photo_pairs_only",
+    "empty_caption_condition": "empty_visual_evidence_no_visual_model_call"
+  },
+  "prompts": {
+    "review_consensus": "prompts/stage_g_review_consensus_v7.txt",
+    "visual_evidence": "prompts/stage_g_visual_evidence_v4.txt"
+  },
+  "schema": "schemas/stage_g_teacher_pilot_v3.json",
+  "source_pointer": "outputs/stage_f/production_manifest_pointer.json",
+  "output_directory": "outputs/stage_g/teacher_pilot_v6_focused_d040_v1",
+  "execution_enabled": false,
+  "full_generation_enabled": false,
+  "target_length_policy": null,
+  "production_retry_policy": null,
+  "production_model_version_policy": null,
+  "revision_reason": "Minimal prompt refinement for visible ingredient/count basis and review category scope; schema and retry unchanged.",
+  "evidence_representation": "model_selects_source_span_IDs_code_resolves_exact_original_quotes",
+  "target_serialization": {
+    "visual_repeated_statement_key": "lowercase_whitespace_normalized_text",
+    "preserve_first_model_sentence": true,
+    "keep_all_caption_photo_evidence": true,
+    "within_caption_repetition": "reject",
+    "semantic_similarity_filter": "none"
+  },
+  "citation_metadata_policy": {
+    "evidence_selection": "strict_business_review_marker_and_span_IDs",
+    "original_review_id": "derive_from_immutable_source_mapping",
+    "redundant_teacher_reported_review_id": "preserve_raw_and_diagnose_disagreement",
+    "unknown_or_wrong_review_span": "reject",
+    "minimum_distinct_supporting_reviews": "unchanged_source_canonical_IDs"
+  },
+  "parent_pilot_config": "configs/stage_g_teacher_pilot_v5_focused_d039.json",
+  "decision": "D-040"
+}

@@ -1,0 +1,21 @@
+schema_version: 2
+decision: D-028
+workflow: AI_assisted_preannotation_with_explicit_human_verification
+scoring_protocol: configs/stage_f_validation_protocol.yaml
+frozen_queue: outputs/stage_f/validation_calibration_v1/human_check/annotation_dataset.json
+output_directory: outputs/stage_f/ai_assisted_calibration_v1
+seed: 42
+initial_image_cases: 50
+initial_pair_cases: 100
+image_expansion_increment: 20
+pair_expansion_increment: 40
+minimum_each_binary_class: 10
+uncertain: exclude_from_binary_fitting_and_report
+selection_uses_AI_labels_or_agreement: false
+require_all_active_cases_verified_before_balance_check: true
+expansion_reason: verified_class_balance_only
+threshold_labels: human_final_label_only_when_human_verified_true
+AI_only_labels: diagnostic_only
+final_30_business_human_evaluation: unchanged_and_separate
+K_candidates: [3, 5, 8, 10]
+K_distribution_tail: report_and_request_review_if_grid_adequacy_is_unresolved_no_auto_grid_change

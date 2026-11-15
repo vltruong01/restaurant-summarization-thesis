@@ -1,0 +1,59 @@
+# Null values are unresolved unless explicitly documented as not applied.
+# A stage must resolve its own dependencies under its spec before execution.
+language_policy:
+  detector_and_version: langdetect==1.0.9
+  text_length_and_confidence_rules:
+    seed: 42
+    minimum_stripped_characters: 20
+    maximum_probe_characters: 2000
+    accepted_top_label: en
+    probability_cutoff: null  # Explicitly not applied; reused preliminary-script policy.
+  filter_vs_eligibility_order: original_raw_pool_then_english_business_gate_then_sampling_then_review_selection
+  minimum_review_count_population: at_least_10_detector_english_reviews_before_final_business_sampling
+  rating_distribution_population: null
+review_selection:
+  temporal_strata: null
+  quota_and_rounding_rules: null
+  complete_review_removal_rule: null
+  budget_constrained_search_strategy: null
+  whole_review_replacement_and_addition_rules: null
+  rating_temporal_candidate_comparison_rule: null
+  comparable_rating_jsd_tolerance: null
+  comparable_temporal_jsd_tolerance: null
+  # 30 is a cap; >=10 English applies to source eligibility, not selected input.
+  # Fewer than 10 retained reviews is a review flag, not automatic exclusion.
+token_budget:
+  total_source_tokens: 5000  # D-032 Approved/Validated.
+  review_tokens: 4000
+  metadata_and_marker_tokens: null  # Not an independent fixed token count; joint overhead, declared capacity250, full-source ceiling authoritative.
+  caption_tokens: 750
+caption_filtering:
+  maximum_k: 5  # D-033 final validation-selected maximum, not a required count.
+  candidate_search_space: [3, 5, 8, 10]
+  validation_selection_criterion: smallest_budget_feasible_K_at95pct_of_best_macro_coarser_group_coverage
+teacher:
+  requested_model: gpt-6.1-sol  # D-042 approved alias; immutable provider snapshot unavailable and documented.
+  pilot_protocol: specs/007_teacher_target_construction.md
+  active_pilot_config: configs/stage_g_teacher_extended_pilot_d041.json
+  active_pilot_execution_pointer: outputs/stage_g/teacher_extended_pilot_d041_v1/active_execution_pointer.json
+  pilot_protocol_status: D041_complete_reviewed_ready_with_documented_limitations
+  model_and_version: fixed_gpt-6.1-sol_alias_provider_snapshot_unattested_D042
+  prompt_and_generation_settings: configs/stage_g_teacher_production_d042.json
+  manual_inspection_sample_size: null  # No completed independent human-final random25 annotation claimed.
+  production_protocol_status: D042_frozen_Coletoken_concurrency5_continuation_approved
+  production_config: configs/stage_g_teacher_production_d042.json
+  production_directory: outputs/stage_g/teacher_production_d042_v1
+  active_production_execution_pointer: outputs/stage_g/active_production_execution_pointer.json
+  production_execution_overlay: configs/stage_g_coletoken_production_concurrency5_v1.json
+  production_decoder_limit: null  # Decide from full target distribution and student implementation before training.
+external_generalization:
+  dataset: null
+  pilot_and_full_sample_sizes: null
+human_evaluation:
+  planned_businesses: 30
+  stratification_and_allocation_rule: null
+cloud:
+  gpu_and_vram: null
+  runtime_image: null
+  rental_budget: null
+  storage_and_durable_destination: null

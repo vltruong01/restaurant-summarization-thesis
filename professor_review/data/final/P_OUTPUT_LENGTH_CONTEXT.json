@@ -1,0 +1,56 @@
+[
+  {
+    "system": "LED F original",
+    "component": "review",
+    "n": 15,
+    "mean_whitespace_words": 81.06666666666666,
+    "minimum": 61,
+    "maximum": 105,
+    "definition": "Whitespace words after removing one exact leading component marker;descriptive only"
+  },
+  {
+    "system": "LED F original",
+    "component": "visual",
+    "n": 15,
+    "mean_whitespace_words": 69,
+    "minimum": 36,
+    "maximum": 88,
+    "definition": "Whitespace words after removing one exact leading component marker;descriptive only"
+  },
+  {
+    "system": "Qwen-Caption",
+    "component": "review",
+    "n": 15,
+    "mean_whitespace_words": 132.86666666666667,
+    "minimum": 119,
+    "maximum": 150,
+    "definition": "Whitespace words after removing one exact leading component marker;descriptive only"
+  },
+  {
+    "system": "Qwen-Caption",
+    "component": "visual",
+    "n": 15,
+    "mean_whitespace_words": 52.13333333333333,
+    "minimum": 41,
+    "maximum": 63,
+    "definition": "Whitespace words after removing one exact leading component marker;descriptive only"
+  },
+  {
+    "system": "Qwen-Image",
+    "component": "review",
+    "n": 15,
+    "mean_whitespace_words": 132.86666666666667,
+    "minimum": 119,
+    "maximum": 150,
+    "definition": "Whitespace words after removing one exact leading component marker;descriptive only"
+  },
+  {
+    "system": "Qwen-Image",
+    "component": "visual",
+    "n": 15,
+    "mean_whitespace_words": 65.53333333333333,
+    "minimum": 50,
+    "maximum": 80,
+    "definition": "Whitespace words after removing one exact leading component marker;descriptive only"
+  }
+]

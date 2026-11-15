@@ -1,0 +1,45 @@
+schema_version: 1
+stage: C2_LED_source_allocation_audit
+algorithm_version: led_source_capacity_audit_v1
+seed: 42
+accepted_directory: outputs/stage_c/review_selection_source_length_expanded_v1
+accepted_method: v4_2_length_balanced
+selector_config: configs/review_selection_source_length_expanded.yaml
+english_directory: data/processed/yelp_2300_english_v1
+business_records: data/processed/yelp_2300_v1/businesses.jsonl
+tokenizer: assets/tokenizers/led-base-16384/tokenizer.json
+output_directory: outputs/stage_c/led_source_token_allocation_audit_v1
+allowed_splits: [train, validation]
+review_budgets: [3500, 4000, 4500]
+diagnostic_source_ceiling: 5000
+caption_allowances_exploratory: [0, 250, 500, 750, 1000, 1250, 1500]
+caption_allowance_scope: entire_incremental_caption_block_relative_to_exact_text_only_base_including_markers_and_boundaries
+metadata_profiles:
+  no_metadata_control: []
+  name_categories: [name, categories]
+  name_categories_location: [name, categories, city, state]
+missing_metadata: empty_string
+format:
+  business_marker: '[BUSINESS]'
+  reviews_marker: '[REVIEWS]'
+  captions_marker: '[CAPTIONS]'
+  metadata_field_separator: newline
+  section_separator: double_newline
+  review_format: immutable_accepted_C2_formatter
+  special_tokens: once_per_full_source
+execution:
+  tokenizer_threads: 8
+  encode_batch_size: 64
+  body_batch_size: 1024
+storage:
+  maximum_scientific_output_bytes: 25000000
+  full_source_export: limited_examples_only
+example_default_business_id: 9PZxjhTIU7OgPIzuGi89Ew
+actual_captions_available: false
+actual_caption_conditioned_source_tokens: null
+final_source_tokens: null
+final_review_tokens: null
+final_metadata_fields: null
+final_caption_tokens: null
+final_methodology_locked: false
+final_manifest: false

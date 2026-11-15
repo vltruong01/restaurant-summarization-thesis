@@ -1,0 +1,8 @@
+def exact_duplicate_reduce(rows,pixel_hashes):
+    assert len(rows)==len(pixel_hashes) and all(isinstance(h,str) and h for h in pixel_hashes)
+    representatives={};kept=[];removed={}
+    for i in quality_order(rows):
+        pixel=pixel_hashes[i]
+        if pixel not in representatives:representatives[pixel]=i;kept.append(i)
+        else:removed[i]=representatives[pixel]
+    return kept,removed

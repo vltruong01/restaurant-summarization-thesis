@@ -1,0 +1,67 @@
+{
+  "records": 6600,
+  "unique_businesses": 2200,
+  "dataset_inventory": [
+    {
+      "file": "outputs/stage_g/teacher_production_d042_v1/guarded_production6_retry_v1/dataset/train_reviews_only.jsonl",
+      "sha256": "524b3851f4d5453fccc122cf825c22b79dc75e3c2580d7cff0746811fd3e76be",
+      "split": "train",
+      "condition": "reviews_only",
+      "records": 2000
+    },
+    {
+      "file": "outputs/stage_g/teacher_production_d042_v1/guarded_production6_retry_v1/dataset/train_unfiltered.jsonl",
+      "sha256": "4c63fa228160dbe2a0b9340a37605279d2c379a4d8be36325c82d7866b104f04",
+      "split": "train",
+      "condition": "unfiltered",
+      "records": 2000
+    },
+    {
+      "file": "outputs/stage_g/teacher_production_d042_v1/guarded_production6_retry_v1/dataset/train_filtered.jsonl",
+      "sha256": "e45bfff8125f52ab1905ccdc7fb71847b68d477ef172099f8e917509614931f4",
+      "split": "train",
+      "condition": "filtered",
+      "records": 2000
+    },
+    {
+      "file": "outputs/stage_g/teacher_production_d042_v1/guarded_production6_retry_v1/dataset/validation_reviews_only.jsonl",
+      "sha256": "503f0b7a6d19fdaec9b58b3a7a563dd6395282a3cb7c012c5cba22085e09229b",
+      "split": "validation",
+      "condition": "reviews_only",
+      "records": 200
+    },
+    {
+      "file": "outputs/stage_g/teacher_production_d042_v1/guarded_production6_retry_v1/dataset/validation_unfiltered.jsonl",
+      "sha256": "44fcff54977948d1a453fbc3d9d1885e395541ed33985a9d531aaddc098971cf",
+      "split": "validation",
+      "condition": "unfiltered",
+      "records": 200
+    },
+    {
+      "file": "outputs/stage_g/teacher_production_d042_v1/guarded_production6_retry_v1/dataset/validation_filtered.jsonl",
+      "sha256": "216c585ac304472787aa8f3e0a7b48a170222fb88aaaeb07bcc825f7ef74a4b2",
+      "split": "validation",
+      "condition": "filtered",
+      "records": 200
+    }
+  ],
+  "equivalence": [
+    {
+      "split": "train",
+      "businesses": 2000,
+      "RO_U_F_Review_byte_identical": 2000,
+      "U_F_Visual_byte_identical": 0,
+      "U_F_Visual_different": 2000
+    },
+    {
+      "split": "validation",
+      "businesses": 200,
+      "RO_U_F_Review_byte_identical": 200,
+      "U_F_Visual_byte_identical": 0,
+      "U_F_Visual_different": 200
+    }
+  ],
+  "completion_sha256": "19a14e9cce28b45987c96e5a11e83ce392e2e2aa31c2e1f347fcb9a009ada64f",
+  "business_split_sha256": "f3331ce71da531099349ef680e18ab38255f38db8752dcf61e8998c7a191d93b",
+  "TEST_target_records_in_canonical_Stage_G": 0
+}

@@ -1,0 +1,7 @@
+def relevance_eligible(rows,indices,threshold):
+    # No CLIP cutoff: CLIP enters only the unchanged Stage F quality_order helpers.
+    return [i for i in indices if round(float(rows[i]['relevance_margin']),6)>=threshold]
+
+def unfiltered_fixed_seed_order(rows):
+    # Same Basic-only fixed-seed ordering as before D-030, without score filtering.
+    return sorted(rows,key=lambda r:hashlib.sha256(('42|Unfiltered|'+r['photo_id']).encode()).hexdigest())

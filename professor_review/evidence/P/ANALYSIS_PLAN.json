@@ -1,0 +1,59 @@
+{
+  "format": "stage_p_frozen_analysis_plan_v1",
+  "study_id": "tripadvisor15_three_system_new_session_v1_fbccd6ea8c07ca4e",
+  "seed": 20261106,
+  "bootstrap_draws": 20000,
+  "restaurant_order": [
+    "TA14622324_9802783",
+    "TA14622324_2687285",
+    "TA14622324_7345192",
+    "TA14622324_1119478",
+    "TA14622324_3512687",
+    "TA14622324_3961117",
+    "TA14622324_3410297",
+    "TA14622324_8556009",
+    "TA14622324_2298952",
+    "TA14622324_2312071",
+    "TA14622324_1001674",
+    "TA14622324_4735772",
+    "TA14622324_6600483",
+    "TA14622324_23652638",
+    "TA14622324_4004593"
+  ],
+  "raters": [
+    "A01",
+    "A02"
+  ],
+  "systems": [
+    "LED F original",
+    "Qwen-Caption",
+    "Qwen-Image"
+  ],
+  "Review_only_criteria": [
+    "review_faithfulness",
+    "aspect_coverage",
+    "usefulness"
+  ],
+  "contrasts": [
+    {
+      "left": "LED F original",
+      "right": "Qwen-Caption",
+      "family": "PRIMARY"
+    },
+    {
+      "left": "Qwen-Caption",
+      "right": "Qwen-Image",
+      "family": "PRIMARY"
+    },
+    {
+      "left": "LED F original",
+      "right": "Qwen-Image",
+      "family": "ADDITIONAL_EXPLORATORY"
+    }
+  ],
+  "paired_unit": "Restaurant; average two within-rater paired differences, bootstrap15 whole restaurants retaining all systems and both raters",
+  "significance": "Exploratory two-sided exact restaurant sign-flip2^15; Holm12 primary/6 additional tests; percentile pointwise95% CI; no composite winner",
+  "old_Stage_O_scores_used": false,
+  "shared_Review_warning": "All15 Qwen Review components are identical across variants. Report all six criteria, but differences in three Review-only criteria reflect scoring/session noise, not different generated Review content. Coherence/redundancy include Visual and may differ.",
+  "independence_limits": "New concurrent session; the same returning evaluators have previous source/output exposure. New-session scoring does not erase that exposure or authenticate independent participant identity."
+}

@@ -1,0 +1,50 @@
+schema_version: 1
+stage: D1_photo_integrity_duplicate_audit
+algorithm_version: photo_integrity_phash64_cosine32_round6_v1
+seed: 42
+cohort_directory: data/processed/yelp_2300_v1
+photo_manifest: data/processed/yelp_2300_v1/photo_manifest.csv
+output_directory: outputs/stage_d/photo_integrity_duplicate_audit_v1
+scope:
+  businesses: 2300
+  photos: 30027
+  splits: [train, validation, test]
+  test_use: uniform_integrity_and_hashing_only_no_tuning_or_manual_policy_gallery
+decode:
+  container_verify: true
+  force_full_decode: true
+  load_truncated_images: false
+  decompression_bomb_protection: pillow_default
+hashing:
+  raw: sha256
+  pixels: sha256_dimensions_and_EXIF_transposed_RGB_bytes
+  phash_version: cosine32_round6_v1
+  resize: [32, 32]
+  resample: LANCZOS
+  low_frequency: [8, 8]
+  coefficient_round_decimals: 6
+  threshold: greater_than_median_all64_including_DC
+  bit_order: row_major_msb_first
+near_duplicates:
+  pair_scope: exhaustive_within_business_readable_only
+  diagnostic_hamming_thresholds: [0, 4, 8, 12]
+  grouping: connected_components_with_diameter_and_chained_flags
+  final_threshold: null
+global_checks: [raw_sha256, normalized_pixel_sha256, equal_phash_collision_only]
+exclusion:
+  physical_image_deletion: false
+  cohort_business_exclusion: false
+  unfiltered_deduplication: false
+  filtered_duplicate_policy: null
+  representative_id: lexicographically_smallest_photo_id_diagnostic_only
+execution:
+  workers: 8
+  worker_chunksize: 32
+  blas_threads_per_worker: 1
+  independent_reference_photos: 256
+storage:
+  maximum_scientific_output_bytes: 30000000
+  new_image_copies: false
+final_manifest: false
+final_source_allocation: null
+caption_generation_started: false

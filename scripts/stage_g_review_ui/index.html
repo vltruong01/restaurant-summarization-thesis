@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thesis · Duyệt teacher targets</title>
+  <style>__STYLES__</style>
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><span class="brand-mark">T</span><div><strong>Thesis review</strong><small>Stage G · Pilot</small></div></div>
+    <p class="side-intro">20 businesses · 60 targets</p>
+    <label class="search-label" for="business-search">Tìm business</label>
+    <input id="business-search" type="search" placeholder="Tên, thành phố hoặc ID…">
+    <div class="side-filters" role="group" aria-label="Lọc split">
+      <button data-split="all" class="active">Tất cả</button><button data-split="train">Train</button><button data-split="validation">Val</button>
+    </div>
+    <nav id="business-list" aria-label="Danh sách businesses"></nav>
+    <div class="sidebar-footer"><strong id="read-progress">0 / 20 đã xem</strong><p>Trạng thái xem và ghi chú chỉ lưu trong trình duyệt của bạn.</p><button id="export-notes" class="text-button">↓ Tải ghi chú để gửi GPT</button></div>
+  </aside>
+  <main>
+    <header class="topbar"><span>DATASET / TEACHER TARGETS</span><span class="pill neutral">Pilot · đang duyệt nội dung</span></header>
+    <section class="business-header"><div><div id="business-meta" class="eyebrow"></div><h1 id="business-name"></h1><div id="business-id" class="subtle mono"></div></div><div class="business-nav"><button id="previous" aria-label="Business trước">←</button><span id="business-position"></span><button id="next" aria-label="Business tiếp">→</button></div></section>
+    <div id="business-stats" class="stat-row"></div>
+    <div class="notice">Đọc cả nội dung và bằng chứng. Nhãn <b>verified / rejected / uncertain</b> là đánh giá của GPT teacher; không phải xác nhận của bạn.</div>
+    <nav class="tabs" aria-label="Phần cần xem"><button data-view="overview" class="active">1. Ba targets</button><button data-view="reviews">2. Đối chiếu reviews</button><button data-view="visual">3. Đối chiếu ảnh</button><button data-view="notes">4. Ghi chú của tôi</button></nav>
+    <section id="overview-panel" class="panel"></section>
+    <section id="reviews-panel" class="panel hidden"></section>
+    <section id="visual-panel" class="panel hidden"></section>
+    <section id="notes-panel" class="panel hidden"></section>
+    <footer class="main-footer">Nguồn: pilot cố định 10 train + 10 validation. Trang này không gọi API và không thay đổi targets, nhãn, thresholds hoặc K.</footer>
+  </main>
+  <dialog id="image-dialog"><div class="dialog-top"><strong id="image-title"></strong><button id="close-image" aria-label="Đóng ảnh">✕</button></div><img id="full-image" alt="Ảnh gốc để xem chi tiết"></dialog>
+  <div id="toast" role="status"></div>
+  <script id="review-data" type="application/json">__DATA__</script>
+  <script>__APP__</script>
+</body>
+</html>

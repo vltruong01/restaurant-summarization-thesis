@@ -1,0 +1,149 @@
+{
+  "comparison": [
+    {
+      "system": "LED F",
+      "repeat": "REPEAT_1",
+      "Review_seconds": 55.85007489519194,
+      "Visual_seconds": 41.58454834762961,
+      "total_seconds": 97.43462324282154,
+      "seconds_per_restaurant": 6.495641549521436,
+      "output_tokens": 3140,
+      "tokens_per_second": 32.226737226403124,
+      "peak_allocated_GiB": 2.6966452598571777,
+      "peak_reserved_GiB": 3.044921875
+    },
+    {
+      "system": "LED F",
+      "repeat": "REPEAT_2",
+      "Review_seconds": 56.49042350659147,
+      "Visual_seconds": 41.93763496167958,
+      "total_seconds": 98.42805846827105,
+      "seconds_per_restaurant": 6.561870564551403,
+      "output_tokens": 3140,
+      "tokens_per_second": 31.901472495388095,
+      "peak_allocated_GiB": 2.6966452598571777,
+      "peak_reserved_GiB": 3.044921875
+    },
+    {
+      "system": "Qwen-Caption",
+      "repeat": "single",
+      "Review_seconds": 136.99380970187485,
+      "Visual_seconds": 49.85003257030621,
+      "total_seconds": 186.84384227218106,
+      "seconds_per_restaurant": 12.456256151478737,
+      "output_tokens": 3651,
+      "tokens_per_second": 19.540381719840028,
+      "peak_allocated_GiB": 18.535984992980957,
+      "peak_reserved_GiB": 18.716796875
+    },
+    {
+      "system": "Qwen-Image Visual only",
+      "repeat": "single",
+      "Review_seconds": 0,
+      "Visual_seconds": 242.70315741514787,
+      "total_seconds": 242.70315741514787,
+      "seconds_per_restaurant": 16.180210494343193,
+      "output_tokens": 1342,
+      "tokens_per_second": 5.529388304184631,
+      "peak_allocated_GiB": 17.75679636001587,
+      "peak_reserved_GiB": 17.8203125
+    },
+    {
+      "system": "Qwen-Image constructed Review+Visual",
+      "repeat": "separate sessions",
+      "Review_seconds": 136.99380970187485,
+      "Visual_seconds": 242.70315741514787,
+      "total_seconds": 379.6969671170227,
+      "seconds_per_restaurant": 25.31313114113485,
+      "output_tokens": 3980,
+      "tokens_per_second": 10.482043167791126,
+      "peak_allocated_GiB": 18.535984992980957,
+      "peak_reserved_GiB": 18.716796875
+    }
+  ],
+  "LED_variability": {
+    "repetitions": 2,
+    "total_generation_seconds_mean": 97.9313408555463,
+    "sample_SD_seconds": 0.7024647845849299,
+    "minimum_seconds": 97.43462324282154,
+    "maximum_seconds": 98.42805846827105,
+    "between_repeat_token_exact": 30,
+    "matched_calls": 30
+  },
+  "load_seconds": {
+    "LED": 9.278910084161907,
+    "Qwen_Caption": 11.532909459900111,
+    "Qwen_Image": 5.8475935170426965
+  },
+  "image_CPU_preprocessing_seconds": 0.3301282408647239,
+  "image_GPU_transfer_seconds": 0.018900003749877214,
+  "image_CPU_postprocessing_seconds": 0.002984896767884493,
+  "historical_shared_preparation_subtotal_seconds": 48821.488000000005,
+  "diagnostics": [
+    {
+      "system": "Original LED F",
+      "task": "review",
+      "calls": 15,
+      "mean_words": 81.06666666666666,
+      "min_words": 61,
+      "max_words": 105,
+      "empty": 0,
+      "header_missing": 0,
+      "thinking": 0,
+      "token_caps": 0,
+      "duplicate_sentence_occurrences": 0
+    },
+    {
+      "system": "Original LED F",
+      "task": "visual",
+      "calls": 15,
+      "mean_words": 69,
+      "min_words": 36,
+      "max_words": 88,
+      "empty": 0,
+      "header_missing": 0,
+      "thinking": 0,
+      "token_caps": 0,
+      "duplicate_sentence_occurrences": 0
+    },
+    {
+      "system": "Qwen-Caption",
+      "task": "review",
+      "calls": 15,
+      "mean_words": 132.86666666666667,
+      "min_words": 119,
+      "max_words": 150,
+      "empty": 0,
+      "header_missing": 0,
+      "thinking": 0,
+      "token_caps": 0,
+      "duplicate_sentence_occurrences": 0
+    },
+    {
+      "system": "Qwen-Caption",
+      "task": "visual",
+      "calls": 15,
+      "mean_words": 52.13333333333333,
+      "min_words": 41,
+      "max_words": 63,
+      "empty": 0,
+      "header_missing": 0,
+      "thinking": 0,
+      "token_caps": 0,
+      "duplicate_sentence_occurrences": 0
+    },
+    {
+      "system": "Qwen-Image Visual",
+      "task": "visual",
+      "calls": 15,
+      "mean_words": 65.46666666666667,
+      "min_words": 50,
+      "max_words": 80,
+      "empty": 0,
+      "header_missing": 0,
+      "thinking": 0,
+      "token_caps": 0,
+      "duplicate_sentence_occurrences": 0
+    }
+  ]
+}

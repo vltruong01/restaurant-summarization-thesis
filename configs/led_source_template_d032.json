@@ -1,0 +1,40 @@
+{
+  "status": "APPROVED_VALIDATED_FROZEN",
+  "business_header": "[BUSINESS_INFORMATION]",
+  "fields": [
+    "name",
+    "categories",
+    "city",
+    "state"
+  ],
+  "field_line": "{field}={exact_original_value}",
+  "review_header": "[REVIEWS]",
+  "review_line": "[REV_{index}] stars={int_stars} date={original_date}\n{complete_original_text}",
+  "visual_header": "[VISUAL_CONTEXT]",
+  "caption_marker": "[IMG_CAP_{index}]",
+  "caption_text": "stored_normalized_caption_unchanged",
+  "section_separator": "\n\n",
+  "caption_separator": "\n\n",
+  "marker_body_separator": "\n",
+  "extra_final_newline": false,
+  "empty_visual_header_retained": true,
+  "special_tokens": "once_per_complete_source",
+  "markers_registered_as_special_tokens": false,
+  "missing_metadata": "empty_string",
+  "review_allocation": 4000,
+  "caption_increment_allowance": 750,
+  "complete_source_limit": 5000,
+  "caption_allowance_scope": "full_source_tokens_minus_same_business_reviews_only_base_tokens",
+  "controlled_conditions": [
+    "reviews_only",
+    "unfiltered",
+    "filtered",
+    "shuffled"
+  ],
+  "overflow_policy": "record_and_stop_zero_silent_truncation_or_removal",
+  "decision": "D-032",
+  "audited_candidate_sha256": "e4ba030a577f214da34353853a2aa639ffc7b6a7c4dbdbfbe5bff1e04b415531",
+  "serializer_code_sha256": "7d5680a77972a0f92042d005df07ce948794af4fa2a96768008c7b5ce24f983a",
+  "audit_report_sha256": "b83bf09f60662b6436a22856593672ab050f485767d1b9f909034682a8779e69",
+  "tokenizer_manifest_sha256": "dacd646a905398fddfee7a2db514038954bbbf08adac0effa4f3ff50e661f61c"
+}

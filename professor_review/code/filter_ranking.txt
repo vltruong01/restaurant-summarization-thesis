@@ -1,0 +1,22 @@
+def quality_order(rows):
+    return sorted(range(len(rows)), key=lambda i:(-round(rows[i]['clip_score'],6),-round(rows[i]['relevance_margin'],6),rows[i]['photo_id']))
+
+def redundancy_reduce(rows, similarity, threshold):
+    kept=[];mapping={}
+    matrix=np.round(similarity.astype(np.float64),6)
+    for i in quality_order(rows):
+        duplicate=[j for j in kept if matrix[i,j]>=threshold]
+        if not duplicate:kept.append(i)
+        else:mapping[i]=min(duplicate,key=lambda j:(-matrix[i,j],rows[j]['photo_id']))
+    return kept,mapping
+
+def farthest_first(rows, similarity, candidates):
+    quality=quality_order(rows);rank={i:n for n,i in enumerate(quality)}
+    remaining=set(candidates)
+    if not remaining:return []
+    selected=[min(remaining,key=lambda i:rank[i])];remaining.remove(selected[0])
+    matrix=np.round(similarity.astype(np.float64),6)
+    while remaining:
+        i=min(remaining,key=lambda i:(-min(1-matrix[i,j] for j in selected),rank[i]))
+        selected.append(i);remaining.remove(i)
+    return selected

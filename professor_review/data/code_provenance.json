@@ -1,0 +1,136 @@
+{
+  "review_selection": {
+    "file": "scripts/budget_aware_review_selection_v4_2.py",
+    "sha256": "04a9535cd24a3443d82b6106c1c29189ebd324639c242c043c84120b5cfb1ceb",
+    "line_spans": [
+      [
+        19,
+        22
+      ],
+      [
+        35,
+        61
+      ]
+    ],
+    "excerpt": "code/review_selection.txt"
+  },
+  "filter_ranking": {
+    "file": "scripts/stage_f_math.py",
+    "sha256": "f061d77b0a2fc870823e80683cc7eb02afefa5e70ac31c00c8202ae6560e65f3",
+    "line_spans": [
+      [
+        5,
+        6
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        46,
+        55
+      ]
+    ],
+    "excerpt": "code/filter_ranking.txt"
+  },
+  "filter_exact_duplicates": {
+    "file": "scripts/stage_f_d031_protocol.py",
+    "sha256": "2b2111301a588f1e05b39fda504683de9529185bc09462e587727f4c6cb25ab5",
+    "line_spans": [
+      [
+        101,
+        108
+      ]
+    ],
+    "excerpt": "code/filter_exact_duplicates.txt"
+  },
+  "filter_relevance": {
+    "file": "scripts/stage_f_d030_protocol.py",
+    "sha256": "4b5be2fe74f5ca434bf609484771f353618fa86712ecc5f27d401ceeb0a69093",
+    "line_spans": [
+      [
+        100,
+        102
+      ],
+      [
+        105,
+        107
+      ]
+    ],
+    "excerpt": "code/filter_relevance.txt"
+  },
+  "label_collation": {
+    "file": "scripts/stage_hi_led_data.py",
+    "sha256": "7ce7b0a87935cca43ca4b2c354bd0e3eecadfa05c033692a9b5e96133764b467",
+    "line_spans": [
+      [
+        73,
+        106
+      ]
+    ],
+    "excerpt": "code/label_collation.txt"
+  },
+  "native_training_step": {
+    "file": "outputs/stage_i/led_large_source_separated_v1_two_epoch_preparation_v1/downloaded/RUN_TRAIN.py",
+    "sha256": "a0904c70675d01ffc9cf2dc8a5011f9d054b79aff04f5bcd9cfcb8e6edd252f4",
+    "line_spans": [
+      [
+        139,
+        160
+      ]
+    ],
+    "excerpt": "code/native_training_step.txt"
+  },
+  "metric_scoring": {
+    "file": "scripts/stage_m_evaluation_v1.py",
+    "sha256": "43eb40a626e24cff4ba1cd71940f98064ec39deeeb6412688f26769efb605766",
+    "line_spans": [
+      [
+        89,
+        123
+      ]
+    ],
+    "excerpt": "code/metric_scoring.txt"
+  },
+  "paired_bootstrap": {
+    "file": "scripts/s1000_final_eval_core_v1.py",
+    "sha256": "8dedc10b09d35efb50fb96409926566cbb7327952ade67eed48825272e2582b5",
+    "line_spans": [
+      [
+        145,
+        154
+      ],
+      [
+        156,
+        159
+      ]
+    ],
+    "excerpt": "code/paired_bootstrap.txt"
+  },
+  "quadratic_kappa": {
+    "file": "scripts/analyze_stage_n_two_raters_v1.py",
+    "sha256": "18bda30753c0ab863daf6c2caa1f239af160a6a4b31aea373706168ed88241d6",
+    "line_spans": [
+      [
+        10,
+        21
+      ]
+    ],
+    "excerpt": "code/quadratic_kappa.txt"
+  },
+  "qwen_frozen_inference": {
+    "file": "scripts/stage_p_qwen_bf16_3090_v2.py",
+    "sha256": "914a9028c9fccb47f73136a0a0dfd61aa96458581c645952194f3746f63396aa",
+    "line_spans": [
+      [
+        33,
+        44
+      ],
+      [
+        126,
+        145
+      ]
+    ],
+    "excerpt": "code/qwen_frozen_inference.txt"
+  }
+}

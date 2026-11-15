@@ -1,0 +1,22 @@
+                for slot,j in enumerate(indexes):
+                    recovery.microbatch();check();t=tasks[j];diagnostics.update(microbatch=slot+1,task_index=j,task=t['task'],business_id=t['business_id'])
+                    si=pack['input_ids'][pack['input_offsets'][j]:pack['input_offsets'][j+1]].astype(np.int64).tolist()
+                    li=pack['labels'][pack['label_offsets'][j]:pack['label_offsets'][j+1]].astype(np.int64).tolist()
+                    batch={k:v.cuda() for k,v in collator([dict(input_ids=si,labels=li)]).items()}
+                    need(batch['global_attention_mask'].sum().item()==1 and batch['global_attention_mask'][0,0].item()==1,'BOS mask differs')
+                    append(R/'MICROBATCH_START.jsonl',dict(step=step,epoch=(step-1)//500+1,slot=slot+1,task_index=j,business_id=t['business_id'],task=t['task'],
+                         replay=recovery.replaying,actual_microbatches=recovery.microbatches,scale=float(scaler.get_scale())))
+                    with torch.autocast('cuda',dtype=torch.float16):loss=model(**batch,use_cache=False).loss
+                    need(torch.isfinite(loss).item(),'Nonfinite forward CE loss; no recovery')
+                    losses.append(float(loss.detach()));scaler.scale(loss/8).backward()
+                    append(R/'MICROBATCH_EVIDENCE.jsonl',dict(step=step,epoch=(step-1)//500+1,slot=slot+1,task_index=j,task=t['task'],replay=recovery.replaying,
+                         actual_microbatches=recovery.microbatches,CE_loss=losses[-1],scale=float(scaler.get_scale())))
+                    del batch,loss
+            backward_window()
+            def skip():scaler.step(opt);scaler.update()
+            norm=recovery.finish(model,opt,scaler,lambda:scaler.unscale_(opt),skip,backward_window)
+            gradients=inspect_gradients(model)
+            need(gradients['trainable_tensors']==456 and not gradients['missing'] and not gradients['nonfinite'],'Invalid finite gradient window')
+            append(R/'GRADIENTS.jsonl',dict(step=step,unscaled_clipped=True,**gradients))
+            used_lr=opt.param_groups[0]['lr'];scaler.step(opt);scaler.update();sched.step();torch.cuda.synchronize()
+            need(len(opt.state)==456 and {int(v['step']) for v in opt.state.values()}=={step},'Optimizer update accounting differs')

@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "original_source_files_checked": 77,
+  "original_source_hashes_unchanged": true,
+  "protected_rating_and_archive_hashes": [
+    {
+      "file": "outputs/stage_p/three_system_human_evaluation_live_20261106_v1/STATE/ratings.sqlite3",
+      "sha256": "6b25ea8f6cd03ab767a3caac3454a5610f52c9be1d0fde48f9fa875cae1b3167"
+    },
+    {
+      "file": "outputs/stage_p/completed_human_evaluation_handoff_20261106_v3/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "sha256": "d192544f74eeb941385e134425dca475a38324d42b8c12d22c13202422ae7c97"
+    },
+    {
+      "file": "outputs/stage_p/v1_original_recovered_20261106_v1/STAGE_P_COMPLETED_HUMAN_EVALUATION_REVIEW.zip",
+      "sha256": "e2f3715d522f1d9505075f2f79c0d394880cc9dbb8462579b99c41ca82f28fc5"
+    }
+  ],
+  "protected_hashes_unchanged": true,
+  "ratings_read_for_analysis": false,
+  "no_original_docs_or_logs_modified": true,
+  "GPU_calls": 0,
+  "network_calls": 0,
+  "human_rating_analysis": false,
+  "checked_at_utc": "2026-11-06T13:01:25.905510+00:00"
+}

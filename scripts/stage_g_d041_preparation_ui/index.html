@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Stage G · D-041 · Xem inputs trước API</title><style>__STYLES__</style></head>
+<body>
+<aside><div class="brand">T <span>Thesis review<small>Stage G · D-041 preparation</small></span></div><p>100 businesses mới · inputs đã khóa</p>
+<label for="search">Tìm business</label><input id="search" type="search" placeholder="Tên, thành phố hoặc ID…">
+<label for="filter">Nhóm cần xem</label><select id="filter"><option value="all">Tất cả 100 businesses</option><option value="manual25">25 cases review đã chọn trước</option><option value="zero">8 zero-Filtered</option><option value="few">1–2 captions Filtered</option><option value="train">80 train</option><option value="validation">20 validation</option></select>
+<nav id="list" aria-label="Danh sách businesses"></nav><button id="download">↓ Tải ghi chú của tôi</button><small>Ghi chú là bản thảo thảo luận; không sửa nhãn hay sampling.</small></aside>
+<main><header><span>D-041 / FIXED D-040 / INPUT REVIEW</span><span class="badge">Chưa gọi teacher API</span></header>
+<div class="heading"><div><div id="meta"></div><h1 id="name"></h1><code id="bid"></code></div><div><button id="prev" aria-label="Business trước">←</button><span id="position"></span><button id="next" aria-label="Business tiếp">→</button></div></div>
+<div class="stats"><div><b>100</b><span>80 train + 20 validation</span></div><div><b>25</b><span>cases manual review đã khóa</span></div><div><b>659</b><span>ảnh gốc trong bundle</span></div><div><b>0</b><span>API calls / targets D041</span></div></div>
+<div class="notice"><b>Đây là inputs và kế hoạch, chưa phải kết quả pilot.</b> Teacher D-041 chưa được gọi. Không có summaries, verdicts hoặc human labels mới. Mục <b>Nguồn LED</b> hiển thị đầu vào đã khóa, không phải target output.</div>
+<nav class="tabs" aria-label="Nội dung"><button data-tab="overview" class="active">1. Tổng quan</button><button data-tab="reviews">2. Selected reviews</button><button data-tab="photos">3. Ảnh và captions</button><button data-tab="sources">4. Nguồn LED</button><button data-tab="protocol">5. Protocol / kế hoạch</button><button data-tab="notes">6. Ghi chú của tôi</button></nav>
+<section id="content"></section><footer>Trang offline, không gọi API và không sửa phương pháp, input, target hay nhãn. Teacher API sẽ tạo target content sau khi spending được duyệt. ChatGPT chỉ là ý kiến thứ hai; người dùng xác nhận quyết định cuối.</footer></main>
+<dialog id="zoom"><button id="close-zoom" aria-label="Đóng ảnh">Đóng ✕</button><img id="zoom-image" alt="Ảnh gốc phóng to"></dialog><div id="toast" role="status"></div>
+<script id="review-data" type="application/json">__DATA__</script><script>__APP__</script></body></html>

@@ -1,0 +1,37 @@
+{
+  "experiment": "LED_LARGE_MATCHED_UNFILTERED_V1",
+  "condition": "unfiltered",
+  "binding": {
+    "config_sha256": "3209f96e0b1927e2e6039770a95dc816144adb6f5a76b07faa78590bb5de172a",
+    "runner_sha256": "697fc64c86e5fdf07beeaba80993eaf16fec533aedceff731525d3a799f4bd3d",
+    "helper_sha256": "982d19d8224304cd9d118eb636a57d591f3675d57ee682972fbbb48b9ec60294",
+    "preflight_manifest_sha256": "44ad471a4bc88425baa153e6175650bf3ef088e19682e1d5262fdcf06b55388e"
+  },
+  "GPU_execution_approved": false,
+  "training_authorized": false,
+  "approval_source": "PENDING_RESEARCHER",
+  "researcher_explicit_authorization": null,
+  "execution_authorized_at_utc": null,
+  "execution_deadline_utc": null,
+  "researcher_absolute_stop_utc": null,
+  "defense_reserve_at_least_14_days_confirmed": false,
+  "scopes": [
+    "feasibility",
+    "train"
+  ],
+  "fresh_only": true,
+  "held_out_access": false,
+  "Teacher_calls": false,
+  "resume_authorized": false,
+  "conditional_train_after_feasibility_pass": true,
+  "early_sanity_generation_approved": true,
+  "max_training_updates": 1250,
+  "feasibility_updates_max": 3,
+  "feasibility_microbatches_max": 88,
+  "all_generation_calls_max": 6,
+  "early_sanity_outputs_max": 4,
+  "technical_generation_calls_max": 2,
+  "evaluation_outputs_max": 0,
+  "selected_checkpoint_step": 750,
+  "note": "UNSIGNED TEMPLATE. No authorization is inferred from this package."
+}

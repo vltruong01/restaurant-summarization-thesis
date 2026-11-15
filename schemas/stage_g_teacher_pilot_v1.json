@@ -1,0 +1,46 @@
+{
+  "review_consensus": {
+    "type": "object", "additionalProperties": false,
+    "required": ["business_id", "claims"],
+    "properties": {
+      "business_id": {"type": "string"},
+      "claims": {"type": "array", "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["text", "polarity", "support"],
+        "properties": {
+          "text": {"type": "string"},
+          "polarity": {"type": "string", "enum": ["positive", "negative", "mixed"]},
+          "support": {"type": "array", "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["review_marker", "review_id", "quote"],
+            "properties": {"review_marker": {"type": "string"}, "review_id": {"type": "string"}, "quote": {"type": "string"}}
+          }}
+        }
+      }}
+    }
+  },
+  "visual_evidence": {
+    "type": "object", "additionalProperties": false,
+    "required": ["business_id", "condition", "assessments"],
+    "properties": {
+      "business_id": {"type": "string"},
+      "condition": {"type": "string", "enum": ["unfiltered", "filtered"]},
+      "assessments": {"type": "array", "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["caption_id", "photo_id", "claims", "note"],
+        "properties": {
+          "caption_id": {"type": "string"}, "photo_id": {"type": "string"}, "note": {"type": "string"},
+          "claims": {"type": "array", "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["text", "caption_quote", "verdict", "explanation"],
+            "properties": {
+              "text": {"type": "string"}, "caption_quote": {"type": "string"},
+              "verdict": {"type": "string", "enum": ["verified", "rejected", "uncertain"]},
+              "explanation": {"type": "string"}
+            }
+          }}
+        }
+      }}
+    }
+  }
+}

@@ -1,0 +1,32 @@
+def signature(ev,ids):
+    stars=Counter(int(ev.by_id[rid]['stars']) for rid in ids)
+    times=Counter(ev.bins[rid] for rid in ids)
+    return (len(ids),tuple(stars[i] for i in range(1,6)),tuple(times[i] for i in range(5)))
+
+def refine(ev,initial,group,profile,rules,budget):
+    current=initial;feasible={c['ids']:c for c in group};trace=[];evaluated=[]
+    assigned=profile[1];opts=ev.cfg['secondary_length_balance']
+    for iteration in range(opts['refinement_iterations']):
+        proposals={};present=set(current['ids'])
+        for outgoing in current['ids']:
+            cell=(int(ev.by_id[outgoing]['stars']),ev.bins[outgoing])
+            for length_bin in range(len(profile[2])):
+                available=sorted((rid for rid in ev.cells[cell] if rid not in present and assigned[rid]==length_bin),key=ev.position.__getitem__)
+                if not available:continue
+                rng=random.Random(stable_seed(rules['seed'],rules['algorithm_version'],ev.bid,'secondary_length',budget,iteration,outgoing,length_bin))
+                incoming=available[rng.randrange(len(available))]
+                ids=ev.canonical([rid for rid in current['ids'] if rid!=outgoing]+[incoming])
+                proposals[ids]={'out':outgoing,'in':incoming}
+        ranked=sorted(proposals,key=lambda ids:(length_score(ids,profile),priority(ids,rules,ev.bid,'secondary_proposal',budget,iteration),ids))
+        shortlist=ranked[:opts['exact_proposals_per_iteration']];iteration_candidates=[current]
+        for ids in shortlist:
+            c=ev.evaluate(ids,{'type':'secondary_same_cell_proposal','budget':budget,'iteration':iteration,'operation':proposals[ids],'before_ids':list(current['ids'])})
+            assert signature(ev,c['ids'])==signature(ev,initial['ids'])
+            evaluated.append(c)
+            if c['tokens']<=budget:feasible[c['ids']]=c;iteration_candidates.append(c)
+        best=secondary_choice(iteration_candidates,profile,rules,ev.bid)
+        improved=length_score(best['ids'],profile)<length_score(current['ids'],profile)-1e-12
+        trace.append({'iteration':iteration,'structural_proposals':len(proposals),'exact_proposals':len(shortlist),'unevaluated_not_certified':len(proposals)-len(shortlist),'before_ids':list(current['ids']),'best_ids':list(best['ids']),'accepted':improved,'length_jsd_before':length_score(current['ids'],profile),'length_jsd_best':length_score(best['ids'],profile),'tokens_before':current['tokens'],'tokens_best':best['tokens']})
+        if not improved:break
+        current=best
+    return secondary_choice(list(feasible.values()),profile,rules,ev.bid),list(feasible.values()),trace,evaluated

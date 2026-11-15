@@ -1,0 +1,164 @@
+@aZN5R7Xfea0GkDBwBZOQrQ
+1|positive|core|food.fish_freshness|1|Selected reviewers praise the fish's freshness.|fresh
+1|positive|core|food.fish_texture|1|Selected reviewers describe flaky fish.|flaky
+1|positive|core|food.fish_flavor|1|Selected reviewers praise the fish's flavor.|tasty~taste~flavor
+1|positive|core|food.haddock|1|Selected reviewers especially praise the haddock.|haddock
+1|positive|core|food.fish_cooking|1|Selected reviewers describe well-cooked fish.|cook
+1|negative|core|food.fish_flavor|1|Some selected reviewers find the fish lacking flavor.|plain~flavor~bland
+1|negative|core|food.fish_cooking|1|Some selected reviewers report undercooked fish.|undercook~raw
+2|positive|supporting|food.chip_crispness|1|Some selected reviewers praise crispy chips.|crisp
+2|positive|supporting|food.chip_freshness|1|Some selected reviewers praise fresh chips.|fresh
+2|positive|supporting|food.chip_flavor|1|Some selected reviewers find the chips delicious.|delicious~chips
+2|negative|core|food.chip_quality|1|Other selected reviewers find the chips mediocre.|mediocre~chips
+2|negative|core|food.chip_hardness|1|Other selected reviewers find the chips overly hard.|hard
+2|negative|core|food.chip_cooking|1|Other selected reviewers report improperly cooked chips.|cook~chips
+3|positive|core|food.chowder_texture|1|Selected reviewers praise creamy, rich seafood chowder.|cream~rich
+3|positive|core|food.chowder_flavor|1|Selected reviewers praise the seafood chowder's taste.|chowder~tasty
+3|positive|core|food.chowder_seafood_content|1|Selected reviewers praise generous seafood in the chowder.|seafood~chowder
+3|negative|core|food.chowder_texture|1|One selected reviewer finds the chowder thinner than preferred.|thin~chowder
+3|negative|core|food.chowder_flavor|1|One selected reviewer finds the chowder blander than preferred.|bland~chowder
+4|positive|core|service.friendliness|0|Selected reviewers describe friendly service.|friendly~pleasant
+4|positive|core|service.speed|0|Selected reviewers describe quick service.|quick~fast
+4|negative|core|service.friendliness|0|One selected reviewer finds the service distant and unwelcoming.|distant~unwelcom
+5|negative|core|value.fish_chips|1|Some selected reviewers consider the fish and chips expensive.|price~expensive~overpriced
+5|positive|core|value.pricing|0|Other selected reviewers consider the prices reasonable.|reasonable~good~price
+6|positive|supporting|atmosphere.nautical_decor|1|Selected reviewers praise the nautical decor.|nautical~decor
+6|positive|supporting|atmosphere.welcome|0|Selected reviewers describe a welcoming atmosphere.|welcom~atmosphere
+6|neutral|supporting|atmosphere.space|1|One selected reviewer describes a small interior.|small
+6|negative|supporting|atmosphere.temperature|1|One selected reviewer finds the interior sometimes hot.|hot
+6|neutral|supporting|atmosphere.communal_seating|1|Another selected reviewer notes communal seating.|communal
+V1|neutral|supporting|visual.dining_furniture|0|A table and chairs are in a dining room.|table
+V1|neutral|supporting|visual.patterned_wall|1|A blue-and-white patterned wall is behind the furniture.|patterned
+V2|neutral|supporting|visual.bottle_glass|1|A bottle of beer is beside a glass.|bottle of beer
+V3|neutral|supporting|visual.fish_chips|1|A plate of fish and chips is on a table.|fish and chips
+@Zz1utCut0psbC4brBjvSEg
+1|positive|core|food.flatbreads|1|Selected reviewers praise the flatbreads.|flatbread
+1|positive|supporting|food.stuffed_dates|1|Selected reviewers praise the stuffed dates.|date
+1|positive|core|food.balkan_platter|1|Selected reviewers praise the Balkan platter.|balkan
+2|positive|core|drinks.wine_selection|1|Selected reviewers praise the broad wine selection.|wine~selection
+2|positive|core|service.wine_knowledge|1|Selected reviewers praise the owner's wine knowledge.|owner~knowledge
+2|positive|supporting|service.pairing_guidance|1|Selected reviewers appreciate guidance on wine or food pairings.|pair~recommend~help
+3|positive|core|service.friendliness|0|Selected reviewers describe friendly service.|friendly
+3|positive|core|service.attention|0|Selected reviewers praise appropriately attentive service.|attentive~attention
+3|negative|core|service.wine_event|1|One selected reviewer reports shoddy service at a wine-tasting event.|tasting~shoddy
+3|negative|core|service.wine_event_wait|1|That wine-tasting reviewer reports a long wait.|wait~tasting
+4|positive|supporting|atmosphere.intimacy|1|Selected reviewers praise an intimate atmosphere.|intimate
+4|positive|supporting|atmosphere.relaxation|0|Selected reviewers praise a relaxed atmosphere.|relax
+4|positive|supporting|atmosphere.welcome|0|Selected reviewers find the atmosphere inviting.|inviting~welcom
+4|positive|supporting|atmosphere.patio|1|Selected reviewers praise the patio.|patio
+4|positive|supporting|atmosphere.music_volume|1|Selected reviewers appreciate a comfortable music level.|music
+5|positive|core|value.pricing|0|Some selected reviewers describe fair prices.|fair~reasonable
+5|negative|core|value.pricing|0|Other selected reviewers describe the experience as pricey.|pricey~inexpensive~expensive
+V1|neutral|supporting|visual.two_glasses|1|Two glasses sit on a table.|two glasses
+V1|neutral|supporting|visual.candle_beside_glasses|1|A candle is beside the glasses.|candle
+V2|neutral|supporting|visual.meat_platter|1|Meat is on a platter on a table.|meat
+V2|neutral|supporting|visual.vegetable_platter|1|Vegetables are on the platter.|vegetables
+V3|neutral|supporting|visual.wine_rack|1|Several wine bottles are lined up in a wooden rack.|wooden rack
+V4|neutral|supporting|visual.two_diners|0|Two women sit at a table.|two women
+V4|neutral|supporting|visual.wine_glass|1|A glass of wine is at the women's table.|wine
+@mP8gKzr8NKvbTtm9XePvOQ
+1|positive|core|food.bar_food|1|Some selected reviewers praise the bar food.|bar food~food
+1|positive|supporting|food.sports_bar_comparison|1|One selected reviewer rates the food above typical sports-bar fare.|typical~sports bar~better
+1|negative|core|food.overall_quality|0|Other selected reviewers find the food ordinary or disappointing.|ordinary~disappoint~food
+1|negative|core|food.temperature|1|Two selected reviews report cold food or cold meal components.|cold
+2|positive|core|food.salad_freshness|1|Selected reviewers praise fresh salads.|fresh~salad
+2|positive|supporting|food.ty_cobb_salad|1|One selected reviewer especially likes the TY Cobb salad.|cobb
+2|positive|supporting|value.side_salad_size|1|Another selected reviewer appreciates a large side salad.|side salad
+3|positive|supporting|food.cauliflower_bites|1|Two selected reviews praise the fried cauliflower bites.|cauliflower
+4|positive|core|food.french_toast|1|Multiple selected reviews praise the French toast.|french toast
+4|positive|core|food.chicken_waffles|1|Multiple selected reviews praise the chicken and waffles.|waffle
+5|positive|core|food.fish_chips|1|One selected reviewer enjoys the fish and chips.|fish
+5|neutral|supporting|food.fish_chips_preference|1|Another selected reviewer finds the fish and chips acceptable but the least preferred dish.|least~fish
+5|neutral|core|food.fish_quality|1|One selected reviewer finds the fish merely okay.|fish
+5|negative|core|food.chip_cooking|1|That selected reviewer finds the chips overcooked.|overcook~chips
+6|positive|core|drinks.margaritas|1|Selected reviewers praise the margaritas.|margarita
+6|positive|supporting|drinks.beer_selection|1|Selected reviewers appreciate the beer selection.|beer
+6|positive|supporting|drinks.local_drafts|1|Selected reviewers appreciate local drafts.|local~draft
+6|positive|supporting|drinks.wine_selection|1|One selected review praises the wine choices.|wine
+6|negative|core|drinks.happy_hour_wine|1|Another selected reviewer reports limited happy-hour wine choices.|happy~wine
+6|negative|core|drinks.rose_availability|1|That selected reviewer reports only one of four listed rosés available.|rose~rosé~four~4
+7|positive|core|service.friendliness|0|Some selected reviews describe friendly staff.|friendly
+7|positive|core|service.attention|0|Some selected reviews describe attentive staff.|attentive
+7|positive|core|service.accommodation|0|Some selected reviews describe accommodating staff.|accommodat
+7|negative|core|service.friendliness|0|Other selected reviews report rude treatment.|rude
+7|negative|core|service.attention|0|Other selected reviews report neglected service.|neglect~ignore~no service
+7|negative|core|service.waits|0|Other selected reviews report long waits.|wait
+7|negative|core|service.regular_preference|1|One selected reviewer feels regular customers receive preferential service.|regular
+8|positive|core|value.pricing|0|Some selected reviews consider the experience worth its price.|fair~worth
+8|positive|supporting|value.happy_hour|1|Some selected reviews praise happy hours or drink specials.|happy~special
+8|negative|core|value.food_price|0|Other selected reviews find the food overpriced.|overpriced~worth
+8|negative|core|value.soup_substitution|1|One selected reviewer objects to a three-dollar soup substitution charge.|soup~3
+9|positive|core|atmosphere.sports_viewing|1|Selected reviewers recommend the restaurant for watching sports.|sport~game
+9|neutral|supporting|atmosphere.televisions|1|Selected reviews describe numerous televisions.|tv~television
+9|positive|supporting|atmosphere.multiple_games|1|Selected reviewers appreciate access to multiple games.|game
+9|positive|supporting|atmosphere.nonsmoking|1|Two selected reviews appreciate the nonsmoking setting.|smok
+10|positive|supporting|entertainment.arcade|1|Selected reviews praise the arcade games.|arcade
+10|positive|supporting|entertainment.board_games|1|Selected reviews praise the board games.|board
+10|positive|supporting|entertainment.trivia|1|Selected reviews praise trivia.|trivia
+10|positive|supporting|entertainment.children_arcade|1|Two selected reviews describe children enjoying the arcade games.|kid~child~arcade
+11|positive|supporting|atmosphere.dog_friendly|1|Selected reviewers appreciate the dog-friendly outdoor setting.|dog
+11|positive|supporting|atmosphere.skyline_view|1|Two selected reviews appreciate downtown or skyline views.|downtown~skyline~view
+V1|neutral|supporting|visual.salad|1|A salad is on a table.|salad
+V1|neutral|supporting|visual.pizza_beside_salad|1|A pizza is beside the salad on the table.|pizza
+V2|neutral|supporting|visual.conversation|0|People sitting at a bar talk to one another.|talking
+V3|neutral|supporting|visual.colored_drinks|1|Different-colored drinks are on a wooden table.|different colored
+V4|neutral|supporting|visual.generic_food|L|A close-up shows food.|food
+V5|neutral|supporting|visual.hamburger_fries|1|A hamburger and French fries are on a plate.|hamburger
+V5|neutral|supporting|visual.beer_beside_plate|1|A glass of beer is beside the hamburger plate.|beer
+@qnprJxrjwuEivitA8V2aEQ
+1|positive|core|food.pasta_freshness|1|Selected reviewers praise fresh pasta.|fresh
+1|positive|core|food.house_made_pasta|1|Selected reviewers praise the house-made pasta.|house~homemade~home made
+1|positive|core|food.pasta_flavor|1|Selected reviewers praise the pasta's taste.|delicious~pasta
+1|positive|core|food.pasta_execution|1|Selected reviewers praise the pasta's preparation.|execut~pasta
+2|positive|core|food.gnocchi|1|Selected reviews praise the gnocchi.|gnocchi
+2|positive|core|food.rigatoni|1|Selected reviews praise the rigatoni.|rigatoni
+2|positive|core|food.cacio_pepe|1|Selected reviews praise the cacio e pepe.|cacio
+2|positive|supporting|food.calamari|1|Selected reviews praise the calamari.|calamari
+2|positive|supporting|food.gelato|1|Selected reviews praise the gelato.|gelato
+3|positive|core|service.attention|0|Some selected reviewers describe attentive staff.|attentive
+3|positive|core|service.accommodation|0|Some selected reviewers describe accommodating staff.|accommodat
+3|negative|core|service.waits|0|Other selected reviewers report very long waits.|wait
+3|negative|core|service.attention|0|Other selected reviewers describe inattentive service.|inattentive~service
+4|positive|supporting|atmosphere.welcome|0|Selected reviewers find the atmosphere inviting.|inviting~atmosphere
+4|positive|supporting|atmosphere.outdoor_seating|1|Selected reviewers enjoy the outdoor seating.|outdoor~patio
+4|positive|supporting|atmosphere.music|1|Some selected reviewers enjoy the music.|music
+4|negative|core|atmosphere.music_volume|1|Other selected reviewers find the music too loud and disruptive.|loud~music
+5|positive|core|value.pricing|0|Some selected reviewers consider prices reasonable.|reasonable~price
+5|negative|core|value.pricing|0|One selected reviewer considers the food overpriced.|overpriced
+V1|neutral|supporting|visual.cucumber|1|Cucumber is on a white plate.|cucumber
+V1|neutral|supporting|visual.other_vegetables|1|Other vegetables are on the same plate.|vegetables
+V1|neutral|supporting|visual.plate_table|0|The white plate is on a table.|table
+V2|neutral|supporting|visual.neon_sign|1|A neon sign is in a restaurant window.|neon
+V3|neutral|supporting|visual.diner|0|A woman sits at a table.|woman
+V3|neutral|supporting|visual.wine_glass|1|A glass of wine is in front of the woman.|wine
+V4|neutral|supporting|visual.ice_cream|1|A bowl of ice cream is on a table.|ice cream
+V4|neutral|supporting|visual.dessert|0|Another dessert is on the table.|dessert
+@trDDjiD1PVRcNx36GQCKcw
+1|positive|core|food.authenticity|1|Some selected reviewers describe the food as authentic.|authentic~real
+1|neutral|core|food.taco_authenticity|1|Another selected reviewer finds the tacos more Americanized.|american
+1|neutral|core|food.taco_quality|1|That selected reviewer rates the tacos as only decent.|decent
+2|positive|core|food.taco_flavor|1|Selected reviewers praise the taco flavor.|taco~flavor
+2|positive|core|food.tortilla_freshness|1|Selected reviewers praise fresh tortillas.|tortilla
+2|positive|core|food.meat_tenderness|1|Selected reviewers praise tender taco meat.|tender~meat
+2|negative|core|food.taco_seasoning|1|Other selected reviewers find the tacos under-seasoned.|season~bland
+2|negative|core|food.taco_cheese|1|Other selected reviewers find the tacos overly cheesy.|chees
+2|negative|core|food.taco_texture|1|Other selected reviewers find the taco meat tough.|tough
+2|negative|core|food.taco_quality|1|Other selected reviewers describe forgettable or poor-quality tacos.|forgettable~quality~taco
+3|positive|core|value.taco_deals|1|Some selected reviewers appreciate reasonable taco deals.|deal~taco
+3|positive|core|value.portions|1|Some selected reviewers find the portions reasonable for the price.|portion~price
+3|negative|core|value.pricing|0|Other selected reviewers find the food pricey.|pricey~expensive
+3|negative|core|value.sour_cream_charge|1|Other selected reviewers object to extra sour-cream charges.|sour cream
+3|negative|core|value.cheese_charge|1|Other selected reviewers object to extra cheese charges.|cheese
+4|positive|core|service.speed|0|Some selected reviewers describe quick service.|quick~fast
+4|positive|core|service.order_reliability|0|Some selected reviewers describe reliable ordering.|reliable~order
+4|negative|core|menu.availability|1|Other selected reviewers encounter unavailable menu items.|out of~unavailable
+4|negative|core|service.waits|0|Other selected reviewers report a long wait.|wait
+5|positive|supporting|atmosphere.decor|1|Selected reviewers praise the decorations and artwork.|decor~art
+5|neutral|supporting|atmosphere.busy_room|1|Selected reviews describe a busy dining room.|busy
+5|negative|core|location.parking|1|Some selected reviewers criticize the parking.|park
+5|negative|core|location.surroundings|1|Some selected reviewers criticize the surrounding location.|location~area
+5|negative|core|atmosphere.table_cleanliness|1|Some selected reviewers criticize table cleanliness.|table~clean
+V1|neutral|supporting|visual.rice|1|Rice is part of a Mexican meal.|rice
+V1|neutral|supporting|visual.beans|1|Beans are part of the meal.|beans
+V2|neutral|supporting|visual.mural|1|A mural is on the wall of a Mexican restaurant.|mural
+V4|neutral|supporting|visual.generic_plate|L|A plate of food sits on a table.|plate

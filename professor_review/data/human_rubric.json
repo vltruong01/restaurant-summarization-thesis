@@ -1,0 +1,65 @@
+{
+  "scale": "1-5, higher is better; 2 and 4 are intermediate anchors",
+  "criteria": [
+    {
+      "id": "review_faithfulness",
+      "name": "Review Faithfulness",
+      "scope": "Review Consensus only",
+      "anchors": {
+        "1": "Major unsupported/contradictory review claims or polarity/attribution errors",
+        "3": "Mostly supported but some material imprecision",
+        "5": "Claims consistently supported with correct attribution/polarity"
+      }
+    },
+    {
+      "id": "aspect_coverage",
+      "name": "Aspect Coverage",
+      "scope": "Review Consensus only",
+      "anchors": {
+        "1": "Misses central recurring positives/negatives and mixed feedback",
+        "3": "Captures some central aspects, misses important qualifications",
+        "5": "Representative positive/negative/mixed coverage with business-specific detail"
+      }
+    },
+    {
+      "id": "coherence",
+      "name": "Coherence",
+      "scope": "All available generated components",
+      "anchors": {
+        "1": "Hard to follow, fragmented or illogical",
+        "3": "Generally readable with noticeable organization issues",
+        "5": "Fluent, logical, clearly structured components"
+      }
+    },
+    {
+      "id": "non_redundancy",
+      "name": "Redundancy avoidance",
+      "scope": "All available generated components",
+      "anchors": {
+        "1": "Severe repeated ideas/sentences",
+        "3": "Noticeable local repetition",
+        "5": "Concise without unnecessary repetition"
+      }
+    },
+    {
+      "id": "usefulness",
+      "name": "Usefulness",
+      "scope": "Review Consensus only",
+      "anchors": {
+        "1": "Misleading/generic, poor account of recurring customer experience",
+        "3": "Partly useful but important context missing",
+        "5": "Useful, representative, specific account grounded in selected reviews"
+      }
+    },
+    {
+      "id": "visual_grounding_and_contribution",
+      "name": "Visual Grounding and Contribution",
+      "scope": "Visual Evidence against original recipient photos; absent component N/A",
+      "anchors": {
+        "1": "Major unsupported entities/relations, wrong scenes, or no useful observable content",
+        "3": "Mostly grounded but omissions or uncertain details",
+        "5": "Faithful and useful observable content verified in the original recipient photos"
+      }
+    }
+  ]
+}

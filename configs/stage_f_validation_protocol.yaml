@@ -1,0 +1,155 @@
+schema_version: 1
+decision: D-033
+status: approved_validated_K5_final_production_method_frozen
+output_directory: outputs/stage_f/validation_calibration_v1
+seed: 42
+models:
+  CLIP:
+    id: openai/clip-vit-base-patch32
+    revision: 3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268
+    weight_file: pytorch_model.bin
+    weight_sha256: a63082132ba4f97a80bea76823f544493bffa8082296d62d71581a4feff1576f
+  SBERT:
+    id: sentence-transformers/all-mpnet-base-v2
+    revision: e8c3b32edf5434bc2275fc9bab85f82640a19130
+    weight_file: model.safetensors
+    weight_sha256: 78c0197b6159d92658e319bc1d72e4c73a9a03dd03815e70e555c5ef05615658
+score_dtype: float32
+decision_round_decimals: 6
+CLIP_score: L2_normalized_image_dot_L2_normalized_caption
+CLIP_max_text_tokens: 77
+CLIP_consistency_policy:
+  mode: soft_only
+  hard_rejection: false
+  freeze_consistency_threshold: false
+  use: existing_deterministic_quality_order_and_ties_only
+  interpretation: broad_semantic_image_caption_alignment_not_factual_correctness
+  fine_grained_factual_verification: false
+  evidence_directory: outputs/stage_f/consistency_conservative_gate_diagnostic_v1
+SBERT_pooling: attention_mask_weighted_mean_then_L2_normalize
+SBERT_max_text_tokens: 384
+overlength: record_unscored_and_stop_threshold_freeze_no_silent_truncation
+relevance:
+  scope: restaurant_bar_cafe_domain_not_exact_business_identity
+  formula: max_positive_cosine_minus_max_negative_cosine
+  positive_prototypes:
+  - A caption describing prepared food, dishes, meals or desserts served at a dining
+    venue.
+  - A caption describing drinks, coffee or alcoholic beverages served at a dining
+    venue.
+  - A caption describing the interior, seating or dining area of a restaurant, cafe
+    or bar.
+  - A caption describing a menu, food advertisement or dining venue promotional material.
+  - A caption describing a restaurant, cafe or bar exterior, entrance or venue signage.
+  - A caption describing staff, service or patrons inside a dining venue or its seating
+    area.
+  negative_prototypes:
+  - A caption describing an unrelated private bedroom or household bathroom.
+  - A caption describing unrelated scenery, wildlife or a landscape without dining
+    context.
+  - A caption describing an unrelated personal portrait without dining venue context.
+  - A caption describing software settings or an unrelated webpage screenshot.
+  - A caption describing an unrelated product, gadget or appliance without dining
+    context.
+  - A caption describing a generic street or building without identifiable dining
+    venue context.
+quality_order:
+- CLIP_desc
+- relevance_desc
+- photo_id_ascending
+redundancy: quality_ranked_greedy_pairwise_threshold_to_each_kept_representative
+reference_grouping: deterministic_complete_link_agglomeration_before_redundancy_then_available_groups_among_kept_representatives
+coverage_option: coarser_reference_groups_separate_from_duplicate_information
+diversity: farthest_first_max_min_one_minus_cosine_quality_ID_ties_nested_prefix
+human_sampling:
+  image_caption_max: 200
+  pair_max_per_calibration_business: 10
+  pair_total_max: 400
+  image_caption_sampling: one_seeded_case_per_business_plus_all_calibration_menu_cases_then_round_robin_5x5_CLIP_relevance_score_quantile_cells
+  pair_sampling: five_semantic_rank_and_five_phash_rank_quantile_pairs_per_business_up_to10
+calibration_search:
+  active_hard_criteria:
+  - relevance
+  - redundancy
+  - grouping
+  CLIP_grid_purpose: historical_diagnostic_only_no_production_threshold
+  image_hamming_grid_purpose: historical_diagnostic_only_no_production_cutoff
+  CLIP_grid:
+    start: -1.0
+    stop: 1.0
+    step: 0.01
+  relevance_grid:
+    start: -2.0
+    stop: 2.0
+    step: 0.01
+  redundancy_grid:
+    start: 0.0
+    stop: 1.0
+    step: 0.01
+  grouping_grid:
+    start: 0.0
+    stop: 1.0
+    step: 0.01
+  criterion: maximum_balanced_accuracy
+  ties:
+  - higher_positive_precision
+  - higher_positive_recall
+  - higher_threshold
+  grouping_after_redundancy_threshold: choose_best_group_threshold_strictly_below_redundancy_threshold
+  uncertain_labels: excluded_from_binary_optimization_report_separately
+  minimum_each_binary_class: 10
+  image_hamming_grid:
+  - 0
+  - 4
+  - 8
+  - 12
+  minimum_balanced_accuracy: strictly_above0.5
+thresholds:
+  CLIP: null
+  relevance: 0.08
+  redundancy: 0.59
+  grouping: 0.46
+  near_image_duplicate: null
+K_candidates:
+- 3
+- 5
+- 8
+- 10
+K_primary: smallest_budget_feasible_at_95_percent_best_K_study_macro_coverage
+K: 5
+budget:
+  caption_tokens: 750
+  full_source_tokens: 5000
+  review_tokens: 4000
+  remaining_declared_overhead_capacity: 250
+  diagnostic_total_target: 5000
+source_serialization:
+  frozen_template: configs/led_source_template_d032.json
+  budget_manifest: outputs/stage_f/methodology_amendment_d032/source_budget_manifest.json
+  shared_validation_review_reference: outputs/stage_f/methodology_amendment_d032/frozen_shared_review_reference.json
+  caption_accounting: exact_full_source_minus_identical_reviews_only_base
+  overflow_policy: record_and_stop_zero_silent_truncation_or_removal
+heldout_test_used: false
+human_final30_evaluation_is_separate: true
+train_test_caption_generation: true
+production_split_policy:
+  apply_frozen_input_pipeline: [train, validation, test]
+  test_input_caption_generation_allowed: true
+  test_method_tuning_allowed: false
+  test_teacher_generation_allowed: false
+  human_test_references_used: false
+final_manifest: false
+image_duplicate_algorithm: quality_ranked_exact_normalized_pixel_hash_representative_only
+image_duplicate_policy:
+  exact_normalized_pixel_hard_removal: true
+  representative: existing_CLIP_relevance_photo_ID_quality_order
+  phash_role: diagnostic_only
+  phash_hard_rejection: false
+  freeze_phash_threshold: false
+  phash_collision_is_not_exact_duplicate: true
+  evidence_directory: outputs/stage_f/phash_pair_diagnostic_v1
+human_rubric:
+  broad_topic: caption_accessible_primary_visual_topic_not_photo_only_details; prepared_food_family,beverages,interior_seating,exterior_signage,menu_promotions,service_patrons;
+    different_dish_details_can_be_complementary_same_topic
+  same_information_implies_not_different_broad_topic: true
+  relevance_scope: restaurant_bar_cafe_domain_not_named_business_identity

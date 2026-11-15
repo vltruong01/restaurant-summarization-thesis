@@ -1,0 +1,34 @@
+class LEDCompleteCollator:
+    def __init__(self, source_limit=5000, label_limit=768, window=1024, pad_source_to=None, pad_label_to=None):
+        self.source_limit, self.label_limit, self.window = source_limit, label_limit, window
+        self.pad_source_to, self.pad_label_to = pad_source_to, pad_label_to
+
+    def __call__(self, features):
+        import torch
+        require(features, 'Empty batch')
+        for f in features:
+            require(0 < len(f['input_ids']) <= self.source_limit, 'Source overflow; no truncation permitted')
+            require(0 < len(f['labels']) <= self.label_limit, 'Label overflow; no truncation permitted')
+            require(f['input_ids'][0] == f['labels'][0] == 0 and f['input_ids'][-1] == f['labels'][-1] == 2, 'Incomplete BOS/EOS')
+        source_max = max(len(f['input_ids']) for f in features)
+        label_max = max(len(f['labels']) for f in features)
+        # Padding is not counted as content and may exceed the logical source cap.
+        sl = ((source_max + self.window-1)//self.window)*self.window
+        ll = min(self.label_limit, ((label_max+7)//8)*8)
+        if self.pad_source_to is not None:
+            require(self.pad_source_to >= sl and self.pad_source_to % self.window == 0, 'Invalid stress source shape')
+            sl = self.pad_source_to
+        if self.pad_label_to is not None:
+            require(label_max <= self.pad_label_to <= self.label_limit, 'Invalid stress label shape')
+            ll = self.pad_label_to
+        ids = torch.full((len(features), sl), 1, dtype=torch.long)
+        attention = torch.zeros_like(ids); global_attention = torch.zeros_like(ids)
+        labels = torch.full((len(features), ll), -100, dtype=torch.long)
+        for i, f in enumerate(features):
+            n, m = len(f['input_ids']), len(f['labels'])
+            ids[i, :n] = torch.tensor(f['input_ids'], dtype=torch.long)
+            attention[i, :n] = 1; global_attention[i, 0] = 1
+            labels[i, :m] = torch.tensor(f['labels'], dtype=torch.long)
+        require(torch.equal(global_attention.sum(1), torch.ones(len(features), dtype=torch.long)), 'Global attention count wrong')
+        require(not torch.any(global_attention.bool() & ~attention.bool()), 'Global attention on padding')
+        return dict(input_ids=ids, attention_mask=attention, global_attention_mask=global_attention, labels=labels)

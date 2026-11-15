@@ -1,0 +1,43 @@
+{
+  "status": "DRAFT_FOR_RESEARCHER_REVIEW_NOT_PRODUCTION_FREEZE",
+  "protocol_version": "stage_g_pilot_v2_quote_fidelity",
+  "requested_model": "gpt-6.1-sol",
+  "snapshot": null,
+  "generation_proposal": {
+    "reasoning_effort": "medium",
+    "max_output_tokens": 8192,
+    "store": false,
+    "stream": true,
+    "temperature": null,
+    "automatic_retries": 0,
+    "concurrency": 1
+  },
+  "pilot": {
+    "seed": 42,
+    "businesses_per_split": {
+      "train": 10,
+      "validation": 10
+    },
+    "selection": "include_one_zero_filtered_case_per_split_then_stable_hash_fill",
+    "human_inspection": "all_pilot_businesses_before_production_decisions",
+    "production_manual_inspection_sample_size": null
+  },
+  "tasks": {
+    "review_consensus": "once_per_business_reviews_only",
+    "visual_evidence": "separate_unfiltered_and_filtered_caption_photo_pairs_only",
+    "empty_caption_condition": "empty_visual_evidence_no_visual_model_call"
+  },
+  "prompts": {
+    "review_consensus": "prompts/stage_g_review_consensus_v2.txt",
+    "visual_evidence": "prompts/stage_g_visual_evidence_v1.txt"
+  },
+  "schema": "schemas/stage_g_teacher_pilot_v1.json",
+  "source_pointer": "outputs/stage_f/production_manifest_pointer.json",
+  "output_directory": "outputs/stage_g/teacher_pilot_v2",
+  "execution_enabled": false,
+  "full_generation_enabled": false,
+  "target_length_policy": null,
+  "production_retry_policy": null,
+  "production_model_version_policy": null,
+  "revision_reason": "V1 first-business output rejected for three non-verbatim review quotes; strengthen copy fidelity only, preserve strict validator and source/business selection."
+}

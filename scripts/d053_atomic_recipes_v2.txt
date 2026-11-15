@@ -1,0 +1,162 @@
+# Manually curated propositions; every row remains a Codex proposal.
+# candidate_number|polarity|importance|aspect|specific(1/0/L)|standalone text|evidence retrieval anchors (~ = alternatives)
+# Visual rows use Vn instead of a review candidate number; separate photos are never deduplicated.
+@JcdOQvvx3BqZ5Ga2_9n_Bg
+1|positive|core|food.steak|1|Selected reviews praise the steak.|steak~steaks
+1|positive|supporting|food.potatoes|1|Selected reviews praise the potatoes.|potato~potatoes
+1|positive|core|food.ribs|1|Selected reviews praise the ribs.|ribs
+1|positive|supporting|food.calamari|1|Selected reviews praise the calamari.|calamari
+1|positive|core|food.ravioli|1|Selected reviews praise the ravioli.|ravioli
+1|positive|core|food.prawns|1|Selected reviews praise the prawns.|prawn~prawns
+1|positive|supporting|food.appetizers|0|Selected reviews praise the appetizers.|appetizer~appetizers~starter~starters
+1|positive|supporting|food.desserts|0|Selected reviews praise the desserts.|dessert~desserts
+2|negative|core|food.overall_quality|0|Some selected reviewers find the food disappointing.|disappoint~defrost~food
+2|negative|core|food.defrosted_impression|1|A selected reviewer describes a dish as apparently defrosted.|defrost~frozen
+2|negative|core|food.beef_quality|1|Selected reviews criticize the beef quality.|beef
+2|negative|core|food.steak_doneness|1|Selected reviews report steak cooked to the wrong doneness.|steak~rare~cooked
+2|negative|core|food.temperature|1|Selected reviews report cold meals.|cold
+3|positive|core|service.friendliness|0|Selected reviews describe the staff as friendly.|friendly~pleasant
+3|positive|core|service.professionalism|0|Selected reviews praise professional service.|professional
+3|positive|core|service.accommodation|0|Selected reviews praise accommodating staff.|accommodat
+3|positive|core|service.knowledge|0|Selected reviews praise knowledgeable staff.|knowledge~recommend
+3|positive|supporting|service.individual_staff|0|Selected reviewers single out individual staff members for praise.|server~waiter~waitress~staff
+4|negative|core|service.attention|0|Some selected reviewers report difficulty getting staff attention.|attention~ignored~inattentive
+4|negative|core|service.drink_wait|1|Some selected reviewers report delayed drinks.|drink~drinks
+4|negative|core|service.food_wait|1|Some selected reviewers report very long waits for food.|wait~food
+5|negative|core|value.casual_dining_price|1|Two selected reviewers consider the restaurant overpriced for casual dining.|price~expensive~casual
+5|positive|supporting|food.acceptable_despite_price|0|Those price-critical reviews still describe the food or visit as acceptable.|good~acceptable~decent
+6|positive|supporting|atmosphere.windows|1|Selected reviews praise the large windows.|window~windows
+6|positive|supporting|atmosphere.water_features|1|Selected reviews praise the water features.|water~fountain
+6|positive|supporting|atmosphere.patio|1|Selected reviews praise the patio-like setting.|patio~outdoor
+6|positive|supporting|atmosphere.relaxation|0|Selected reviews describe the dining environment as relaxed.|relax~atmosphere~ambiance
+V1|neutral|supporting|visual.food_preparation|1|A person prepares food on a white plate.|person
+V1|neutral|supporting|visual.asparagus|1|Asparagus is on the white plate.|asparagus
+V2|neutral|supporting|visual.diners|0|A group of women sits at a table.|women
+V2|neutral|supporting|visual.drinks_at_table|0|Drinks are at the women's table.|drinks
+V3|neutral|supporting|visual.wine_pouring|1|A person pours red wine into a wine glass.|red wine
+V4|neutral|supporting|visual.indoor_diners|0|People sit at tables inside a restaurant.|people
+V5|neutral|supporting|visual.chopsticks_with_bowl|1|Chopsticks are beside a bowl of food.|chopsticks
+@HhD8DLES5ZeULKDXmfkOOg
+1|positive|core|atmosphere.sports_bar|1|Selected reviewers describe a lively sports-bar atmosphere.|sports~lively~game
+1|neutral|supporting|atmosphere.televisions|1|Selected reviews describe televisions throughout the restaurant.|tv~television
+1|positive|core|atmosphere.game_viewing|1|Selected reviewers recommend the restaurant for watching games.|watch~game~games
+2|positive|core|food.shrimp|1|Selected reviews praise shrimp dishes.|shrimp
+2|positive|core|food.burgers|1|Selected reviews praise the burgers.|burger~burgers
+2|positive|supporting|food.appetizers|0|Selected reviews praise the appetizers.|appetizer~apps~appetizers
+2|positive|core|food.pasta|1|Selected reviews praise pasta dishes.|pasta
+2|positive|supporting|food.desserts|0|Selected reviews praise the desserts.|dessert~desserts
+2|negative|core|food.temperature|1|Some selected reviewers report cold food.|cold
+2|negative|core|food.saltiness|1|Some selected reviewers find the food too salty.|salty~salt
+2|negative|core|food.breading|1|Some selected reviewers report soggy breading.|soggy~breading
+2|negative|core|value.food_quality_price|0|Some selected reviewers feel prices exceed the food quality.|price~quality~expensive
+3|positive|core|service.attention|0|Selected reviewers praise attentive staff.|attentive~attention
+3|positive|core|service.friendliness|0|Selected reviewers praise friendly staff.|friendly
+3|negative|core|service.waits|0|Other selected reviewers report long service waits.|wait~slow
+3|negative|core|service.missed_orders|1|Other selected reviewers report missed orders.|order~forgot~missing
+3|negative|core|service.coordination|0|Other selected reviewers describe poor staff coordination.|service~staff~order
+3|negative|core|service.meal_drink_handling|1|Other selected reviewers report incorrect handling of meals or drinks.|drink~food~order
+4|positive|supporting|drinks.beer_selection|1|Selected reviewers praise the broad beer selection.|beer~selection
+4|positive|supporting|drinks.local_beer|1|Selected reviewers appreciate local brews.|local~brew
+4|positive|supporting|drinks.taps|1|Selected reviewers appreciate the beer taps.|tap~taps
+5|positive|core|value.pricing|0|Some selected reviewers consider prices reasonable.|reasonable~price
+5|negative|core|value.bar_food_price|1|Another selected reviewer considers the bar food overpriced.|overpriced~price~bar food
+V1|neutral|supporting|visual.ice_cream|1|A bowl contains ice cream.|ice cream
+V1|neutral|supporting|visual.chocolate_topping|1|Chocolate sauce tops the ice cream.|chocolate
+V1|neutral|supporting|visual.whipped_topping|1|Whipped cream tops the ice cream.|whipped
+V2|neutral|supporting|visual.tv_viewing|1|People in a bar watch televisions.|tv
+V3|neutral|supporting|visual.sharing_food|1|Two people share a piece of food at a table.|two people
+V4|neutral|supporting|visual.beer_dispenser|1|A bar has a beer dispenser.|beer dispenser
+V5|neutral|supporting|visual.shrimp|1|Shrimp is on a white plate.|shrimp
+V5|neutral|supporting|visual.grits|1|Grits are on the white plate.|grits
+V5|neutral|supporting|visual.plate_table|0|The white plate is on a wooden table.|wooden table
+@b1pdnbYvBdtTxJOOom5WmA
+1|positive|core|food.chicken_crispness|1|Selected reviewers praise the chicken's crispness.|crispy~crisp
+1|positive|core|food.chicken_tenderness|1|Selected reviewers praise tender chicken.|tender
+1|positive|core|food.chicken_juiciness|1|Selected reviewers praise juicy chicken.|juicy~moist
+1|positive|core|food.chicken_flavor|1|Selected reviewers praise the chicken's flavor.|flavor~delicious~tasty
+1|positive|core|food.chicken_cooking|1|Selected reviewers describe the chicken as well cooked.|cooked~perfect
+1|neutral|core|food.chicken_moderate_rating|1|Some selected reviewers rate the chicken as merely good.|good
+1|neutral|core|food.chicken_comparison|1|Some selected reviewers do not rank the chicken among their best Korean fried chicken experiences.|best
+2|positive|supporting|food.sweet_chili_sauce|1|Some selected reviewers favor the sweet chili sauce.|sweet chili~sweet chilli
+2|positive|supporting|food.honey_garlic_sauce|1|Some selected reviewers favor the honey garlic sauce.|honey~garlic
+2|negative|core|food.sauce_sweetness|1|Other selected reviewers find the sauces too sweet.|sweet
+2|negative|core|food.sauce_heat|1|Other selected reviewers find the hottest sauces insufficiently spicy.|spicy~hot~heat
+3|positive|core|service.friendliness|0|Some selected reviewers describe friendly staff.|friendly~polite
+3|positive|core|service.helpfulness|0|Some selected reviewers describe helpful staff.|help~helpful
+3|negative|core|service.waits|0|Other selected reviewers report long waits.|wait~slow
+3|negative|core|service.organization|0|Other selected reviewers describe disorganized service.|service~scattered
+3|negative|core|service.pickup_failure|1|A selected reviewer reports a serious pickup-handling failure.|pickup~pick up~pick-up
+4|neutral|core|service.takeout_orientation|1|Selected reviews describe the restaurant as primarily a pickup or takeout business.|takeout~take out~pick
+4|neutral|supporting|atmosphere.small_space|1|Selected reviews describe a small restaurant space.|small~tiny
+4|neutral|supporting|atmosphere.limited_seating|1|Selected reviews describe limited bench or picnic-table seating.|seat~bench~picnic
+4|positive|supporting|atmosphere.casual_kitchen|1|Some selected reviewers enjoy the casual small-kitchen atmosphere.|kitchen~casual~atmosphere
+5|positive|core|value.half_chicken_portion|1|Some selected reviewers find the half chicken filling.|half~filling~portion
+5|positive|core|value.chicken_price|1|Some selected reviewers consider the chicken inexpensive or worthwhile.|inexpensive~worth~price
+5|negative|core|value.portion_size|1|Other selected reviewers criticize small portions.|small~portion
+5|negative|core|value.chicken_sides_price|1|Other selected reviewers find chicken or sides pricey.|price~expensive~pricey
+6|positive|supporting|food.onion_rings|1|Some selected reviews praise the onion rings.|onion
+6|positive|supporting|food.fries|1|Some selected reviews praise the fries.|fries
+6|positive|supporting|food.macaroni_cheese|1|Some selected reviews praise macaroni and cheese.|mac~cheese
+6|positive|supporting|food.coleslaw|1|Some selected reviews praise the coleslaw.|coleslaw~slaw
+6|negative|core|food.onion_ring_oiliness|1|Other selected reviewers find the onion rings oily.|onion~oily
+6|negative|core|food.side_flavor|1|Other selected reviewers find the sides bland.|bland~side
+V1|neutral|supporting|visual.chicken_wings|1|Chicken wings are on a plate.|chicken wings
+V1|neutral|supporting|visual.sweet_potato_fries|1|Sweet potato fries are on the plate.|sweet potato
+V1|neutral|supporting|visual.plate_table|0|The plate is on a table.|table
+V2|neutral|supporting|visual.rice|1|A bowl contains rice.|rice
+V2|neutral|supporting|visual.meat|1|The bowl contains meat.|meat
+@gpSv4OvISIeyBAqcNN5bqw
+1|positive|core|food.pizza|1|Selected reviews praise the pizza.|pizza
+1|positive|supporting|food.salads|1|Selected reviews praise the salads.|salad
+1|positive|supporting|food.wings|1|Selected reviews praise the wings.|wings
+1|positive|core|food.pasta|1|Selected reviews praise pasta dishes.|pasta
+1|positive|core|food.tacos|1|Selected reviews praise the tacos.|taco
+1|positive|core|food.sliders|1|Selected reviews praise the sliders.|slider
+1|positive|supporting|food.desserts|0|Selected reviews praise the desserts.|dessert~pumpkin
+2|negative|core|food.pizza_flavor|1|Some selected reviewers find particular pizzas bland.|bland
+2|negative|core|food.pizza_dryness|1|Some selected reviewers describe dry pizza or crust.|dry
+2|negative|core|food.pizza_burning|1|Some selected reviewers describe burnt pizza or crust.|burnt~burned
+2|negative|core|food.pizza_saltiness|1|Some selected reviewers find particular pizzas too salty.|salt
+3|positive|supporting|drinks.beer_selection|1|Selected reviewers praise the beer selection.|selection~beer
+3|positive|supporting|drinks.house_beer|1|Selected reviewers praise the restaurant's brewed beers.|brew~beer
+4|positive|core|service.friendliness|0|Selected reviewers describe friendly service.|friendly
+4|positive|core|service.attention|0|Selected reviewers describe attentive service.|attentive~attention
+4|positive|core|service.helpfulness|0|Selected reviewers describe helpful service.|helpful~help
+4|positive|core|service.professionalism|0|Selected reviewers describe professional service.|professional
+4|positive|core|service.speed|0|Selected reviewers describe quick service.|quick~fast
+5|positive|supporting|atmosphere.overall|0|Selected reviewers enjoy the atmosphere.|atmosphere~ambiance~beautiful
+5|negative|core|atmosphere.crowded_tables|1|Some selected reviewers criticize crowded tables.|table~crowd
+5|negative|core|atmosphere.noise|1|Some selected reviewers criticize excessive noise.|noise~loud
+6|negative|core|value.food_price|0|Some selected reviewers find the food pricey.|price~pricey~expensive
+6|positive|core|value.worth_price|0|Another selected reviewer finds the higher prices worthwhile.|worth
+V1|neutral|supporting|visual.beer_table|1|A glass of beer sits on a table.|beer
+V1|neutral|supporting|visual.cutlery|0|A fork and knife are beside the beer glass.|fork
+V2|neutral|supporting|visual.menu_on_phone|1|A phone screen displays a restaurant menu.|iphone
+V4|neutral|supporting|visual.diners|0|People sit at tables in a restaurant.|people
+V5|neutral|supporting|visual.food_bowls|0|Several bowls of food are on a wooden table.|bowls
+V5|neutral|supporting|visual.cutlery|0|A fork and knife accompany the bowls of food.|fork
+@-Wd5KqFszREg0XdXfSv5tg
+1|negative|core|service.queue|1|Selected reviews report long lines.|line
+1|negative|core|service.wait_time|1|Selected reviews report waits exceeding 30 minutes.|30~thirty~wait
+1|negative|core|service.staffing|1|Selected reviews describe limited staffing.|staff~worker~employee
+1|negative|core|service.urgency|0|Selected reviews describe little urgency from staff.|urgency~slow~standing
+1|positive|core|service.speed|0|Other selected reviews describe quick service.|quick~fast~efficient
+1|positive|supporting|value.wait_worthwhile|1|One selected reviewer finds the wait worthwhile.|worth
+1|negative|core|value.seven_dollar_drink|1|Another selected reviewer finds the experience inadequate for a seven-dollar drink.|7
+2|positive|core|service.friendliness|0|Some selected reviews praise friendly employees.|friendly~smile~polite
+2|negative|core|service.friendliness|0|Other selected reviews report rude interactions.|rude~unfriendly
+3|positive|supporting|location.airport_convenience|1|Selected reviewers appreciate the airport location as a convenient stop.|airport~gate~flight~guest
+4|negative|core|service.incorrect_order|1|One selected reviewer reports receiving an incorrect order.|wrong~incorrect
+4|negative|core|service.order_entry_corrections|1|Another selected reviewer reports correcting the order entry three times.|three~3~order
+5|negative|core|service.rewards_app|1|One selected reviewer could not obtain rewards because the app was not working.|reward~app
+5|negative|core|service.mobile_order_location|1|Another selected reviewer reports a paid mobile order sent to a different location.|mobile~location
+5|negative|core|service.payment_recovery|1|That mobile-order reviewer reports difficulty recovering the payment.|money~refund
+6|positive|core|drinks.quality|0|One selected review praises the drinks.|drink~coffee
+6|positive|supporting|food.breakfast_sandwich|1|That selected review praises the breakfast sandwiches.|sandwich
+6|negative|core|food.previous_quality|0|Another selected reviewer reports dissatisfaction with product quality on previous visits.|quality~previous
+V1|neutral|supporting|visual.three_drinks|1|Three Starbucks drinks sit on a table.|three
+V1|neutral|supporting|visual.blurred_background|L|The drinks are in front of a blurred background.|blurry
+V2|neutral|supporting|visual.drink_pouring|1|A person wearing a green apron pours a drink into a cup.|green apron
+V3|neutral|supporting|visual.masked_person|1|A person wears a mask.|surgical mask
+V3|neutral|supporting|visual.person_cup|0|A cup is with the masked person.|cup
+V4|neutral|supporting|visual.iced_coffee|1|A glass contains iced coffee.|iced coffee
