@@ -2,7 +2,13 @@
 
 Implementation, frozen results and an executed research overview for supervisor review.
 
-## Start with the notebook
+## Read the research
+
+Start with [Thesis_Summary.pdf](thesis/Thesis_Summary.pdf). This three-page summary explains the research questions, how the system works, the main results and their limits. It also discusses the LED–Qwen comparison and how to interpret the time and GPU-memory measurements.
+
+For more detail, read [Thesis_Research_Progress_v4.pdf](thesis/Thesis_Research_Progress_v4.pdf). This 41-page research report follows the work from dataset preparation and caption filtering through training, Yelp and TripAdvisor evaluation, and discussion of the findings. It is a progress report, rather than the final approved thesis. Section and page numbering differ between the two PDFs.
+
+## Notebook and code
 
 **[THESIS_RESEARCH_OVERVIEW.ipynb](professor_review/THESIS_RESEARCH_OVERVIEW.ipynb)** contains the research design, actual code excerpts, result tables and 11 saved figures. All 25 code cells already have outputs; no GPU or dataset download is needed to read it.
 
@@ -15,6 +21,7 @@ Implementation, frozen results and an executed research overview for supervisor 
 
 | Location | Purpose |
 |---|---|
+| [thesis/](thesis/) | Three-page summary and detailed research report |
 | [professor_review/](professor_review/) | Executed overview, lightweight frozen metrics/ratings, model settings, examples and reproducible numerical analysis |
 | [scripts/](scripts/) | Selected implementation of dataset preparation, review selection, captioning/filtering, supervision, inference and analysis, with required local helper modules |
 | [configs/](configs/), [prompts/](prompts/), [schemas/](schemas/) | Supporting original method contracts, Teacher prompts and data schemas |

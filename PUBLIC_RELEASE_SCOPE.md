@@ -9,3 +9,5 @@ Original Yelp/TripAdvisor reviews and photographs, private recovery catalogs, cr
 The notebook and its saved outputs are unchanged by source-tree curation. Its earlier public preparation withheld 88 original Yelp review texts and the TripAdvisor source export; generated examples and numerical analyses were preserved. Recorded human approvals/accounts do not independently authenticate participant identity, unaided authorship or actual source inspection. Flags remain attributed reports rather than automatically confirmed errors.
 
 See `docs/CODE_GUIDE.md` for executable public replay versus original archived reproduction requirements. Historical reports and provenance snapshots may reference private original paths. No new experiments or changes to original research records were made.
+
+The `thesis/` directory contains the author-provided research progress report and three-page summary. Both PDFs are published unchanged from the supplied files, including their original metadata. They supplement the notebook and do not replace its frozen experimental records.

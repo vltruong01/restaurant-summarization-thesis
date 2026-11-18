@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "scope": "Source curation only; no new model or statistical evaluation",
+  "scope": "Selected thesis implementation, completed results and author-provided PDF documents; no new model or statistical evaluation",
   "original_tracked_files": 1340,
   "selected_scripts": 71,
   "retained_original_configs": 24,
@@ -12,7 +12,22 @@
   "notebook_and_html_byte_identical": true,
   "private_original_repository_modified": false,
   "earlier_notebook_execution": "25 executed code cells, 11 embedded figures; unchanged saved artifacts, not reexecuted during curation",
-  "current_file_count": 208,
+  "current_file_count": 210,
   "dynamic_teacher_integrity_binding_files_preserved": true,
-  "editorial_history_cleanup": "Removed application/coordination prose and external-analysis handoff narrative; preserved frozen scientific evidence and AI-assistance limitations."
+  "editorial_history_cleanup": "Removed application/coordination prose and external-analysis handoff narrative; preserved frozen scientific evidence and AI-assistance limitations.",
+  "published_pdf_documents": [
+    {
+      "file": "thesis/Thesis_Research_Progress_v4.pdf",
+      "pages": 41,
+      "bytes": 322762,
+      "sha256": "3543481fa5a900c278b422cda398ab575bfb392b5f1bb2b30d238861820f993f"
+    },
+    {
+      "file": "thesis/Thesis_Summary.pdf",
+      "pages": 3,
+      "bytes": 91928,
+      "sha256": "bdc70ea808f31f862e23c7ce6ee4813b4e920c9d914976d976e06e182ec4cca2"
+    }
+  ],
+  "published_pdf_bytes_match_supplied_originals": true
 }
