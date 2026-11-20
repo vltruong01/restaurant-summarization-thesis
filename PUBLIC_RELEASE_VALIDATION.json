@@ -12,7 +12,7 @@
   "notebook_and_html_byte_identical": true,
   "private_original_repository_modified": false,
   "earlier_notebook_execution": "25 executed code cells, 11 embedded figures; unchanged saved artifacts, not reexecuted during curation",
-  "current_file_count": 210,
+  "current_file_count": 211,
   "dynamic_teacher_integrity_binding_files_preserved": true,
   "editorial_history_cleanup": "Removed application/coordination prose and external-analysis handoff narrative; preserved frozen scientific evidence and AI-assistance limitations.",
   "published_pdf_documents": [
@@ -29,5 +29,12 @@
       "sha256": "bdc70ea808f31f862e23c7ce6ee4813b4e920c9d914976d976e06e182ec4cca2"
     }
   ],
-  "published_pdf_bytes_match_supplied_originals": true
+  "published_pdf_bytes_match_supplied_originals": true,
+  "published_presentation": {
+    "file": "thesis/thesis_slides.pptx",
+    "slides": 23,
+    "bytes": 1899056,
+    "sha256": "662bafaaa0269f993fff6c22f1fc28f1b66f8453e086d5481afcb29b5f8a8668",
+    "bytes_match_supplied_original": true
+  }
 }
