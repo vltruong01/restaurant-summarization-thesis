@@ -34,29 +34,57 @@ function card(o,component){
  else e.append(E('p','withheldText','Original output text is withheld in this public edition. The complete local viewer retains the exact frozen text.'));
  const d=E('details','outputDigest');d.append(E('summary','','Frozen output SHA-256'),E('p','mono digest',o[component+'_sha256']));e.append(d);return e;
 }
+function publisherLinks(host,entry){
+ const links=E('div','publisherLinks');
+ for(const [i,url]of (entry?.publisher_pages||[]).entries()){
+  const a=E('a','',i===0?'Open publisher source page':'Additional publisher source page');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.referrerPolicy='no-referrer';links.append(a);
+ }
+ if(!links.children.length)links.append(E('p','footnote','No publisher page recorded for this photo.'));
+ host.append(links);
+}
+function evidenceUsage(host){
+ const usage=E('ul','photoUsage');
+ for(const [system,text]of [['L','LED F-S1000: filtered caption (text)'],['C','Qwen-Caption: filtered caption (text)'],['I','Qwen-Image: original photo (pixels)']])usage.append(E('li','systemText-'+system,text));
+ host.append(usage);
+}
 function showSources(){
- const r=D.restaurants[index];
- $('sourceAlignment').textContent='Matched Review inputs across all three systems. Visual inputs: filtered captions for LED F and Qwen-Caption; corresponding photos for Qwen-Image.';
+ const r=D.restaurants[index],entry=window.TRIPADVISOR15_PHOTO_INDEX?.restaurants.find(x=>x.business_id===r.business_id);
+ $('sourceAlignment').textContent=r.review_count+' original selected reviews supply Review Consensus. No photo-derived evidence is supplied to the Review pass.';
  $('reviewCount').textContent=r.review_count+' reviews';$('photoCount').textContent=r.photo_count+' photos';
  $('sourceRestriction').hidden=PRIVATE;
- $('sourceRestriction').textContent='Public evidence boundary: original reviews, photos, captions and output passages are not published. Their source counts and frozen output hashes remain available. The complete local edition supports source inspection.';
+ $('sourceRestriction').textContent='Public edition: source reviews, generated passages and individual evaluator scores remain withheld. The complete local edition retains these unchanged for restricted inspection.';
+ $('galleryRestriction').hidden=PRIVATE;
+ $('galleryRestriction').textContent='Photographs and BLIP-2 caption text are unavailable in this public deployment because redistribution rights have not been established. This is an explicit publication restriction, not a broken image loader. All '+r.photo_count+' selected photo IDs are listed below with recorded publisher-page links. The complete offline edition contains the actual photos and exact captions.';
+ $('galleryStatus').textContent=PRIVATE?r.photo_count+' frozen original images · click a photograph to enlarge · captions shown verbatim':r.photo_count+' frozen source references · image bytes and caption text withheld · no external images loaded';
  $('photoGallery').replaceChildren();$('reviewList').replaceChildren();$('expandReviews').hidden=!PRIVATE;$('expandReviews').textContent='Expand all reviews';
- if(!PRIVATE){
-  $('reviewList').append(E('div','accessMessage','Original review text is available in the complete local evidence viewer. No source text is embedded in this public page.'));
-  $('photoGallery').append(E('div','accessMessage','Original photographs and BLIP-2 captions are available in the complete local evidence viewer. No images are fetched or hotlinked.'));return;
+ if(!entry||entry.photos.length!==r.photo_count){
+  $('galleryStatus').textContent='Photo mapping unavailable. Extract the entire package, including data/photo-index.js. No substitute photos are used.';
+  $('photoGallery').append(E('p','notice error','The selected-photo source index could not be loaded or matched.'));
+ }else if(!PRIVATE){
+  for(const p of entry.photos){
+   const f=E('article','photoCard withheldPhotoCard');f.dataset.photoId=p.photo_id;
+   f.append(E('div','publicationPlaceholder','Original photo withheld from public deployment'),E('p','mono photoId',p.photo_id),E('span','captionLabel','Original BLIP-2 caption'),E('p','caption','Caption withheld here; exact text is preserved in the complete offline edition.'));
+   evidenceUsage(f);publisherLinks(f,p);$('photoGallery').append(f);
+  }
+ }else{
+  for(const [i,p]of r.photos.entries()){
+   const reference=entry.photos[i],f=E('article','photoCard originalPhotoCard');f.dataset.photoId=p.photo_id;
+   if(reference.photo_id!==p.photo_id){f.append(E('p','notice error','Photo mapping mismatch. No substitute image loaded.'));$('photoGallery').append(f);continue;}
+   const b=E('button','photoButton'),im=new Image();b.setAttribute('aria-label','Enlarge '+p.photo_id);b.dataset.photo=p.photo_id;im.alt=r.name+' · '+p.photo_id;im.src=p.src;
+   im.onerror=()=>{b.replaceChildren(E('span','photoFailure','Original image is unavailable. Extract the entire offline package; no replacement is used.'));};b.append(im);b.onclick=()=>openPhoto(i);
+   f.append(b,E('p','mono photoId',p.photo_id),E('p','nativeSize',p.width+' × '+p.height+' px · frozen original'));
+   const raw=E('p','caption');raw.append(E('span','captionLabel','Original BLIP-2 caption'),E('span','captionText',p.original_caption));f.append(raw);
+   const filtered=E('details','filteredCaptionDetails');filtered.append(E('summary','','Exact filtered caption supplied as input'),E('p','caption filteredCaption',p.filtered_caption));f.append(filtered);
+   evidenceUsage(f);const enlarged=E('button','textButton enlargeLink','Enlarge original photo');enlarged.onclick=()=>openPhoto(i);f.append(enlarged);publisherLinks(f,reference);$('photoGallery').append(f);
+  }
  }
- r.photos.forEach((p,i)=>{
-  const f=E('article','photoCard'),b=E('button','photoButton'),im=new Image();b.setAttribute('aria-label','Enlarge '+p.photo_id);b.dataset.photo=p.photo_id;im.alt=r.name+' · selected photo '+(i+1);im.src=p.src;
-  im.onerror=()=>{b.replaceChildren(E('span','photoFailure','Image unavailable. Extract the entire private package.'));};b.append(im);b.onclick=()=>openPhoto(i);f.append(b,E('p','photoNumber','Photo '+(i+1)));
-  const detail=E('details','captionDetails');detail.append(E('summary','','BLIP-2 captions & source ID'),E('p','mono',p.photo_id));
-  const raw=E('p','caption');raw.append(E('span','captionLabel','Original BLIP-2 caption'),E('span','captionText',p.original_caption));detail.append(raw);
-  const filtered=E('p','caption');filtered.append(E('span','captionLabel','Filtered input · LED / Qwen-Caption'),E('span','filteredCaption',p.filtered_caption));detail.append(filtered);f.append(detail);$('photoGallery').append(f);
- });
+ if(!PRIVATE){$('reviewList').append(E('div','accessMessage','Original review text is available in the complete local evidence viewer. No source text is embedded in this public page.'));return;}
  for(const [i,v]of r.reviews.entries()){
   const e=E('details','reviewItem');e.dataset.review=v.review_id;e.open=i===0;
   const summary=E('summary'),meta=E('span','reviewMeta');meta.append(E('strong','','Review '+(i+1)),E('span','',v.stars===null?'Rating unavailable':v.stars+' / 5 stars'),E('time','',v.date||'Date unavailable'));summary.append(meta);e.append(summary,E('p','mono reviewId',v.review_id),E('div','reviewText',v.text));$('reviewList').append(e);
  }
 }
+
 function expandReviews(){const reviews=[...document.querySelectorAll('.reviewItem')],open=reviews.some(e=>!e.open);reviews.forEach(e=>e.open=open);$('expandReviews').textContent=open?'Collapse reviews':'Expand all reviews';}
 function meanScoreTable(r){
  const t=table(['Criterion',...SYSTEMS.map(s=>s.name)],CRITERIA.map(c=>[c.label,...SYSTEMS.map(s=>num(model(r,s.id).means[c.id]))]),['','numeric','numeric','numeric']);t.classList.add('meanScoreTable');
@@ -68,7 +96,7 @@ function scoreTable(r){
  if(!PRIVATE)return table(['Criterion',...SYSTEMS.map(s=>s.name+' mean')],CRITERIA.map(c=>[c.label,...SYSTEMS.map(s=>num(model(r,s.id).means[c.id]))]),['','numeric','numeric','numeric']);
  const t=E('table','caseScoreTable'),head=E('thead'),a=E('tr'),metric=E('th','','Criterion');metric.rowSpan=2;metric.scope='col';a.append(metric);for(const s of SYSTEMS){const h=E('th','',s.name);h.colSpan=3;h.scope='colgroup';a.append(h);}const b=E('tr');for(const s of SYSTEMS)for(const label of ['A01','A02','Mean'])b.append(E('th','numeric'+(label==='Mean'?' mean':''),label));head.append(a,b);t.append(head);const body=E('tbody');for(const c of CRITERIA){const tr=E('tr'),label=E('th','',c.label);label.scope='row';tr.append(label);for(const s of SYSTEMS){const o=model(r,s.id);for(const who of ['A01','A02']){const td=E('td','numeric',num(o.ratings.find(x=>x.evaluator===who).scores[c.id]));td.dataset.score=s.id+'-'+who+'-'+c.id;tr.append(td);}const td=E('td','numeric mean',num(o.means[c.id]));td.dataset.individualMean=s.id+'-mean-'+c.id;tr.append(td);}body.append(tr);}t.append(body);return t;
 }
-function renderCase(){const r=D.restaurants[index];$('restaurantSelect').value=String(index);$('caseName').textContent=r.name;$('caseId').textContent=r.business_id;$('casePosition').textContent='Restaurant '+(index+1)+' / '+D.restaurants.length;$('caseLink').href='#restaurant/'+encodeURIComponent(r.business_id);
+function renderCase(){if($('photoDialog').open)$('photoDialog').close();photoIndex=0;const r=D.restaurants[index];$('restaurantSelect').value=String(index);$('caseName').textContent=r.name;$('caseId').textContent=r.business_id;$('casePosition').textContent='Restaurant '+(index+1)+' / '+D.restaurants.length;$('caseLink').href='#restaurant/'+encodeURIComponent(r.business_id);
  for(const id of ['previous','previousBottom'])$(id).disabled=index===0;for(const id of ['next','nextBottom'])$(id).disabled=index===14;
  showSources();$('reviewOutputs').replaceChildren(...r.outputs.map(o=>card(o,'review')));$('visualOutputs').replaceChildren(...r.outputs.map(o=>card(o,'visual')));$('caseScores').replaceChildren(meanScoreTable(r));$('individualScores').open=false;$('raterScores').replaceChildren(...(PRIVATE?[scoreTable(r)]:[]));$('raterRestriction').textContent=PRIVATE?'Original V1 ratings, unchanged. Mean scores above average these two records.':'Individual evaluator scores are withheld in this public edition; only the original two-rater means are published.';$('ratingDefinition').textContent=PRIVATE?'Original V1 ratings · mean of A01 and A02. Expand below to inspect individual scores. No scores are edited in this viewer.':'Two-rater arithmetic means from the original official V1 collection. Individual rater-level records are withheld in this public release.';
  document.title=r.name+' · TripAdvisor15';
