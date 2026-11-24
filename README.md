@@ -6,11 +6,11 @@ Implementation, frozen results and an executed research overview for supervisor 
 
 The [TripAdvisor15 interactive results viewer](https://vltruong01.github.io/restaurant-summarization-thesis/tripadvisor15/) shows aggregate ratings, restaurant-level comparisons, resource measurements and model provenance. This public edition excludes original reviews, photos, captions, generated passages and individual evaluator records; the complete evidence viewer remains local.
 
-Start with [Thesis_Summary.pdf](thesis/Thesis_Summary.pdf). This three-page summary explains the research questions, how the system works, the main results and their limits. It also discusses the LED–Qwen comparison and how to interpret the time and GPU-memory measurements.
+Start with [Thesis_Summary.pdf](thesis/Thesis_Summary.pdf) for a short overview of the research questions, method, results and limitations.
 
-For more detail, read [Thesis_Research_Progress_v4.pdf](thesis/Thesis_Research_Progress_v4.pdf). This 41-page research report follows the work from dataset preparation and caption filtering through training, Yelp and TripAdvisor evaluation, and discussion of the findings. It is a progress report, rather than the final approved thesis. Section and page numbering differ between the two PDFs.
+For the full thesis, read [thesis_ff.pdf](thesis/thesis_ff.pdf). It provides the detailed methodology, experiments, results and discussion.
 
-For the presentation, download [thesis_slides.pptx](thesis/thesis_slides.pptx) and open it in PowerPoint. The 23 slides cover the research questions, method, main results and limitations.
+For the defense presentation, download [thesis_slides.pptx](thesis/thesis_slides.pptx) and open it in PowerPoint.
 
 ## Notebook and code
 
@@ -25,7 +25,7 @@ For the presentation, download [thesis_slides.pptx](thesis/thesis_slides.pptx) a
 
 | Location | Purpose |
 |---|---|
-| [thesis/](thesis/) | Summary, detailed research report and presentation slides |
+| [thesis/](thesis/) | Full thesis, research summary and defense slides |
 | [professor_review/](professor_review/) | Executed overview, lightweight frozen metrics/ratings, model settings, examples and reproducible numerical analysis |
 | [scripts/](scripts/) | Selected implementation of dataset preparation, review selection, captioning/filtering, supervision, inference and analysis, with required local helper modules |
 | [configs/](configs/), [prompts/](prompts/), [schemas/](schemas/) | Supporting original method contracts, Teacher prompts and data schemas |

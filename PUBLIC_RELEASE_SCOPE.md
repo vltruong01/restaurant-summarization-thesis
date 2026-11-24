@@ -10,6 +10,6 @@ The notebook and its saved outputs are unchanged by source-tree curation. Its ea
 
 See `docs/CODE_GUIDE.md` for executable public replay versus original archived reproduction requirements. Historical reports and provenance snapshots may reference private original paths. No new experiments or changes to original research records were made.
 
-The `thesis/` directory contains the author-provided research progress report and three-page summary. Both PDFs are published unchanged from the supplied files, including their original metadata. They supplement the notebook and do not replace its frozen experimental records.
+The `thesis/` directory contains the author-provided full thesis (`thesis_ff.pdf`), research summary and defense presentation. The revised files are published byte-for-byte as supplied, including their original metadata. They supplement the notebook and do not change its frozen experimental records.
 
 The author-provided `thesis/thesis_slides.pptx` is also included unchanged, with its original slides, notes and embedded media.

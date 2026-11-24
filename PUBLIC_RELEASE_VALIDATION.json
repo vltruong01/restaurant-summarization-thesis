@@ -17,24 +17,30 @@
   "editorial_history_cleanup": "Removed application/coordination prose and external-analysis handoff narrative; preserved frozen scientific evidence and AI-assistance limitations.",
   "published_pdf_documents": [
     {
-      "file": "thesis/Thesis_Research_Progress_v4.pdf",
-      "pages": 41,
-      "bytes": 322762,
-      "sha256": "3543481fa5a900c278b422cda398ab575bfb392b5f1bb2b30d238861820f993f"
+      "file": "thesis/Thesis_Summary.pdf",
+      "bytes": 95837,
+      "sha256": "cd93896d3870080ce4a6e856207be6e568b1e796759e4298189904a787d8c410",
+      "pages": 4
     },
     {
-      "file": "thesis/Thesis_Summary.pdf",
-      "pages": 3,
-      "bytes": 91928,
-      "sha256": "bdc70ea808f31f862e23c7ce6ee4813b4e920c9d914976d976e06e182ec4cca2"
+      "file": "thesis/thesis_ff.pdf",
+      "bytes": 2563481,
+      "sha256": "a93ad0ecabb2e2c1f5a3bf3614b0c026a97c39e14f9a3294b3bcdec2bff42748",
+      "pages": 126
     }
   ],
   "published_pdf_bytes_match_supplied_originals": true,
   "published_presentation": {
     "file": "thesis/thesis_slides.pptx",
-    "slides": 23,
-    "bytes": 1899056,
-    "sha256": "662bafaaa0269f993fff6c22f1fc28f1b66f8453e086d5481afcb29b5f8a8668",
+    "bytes": 1926555,
+    "sha256": "7ee8615aee66b6444b77e0884c521c1f590eb1a8bbd1b2472afe3115c334cfe5",
+    "slides": 27,
     "bytes_match_supplied_original": true
+  },
+  "author_document_update": {
+    "date": "2026-11-25",
+    "original_files_unchanged": true,
+    "publication": "Latest author-supplied thesis, summary and slides; earlier progress PDF replaced in the current tree.",
+    "method": "SHA-256 byte match; PDF parsing/page count and PPTX ZIP CRC/slide count."
   }
 }
