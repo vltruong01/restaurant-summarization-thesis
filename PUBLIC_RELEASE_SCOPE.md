@@ -13,3 +13,5 @@ See `docs/CODE_GUIDE.md` for executable public replay versus original archived r
 The `thesis/` directory contains the author-provided full thesis (`thesis_ff.pdf`), research summary and defense presentation. The revised files are published byte-for-byte as supplied, including their original metadata. They supplement the notebook and do not change its frozen experimental records.
 
 The author-provided `thesis/thesis_slides.pptx` is also included unchanged, with its original slides, notes and embedded media.
+
+For display, the TripAdvisor15 gallery also includes larger public publisher renditions of the same 73 photo IDs, stored separately from archived model inputs. Their center-cropped thumbnails were compared against the archived files. They may include a wider frame and are not replacement model inputs, camera-original provenance claims or new evaluation evidence. Original experimental image bytes, captions, outputs and scores remain unchanged.

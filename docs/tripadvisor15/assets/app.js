@@ -1,7 +1,7 @@
 'use strict';
 (()=>{const D=window.TRIPADVISOR15_DATA,$=id=>document.getElementById(id);if(!D){$('error').hidden=false;$('error').textContent='Data could not load. Extract the entire package, including data/ and assets/.';return;}
 const LOCAL=D.edition==='private_complete',FULL=LOCAL||D.edition==='public_complete',PHOTOS=FULL||D.edition==='public_photos',SYSTEMS=D.systems,CRITERIA=D.criteria;
-let index=0,photoIndex=0;
+let index=0,photoIndex=0,photoVariant='publisher';
 const E=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e;};
 const name=id=>SYSTEMS.find(s=>s.id===id).name;const num=(n,d=2)=>n===null||n===undefined?'NOT MEASURED':Number(n).toFixed(d);const signed=n=>(n>0?'+':'')+n.toFixed(2);
 function table(headers,rows,classes=[]){const t=E('table'),head=E('thead'),tr=E('tr');headers.forEach((h,i)=>tr.append(E('th',classes[i]||'',h)));head.append(tr);t.append(head);const body=E('tbody');rows.forEach(row=>{const r=E('tr');row.forEach((v,i)=>{const c=E(i===0?'th':'td',classes[i]||'');if(i===0)c.scope='row';if(v instanceof Node)c.append(v);else c.textContent=v;r.append(c);});body.append(r);});t.append(body);return t;}
@@ -42,11 +42,7 @@ function publisherLinks(host,entry){
  if(!links.children.length)links.append(E('p','footnote','No publisher page recorded for this photo.'));
  host.append(links);
 }
-function evidenceUsage(host){
- const usage=E('ul','photoUsage');
- for(const [system,text]of [['L','LED F-S1000: filtered caption (text)'],['C','Qwen-Caption: filtered caption (text)'],['I','Qwen-Image: original photo (pixels)']])usage.append(E('li','systemText-'+system,text));
- host.append(usage);
-}
+function displayPhoto(p){const v=window.TRIPADVISOR15_DISPLAY_IMAGES?.images.find(x=>x.photo_id===p.photo_id&&x.archived_sha256===p.sha256);return v||null;}
 function showSources(){
  const r=D.restaurants[index],entry=window.TRIPADVISOR15_PHOTO_INDEX?.restaurants.find(x=>x.business_id===r.business_id);
  $('sourceAlignment').textContent=r.review_count+' original selected reviews supply Review Consensus. No photo-derived evidence is supplied to the Review pass.';
@@ -55,7 +51,7 @@ function showSources(){
  $('sourceRestriction').textContent='Public edition: source reviews, generated passages and individual evaluator scores remain withheld. The complete local edition retains these unchanged for restricted inspection.';
  $('galleryRestriction').hidden=PHOTOS;
  $('galleryRestriction').textContent='Photographs and BLIP-2 caption text are unavailable in this public deployment because redistribution rights have not been established. This is an explicit publication restriction, not a broken image loader. All '+r.photo_count+' selected photo IDs are listed below with recorded publisher-page links. The complete offline edition contains the actual photos and exact captions.';
- $('galleryStatus').textContent=PHOTOS?r.photo_count+' frozen original images · click a photograph to enlarge · captions shown verbatim':r.photo_count+' frozen source references · image bytes and caption text withheld · no external images loaded';
+ $('galleryStatus').textContent=PHOTOS?r.photo_count+' selected photographs · clearer source views · original model captions':r.photo_count+' frozen source references · image bytes and caption text withheld · no external images loaded';
  $('photoGallery').replaceChildren();$('reviewList').replaceChildren();$('expandReviews').hidden=!FULL;$('expandReviews').textContent='Expand all reviews';
  if(!entry||entry.photos.length!==r.photo_count){
   $('galleryStatus').textContent='Photo mapping unavailable. Extract the entire package, including data/photo-index.js. No substitute photos are used.';
@@ -64,18 +60,18 @@ function showSources(){
   for(const p of entry.photos){
    const f=E('article','photoCard withheldPhotoCard');f.dataset.photoId=p.photo_id;
    f.append(E('div','publicationPlaceholder','Original photo withheld from public deployment'),E('p','mono photoId',p.photo_id),E('span','captionLabel','Original BLIP-2 caption'),E('p','caption','Caption withheld here; exact text is preserved in the complete offline edition.'));
-   evidenceUsage(f);publisherLinks(f,p);$('photoGallery').append(f);
+   publisherLinks(f,p);$('photoGallery').append(f);
   }
  }else{
   for(const [i,p]of r.photos.entries()){
    const reference=entry.photos[i],f=E('article','photoCard originalPhotoCard');f.dataset.photoId=p.photo_id;
    if(reference.photo_id!==p.photo_id){f.append(E('p','notice error','Photo mapping mismatch. No substitute image loaded.'));$('photoGallery').append(f);continue;}
-   const b=E('button','photoButton'),im=new Image();b.setAttribute('aria-label','Enlarge '+p.photo_id);b.dataset.photo=p.photo_id;im.alt=r.name+' · '+p.photo_id;im.src=p.src;
+   const view=displayPhoto(p),b=E('button','photoButton'),im=new Image();b.setAttribute('aria-label','Enlarge '+p.photo_id);b.dataset.photo=p.photo_id;im.alt=r.name+' · '+p.photo_id;im.src=view?.src||p.src;
    im.onerror=()=>{b.replaceChildren(E('span','photoFailure','Original image is unavailable. Extract the entire offline package; no replacement is used.'));};b.append(im);b.onclick=()=>openPhoto(i);
-   f.append(b,E('p','mono photoId',p.photo_id),E('p','nativeSize',p.width+' × '+p.height+' px · frozen original'));
+   f.append(b,E('p','mono photoId',p.photo_id),E('p','nativeSize',view?view.width+' × '+view.height+' px · source view':p.width+' × '+p.height+' px · model input'));
    const raw=E('p','caption');raw.append(E('span','captionLabel','Original BLIP-2 caption'),E('span','captionText',p.original_caption));f.append(raw);
    const filtered=E('details','filteredCaptionDetails');filtered.append(E('summary','','Exact filtered caption supplied as input'),E('p','caption filteredCaption',p.filtered_caption));f.append(filtered);
-   evidenceUsage(f);const enlarged=E('button','textButton enlargeLink','Enlarge original photo');enlarged.onclick=()=>openPhoto(i);f.append(enlarged);publisherLinks(f,reference);$('photoGallery').append(f);
+   const enlarged=E('button','textButton enlargeLink','Enlarge photo');enlarged.onclick=()=>openPhoto(i);f.append(enlarged);publisherLinks(f,reference);$('photoGallery').append(f);
   }
  }
  if(!FULL){$('reviewList').append(E('div','accessMessage','Original review text is available in the complete local evidence viewer. No source text is embedded in this public page.'));return;}
@@ -105,16 +101,25 @@ function go(n){if(n<0||n>=15)return;location.hash='restaurant/'+encodeURICompone
 function route(){const hash=decodeURIComponent(location.hash.slice(1)),caseId=hash.startsWith('restaurant/')?hash.slice(11):null;let view='restaurants';$('error').hidden=true;if(caseId){const i=D.restaurants.findIndex(r=>r.business_id===caseId);if(i>=0){index=i;view='restaurants';}else{$('error').hidden=false;$('error').textContent='Unknown restaurant identifier. Showing the first frozen restaurant; select a case above.';}}else if(hash==='overview'||hash==='results')view='overview';else if(hash==='restaurants')view='restaurants';else if(hash==='methods'||hash==='methodology')view='methods';
  $('overviewView').hidden=view!=='overview';$('restaurantView').hidden=view!=='restaurants';$('methodsView').hidden=view!=='methods';for(const a of document.querySelectorAll('[data-view]')){if(a.dataset.view===view)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');}if(view==='restaurants')renderCase();else document.title='TripAdvisor15 · LED and Qwen';window.scrollTo(0,0);
 }
-function openPhoto(i){photoIndex=i;renderPhoto();$('photoDialog').showModal();}
-function renderPhoto(){const r=D.restaurants[index],p=r.photos[photoIndex];$('photoTitle').textContent=r.name+' · Photo '+(photoIndex+1)+' / '+r.photos.length;$('largePhoto').src=p.src;$('largePhoto').alt=p.photo_id;$('largePhoto').style.width=Math.max(p.width,Math.min(700,p.width*4))+'px';$('photoResolution').textContent='Original '+p.width+' × '+p.height+' pixels. Enlarged display only; image bytes are unchanged.';$('largeCaption').textContent='Original BLIP-2 caption: '+p.original_caption;$('largeFiltered').textContent='Exact filtered input caption: '+p.filtered_caption;$('photoDigest').textContent=p.photo_id+' · SHA-256 '+p.sha256;$('photoSource').href=p.source_url;$('photoPrevious').disabled=photoIndex===0;$('photoNext').disabled=photoIndex===r.photos.length-1;}
-function photoMove(n){if(photoIndex+n>=0&&photoIndex+n<D.restaurants[index].photos.length){photoIndex+=n;renderPhoto();}}
+function openPhoto(i){photoIndex=i;photoVariant='publisher';renderPhoto();$('photoDialog').showModal();}
+function renderPhoto(){
+ const r=D.restaurants[index],p=r.photos[photoIndex],higher=displayPhoto(p),useSource=higher&&photoVariant==='publisher',view=useSource?higher:p;
+ $('photoTitle').textContent=r.name+' · Photo '+(photoIndex+1)+' / '+r.photos.length;
+ $('largePhoto').src=view.src;$('largePhoto').alt=p.photo_id;$('largePhoto').dataset.variant=useSource?'publisher':'experiment';$('largePhoto').style.width=Math.min(view.width,850)+'px';
+ $('photoResolution').textContent=useSource?'Publisher view: '+view.width+' × '+view.height+' pixels. Model input: '+p.width+' × '+p.height+' pixels. This clearer view may include areas cropped from the model input.':'Exact model input: '+p.width+' × '+p.height+' pixels. These are the unchanged experimental image bytes.';
+ $('photoVariant').hidden=!higher;$('photoVariant').textContent=useSource?'View model input':'View clearer source';
+ $('largeCaption').textContent='Original BLIP-2 caption: '+p.original_caption;$('largeFiltered').textContent='Exact filtered input caption: '+p.filtered_caption;
+ $('photoDigest').textContent=p.photo_id+' · Model input SHA-256 '+p.sha256+(higher?' · Publisher view SHA-256 '+higher.sha256:'');$('photoSource').href=useSource?higher.source_url:p.source_url;
+ $('photoPrevious').disabled=photoIndex===0;$('photoNext').disabled=photoIndex===r.photos.length-1;
+}
+function photoMove(n){if(photoIndex+n>=0&&photoIndex+n<D.restaurants[index].photos.length){photoIndex+=n;photoVariant='publisher';renderPhoto();}}
 function methods(){
  const m=D.model_identity;$('modelIdentity').append(table(['Model','Frozen identity'],[['LED F-S1000','Source-Separated V1 checkpoint-1000. Adapter SHA-256: '+m.LED.adapter_sha256+'. Backbone SHA-256: '+m.LED.backbone_sha256],['Qwen-Caption / Qwen-Image',m.Qwen.model_id+' · revision '+m.Qwen.revision+' · BF16 · thinking disabled.'],['BLIP-2',m.BLIP.model_id+' · revision '+m.BLIP.revision]]));
  const ul=E('ul');for(const text of D.resources.notes)ul.append(E('li','',text));$('resourceLimits').append(ul);$('provenanceTable').append(table(['Artifact','SHA-256 / provenance'],[['Original V1 rating export',D.provenance.original_v1_rating_sha256],['Frozen predictions',D.provenance.frozen_prediction_sha256],['Frozen blinded assignment mapping',D.provenance.assignment_key_sha256],['Selected review export',D.provenance.source_review_sha256],['Original V1 parent archive (recorded digest)',D.provenance.original_v1_parent_archive_recorded_sha256]]));
  $('publicationText').textContent='This researcher-requested public demonstration includes the exact selected TripAdvisor reviews, 73 frozen original photo files and captions, all original three-system Review/Visual outputs, and pseudonymous A01/A02 criterion scores. No text is rewritten and no rating is invented or changed. Real evaluator identities, credentials, comments, activity timestamps and session metadata are excluded. No Yelp source reviews or additional TripAdvisor photographs are released.';
 }
 for(const [i,r]of D.restaurants.entries()){const o=E('option','',(i+1)+'. '+r.name);o.value=String(i);$('restaurantSelect').append(o);}
-$('restaurantSelect').onchange=e=>go(Number(e.target.value));for(const id of ['previous','previousBottom'])$(id).onclick=()=>go(index-1);for(const id of ['next','nextBottom'])$(id).onclick=()=>go(index+1);$('chartCriterion').onchange=drawAggregate;$('restaurantCriterion').onchange=drawRestaurantTable;$('expandReviews').onclick=expandReviews;$('photoClose').onclick=()=>$('photoDialog').close();$('photoPrevious').onclick=()=>photoMove(-1);$('photoNext').onclick=()=>photoMove(1);
+$('restaurantSelect').onchange=e=>go(Number(e.target.value));for(const id of ['previous','previousBottom'])$(id).onclick=()=>go(index-1);for(const id of ['next','nextBottom'])$(id).onclick=()=>go(index+1);$('chartCriterion').onchange=drawAggregate;$('restaurantCriterion').onchange=drawRestaurantTable;$('expandReviews').onclick=expandReviews;$('photoVariant').onclick=()=>{photoVariant=photoVariant==='publisher'?'experiment':'publisher';renderPhoto();};$('photoClose').onclick=()=>$('photoDialog').close();$('photoPrevious').onclick=()=>photoMove(-1);$('photoNext').onclick=()=>photoMove(1);
 document.addEventListener('keydown',e=>{if(!$('photoDialog').open)return;if(e.key==='ArrowLeft'){e.preventDefault();photoMove(-1);}if(e.key==='ArrowRight'){e.preventDefault();photoMove(1);}});window.addEventListener('hashchange',route);
 document.querySelector('a[download]').onclick=e=>{e.preventDefault();const url=URL.createObjectURL(new Blob([JSON.stringify(D,null,2)+'\n'],{type:'application/json;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download='TRIPADVISOR15_COMPLETE_DATA.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),10000);};
 drawOverview();methods();route();

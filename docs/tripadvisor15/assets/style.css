@@ -23,3 +23,5 @@ main{max-width:1480px;padding:0 40px 42px;margin:auto;min-width:0}.editionDisclo
 @media(max-width:850px){.fullPhotoGallery{grid-template-columns:repeat(2,minmax(0,1fr))}.fullPhotoGallery .photoButton{height:200px}.fullPhotoGallery .photoId{font-size:13px}}
 @media(max-width:560px){#photoPanel{padding:16px}.fullPhotoGallery{grid-template-columns:1fr;gap:16px}.fullPhotoGallery .photoCard{padding:15px}.fullPhotoGallery .photoButton{height:235px}.fullPhotoGallery .photoUsage{font-size:13px}.fullPhotoGallery .caption{font-size:15px}.nativeSize{font-size:12px}.publisherLinks a{font-size:13px}#photosSection .sectionTitle h2{font-size:18px}#reviewPanel .reviewList{max-height:330px}}
 @media print{.fullPhotoGallery{grid-template-columns:repeat(3,minmax(0,1fr))}.photoUsage{color:#334155}.originalPhotoCard{break-inside:avoid}.publisherLinks{display:none}}
+
+.dialogHeader>div{flex-wrap:wrap;justify-content:flex-end}.dialogHeader{align-items:flex-start}#photoVariant{color:var(--accent)}@media(max-width:600px){.dialogHeader>div{justify-content:flex-start}.dialogHeader button{padding:6px 9px}}

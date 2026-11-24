@@ -12,7 +12,7 @@
   "notebook_and_html_byte_identical": true,
   "private_original_repository_modified": false,
   "earlier_notebook_execution": "25 executed code cells, 11 embedded figures; unchanged saved artifacts, not reexecuted during curation",
-  "current_file_count": 295,
+  "current_file_count": 370,
   "dynamic_teacher_integrity_binding_files_preserved": true,
   "editorial_history_cleanup": "Removed application/coordination prose and external-analysis handoff narrative; preserved frozen scientific evidence and AI-assistance limitations.",
   "published_pdf_documents": [
@@ -67,5 +67,18 @@
     "actual_browser_render_and_content_checks": "PASS",
     "evaluator_real_identities_credentials_comments_sessions_and_activity_metadata_excluded": true,
     "new_inference_or_evaluation_performed": false
+  },
+  "tripadvisor15_display_quality_update": {
+    "date": "2026-11-25",
+    "photo_IDs": 73,
+    "larger_publisher_display_renditions": 73,
+    "display_bytes": 32678316,
+    "all_original_experimental_images_and_data_bytes_unchanged": true,
+    "matching_method": "Same recorded publisher photo ID; center-cropped thumbnail MAE <=12/255 and more than twice the archived pixel count.",
+    "camera_original_authenticity_claimed": false,
+    "larger_views_may_show_regions_cropped_from_model_inputs": true,
+    "browser_render_and_switch_to_archived_input": "PASS: all 73",
+    "repeated_input_role_lines_removed": true,
+    "new_model_inference_or_official_evaluation": false
   }
 }
