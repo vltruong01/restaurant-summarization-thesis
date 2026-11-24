@@ -52,5 +52,20 @@
     "frozen_model_outputs_and_official_scores_unchanged": true,
     "no_other_private_source_content_added": true,
     "authorization": "Researcher explicitly requested real images on the public demonstration. No third-party license verification is claimed."
+  },
+  "tripadvisor15_complete_release": {
+    "date": "2026-11-25",
+    "researcher_requested_complete_public_demonstration": true,
+    "restaurants": 15,
+    "original_selected_reviews": 247,
+    "selected_original_images": 73,
+    "frozen_model_outputs": 45,
+    "original_text_components": 90,
+    "pseudonymous_official_V1_records": 90,
+    "original_criterion_scores": 540,
+    "original_text_hashes_image_bytes_and_score_values_preserved": true,
+    "actual_browser_render_and_content_checks": "PASS",
+    "evaluator_real_identities_credentials_comments_sessions_and_activity_metadata_excluded": true,
+    "new_inference_or_evaluation_performed": false
   }
 }

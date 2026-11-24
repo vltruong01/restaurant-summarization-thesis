@@ -4,7 +4,7 @@ Implementation, frozen results and an executed research overview for supervisor 
 
 ## Read the research
 
-The [TripAdvisor15 interactive results viewer](https://vltruong01.github.io/restaurant-summarization-thesis/tripadvisor15/) shows aggregate ratings, restaurant-level comparisons, resource measurements and model provenance. This public edition includes the 73 selected TripAdvisor photos and their exact BLIP-2 captions. Original review bodies, generated summary passages and individual evaluator records remain in the complete local evidence viewer.
+The [TripAdvisor15 interactive results viewer](https://vltruong01.github.io/restaurant-summarization-thesis/tripadvisor15/) shows aggregate ratings, restaurant-level comparisons, resource measurements and model provenance. This complete demonstration includes the selected TripAdvisor reviews, 73 original photos with BLIP-2 captions, all three systems’ original Review Consensus and Visual Evidence, and original pseudonymous A01/A02 scores.
 
 Start with [Thesis_Summary.pdf](thesis/Thesis_Summary.pdf) for a short overview of the research questions, method, results and limitations.
 
@@ -51,4 +51,4 @@ Python 3.11+ suffices. Optional CPU notebook replay uses the separate environmen
 
 ## Data access
 
-Original Yelp/TripAdvisor review bodies, Yelp photos, model weights and private restoration records are not distributed here. The TripAdvisor15 gallery includes only the 73 selected frozen photo files and their BLIP-2 captions, released at the researcher’s request. Public source IDs/hashes bind the evidence without redistributing it. The complete original code/history and research archives remain private; the owner's [Hugging Face archive](https://huggingface.co/datasets/vltruong01/multimodal_summarization_thesis) requires separate access. See [public release scope](PUBLIC_RELEASE_SCOPE.md) and [dataset agreement](docs/Dataset_User_Agreement.pdf).
+Original Yelp review bodies/photos, model weights and private restoration records are not distributed here. The TripAdvisor15 viewer includes its selected reviews, 73 frozen photo files and captions, original model outputs and pseudonymous criterion scores at the researcher’s request. Public source IDs/hashes bind the evidence without redistributing it. The complete original code/history and research archives remain private; the owner's [Hugging Face archive](https://huggingface.co/datasets/vltruong01/multimodal_summarization_thesis) requires separate access. See [public release scope](PUBLIC_RELEASE_SCOPE.md) and [dataset agreement](docs/Dataset_User_Agreement.pdf).
