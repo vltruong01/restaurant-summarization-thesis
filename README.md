@@ -4,6 +4,8 @@ Implementation, frozen results and an executed research overview for supervisor 
 
 ## Read the research
 
+The [TripAdvisor15 interactive results viewer](https://vltruong01.github.io/restaurant-summarization-thesis/tripadvisor15/) shows aggregate ratings, restaurant-level comparisons, resource measurements and model provenance. This public edition excludes original reviews, photos, captions, generated passages and individual evaluator records; the complete evidence viewer remains local.
+
 Start with [Thesis_Summary.pdf](thesis/Thesis_Summary.pdf). This three-page summary explains the research questions, how the system works, the main results and their limits. It also discusses the LED–Qwen comparison and how to interpret the time and GPU-memory measurements.
 
 For more detail, read [Thesis_Research_Progress_v4.pdf](thesis/Thesis_Research_Progress_v4.pdf). This 41-page research report follows the work from dataset preparation and caption filtering through training, Yelp and TripAdvisor evaluation, and discussion of the findings. It is a progress report, rather than the final approved thesis. Section and page numbering differ between the two PDFs.
