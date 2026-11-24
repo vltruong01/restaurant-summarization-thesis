@@ -1,6 +1,6 @@
 {
   "schema": "tripadvisor15_complete_viewer_v1",
-  "edition": "public_limited",
+  "edition": "public_photos",
   "review_date": "2026-11-25",
   "title": "TripAdvisor15 · LED and Qwen",
   "criteria": [
@@ -954,7 +954,63 @@
       "review_count": 10,
       "photo_count": 5,
       "reviews": [],
-      "photos": [],
+      "photos": [
+        {
+          "photo_id": "TA_PHOTO_198023a3",
+          "src": "images/TA14622324_9802783/TA_PHOTO_198023a3.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "6b9a9609a452d8ea620891af78a94313981306304ab9d12bce6f8dc90c10ba3e",
+          "original_caption": "a piece of cheesecake on a white plate with a spoon\n",
+          "filtered_caption": "a piece of cheesecake on a white plate with a spoon.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/19/80/23/a3/img-20191004-233444-largejpg.jpg",
+          "caption_checkpoint_sha256": "808b420354149820589953b9cccb23551d93c8716e34ed00def1149e17b75376"
+        },
+        {
+          "photo_id": "TA_PHOTO_11ad2c6c",
+          "src": "images/TA14622324_9802783/TA_PHOTO_11ad2c6c.jpg",
+          "width": 115,
+          "height": 205,
+          "sha256": "95fc752ca37a02b532957078d67c4af2ae9d13532dfcb1045fa755b200418d23",
+          "original_caption": "there is a shelf full of green bottles in a store\n",
+          "filtered_caption": "there is a shelf full of green bottles in a store.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-f/11/ad/2c/6c/img-20180103-232033-largejpg.jpg",
+          "caption_checkpoint_sha256": "e4f9a8f39bc070a3e61268b30be868c448bbe304d8561a12543644acf3a1f289"
+        },
+        {
+          "photo_id": "TA_PHOTO_08a9cbc8",
+          "src": "images/TA14622324_9802783/TA_PHOTO_08a9cbc8.jpg",
+          "width": 250,
+          "height": 141,
+          "sha256": "a2d6f6f49ce327653fe1e6607bd0456469c40a093b5d36e40b445097946bf6a8",
+          "original_caption": "a group of people sitting at picnic tables under red umbrellas\n",
+          "filtered_caption": "a group of people sitting at picnic tables under red umbrellas.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-f/08/a9/cb/c8/el-cruce.jpg",
+          "caption_checkpoint_sha256": "19e0d4a9eae36e23283ac494db5f68717f0b65acbc75563ba5a57a73ada21815"
+        },
+        {
+          "photo_id": "TA_PHOTO_0b94055d",
+          "src": "images/TA14622324_9802783/TA_PHOTO_0b94055d.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "670f116bd1cad208872785c83e477744e317be09f47e926a66d7fef1a798ad53",
+          "original_caption": "a close up of a sign for el cruce in spanish\n",
+          "filtered_caption": "a close up of a sign for el cruce in spanish.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/0b/94/05/5d/photo0jpg.jpg",
+          "caption_checkpoint_sha256": "24955ae7138114b0e5ad6b9d4b524b90d9a3bafb47f074517f5f03f39d1b55ce"
+        },
+        {
+          "photo_id": "TA_PHOTO_0b94055f",
+          "src": "images/TA14622324_9802783/TA_PHOTO_0b94055f.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "c298120a76af8eaf1411af9869ba517d4d81f1fbc501fdc150379dd301364bf3",
+          "original_caption": "a blurry picture of a restaurant with people in it\n",
+          "filtered_caption": "a blurry picture of a restaurant with people in it.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/0b/94/05/5f/photo2jpg.jpg",
+          "caption_checkpoint_sha256": "51e41e2697da2ded3969e6708ca50bcc794af43e3706a2f406bd54fbd3275eea"
+        }
+      ],
       "outputs": [
         {
           "system": "L",
@@ -1017,7 +1073,63 @@
       "review_count": 14,
       "photo_count": 5,
       "reviews": [],
-      "photos": [],
+      "photos": [
+        {
+          "photo_id": "TA_PHOTO_139ad51f",
+          "src": "images/TA14622324_2687285/TA_PHOTO_139ad51f.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "c70d1e56c7b0f02597cc4d8c29fb8acb76574426ff106205546d743c0f5de624",
+          "original_caption": "a plate of dried fish sitting on a table next to a fork\n",
+          "filtered_caption": "a plate of dried fish sitting on a table next to a fork.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/13/9a/d5/1f/img-20180706-210758-largejpg.jpg",
+          "caption_checkpoint_sha256": "e7a706289fc9e26c1656c047e6da9cf0b323e343ed398486d47ac3137fa2ccb3"
+        },
+        {
+          "photo_id": "TA_PHOTO_19f894d4",
+          "src": "images/TA14622324_2687285/TA_PHOTO_19f894d4.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "dd049ff5dac8ebafc46019a3b58ba7c7ba8e3dc04a6abfe293a804fe8ac118f2",
+          "original_caption": "a person holding a glass of beer on a cobblestone street\n",
+          "filtered_caption": "a person holding a glass of beer on a cobblestone street.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/19/f8/94/d4/photo1jpg.jpg",
+          "caption_checkpoint_sha256": "0f7f8698332ca2d5aa353889c6da4232e78beb2e251544df6c713da49932206a"
+        },
+        {
+          "photo_id": "TA_PHOTO_0dce1807",
+          "src": "images/TA14622324_2687285/TA_PHOTO_0dce1807.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "cc67133f9c3f9a27860d6862fb4f27fd481726e6cd40893922f648bbb9253604",
+          "original_caption": "a group of people sitting on a bench near a body of water\n",
+          "filtered_caption": "a group of people sitting on a bench near a body of water.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/0d/ce/18/07/el-planeta.jpg",
+          "caption_checkpoint_sha256": "b8ed7747aed8f1739d588a5dcf1763a5e7fad35b451a98463e75e8a3d1b367b4"
+        },
+        {
+          "photo_id": "TA_PHOTO_181bdd39",
+          "src": "images/TA14622324_2687285/TA_PHOTO_181bdd39.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "b1898d444a3fd49704fa3e948e786cb7ca0336dee78f111d61fac4eb60a9196a",
+          "original_caption": "a woman standing in a restaurant with a table and chairs\n",
+          "filtered_caption": "a woman standing in a restaurant with a table and chairs.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/18/1b/dd/39/photo1jpg.jpg",
+          "caption_checkpoint_sha256": "13d99ac2228d052ea878b2d7dbe63f7b0b46fa88fa01c36d474533cb649bcb5e"
+        },
+        {
+          "photo_id": "TA_PHOTO_1bdf065a",
+          "src": "images/TA14622324_2687285/TA_PHOTO_1bdf065a.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "102479ac476e5d9ced514f6bc3e323de99af9e48e9f136111fd80611ff49e3df",
+          "original_caption": "a dining room with a table and chairs in front of a wall\n",
+          "filtered_caption": "a dining room with a table and chairs in front of a wall.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/1b/df/06/5a/img-20200823-183931-422.jpg",
+          "caption_checkpoint_sha256": "af6f41bc54221354551d5194a0044b76c7311917e948b593ae379af6454cd47e"
+        }
+      ],
       "outputs": [
         {
           "system": "L",
@@ -1080,7 +1192,63 @@
       "review_count": 18,
       "photo_count": 5,
       "reviews": [],
-      "photos": [],
+      "photos": [
+        {
+          "photo_id": "TA_PHOTO_1be95e8a",
+          "src": "images/TA14622324_7345192/TA_PHOTO_1be95e8a.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "88822117847c6c82f33f39b0db8664fa949a4bb338d363d3c062c6d217c9871e",
+          "original_caption": "a store front with a sign that says \"punto caramelo\"\n",
+          "filtered_caption": "a store front with a sign that says \"punto caramelo.\"",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/1b/e9/5e/8a/img-20200831-201752-largejpg.jpg",
+          "caption_checkpoint_sha256": "f7b4997a36f4fce7ff8d9fbc6cf28cc7b5f8935adebbd9d82bf1eb95ded6fe39"
+        },
+        {
+          "photo_id": "TA_PHOTO_09e38677",
+          "src": "images/TA14622324_7345192/TA_PHOTO_09e38677.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "52bd7bd53aa03b56afb80f1ebf5c3ed70a4fe11603532405e29c9042d194c1e8",
+          "original_caption": "a man sitting at a table in a restaurant eating a meal\n",
+          "filtered_caption": "a man sitting at a table in a restaurant eating a meal.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/09/e3/86/77/photo0jpg.jpg",
+          "caption_checkpoint_sha256": "3bb3dee2701383489ba11803e783f1eef7f4fb30a306203d9f5a1f72292e09cd"
+        },
+        {
+          "photo_id": "TA_PHOTO_25ce95cd",
+          "src": "images/TA14622324_7345192/TA_PHOTO_25ce95cd.jpg",
+          "width": 115,
+          "height": 205,
+          "sha256": "408c4a888c691cc0d57c9d80e5b7469df7b2afe5a5cbb5a2984c7cce2cc7edfd",
+          "original_caption": "several sandwiches are stacked on a plate on top of a counter\n",
+          "filtered_caption": "several sandwiches are stacked on a plate on top of a counter.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-f/25/ce/95/cd/caption.jpg",
+          "caption_checkpoint_sha256": "0b43a4d975c5b2f1bfca477673e94ba89df5ec701ee64b3907dee5fcc4225196"
+        },
+        {
+          "photo_id": "TA_PHOTO_08dd9f7a",
+          "src": "images/TA14622324_7345192/TA_PHOTO_08dd9f7a.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "29f68b0d4e61823a4324aa8e7850792d47b31aaa3c841876dbf44b30af92ef65",
+          "original_caption": "a table topped with magazines and a cup of coffee\n",
+          "filtered_caption": "a table topped with magazines and a cup of coffee.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/08/dd/9f/7a/que-placer-cafe-largo.jpg",
+          "caption_checkpoint_sha256": "85f969c9ffc83f0885f17f00143565159b2eed91ccd1355eac299aa3d7251eb3"
+        },
+        {
+          "photo_id": "TA_PHOTO_1682ef77",
+          "src": "images/TA14622324_7345192/TA_PHOTO_1682ef77.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "92cbcfe259dfd70b5cdbf17a7c3f3c6f0471e2ac87aa150221fbe2a65bc1668d",
+          "original_caption": "a display case filled with a variety of pastries and desserts\n",
+          "filtered_caption": "a display case filled with a variety of pastries and desserts.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/16/82/ef/77/photo2jpg.jpg",
+          "caption_checkpoint_sha256": "e47236f579f3f75ebd70a85e65acd4a504bd7b138cddbfb2db88292c97ba5bac"
+        }
+      ],
       "outputs": [
         {
           "system": "L",
@@ -1143,7 +1311,63 @@
       "review_count": 14,
       "photo_count": 5,
       "reviews": [],
-      "photos": [],
+      "photos": [
+        {
+          "photo_id": "TA_PHOTO_28afab72",
+          "src": "images/TA14622324_1119478/TA_PHOTO_28afab72.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "5619800150df30bdbb7b43f30dc6bf8116627f44348fd7c9ac99b098fd816ef9",
+          "original_caption": "a blue plate topped with tomatoes, onions, and tuna\n",
+          "filtered_caption": "a blue plate topped with tomatoes, onions, and tuna.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/28/af/ab/72/caption.jpg",
+          "caption_checkpoint_sha256": "0c9aa6d46f59e44115018a88e1c49cc6b59090942008d094af7ec03b59c6d9e5"
+        },
+        {
+          "photo_id": "TA_PHOTO_26d84b0d",
+          "src": "images/TA14622324_1119478/TA_PHOTO_26d84b0d.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "ceb95f0cddd157fcede4fcf90ad99246b816896292e87626a915a1f0335c0e0a",
+          "original_caption": "a woman holding a glass of yellow liquid outside in the sun\n",
+          "filtered_caption": "a woman holding a glass of yellow liquid outside in the sun.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/26/d8/4b/0d/caption.jpg",
+          "caption_checkpoint_sha256": "62eec7bad6c50bf4df96523fa2cab0b39bbd71f30ca7d0e8ca2efd35e78ccdff"
+        },
+        {
+          "photo_id": "TA_PHOTO_23a8341d",
+          "src": "images/TA14622324_1119478/TA_PHOTO_23a8341d.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "6a22dfc8e7a51d93952322e1571a507629f31113db9187f94875f72c178bbdde",
+          "original_caption": "an open door to a bar with a ceiling fan in the background\n",
+          "filtered_caption": "an open door to a bar with a ceiling fan in the background.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/23/a8/34/1d/great-bar-with-very-friendy.jpg",
+          "caption_checkpoint_sha256": "1f407302671defa484519fbfd59dffc3d00d609e70eb26021f8c86e35cd4d1ec"
+        },
+        {
+          "photo_id": "TA_PHOTO_26a87081",
+          "src": "images/TA14622324_1119478/TA_PHOTO_26a87081.jpg",
+          "width": 250,
+          "height": 141,
+          "sha256": "c889a228f428a1f8c725d7d1764bd168ab12ec35328da727aae9db9281f6347c",
+          "original_caption": "a group of people sitting at a table in a restaurant\n",
+          "filtered_caption": "a group of people sitting at a table in a restaurant.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-f/26/a8/70/81/caption.jpg",
+          "caption_checkpoint_sha256": "14114afeb34a9d95f3ee28196115448cff3fb7a67173ba9ef9715993e704af3c"
+        },
+        {
+          "photo_id": "TA_PHOTO_25897a75",
+          "src": "images/TA14622324_1119478/TA_PHOTO_25897a75.jpg",
+          "width": 115,
+          "height": 205,
+          "sha256": "17b20d97efff71b7075bc3aa3c3c6b028094aa2b174131f3491acdc57aaa6e1c",
+          "original_caption": "a person is eating a plate of food at a bar\n",
+          "filtered_caption": "a person is eating a plate of food at a bar.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-f/25/89/7a/75/el-arca-de-noe.jpg",
+          "caption_checkpoint_sha256": "0d6b2cda36be7946d478d2fea5c4370e3fdbda394ec9e5c11fce65a2ff9c67b4"
+        }
+      ],
       "outputs": [
         {
           "system": "L",
@@ -1206,7 +1430,63 @@
       "review_count": 21,
       "photo_count": 5,
       "reviews": [],
-      "photos": [],
+      "photos": [
+        {
+          "photo_id": "TA_PHOTO_1c27575c",
+          "src": "images/TA14622324_3512687/TA_PHOTO_1c27575c.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "1e9afff951a0a9e2468e26c77cd5795403cb7ed7cf8fd0fb4f7de564ead73319",
+          "original_caption": "a white plate topped with bread, lettuce, and crackers\n",
+          "filtered_caption": "a white plate topped with bread, lettuce, and crackers.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/1c/27/57/5c/img-20201010-151537-largejpg.jpg",
+          "caption_checkpoint_sha256": "7785fbc07f01769ae59a1efbc0be7ad3256d8023a306a0c8fa59c88eab54720f"
+        },
+        {
+          "photo_id": "TA_PHOTO_0a8962d9",
+          "src": "images/TA14622324_3512687/TA_PHOTO_0a8962d9.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "109caab4e4179ec2f9dfb22016f23ad068856debd2017946f6bc674ce68a02d0",
+          "original_caption": "a woman standing at a bar with a drink in her hand\n",
+          "filtered_caption": "a woman standing at a bar with a drink in her hand.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/0a/89/62/d9/casa-carmen.jpg",
+          "caption_checkpoint_sha256": "8ed3de08b4ffccdf7cebc5acb50c3043c17fb94dfa232a3531f4563cbc5ad38a"
+        },
+        {
+          "photo_id": "TA_PHOTO_15005176",
+          "src": "images/TA14622324_3512687/TA_PHOTO_15005176.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "6d146266b82dee4f2c3dd716fcc3f5cf056649cb4164b9b46a7c2a31e505e5c7",
+          "original_caption": "a sign on a stone wall with a cross on it\n",
+          "filtered_caption": "a sign on a stone wall with a cross on it.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/15/00/51/76/20181004-205503-largejpg.jpg",
+          "caption_checkpoint_sha256": "8c2ddf928aeb07b2245d683873f6828cc0a20884e1b67f02e6c2a937111a3c28"
+        },
+        {
+          "photo_id": "TA_PHOTO_268989e6",
+          "src": "images/TA14622324_3512687/TA_PHOTO_268989e6.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "6157b42a934df5151587796af37fb449b2fbf5776b8a01d0b13af05d0cbe01b6",
+          "original_caption": "a table with chairs and a bottle of beer in front of a green wall\n",
+          "filtered_caption": "a table with chairs and a bottle of beer in front of a green wall.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/26/89/89/e6/caption.jpg",
+          "caption_checkpoint_sha256": "65f901bb5a67bc2ff4ada4c35cef2000a89ffdfb6b1204a19c02629eaa3d1165"
+        },
+        {
+          "photo_id": "TA_PHOTO_13d2b8ed",
+          "src": "images/TA14622324_3512687/TA_PHOTO_13d2b8ed.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "d176bdebfff2b13217e0fc2c4a68b00c186ac9615be03e06cf866a9acbdf9423",
+          "original_caption": "a man in a pink shirt serving food in a restaurant\n",
+          "filtered_caption": "a man in a pink shirt serving food in a restaurant.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/13/d2/b8/ed/20180723-225916-largejpg.jpg",
+          "caption_checkpoint_sha256": "10b9c5142df2795da712cc801838be5d294b94fcb3ea3c1ab97bd5d1505bf775"
+        }
+      ],
       "outputs": [
         {
           "system": "L",
@@ -1269,7 +1549,41 @@
       "review_count": 18,
       "photo_count": 3,
       "reviews": [],
-      "photos": [],
+      "photos": [
+        {
+          "photo_id": "TA_PHOTO_1b68e401",
+          "src": "images/TA14622324_3961117/TA_PHOTO_1b68e401.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "021d1d088e390c52215b1e05f374a0a63d0db2d6a97414ad71fff84f9b53287e",
+          "original_caption": "a table topped with a variety of dishes of food\n",
+          "filtered_caption": "a table topped with a variety of dishes of food.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/1b/68/e4/01/restaurante-taj-mahal.jpg",
+          "caption_checkpoint_sha256": "4c38d06a53dc5e2116235ff186b644c9da71509ffb4e1fde275570d8a6bcb995"
+        },
+        {
+          "photo_id": "TA_PHOTO_1376549c",
+          "src": "images/TA14622324_3961117/TA_PHOTO_1376549c.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "bb6d5c2b4c9e2887174a7e43a5ad9aaf05f707c7426c33189a78396f6c2c7ed0",
+          "original_caption": "a dessert on a plate with whipped cream on top\n",
+          "filtered_caption": "a dessert on a plate with whipped cream on top.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/13/76/54/9c/img-20180623-222313-hdr.jpg",
+          "caption_checkpoint_sha256": "ebd11dadc6ec56b357dbd7872ccb2b807cdb016862e158bfba5bd74c7ed1e2a9"
+        },
+        {
+          "photo_id": "TA_PHOTO_269263df",
+          "src": "images/TA14622324_3961117/TA_PHOTO_269263df.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "4bc19efc088648fac0f688dc2fe36f771966d3123d7c49a519faec7ecd633375",
+          "original_caption": "there is a menu and a cup of coffee on a table\n",
+          "filtered_caption": "there is a menu and a cup of coffee on a table.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/26/92/63/df/caption.jpg",
+          "caption_checkpoint_sha256": "5a12f7be89274706edc82d748c745d51d3656d9baafadb2c53f6d3e52294fbe1"
+        }
+      ],
       "outputs": [
         {
           "system": "L",
@@ -1332,7 +1646,63 @@
       "review_count": 17,
       "photo_count": 5,
       "reviews": [],
-      "photos": [],
+      "photos": [
+        {
+          "photo_id": "TA_PHOTO_1d43b1f2",
+          "src": "images/TA14622324_3410297/TA_PHOTO_1d43b1f2.jpg",
+          "width": 115,
+          "height": 205,
+          "sha256": "35b32d89a87237273b9d4482c00b700ddd7ecab0e5b1d597dacc8ce049f084bb",
+          "original_caption": "a white plate topped with spaghetti and mussels on a table\n",
+          "filtered_caption": "a white plate topped with spaghetti and mussels on a table.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-f/1d/43/b1/f2/caption.jpg",
+          "caption_checkpoint_sha256": "3aba5b2557c342a1365d7cc06866aeac738c557635c6a00af9c7a822826371d3"
+        },
+        {
+          "photo_id": "TA_PHOTO_181c9ee0",
+          "src": "images/TA14622324_3410297/TA_PHOTO_181c9ee0.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "bfd32e0f4e0699e87c7130f71d55c054a4ddcc980d11395b73d780cef0796ac8",
+          "original_caption": "a man is holding a little girl in a restaurant\n",
+          "filtered_caption": "a man is holding a little girl in a restaurant.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/18/1c/9e/e0/al-boccalino.jpg",
+          "caption_checkpoint_sha256": "80df69fa3a5004f9f2f7ba34293978e801b308a63a2295141bdc9edf2cd4bbe5"
+        },
+        {
+          "photo_id": "TA_PHOTO_29ed8385",
+          "src": "images/TA14622324_3410297/TA_PHOTO_29ed8385.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "660709f530e9f855cb3878dbbd0843bb7e87979d7221b6cc2a274523cecd42f7",
+          "original_caption": "a receipt is hanging on the wall of a restaurant\n",
+          "filtered_caption": "a receipt is hanging on the wall of a restaurant.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/29/ed/83/85/caption.jpg",
+          "caption_checkpoint_sha256": "9e2bd44c8ccb5e208f1e7bc60c733358c1bfabdd595285caea020f2f545f485a"
+        },
+        {
+          "photo_id": "TA_PHOTO_151a1ed7",
+          "src": "images/TA14622324_3410297/TA_PHOTO_151a1ed7.jpg",
+          "width": 115,
+          "height": 205,
+          "sha256": "d3fc37cc2cc95bbfcc857b7b0c66a68ce8d19de3c79d0a0263997f560ab72405",
+          "original_caption": "a group of people sitting at a table eating pizza and drinking wine\n",
+          "filtered_caption": "a group of people sitting at a table eating pizza and drinking wine.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-f/15/1a/1e/d7/img-20181020-023213-998.jpg",
+          "caption_checkpoint_sha256": "534159c49066e77568b35d303392bf48e767aba3e363c01c367eb9207f082886"
+        },
+        {
+          "photo_id": "TA_PHOTO_2229160c",
+          "src": "images/TA14622324_3410297/TA_PHOTO_2229160c.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "660d65475d9d502adfba8ca86084879286aa922f237453d55a1e765e0d2aae99",
+          "original_caption": "a red pitcher sitting on top of a white table\n",
+          "filtered_caption": "a red pitcher sitting on top of a white table.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/22/29/16/0c/caption.jpg",
+          "caption_checkpoint_sha256": "cdd7d97be038bb84c14d3dc2b6eb9761ab1c366fefd4b8a8d790db71b8d448b7"
+        }
+      ],
       "outputs": [
         {
           "system": "L",
@@ -1395,7 +1765,63 @@
       "review_count": 11,
       "photo_count": 5,
       "reviews": [],
-      "photos": [],
+      "photos": [
+        {
+          "photo_id": "TA_PHOTO_0c41b577",
+          "src": "images/TA14622324_8556009/TA_PHOTO_0c41b577.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "0a9305b6943ef92c4c88af2fb735816189c7a3ff9638990b799db67817394e7b",
+          "original_caption": "a plate of nachos sitting on top of a table\n",
+          "filtered_caption": "a plate of nachos sitting on top of a table.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/0c/41/b5/77/photo0jpg.jpg",
+          "caption_checkpoint_sha256": "35c61808de18275e21fd8687e0b0a273ad21ddcedcb70a4eb3df8ae158588ecb"
+        },
+        {
+          "photo_id": "TA_PHOTO_1c7f8e51",
+          "src": "images/TA14622324_8556009/TA_PHOTO_1c7f8e51.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "d3a4b2d917b2164c402f2dbc7308470b9e59b6bb16897b1c11c7d5d4b7901090",
+          "original_caption": "a close up of a receipt for a restaurant in spanish\n",
+          "filtered_caption": "a close up of a receipt for a restaurant in spanish.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/1c/7f/8e/51/20210106-150324-largejpg.jpg",
+          "caption_checkpoint_sha256": "ddebfebc9088fbd37c359f19506749a7cf145cdb0e5e4f413a65c7187e548f7d"
+        },
+        {
+          "photo_id": "TA_PHOTO_0e5a9326",
+          "src": "images/TA14622324_8556009/TA_PHOTO_0e5a9326.jpg",
+          "width": 250,
+          "height": 141,
+          "sha256": "65108261adcae178671411ed8b1b31845bd5899089c39b95357a96df20482334",
+          "original_caption": "a hamburger with cheese, avocado, and a side of cole slaw\n",
+          "filtered_caption": "a hamburger with cheese, avocado, and a side of cole slaw.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-f/0e/5a/93/26/20170204-140749-largejpg.jpg",
+          "caption_checkpoint_sha256": "51f64f560a00d96db4759e3614fb39732954343a652e8738c6fd1686cb3a5196"
+        },
+        {
+          "photo_id": "TA_PHOTO_29e34764",
+          "src": "images/TA14622324_8556009/TA_PHOTO_29e34764.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "9847d477118200057bd12b8f5befc0edaf353a9b92d8f28eb113d498f4cb8ac9",
+          "original_caption": "a child sitting at a table with a cup of coffee and a dessert\n",
+          "filtered_caption": "a child sitting at a table with a cup of coffee and a dessert.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/29/e3/47/64/caption.jpg",
+          "caption_checkpoint_sha256": "75d6181172086c62bb66b2ae0dedb61c06b6d7c215499ff6e49efc215b4c8133"
+        },
+        {
+          "photo_id": "TA_PHOTO_15359b2d",
+          "src": "images/TA14622324_8556009/TA_PHOTO_15359b2d.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "6e272d07d8f57d8521955c8953ec99aff68d2a63d5a818e95b96058ddf713f65",
+          "original_caption": "a table with a bottle of liquor and a glass on it\n",
+          "filtered_caption": "a table with a bottle of liquor and a glass on it.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/15/35/9b/2d/comedor.jpg",
+          "caption_checkpoint_sha256": "356185b5266e91e725bfca56a77fc201a9d9aa403850aa969b7bc40f96335a83"
+        }
+      ],
       "outputs": [
         {
           "system": "L",
@@ -1458,7 +1884,63 @@
       "review_count": 12,
       "photo_count": 5,
       "reviews": [],
-      "photos": [],
+      "photos": [
+        {
+          "photo_id": "TA_PHOTO_10caf5dc",
+          "src": "images/TA14622324_2298952/TA_PHOTO_10caf5dc.jpg",
+          "width": 250,
+          "height": 141,
+          "sha256": "872c4327180c5489b1228a74a2b460e785cde2856fca16975ba180ea927fe6d7",
+          "original_caption": "a white plate topped with cooked squid and a lemon wedge\n",
+          "filtered_caption": "a white plate topped with cooked squid and a lemon wedge.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-f/10/ca/f5/dc/20170926-212643-largejpg.jpg",
+          "caption_checkpoint_sha256": "69f3e32f08845c2d38b438f7fdfc8b8a97dadf5b49beef14123ea02f51901c6d"
+        },
+        {
+          "photo_id": "TA_PHOTO_17b49fef",
+          "src": "images/TA14622324_2298952/TA_PHOTO_17b49fef.jpg",
+          "width": 250,
+          "height": 141,
+          "sha256": "abdea4d5da58637db30cedbe3ce6f480dd743845c969fbd2fa9131f34b830c56",
+          "original_caption": "a group of people are sitting at tables in a restaurant\n",
+          "filtered_caption": "a group of people are sitting at tables in a restaurant.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-f/17/b4/9f/ef/20190528-212925-largejpg.jpg",
+          "caption_checkpoint_sha256": "6863433740ce8274b4b76ee02ed841e9a67798285a15cc403b1d8003b67a4a9a"
+        },
+        {
+          "photo_id": "TA_PHOTO_0890b237",
+          "src": "images/TA14622324_2298952/TA_PHOTO_0890b237.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "ae0bf0e0e2ad2725affa65028f4e67e4ec135e346adf43c2004d6115cd950aef",
+          "original_caption": "a man holding up a glass of beer at a bar\n",
+          "filtered_caption": "a man holding up a glass of beer at a bar.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/08/90/b2/37/un-culin-de-sidra.jpg",
+          "caption_checkpoint_sha256": "0a4b0859b20a96e36d48c0fde8dcfc6b73fd64b3d5087137d077d7362a542ffb"
+        },
+        {
+          "photo_id": "TA_PHOTO_1b3a98db",
+          "src": "images/TA14622324_2298952/TA_PHOTO_1b3a98db.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "e9b2bb2856f6180498ea25bbfb3e54d6db6c51bf41d278e48a96acb5b16004be",
+          "original_caption": "a person is spooning food into a bowl on a table\n",
+          "filtered_caption": "a person is spooning food into a bowl on a table.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/1b/3a/98/db/fabada-de-almejas.jpg",
+          "caption_checkpoint_sha256": "69f4565ead056b7c2db56d57d0515469b5298675e22c82e7ba5ada209741d0cc"
+        },
+        {
+          "photo_id": "TA_PHOTO_172b3304",
+          "src": "images/TA14622324_2298952/TA_PHOTO_172b3304.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "084ead36882a9aba7131e2e448322525581bf36061a51b5180a67a73db4e7508",
+          "original_caption": "a picture of a restaurant with a sign in the window\n",
+          "filtered_caption": "a picture of a restaurant with a sign in the window.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/17/2b/33/04/photo1jpg.jpg",
+          "caption_checkpoint_sha256": "11ef424fccf6e8ff3e0b626821db8cf6de6e1c027e01da5dadf958aa574101b0"
+        }
+      ],
       "outputs": [
         {
           "system": "L",
@@ -1521,7 +2003,63 @@
       "review_count": 26,
       "photo_count": 5,
       "reviews": [],
-      "photos": [],
+      "photos": [
+        {
+          "photo_id": "TA_PHOTO_14015712",
+          "src": "images/TA14622324_2312071/TA_PHOTO_14015712.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "3855c7ea9a73605f1d812b0b40455f87316f3a5166e68ccffffd3a1eed4dafcf",
+          "original_caption": "a wooden cutting board topped with french fries and salad\n",
+          "filtered_caption": "a wooden cutting board topped with french fries and salad.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/14/01/57/12/img-20180804-wa0004-largejpg.jpg",
+          "caption_checkpoint_sha256": "65df00838b2b661e35779345cd32c199f94f7ef4996a79bc251dc60f9f56e6e5"
+        },
+        {
+          "photo_id": "TA_PHOTO_0e92fe01",
+          "src": "images/TA14622324_2312071/TA_PHOTO_0e92fe01.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "8fc6248f380d37d6239f514c3e6f81f22ef7f11fa2e9629df929ca0b078c2483",
+          "original_caption": "a dog standing in front of a sign that says \"terra stor\"\n",
+          "filtered_caption": "a dog standing in front of a sign that says \"terra stor.\"",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/0e/92/fe/01/photo0jpg.jpg",
+          "caption_checkpoint_sha256": "835d861fbb213bbd370cb12fb30aa433e098e26f35f99a5561d25fa859bf117c"
+        },
+        {
+          "photo_id": "TA_PHOTO_1c03ca90",
+          "src": "images/TA14622324_2312071/TA_PHOTO_1c03ca90.jpg",
+          "width": 250,
+          "height": 148,
+          "sha256": "a7681110f8a5505a73e676b33fdecca34b0a3f06d816946476c584b63eaa1f37",
+          "original_caption": "a group of people sitting at tables under large umbrellas\n",
+          "filtered_caption": "a group of people sitting at tables under large umbrellas.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-f/1c/03/ca/90/20200914-231833-largejpg.jpg",
+          "caption_checkpoint_sha256": "59baf911c7a6534ec623a75e779321e914acef37f7bbb537bf0acd3f3bda40f9"
+        },
+        {
+          "photo_id": "TA_PHOTO_23485c3e",
+          "src": "images/TA14622324_2312071/TA_PHOTO_23485c3e.jpg",
+          "width": 250,
+          "height": 141,
+          "sha256": "148daa532a14698df821d35530775664910d332b82d7b8a840a0f13a6853394d",
+          "original_caption": "a man pouring a glass of wine into a green bottle\n",
+          "filtered_caption": "a man pouring a glass of wine into a green bottle.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-f/23/48/5c/3e/caption.jpg",
+          "caption_checkpoint_sha256": "c350554e371c6efae4c216925a1cee408c264ead5b61ba9f59dc8cf67a6794c4"
+        },
+        {
+          "photo_id": "TA_PHOTO_29cfc3d0",
+          "src": "images/TA14622324_2312071/TA_PHOTO_29cfc3d0.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "6aaeaae1e4ccd30646d0288ca0d46f30918a38e600e2257a6847e34138455df4",
+          "original_caption": "a man standing in front of a group of people at a restaurant\n",
+          "filtered_caption": "a man standing in front of a group of people at a restaurant.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/29/cf/c3/d0/caption.jpg",
+          "caption_checkpoint_sha256": "08fb47e2615d4f3f748c43418a771b13c0448b2b49e5d703bf5b6dde779bf282"
+        }
+      ],
       "outputs": [
         {
           "system": "L",
@@ -1584,7 +2122,63 @@
       "review_count": 29,
       "photo_count": 5,
       "reviews": [],
-      "photos": [],
+      "photos": [
+        {
+          "photo_id": "TA_PHOTO_12ebff24",
+          "src": "images/TA14622324_1001674/TA_PHOTO_12ebff24.jpg",
+          "width": 250,
+          "height": 141,
+          "sha256": "706274b5ce9dff02d8e1680c3899faf52cd29c5d358dc6b5516ad6285dfdf3a9",
+          "original_caption": "a white plate topped with slices of sardines on a table\n",
+          "filtered_caption": "a white plate topped with slices of sardines on a table.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-f/12/eb/ff/24/20180510-214109-largejpg.jpg",
+          "caption_checkpoint_sha256": "cb6858d5efc0f95e14a749012bc3b4f5edfee01bff9347de43acfa2eb5669444"
+        },
+        {
+          "photo_id": "TA_PHOTO_1440a938",
+          "src": "images/TA14622324_1001674/TA_PHOTO_1440a938.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "b749b4eb2a4dc3a90ac863efc938f3e275185787db4471438ff37a7fef289299",
+          "original_caption": "a man and woman are toasting with wine glasses at a table\n",
+          "filtered_caption": "a man and woman are toasting with wine glasses at a table.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/14/40/a9/38/photo1jpg.jpg",
+          "caption_checkpoint_sha256": "d122c9f387f2b739038d31d966ed82bca131d57427a3fa09a42d2d57c9b46aa7"
+        },
+        {
+          "photo_id": "TA_PHOTO_078d758a",
+          "src": "images/TA14622324_1001674/TA_PHOTO_078d758a.jpg",
+          "width": 250,
+          "height": 141,
+          "sha256": "de24039cacefb0281ef35b6cfe6bf9056d7bb72e3164f48e2e557a26eb22da34",
+          "original_caption": "a view of a dining room with blue walls and blue chairs\n",
+          "filtered_caption": "a view of a dining room with blue walls and blue chairs.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-f/07/8d/75/8a/vcrespo.jpg",
+          "caption_checkpoint_sha256": "cdf3d09db6e0d0ababd03d20aaa71f62adbc43d47ef21603955dcf77cf5aaaa6"
+        },
+        {
+          "photo_id": "TA_PHOTO_1df5078b",
+          "src": "images/TA14622324_1001674/TA_PHOTO_1df5078b.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "984ba10309261fcccf09b5f8e6d5d8065861e09e947f353c95493d0a3e1e08c5",
+          "original_caption": "a chocolate cake with powdered sugar on top and a pink ball of ice cream\n",
+          "filtered_caption": "a chocolate cake with powdered sugar on top and a pink ball of ice cream.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/1d/f5/07/8b/bizcocho-fluido-chocolate.jpg",
+          "caption_checkpoint_sha256": "7dfdc64ce7f26c27af60c96b85b89140d7583f92cf003adb38283de0ad52c333"
+        },
+        {
+          "photo_id": "TA_PHOTO_1149d8e6",
+          "src": "images/TA14622324_1001674/TA_PHOTO_1149d8e6.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "99364a30fae1cf7a6e816e8e166ab607f3af04fc7751a6ef427acd648699af84",
+          "original_caption": "a close up of a sign for a restaurant on a wall\n",
+          "filtered_caption": "a close up of a sign for a restaurant on a wall.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/11/49/d8/e6/photo2jpg.jpg",
+          "caption_checkpoint_sha256": "c02965ef63039fdec4b90f404c317b3c89d30fea092f0c2525922f50e235563e"
+        }
+      ],
       "outputs": [
         {
           "system": "L",
@@ -1647,7 +2241,63 @@
       "review_count": 12,
       "photo_count": 5,
       "reviews": [],
-      "photos": [],
+      "photos": [
+        {
+          "photo_id": "TA_PHOTO_1bdf4572",
+          "src": "images/TA14622324_4735772/TA_PHOTO_1bdf4572.jpg",
+          "width": 250,
+          "height": 141,
+          "sha256": "fc92a6482b3c6eb9cd4873d8148f5d6db4cc63c8fd219133a106bae6f7893b0b",
+          "original_caption": "a white plate topped with potatoes and meatballs on a table\n",
+          "filtered_caption": "a white plate topped with potatoes and meatballs on a table.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-f/1b/df/45/72/casa-baizan.jpg",
+          "caption_checkpoint_sha256": "e1150beb312b9a82c7686bfe4b3c14a2f920e1d2dab3af37743d27eb5f733046"
+        },
+        {
+          "photo_id": "TA_PHOTO_158e90a0",
+          "src": "images/TA14622324_4735772/TA_PHOTO_158e90a0.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "c4d90302bb335fdbdda10baf9b10c9cdba690e4f19469b081b06e5e3be245666",
+          "original_caption": "a woman holding up a picture of a city in front of a bar\n",
+          "filtered_caption": "a woman holding up a picture of a city in front of a bar.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/15/8e/90/a0/casa-baizan.jpg",
+          "caption_checkpoint_sha256": "2b28a7295a2a60b4fb2ac09db8012e4e12b36fb6087e055a692c097321902ab1"
+        },
+        {
+          "photo_id": "TA_PHOTO_28fc2b56",
+          "src": "images/TA14622324_4735772/TA_PHOTO_28fc2b56.jpg",
+          "width": 250,
+          "height": 112,
+          "sha256": "1ddc68c7b915e74d9db955a3b63a4671dd20684fd60a3a05a6039bd391e7cb82",
+          "original_caption": "a group of people sitting at a bar in a restaurant\n",
+          "filtered_caption": "a group of people sitting at a bar in a restaurant.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-f/28/fc/2b/56/caption.jpg",
+          "caption_checkpoint_sha256": "5c16a20f0fea74254b46954e072e701e3e14daf72c0aa2a77e1e16f3b4cd8c92"
+        },
+        {
+          "photo_id": "TA_PHOTO_285c2f1e",
+          "src": "images/TA14622324_4735772/TA_PHOTO_285c2f1e.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "0b4e357838a8bb655b2a1c4a5906e60677caa9fd7a58cb02fe6247c8c74c8429",
+          "original_caption": "there is a drink in a cup sitting on a table\n",
+          "filtered_caption": "there is a drink in a cup sitting on a table.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/28/5c/2f/1e/caption.jpg",
+          "caption_checkpoint_sha256": "0db743a3de3a51e3c3525ad5665ba0615f25c30f49a16b64613416c5389a6d7c"
+        },
+        {
+          "photo_id": "TA_PHOTO_1c33ead5",
+          "src": "images/TA14622324_4735772/TA_PHOTO_1c33ead5.jpg",
+          "width": 250,
+          "height": 141,
+          "sha256": "d61a90adf907f709fe675225985811fcb8c750dc1a75b559101a03af0b3d4115",
+          "original_caption": "a view of a bar with bottles of wine on a shelf\n",
+          "filtered_caption": "a view of a bar with bottles of wine on a shelf.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-f/1c/33/ea/d5/interior-del-bar.jpg",
+          "caption_checkpoint_sha256": "2ba79c623a88114961031ef3490e4c0cb3d2dcfa31a281f726e6d344e9ebb156"
+        }
+      ],
       "outputs": [
         {
           "system": "L",
@@ -1710,7 +2360,63 @@
       "review_count": 10,
       "photo_count": 5,
       "reviews": [],
-      "photos": [],
+      "photos": [
+        {
+          "photo_id": "TA_PHOTO_194d59d5",
+          "src": "images/TA14622324_6600483/TA_PHOTO_194d59d5.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "421628889aa40a6ee585c7c89d3b004eeee82ce2a7036fcf56b5e1ded69bcbeb",
+          "original_caption": "two trays of fries and onion rings sit on a table\n",
+          "filtered_caption": "two trays of fries and onion rings sit on a table.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/19/4d/59/d5/meson-pulperia-tierras.jpg",
+          "caption_checkpoint_sha256": "5e29c35c4bc161c86b98a788df3ca2b96eb0ff3cd5391d93be9cb0af8d5b2e42"
+        },
+        {
+          "photo_id": "TA_PHOTO_089e1531",
+          "src": "images/TA14622324_6600483/TA_PHOTO_089e1531.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "e4ffd574346a5d959df237cb5866aaacc15ada46f634b00c8a4053fc829d3813",
+          "original_caption": "a picture of a menu with spanish words on it\n",
+          "filtered_caption": "a picture of a menu with spanish words on it.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/08/9e/15/31/carta.jpg",
+          "caption_checkpoint_sha256": "98a1cd0b3b16558eabe483fbdef5fe669f68f0f4c775171449481e34508352ec"
+        },
+        {
+          "photo_id": "TA_PHOTO_0869592d",
+          "src": "images/TA14622324_6600483/TA_PHOTO_0869592d.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "4dc2fee5471b270af1008df740a3f2d3d63bac9f14ea7bcee47849803f661109",
+          "original_caption": "a spoon is scooping a piece of chocolate cake onto a plate\n",
+          "filtered_caption": "a spoon is scooping a piece of chocolate cake onto a plate.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/08/69/59/2d/pecado-no-probar-alguno.jpg",
+          "caption_checkpoint_sha256": "64231f0e3cba68370b7d07f0fa0080f4861a70c5991e759533a5ca4de7caa252"
+        },
+        {
+          "photo_id": "TA_PHOTO_0e4a08eb",
+          "src": "images/TA14622324_6600483/TA_PHOTO_0e4a08eb.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "f7fd3e7cfb37dd102fc32b152f1b1f6cb16a293b6eba207f4ee621695488e374",
+          "original_caption": "a group of people preparing food in a commercial kitchen\n",
+          "filtered_caption": "a group of people preparing food in a commercial kitchen.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/0e/4a/08/eb/photo3jpg.jpg",
+          "caption_checkpoint_sha256": "a2243336bfe35333a4e4b56ad43b42c7b383970294a155e2d06942676da998ed"
+        },
+        {
+          "photo_id": "TA_PHOTO_0ef157ac",
+          "src": "images/TA14622324_6600483/TA_PHOTO_0ef157ac.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "a0598918ecec36c8ab5b83cb390e7f3e44ca917756a80aff77b71705e82bcb82",
+          "original_caption": "there is a plate of food on a table with a lemon on it\n",
+          "filtered_caption": "there is a plate of food on a table with a lemon on it.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/0e/f1/57/ac/img-20170409-142741-largejpg.jpg",
+          "caption_checkpoint_sha256": "aba2135e50646a9b52347d4693b955ea71dc2ab37e416d7ae19d41fea0d64aa5"
+        }
+      ],
       "outputs": [
         {
           "system": "L",
@@ -1773,7 +2479,63 @@
       "review_count": 25,
       "photo_count": 5,
       "reviews": [],
-      "photos": [],
+      "photos": [
+        {
+          "photo_id": "TA_PHOTO_29f275d7",
+          "src": "images/TA14622324_23652638/TA_PHOTO_29f275d7.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "a594b08cdd36b4baf4f9a8f0a7c88785336523d662d1d74fdeb3f7144d2ae0d8",
+          "original_caption": "two pictures of food on the wall of a restaurant\n",
+          "filtered_caption": "two pictures of food on the wall of a restaurant.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/29/f2/75/d7/caption.jpg",
+          "caption_checkpoint_sha256": "7d093f722342f8c7e6ea655b25aa4424b4c75af542bb8dd211b210cb105fe10e"
+        },
+        {
+          "photo_id": "TA_PHOTO_29f147b5",
+          "src": "images/TA14622324_23652638/TA_PHOTO_29f147b5.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "6ce34362d00761fd93c3d018b0d2e8c4754f08fadbb342e325091b881c4ee0ca",
+          "original_caption": "a group of people sitting at a table with a checkered tablecloth\n",
+          "filtered_caption": "a group of people sitting at a table with a checkered tablecloth.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/29/f1/47/b5/caption.jpg",
+          "caption_checkpoint_sha256": "e436e8a421adb7c5056549ec066654111f164fb7a7c16682dbc1aa289f4b2e52"
+        },
+        {
+          "photo_id": "TA_PHOTO_29b29f51",
+          "src": "images/TA14622324_23652638/TA_PHOTO_29b29f51.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "e667170430107589aab3f3c26e1ddda216461fa155ef0a6cce4febccad9d6000",
+          "original_caption": "a table topped with bowls of different types of indian food\n",
+          "filtered_caption": "a table topped with bowls of different types of indian food.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/29/b2/9f/51/caption.jpg",
+          "caption_checkpoint_sha256": "c28a39ebe832a98c1c56810bbffab925cb6b88f7ca4dd31b59c1f950be6a4576"
+        },
+        {
+          "photo_id": "TA_PHOTO_210832f0",
+          "src": "images/TA14622324_23652638/TA_PHOTO_210832f0.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "f21f0276244a96bd7bc3db539e1f774b6b4ed4aaefe397de7e5ccb8e02758291",
+          "original_caption": "a cup of coffee on a saucer with a spoon on a black and white checkered tablecloth\n",
+          "filtered_caption": "a cup of coffee on a saucer with a spoon on a black and white checkered tablecloth.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/21/08/32/f0/tandoori-cocina-india.jpg",
+          "caption_checkpoint_sha256": "a375d658739c958fa76b795167e6cedb0ab326c60002183a8860d5d0e2343afe"
+        },
+        {
+          "photo_id": "TA_PHOTO_25411900",
+          "src": "images/TA14622324_23652638/TA_PHOTO_25411900.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "ff2c4d022ceb3afad92e4cca797464c00d3c13908669315add59f2f14c3d3ec1",
+          "original_caption": "a group of people are toasting with wine glasses on a table\n",
+          "filtered_caption": "a group of people are toasting with wine glasses on a table.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/25/41/19/00/caption.jpg",
+          "caption_checkpoint_sha256": "d0d464dc53894aae82e605fd1b88a80914d1c9d9e910fb929c3930243ebe41f7"
+        }
+      ],
       "outputs": [
         {
           "system": "L",
@@ -1836,7 +2598,63 @@
       "review_count": 10,
       "photo_count": 5,
       "reviews": [],
-      "photos": [],
+      "photos": [
+        {
+          "photo_id": "TA_PHOTO_1651281c",
+          "src": "images/TA14622324_4004593/TA_PHOTO_1651281c.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "3d5ebf3cc52872662202fce8e045dfa6e874fb949ebd03ba8976bec823b55457",
+          "original_caption": "a blackboard with a menu written in spanish on it\n",
+          "filtered_caption": "a blackboard with a menu written in spanish on it.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/16/51/28/1c/1-menu-largejpg.jpg",
+          "caption_checkpoint_sha256": "d58ccda6bac445c2b6e0aa1f86426f53331257033dc08e82ffcf07ad23bb0d2e"
+        },
+        {
+          "photo_id": "TA_PHOTO_0a614a5b",
+          "src": "images/TA14622324_4004593/TA_PHOTO_0a614a5b.jpg",
+          "width": 250,
+          "height": 141,
+          "sha256": "c21fcfdc331f022fa8e41f5851bd822aba38247057ef0e6171c1f92a8cf30ca3",
+          "original_caption": "a group of people sitting around a table drinking wine\n",
+          "filtered_caption": "a group of people sitting around a table drinking wine.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-f/0a/61/4a/5b/img-20160218-wa0006-largejpg.jpg",
+          "caption_checkpoint_sha256": "7e73462cab2195d490b672a41d4f339c8b7198b0691a26d463b50e1f1f942aa8"
+        },
+        {
+          "photo_id": "TA_PHOTO_1bc58452",
+          "src": "images/TA14622324_4004593/TA_PHOTO_1bc58452.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "ba624f06e41d8a1c2f7c1168d30315204edd67874e1222965b8f8cda7c5bf1c0",
+          "original_caption": "there is a steak on a plate with a knife and fork\n",
+          "filtered_caption": "there is a steak on a plate with a knife and fork.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/1b/c5/84/52/photo1jpg.jpg",
+          "caption_checkpoint_sha256": "3060bd6f7fd0b499f24d1445de6a0a5c39018562446ed1aae3a91b36bf68cd3c"
+        },
+        {
+          "photo_id": "TA_PHOTO_1bc58454",
+          "src": "images/TA14622324_4004593/TA_PHOTO_1bc58454.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "af08f6ea9bc95c747e1c2929314d48ac0c3836049e0935efa32337362b7ac710",
+          "original_caption": "a white bowl filled with ice cream and cake on a table\n",
+          "filtered_caption": "a white bowl filled with ice cream and cake on a table.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/1b/c5/84/54/photo3jpg.jpg",
+          "caption_checkpoint_sha256": "b7f3fa96d392f9445bc129d40587f848c6379a55a06d233143a31a31043d1c33"
+        },
+        {
+          "photo_id": "TA_PHOTO_0967691c",
+          "src": "images/TA14622324_4004593/TA_PHOTO_0967691c.jpg",
+          "width": 150,
+          "height": 150,
+          "sha256": "4740f06dacfd4508762ff6f7191edf961f567fe79e21b29af1ca1301879bb140",
+          "original_caption": "a view of a restaurant through a glass door\n",
+          "filtered_caption": "a view of a restaurant through a glass door.",
+          "source_url": "https://media-cdn.tripadvisor.com/media/photo-l/09/67/69/1c/la-gitana.jpg",
+          "caption_checkpoint_sha256": "2862ccea60894e6e4d5c85cd8322b7e024cc3c7c65012b6baf6619e73cfede71"
+        }
+      ],
       "outputs": [
         {
           "system": "L",
@@ -1982,5 +2800,11 @@
       }
     }
   },
-  "release_scope": "Code, study metadata, computed aggregate/per-restaurant means and output digests only. Source evidence, generated passages and individual evaluator records withheld pending publication-rights/consent review."
+  "release_scope": "Public researcher-requested release of 73 exact frozen selected photographs and original/filtered BLIP-2 captions. Original review bodies, generated summary passages and individual evaluator records remain excluded.",
+  "photo_release": {
+    "date": "2026-11-25",
+    "authorization": "Researcher explicitly requested using the real photos on the public GitHub Pages demonstration.",
+    "third_party_license_independently_verified": false,
+    "original_image_bytes_preserved": true
+  }
 }

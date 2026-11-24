@@ -12,7 +12,7 @@
   "notebook_and_html_byte_identical": true,
   "private_original_repository_modified": false,
   "earlier_notebook_execution": "25 executed code cells, 11 embedded figures; unchanged saved artifacts, not reexecuted during curation",
-  "current_file_count": 211,
+  "current_file_count": 295,
   "dynamic_teacher_integrity_binding_files_preserved": true,
   "editorial_history_cleanup": "Removed application/coordination prose and external-analysis handoff narrative; preserved frozen scientific evidence and AI-assistance limitations.",
   "published_pdf_documents": [
@@ -42,5 +42,15 @@
     "original_files_unchanged": true,
     "publication": "Latest author-supplied thesis, summary and slides; earlier progress PDF replaced in the current tree.",
     "method": "SHA-256 byte match; PDF parsing/page count and PPTX ZIP CRC/slide count."
+  },
+  "tripadvisor15_photo_release": {
+    "date": "2026-11-25",
+    "selected_original_photos": 73,
+    "original_BLIP_captions": 73,
+    "original_pixel_dimensions_and_JPEG_hashes_preserved": true,
+    "all_73_images_rendered_and_enlarged_in_browser": true,
+    "frozen_model_outputs_and_official_scores_unchanged": true,
+    "no_other_private_source_content_added": true,
+    "authorization": "Researcher explicitly requested real images on the public demonstration. No third-party license verification is claimed."
   }
 }
