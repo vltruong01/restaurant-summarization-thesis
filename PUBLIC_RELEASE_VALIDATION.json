@@ -32,8 +32,8 @@
   "published_pdf_bytes_match_supplied_originals": true,
   "published_presentation": {
     "file": "thesis/thesis_slides.pptx",
-    "bytes": 1926555,
-    "sha256": "7ee8615aee66b6444b77e0884c521c1f590eb1a8bbd1b2472afe3115c334cfe5",
+    "bytes": 1928246,
+    "sha256": "b64da07c6181639a9b0add855c0c407a6eed409b67707b0c98dd205e84a01317",
     "slides": 27,
     "bytes_match_supplied_original": true
   },
